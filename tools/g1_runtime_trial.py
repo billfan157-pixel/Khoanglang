@@ -67,10 +67,14 @@ def tick(delta):
             check(all((inv, lis, book, tape, corner)), 'Production components exist')
             check(lis.get_editor_property('bStarted'), 'BeginPlay initialized listening')
             check(not flag('bHasDoc') and not flag('bHasTape'), 'Fresh investigation')
+            check(book.call_method('GetPromptStr', ()) == str(book.get_editor_property('PromptText')),
+                  'Uncollected book shows its interaction prompt')
             call(book, 'DoDocument')
             call(book, 'DoDocument')
             check(flag('bHasDoc'), 'Document acquired through prop method')
             check(len(inv.get_editor_property('Collected')) == 1, 'Document collection is idempotent')
+            check(book.call_method('GetPromptStr', ()) == str(book.get_editor_property('MsgConsumed')),
+                  'Collected book shows consumed prompt')
             call(tape, 'DoTape')
             check(flag('bHasTape'), 'Masked tape acquired through prop method')
             call(inv, 'ToggleJournal')

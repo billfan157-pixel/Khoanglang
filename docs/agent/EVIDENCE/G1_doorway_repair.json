@@ -1,0 +1,55 @@
+{
+  "world": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_G1.Lvl_KL_School3_G1",
+  "changes": [
+    {
+      "actor": "KL_HallWallN",
+      "before_y": 210.0,
+      "after_y": -210.0
+    },
+    {
+      "actor": "KL_HallWainN",
+      "before_y": 198.0,
+      "after_y": -198.0
+    },
+    {
+      "actor": "KL_HallWallS1",
+      "before_y": -210.0,
+      "after_y": 210.0
+    },
+    {
+      "actor": "KL_HallWallS2",
+      "before_y": -210.0,
+      "after_y": 210.0
+    },
+    {
+      "actor": "KL_HallWallSDoor",
+      "before_y": -210.0,
+      "after_y": 210.0
+    },
+    {
+      "actor": "KL_HallWainS1",
+      "before_y": -198.0,
+      "after_y": 198.0
+    },
+    {
+      "actor": "KL_HallWainS2",
+      "before_y": -198.0,
+      "after_y": 198.0
+    },
+    {
+      "actor": "KL_DoorJambW",
+      "before_y": -205.0,
+      "after_y": 205.0
+    },
+    {
+      "actor": "KL_DoorJambE",
+      "before_y": -205.0,
+      "after_y": 205.0
+    },
+    {
+      "actor": "KL_DoorLintel",
+      "before_y": -210.0,
+      "after_y": 210.0
+    }
+  ]
+}

@@ -1,5 +1,30 @@
 # Decisions
 
+## 2026-09-30: Recover the unattended editor without restoring original assets
+
+Engine source shows that a pending autosave recovery dialog is offered before
+map load unless FApp::IsUnattended is set. The offscreen editor stalled before
+frame 1. Preserve all Saved/Autosaves data in the ignored recovery backup;
+stop only the identified agent-owned session and restart with -unattended.
+The production school then loaded and MCP responded. Do not clear the user's
+autosaves or stop the unrelated editor process. Reversible via the backup.
+
+## 2026-09-30: Correct promoted math pins using connected scalar literals
+
+Runtime evidence showed a reachable book could not be focused, despite a
+matching Python ray hitting it. The generated vector multiplier had become
+vector * vector. A connected MakeLiteralDouble keeps its distance scalar.
+The HUD multiplier likewise needs a connected double fraction before SizeX/Y;
+otherwise Unreal promotes the operation to integers and the fraction becomes
+zero. Assert these pin types during generation. Production copies only.
+
+## 2026-09-30: Keep restart explicit and preserve production map routing
+
+The prototype restarted as soon as bEnded became true. Require Enter as well,
+and route the production character back to Lvl_KL_School3_G1. Debug playback
+verification now retains the same world through completion. This remains a
+prototype scene ending, not a campaign ending.
+
 ## 2026-09-30: Repair runtime on production copies
 
 G0 exposes bypassed function bodies, disconnected input handlers, HUD coordinate

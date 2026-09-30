@@ -1,0 +1,82 @@
+{
+  "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_G1.Lvl_KL_School3_G1",
+  "method": "Blueprint debug calls; real world timers",
+  "status": "failed",
+  "checks": [
+    {
+      "name": "Production components exist",
+      "pass": true
+    },
+    {
+      "name": "BeginPlay initialized listening",
+      "pass": true
+    },
+    {
+      "name": "Fresh investigation",
+      "pass": true
+    },
+    {
+      "name": "Document acquired through prop method",
+      "pass": true
+    },
+    {
+      "name": "Document collection is idempotent",
+      "pass": true
+    },
+    {
+      "name": "Masked tape acquired through prop method",
+      "pass": true
+    },
+    {
+      "name": "Journal does not bypass listening",
+      "pass": true
+    },
+    {
+      "name": "Clear tape timer armed",
+      "pass": true
+    },
+    {
+      "name": "Four seconds is insufficient",
+      "pass": true
+    },
+    {
+      "name": "Changing mode cancels clear timer",
+      "pass": true
+    },
+    {
+      "name": "Cancelled timer cannot complete evidence",
+      "pass": true
+    },
+    {
+      "name": "Full clear playback completes listening",
+      "pass": true
+    },
+    {
+      "name": "Complete evidence unlocks corroboration",
+      "pass": true
+    },
+    {
+      "name": "Ready corner starts prototype beat",
+      "pass": true
+    }
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "game_time": 12.996906906366348
+    },
+    {
+      "phase": 2,
+      "game_time": 17.01152990758419
+    },
+    {
+      "phase": 3,
+      "game_time": 34.0264704041183
+    },
+    {
+      "phase": 4,
+      "game_time": 51.028890404850245
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_runtime_trial.py\", line 64, in tick\n    now = unreal.GameplayStatics.get_time_seconds(world)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: GameplayStatics: Failed to convert parameter 'world_context_object' when calling function 'GameplayStatics.GetTimeSeconds' on 'Default__GameplayStatics'\n  TypeError: NativizeProperty: Cannot nativize 'World' as 'WorldContextObject' (ObjectProperty)\n    TypeError: NativizeObject: Cannot nativize 'World' as 'Object' (allowed Class type: 'Object')\n"
+}

@@ -737,7 +737,7 @@ def build_interact():
     g, b, e = newfn(bp, 'GetPromptStr', out=('ReturnValue', 'string'))
     a = b.text2str(b.g('MsgConsumed'), b.out_any(b.g('MsgConsumed')).name)
     pn = b.text2str(b.g('PromptText'), b.out_any(b.g('PromptText')).name)
-    s = selb(b, (a, 'ReturnValue'), (pn, 'ReturnValue'), bv(b, 'bConsumed'))
+    s = selb(b, (pn, 'ReturnValue'), (a, 'ReturnValue'), bv(b, 'bConsumed'))
     b.ret(s[0], s[1])
     b.compile(bp, 'GetPromptStr')
 
@@ -1150,7 +1150,7 @@ def build_character():
     kb.link(loc, 'ReturnValue', trace, 'Start')
     kb.link(loc, 'ReturnValue', trace, 'End')
     kb.setv(trace, 'Radius', '260.0')
-    kb.setv(trace, 'TraceChannel', 'ETraceTypeQuery::Visibility')
+    kb.setv(trace, 'TraceChannel', 'TraceTypeQuery1')
     kb.setv(trace, 'DrawDebugType', 'EDrawDebugTrace::None')
     kb.setv(trace, 'bIgnoreSelf', 'true')
     brk = kb.n(K.F_BREAK_HIT)
@@ -1308,7 +1308,8 @@ def build_character():
             n = kb.n('Game|OpenLevel(byName)')
             kb.setv(n, 'LevelName', K.MAP_NAME)
             return cont(kb, en2, n)
-        iff(kb, en, lambda: ended, then_fn=do_restart)
+        iff(kb, en, lambda: andb(kb, ended, kent),
+            then_fn=do_restart)
         return en
 
     def quit_game(en):
@@ -1410,8 +1411,12 @@ def build_hud(asset_name='BP_KL_HUD'):
 
     def pixel(value, size_pin):
         multiply = b.c('/Script/Engine.KismetMathLibrary:Multiply_DoubleDouble')
+        fraction = b.c('/Script/Engine.KismetSystemLibrary:MakeLiteralDouble')
+        b.setv(fraction, 'Value', value)
+        b.link(fraction, 'ReturnValue', multiply, 'B')
         b.link(ev, size_pin, multiply, 'A')
-        b.setv(multiply, 'B', value)
+        if 'Integer' in str(b.inp(multiply, 'B').type_id):
+            raise RuntimeError('HUD fraction was promoted to an integer')
         return multiply
 
     def text(en, value, x, y, scale, rgb):

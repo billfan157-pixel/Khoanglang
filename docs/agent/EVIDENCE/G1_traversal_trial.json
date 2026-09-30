@@ -1,0 +1,63 @@
+{
+  "method": "Move Blueprint debug calls and real CharacterMovement collision",
+  "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_G1.Lvl_KL_School3_G1",
+  "status": "passed",
+  "waypoints": [
+    {
+      "index": 0,
+      "location": [
+        -612.9563227537732,
+        0.0,
+        106.14999771118164
+      ],
+      "game_time": 2.1201613023877144
+    },
+    {
+      "index": 1,
+      "location": [
+        856.2724767859041,
+        0.0,
+        106.14999771118164
+      ],
+      "game_time": 4.587009605020285
+    },
+    {
+      "index": 2,
+      "location": [
+        872.5811753852124,
+        412.2945259102672,
+        106.14999771118164
+      ],
+      "game_time": 5.387105904519558
+    },
+    {
+      "index": 3,
+      "location": [
+        1325.7356219126991,
+        431.65222673021657,
+        106.14999432679247
+      ],
+      "game_time": 6.271658405661583
+    },
+    {
+      "index": 4,
+      "location": [
+        1342.6659567948025,
+        785.7506478526403,
+        106.14999432679247
+      ],
+      "game_time": 6.989321004599333
+    },
+    {
+      "index": 5,
+      "location": [
+        1243.6105697167557,
+        812.8929173525316,
+        106.14999432679247
+      ],
+      "game_time": 7.255990006029606
+    }
+  ],
+  "focus_owner": "/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C",
+  "scope_limit": "No physical keyboard proof; no canonical sentence or attention proof"
+}

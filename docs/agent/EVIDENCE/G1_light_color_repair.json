@@ -1,0 +1,119 @@
+[
+  {
+    "actor": "KL_HallLight0",
+    "before": [
+      255,
+      224,
+      178
+    ],
+    "after": [
+      255,
+      224,
+      178
+    ]
+  },
+  {
+    "actor": "KL_HallLight1",
+    "before": [
+      255,
+      219,
+      173
+    ],
+    "after": [
+      255,
+      219,
+      173
+    ]
+  },
+  {
+    "actor": "KL_HallLight2",
+    "before": [
+      255,
+      219,
+      173
+    ],
+    "after": [
+      255,
+      219,
+      173
+    ]
+  },
+  {
+    "actor": "KL_HallLight3",
+    "before": [
+      255,
+      214,
+      168
+    ],
+    "after": [
+      255,
+      214,
+      168
+    ]
+  },
+  {
+    "actor": "KL_CorrLight",
+    "before": [
+      242,
+      235,
+      219
+    ],
+    "after": [
+      242,
+      235,
+      219
+    ]
+  },
+  {
+    "actor": "KL_RoomLight",
+    "before": [
+      255,
+      230,
+      189
+    ],
+    "after": [
+      255,
+      230,
+      189
+    ]
+  },
+  {
+    "actor": "KL_WindowShaft0",
+    "before": [
+      158,
+      189,
+      255
+    ],
+    "after": [
+      158,
+      189,
+      255
+    ]
+  },
+  {
+    "actor": "KL_WindowShaft1",
+    "before": [
+      158,
+      189,
+      255
+    ],
+    "after": [
+      158,
+      189,
+      255
+    ]
+  },
+  {
+    "actor": "KL_Moon",
+    "before": [
+      140,
+      168,
+      242
+    ],
+    "after": [
+      140,
+      168,
+      242
+    ]
+  }
+]

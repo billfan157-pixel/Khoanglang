@@ -23,26 +23,17 @@ story beats as engineering fixtures, not completed canonical campaign content.
 
 ## Evidence limits
 
-G1_core_build.json and G1_player_build.json show successful final compilation
-of their build runs. Later generator refinements listed above are pending
-rebuild and runtime verification. Compilation is not a playable G1 proof.
+G1_core_build.json and G1_player_build.json show successful final compilation.
+The template-level staging path subsequently saved the production map. The
+offscreen startup stall was traced to an autosave recovery modal and resolved
+with preserved recovery data and an unattended agent-owned editor.
 
-Four production prop assets were saved before map staging failed. Calling
-EditorAssetLibrary.duplicate_asset on a World then LoadLevel kept a standalone
-world reference; engine reported old level package not cleaned up and fatal
-World Memory Leaks. Original editor exited. No production map was saved.
-The script now uses LevelEditorSubsystem.new_level_from_template, confirmed in
-the installed engine source; the replacement path is pending execution.
+G1_RUNTIME_REPAIR.md records the later defects and fixes found by actual PIE.
+The runtime trial now passes collection/prompt states, interruption/full
+completion of the 16s tape and prototype beat timers. A separate route trial
+passes real CharacterMovement collision and camera focus in the classroom.
+Neither trial proves physical keyboard input, canonical endings, save/load,
+scare quality or the complete G1 loop. Source audio reports remain source-only.
 
-Replacement editor PID 16464 is live, with increasing CPU and startup log at
-frame 0. MCP observations timed out; that does not prove process termination.
-No duplicate editor was started after those observation timeouts.
-
-g1_runtime_trial.py is prepared but not run. It checks collection idempotence,
-journal gating, interruption/full completion of the 16s tape, and prototype
-beat timers in real PIE. It does not inject keyboard input, prove scare quality,
-exercise canonical endings or prove save/load. Source audio report and spectrum
-CSV measure 12 original placeholder WAVs, not the in-game mix or LUFS.
-
-Next: let the confirmed editor finish startup, rebuild production copies, stage
-the copied map through the template API, and execute/inspect the PIE trial.
+Next: implement canonical sentence reconstruction and consequential attention,
+with readable wrapping UI, then qualify the school against the G1 quality bar.

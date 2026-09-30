@@ -1,0 +1,94 @@
+{
+  "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_G1.Lvl_KL_School3_G1",
+  "method": "Blueprint debug calls; real world timers",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Production components exist",
+      "pass": true
+    },
+    {
+      "name": "BeginPlay initialized listening",
+      "pass": true
+    },
+    {
+      "name": "Fresh investigation",
+      "pass": true
+    },
+    {
+      "name": "Uncollected book shows its interaction prompt",
+      "pass": true
+    },
+    {
+      "name": "Document acquired through prop method",
+      "pass": true
+    },
+    {
+      "name": "Document collection is idempotent",
+      "pass": true
+    },
+    {
+      "name": "Collected book shows consumed prompt",
+      "pass": true
+    },
+    {
+      "name": "Masked tape acquired through prop method",
+      "pass": true
+    },
+    {
+      "name": "Journal does not bypass listening",
+      "pass": true
+    },
+    {
+      "name": "Clear tape timer armed",
+      "pass": true
+    },
+    {
+      "name": "Four seconds is insufficient",
+      "pass": true
+    },
+    {
+      "name": "Changing mode cancels clear timer",
+      "pass": true
+    },
+    {
+      "name": "Cancelled timer cannot complete evidence",
+      "pass": true
+    },
+    {
+      "name": "Full clear playback completes listening",
+      "pass": true
+    },
+    {
+      "name": "Complete evidence unlocks corroboration",
+      "pass": true
+    },
+    {
+      "name": "Ready corner starts prototype beat",
+      "pass": true
+    },
+    {
+      "name": "World timers finish prototype beat",
+      "pass": true
+    }
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "game_time": 1.437941800802946
+    },
+    {
+      "phase": 2,
+      "game_time": 5.444772303104401
+    },
+    {
+      "phase": 3,
+      "game_time": 22.453146893531084
+    },
+    {
+      "phase": 4,
+      "game_time": 39.47751298546791
+    }
+  ],
+  "scope_limit": "Prototype beat only; no canonical ending, save/load or player-input proof"
+}

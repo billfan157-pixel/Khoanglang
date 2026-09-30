@@ -17,6 +17,8 @@ importlib.reload(K)
 importlib.reload(build)
 
 production = '/Game/KhoangLang/Production'
+K.MAP_NAME = 'Lvl_KL_School3_G1'
+K.MAP_PATH = production + '/Maps/' + K.MAP_NAME
 K.F_CORE = production + '/Blueprints/Core'
 K.F_PLAYER = production + '/Blueprints/Player'
 K.F_UI = production + '/Blueprints/UI'
