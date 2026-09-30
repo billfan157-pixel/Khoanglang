@@ -1,0 +1,1152 @@
+{
+  "utc": "2026-09-30T13:29:27.408514+00:00",
+  "source_revision": "76fe591d59afc21d7838bf35cd9d17ad493f9899",
+  "world": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Primary.Lvl_KL_School3_Primary",
+  "blueprints": [
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/BP_KL_InteractComponent",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_Character",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/UI/BP_KL_HUD",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    },
+    {
+      "path": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+      "errors": [],
+      "node_diagnostics": "Optional has_error API unavailable on some node classes; compile status checked"
+    }
+  ],
+  "actors": [
+    {
+      "label": "WorldSettings",
+      "class": "/Script/Engine.WorldSettings",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Brush0",
+      "class": "/Script/Engine.Brush",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Floor_Corr",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Floor_Hall",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        800.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Floor_Room",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        550.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Corr",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        0.0,
+        320.0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Hall",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        800.0,
+        0.0,
+        320.0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Room",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        550.0,
+        320.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        800.0,
+        -200.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_A",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        200.0,
+        200.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_Door",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        870.0,
+        200.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_B",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1470.0,
+        200.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_N",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -400.0,
+        155.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_S",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -400.0,
+        -155.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_Head",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -400.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallE",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        2000.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrN",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        110.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        -110.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrW",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -1000.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomW",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        550.0,
+        550.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        900.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_S0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1550.0,
+        240.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_W0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1550.0,
+        350.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_S1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1550.0,
+        495.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_W1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1550.0,
+        640.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_SN",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1550.0,
+        805.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Door3_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        870.0,
+        200.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Door3_Leaf",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        800.0,
+        220.0,
+        1.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_FrameW",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -400.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_LeafN",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -350.0,
+        115.0,
+        1.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_LeafS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -350.0,
+        -115.0,
+        1.0
+      ]
+    },
+    {
+      "label": "ART_Win0_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        350.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win0_Glass",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        350.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win0_ShutN",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        424.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win0_ShutS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        276.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win1_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        640.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win1_Glass",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        640.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win1_ShutN",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        714.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Win1_ShutS",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1570.0,
+        566.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr0_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -900.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr0_Glass",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -900.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr1_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr1_Glass",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -700.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr2_Frame",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -500.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr2_Glass",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -500.0,
+        -112.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_Room_Platform",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        800.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Teacher_Desk",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        800.0,
+        14.0
+      ]
+    },
+    {
+      "label": "ART_Teacher_Chair",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        720.0,
+        14.0
+      ]
+    },
+    {
+      "label": "ART_Podium",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        800.0,
+        830.0,
+        14.0
+      ]
+    },
+    {
+      "label": "ART_Chalkboard",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1080.0,
+        896.0,
+        175.0
+      ]
+    },
+    {
+      "label": "ART_WallMap",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        700.0,
+        896.0,
+        190.0
+      ]
+    },
+    {
+      "label": "ART_Bookcase",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        570.0,
+        640.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CoatHook",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        554.0,
+        350.0,
+        160.0
+      ]
+    },
+    {
+      "label": "ART_Bin",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1510.0,
+        260.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Fan",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1050.0,
+        500.0,
+        318.0
+      ]
+    },
+    {
+      "label": "ART_CornerStack0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        596.0,
+        856.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CornerStack1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        596.0,
+        856.0,
+        44.0
+      ]
+    },
+    {
+      "label": "ART_CornerStack2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        596.0,
+        856.0,
+        88.0
+      ]
+    },
+    {
+      "label": "ART_Beam0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -200.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Beam1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        200.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Beam2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        600.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Beam3",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1000.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Beam4",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1400.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Beam5",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1800.0,
+        0.0,
+        286.0
+      ]
+    },
+    {
+      "label": "ART_Tube0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -200.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_Tube1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        200.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_Tube2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        600.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_Tube3",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1000.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_Tube4",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1400.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_Tube5",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1800.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -800.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -600.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        -450.0,
+        0.0,
+        308.0
+      ]
+    },
+    {
+      "label": "ART_NoticeBoard",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        350.0,
+        -196.0,
+        180.0
+      ]
+    },
+    {
+      "label": "ART_Bench0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        100.0,
+        -160.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        700.0,
+        -160.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1500.0,
+        -160.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_PA",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1975.0,
+        0.0,
+        250.0
+      ]
+    },
+    {
+      "label": "ART_CoatHook_Hall",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1150.0,
+        -196.0,
+        160.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack0",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1900.0,
+        150.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack1",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1900.0,
+        150.0,
+        26.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack2",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1900.0,
+        150.0,
+        52.0
+      ]
+    },
+    {
+      "label": "ART_Moon",
+      "class": "/Script/Engine.DirectionalLight",
+      "location": [
+        0.0,
+        0.0,
+        1200.0
+      ]
+    },
+    {
+      "label": "ART_L_Corr",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        -560.0,
+        0.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Hall0",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        -150.0,
+        0.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Hall1",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        700.0,
+        0.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Hall2",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        1550.0,
+        0.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Door",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        870.0,
+        240.0,
+        190.0
+      ]
+    },
+    {
+      "label": "ART_L_Room0",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        1050.0,
+        420.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Room1",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        1050.0,
+        740.0,
+        296.0
+      ]
+    },
+    {
+      "label": "ART_L_Shaft0",
+      "class": "/Script/Engine.SpotLight",
+      "location": [
+        1770.0,
+        350.0,
+        190.0
+      ]
+    },
+    {
+      "label": "ART_L_Shaft1",
+      "class": "/Script/Engine.SpotLight",
+      "location": [
+        1770.0,
+        640.0,
+        190.0
+      ]
+    },
+    {
+      "label": "ART_L_ShaftCorr",
+      "class": "/Script/Engine.SpotLight",
+      "location": [
+        -940.0,
+        0.0,
+        200.0
+      ]
+    },
+    {
+      "label": "ART_L_CornerHint",
+      "class": "/Script/Engine.PointLight",
+      "location": [
+        1400.0,
+        760.0,
+        60.0
+      ]
+    },
+    {
+      "label": "ART_Fog",
+      "class": "/Script/Engine.ExponentialHeightFog",
+      "location": [
+        0.0,
+        0.0,
+        150.0
+      ]
+    },
+    {
+      "label": "ART_Grade",
+      "class": "/Script/Engine.PostProcessVolume",
+      "location": [
+        0.0,
+        0.0,
+        150.0
+      ]
+    },
+    {
+      "label": "ART_PlayerStart",
+      "class": "/Script/Engine.PlayerStart",
+      "location": [
+        -880.0,
+        0.0,
+        110.0
+      ]
+    },
+    {
+      "label": "SF_Desk_A",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        780.0,
+        555.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_A",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        780.0,
+        503.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_B",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1010.0,
+        555.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_B",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1010.0,
+        503.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_C",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1240.0,
+        555.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_C",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1240.0,
+        503.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_D",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        786.0,
+        695.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_D",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        786.0,
+        643.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_E",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1007.0,
+        695.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_E",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1007.0,
+        647.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_F",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1248.0,
+        692.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Desk_G",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        770.0,
+        330.0,
+        0.0
+      ]
+    },
+    {
+      "label": "SF_Bench_G",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        770.0,
+        278.0,
+        0.0
+      ]
+    },
+    {
+      "label": "PRIMARY_ChalkboardSlate",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": [
+        1080.0,
+        888.0,
+        175.0
+      ]
+    },
+    {
+      "label": "BuoyancyManager0",
+      "class": "/Script/Water.BuoyancyManager",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "DefaultPhysicsVolume0",
+      "class": "/Script/Engine.DefaultPhysicsVolume",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "GameplayDebuggerPlayerManager0",
+      "class": "/Script/GameplayDebugger.GameplayDebuggerPlayerManager",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "Actor",
+      "class": "/Script/Engine.Actor",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "AbstractNavData-Default",
+      "class": "/Script/NavigationSystem.AbstractNavData",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_AttBook",
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+      "location": [
+        1050.0,
+        810.0,
+        90.0
+      ]
+    },
+    {
+      "label": "ART_Corner",
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner_C",
+      "location": [
+        1450.0,
+        790.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Roster",
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster_C",
+      "location": [
+        1050.0,
+        884.0,
+        178.0
+      ]
+    },
+    {
+      "label": "ART_TapeDeck",
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck_C",
+      "location": [
+        1930.0,
+        0.0,
+        120.0
+      ]
+    }
+  ],
+  "scope": "Editor Blueprint compilation and inventory; not packaged build",
+  "game_mode": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+  "failed": []
+}
