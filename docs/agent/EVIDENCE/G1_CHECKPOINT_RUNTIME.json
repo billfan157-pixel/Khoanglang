@@ -1,0 +1,118 @@
+{
+  "schema": "kl.g1-native-packaged-smoke.v1",
+  "scope": "stationary opening at 1280x720 low",
+  "runtime": "packaged-win64",
+  "qualified": false,
+  "release_complete": false,
+  "autoplay": false,
+  "input_injection": false,
+  "instrumentation_sha256": "ef48dcfe728d3a520f9869d15e837f5b2cea18919382aefb38bcfec66c2fef01",
+  "binding": {
+    "source_revision": "df7ae853cadab9806969a48bc9186f30770ab888",
+    "source_sha256": "439582a23e69c3a9bd4a8a3d90eb98595849c377676feb10a1feb2e03e3c34c3",
+    "artifact_sha256": "bed93a176461c2af81f81f64e7ff5cee8c7a3541fe7863ed0cc49c3535743538",
+    "nonce": "7727e0f960a64980893485c7f5fde660"
+  },
+  "pid": 17060,
+  "launch_utc": "2026-09-30T17:00:37.901469+00:00",
+  "exit_code": 777003,
+  "runtime_log_sha256": "6289b7ebd615342d7360725f388ef4b28c8b99f63a4bfa1d7c5889f2adf00d41",
+  "runtime_proof": {
+    "canonical_map_entered_game": true,
+    "native_csv_completion_requested_exit": true,
+    "native_exit_request_line": "[2026.09.30-17.01.17:842][401]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, CsvProfiler.ExitAfterCsvProfiling)",
+    "native_capture_frames_line": "[2026.09.30-17.01.17:839][400]LogCsvProfiler: Display:   Frames : 2400",
+    "log_counter_display": "GFrameCounter modulo 1000; not total capture frame count"
+  },
+  "native_exit_failure": {
+    "code": 777003,
+    "enum": "ECrashExitCodes::CrashReporterCrashed",
+    "source": "WindowsPlatformCrashContext.cpp exception handler in crash-reporting thread",
+    "interpretation": "Abnormal process failure after capture; not a CSV success code"
+  },
+  "runtime_errors": [],
+  "performance": {
+    "source_csv": "C:\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\_release_work\\g1_smoke_20261001_000024_420e9e07\\UserData\\Saved\\Profiling\\CSV\\Profile(20261001_000038).csv",
+    "source_csv_sha256": "e7be9f55f29c95ed0c04d68fedc04d3cbf0328d11e61c45fa64156131ab44a1a",
+    "native_frame_column": "FrameTime",
+    "native_memory_column": "PhysicalUsedMB",
+    "valid_csv_rows": 2400,
+    "warmup_rows_discarded": 600,
+    "measured_frames": 1800,
+    "measured_seconds": 25.0427599,
+    "median_ms": 13.663799999999998,
+    "p95_ms": 16.9738,
+    "max_ms": 79.8879,
+    "mean_fps": 71.87706176107211,
+    "frame_sampled_peak_physical_bytes": 1720008677,
+    "peak_memory_scope": "native PhysicalUsedMB samples; not OS lifetime high-water mark",
+    "frame_times_file": "C:\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\_release_work\\g1_smoke_20261001_000024_420e9e07\\UserData\\Saved\\Profiling\\CSV\\measured_frame_times_ms.txt",
+    "frame_times_sha256": "c4e6744dd8dac7098b86f779f90efc5d6d2f0020feca550f15173b763fc0c6c7",
+    "provisional_33_3_ms_budget_pass": true
+  },
+  "smoke_capture_complete": true,
+  "clean_process_exit": false,
+  "status": "STATIC_CAPTURE_WITH_RUNTIME_FAILURE",
+  "error": "Owned process exit is nonzero: 777003",
+  "artifact_unchanged": true,
+  "raw_run": "_release_work/g1_smoke_20261001_000024_420e9e07",
+  "hardware": {
+    "cpu": "GenuineIntel|Intel(R) Core(TM) Ultra 7 155H",
+    "gpu": "Intel(R) Arc(TM) Graphics",
+    "rhiname": "D3D12",
+    "engineversion": "5.8.3-58210709+++UE5+Release-5.8",
+    "os": "Windows 11 (25H2) [10.0.26200.9550] ",
+    "gpudriver": "32.0.101.6127"
+  },
+  "screenshots": {
+    "1280x720": {
+      "path": "docs/agent/EVIDENCE/G1_packaged_checkpoint_1280x720.png",
+      "sha256": "654bbfc2fe672d88feb10496a538c7d47651263988736f15b128da94161888af",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "visually_reviewed": true,
+      "findings": "Actual architecture and Vietnamese HUD present; no lighting rebuild warning. Pale-surface HUD contrast and coarse source art remain unaccepted."
+    },
+    "1920x1080": {
+      "path": "docs/agent/EVIDENCE/G1_packaged_checkpoint_1920x1080.png",
+      "sha256": "c9d07b09c3cf631a9658117dd10833a07c925995ac94cc972def4fd5f1f229b2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visually_reviewed": true,
+      "findings": "Actual architecture and Vietnamese HUD present; no lighting rebuild warning. Pale-surface HUD contrast and coarse source art remain unaccepted."
+    }
+  },
+  "shutdown_controls": [
+    {
+      "run": "_release_work/g1_exit_nullrhi_20261001_000424",
+      "pid": 34924,
+      "requested_map": null,
+      "exit_code": 777003,
+      "artifact_sha256": "bed93a176461c2af81f81f64e7ff5cee8c7a3541fe7863ed0cc49c3535743538",
+      "artifact_unchanged": true,
+      "log_sha256": "e93599e90f0e882cac7c98fb39b085edd069b5b335d9aca06a61a686930d7291",
+      "actual_world_lines": [
+        "[2026.09.30-17.04.26:178][  0]LogLoad: Game class is 'BP_KL_SchoolNativeGameMode_C'",
+        "[2026.09.30-17.04.26:182][  0]LogWorld: Bringing World /Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice up for play (max tick rate 0) at 2026.10.01-00.04.26"
+      ]
+    },
+    {
+      "run": "_release_work/g1_exit_nullrhi_20261001_000514",
+      "pid": 34560,
+      "requested_map": "/Engine/Maps/Entry",
+      "exit_code": 777003,
+      "artifact_sha256": "bed93a176461c2af81f81f64e7ff5cee8c7a3541fe7863ed0cc49c3535743538",
+      "artifact_unchanged": true,
+      "log_sha256": "c33284b85d55ef45856101e36322af0edf18427b82e04dff5ec22fc323f09365",
+      "actual_world_lines": [
+        "[2026.09.30-17.05.16:296][  0]LogLoad: Game class is 'GameModeBase'",
+        "[2026.09.30-17.05.16:296][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2026.10.01-00.05.16"
+      ]
+    }
+  ],
+  "shutdown_conclusion": "777003 also occurs with actual empty Engine Entry/GameModeBase and no RHI/audio; independent of G1 world content. Underlying binary/environment cause unresolved. No forced-exit workaround or suppression used."
+}

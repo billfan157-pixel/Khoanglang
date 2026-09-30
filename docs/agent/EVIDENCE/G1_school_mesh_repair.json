@@ -1,0 +1,417 @@
+{
+  "status": "COPIES_REBUILT_MAP_SAVED_COOK_UNVERIFIED",
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "meshes": [
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Notice_Board",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Notice_Board_Regular",
+      "action": "REUSED_QUALIFIED_COPY_NO_REBUILD",
+      "source_positions": {
+        "vertices": 24,
+        "triangles": 36,
+        "minimum": [
+          -90.0,
+          -2.0,
+          -45.0
+        ],
+        "maximum": [
+          90.0,
+          6.0,
+          47.0
+        ],
+        "positions_sha256": "f90f5b9868b9d23ffc5c2c9bc7041ebe93f05929103a97056bac0d7e59c57834"
+      },
+      "rebuilt_positions": {
+        "vertices": 24,
+        "triangles": 36,
+        "minimum": [
+          -90.0,
+          -2.0,
+          -45.0
+        ],
+        "maximum": [
+          90.0,
+          6.0,
+          47.0
+        ],
+        "positions_sha256": "f90f5b9868b9d23ffc5c2c9bc7041ebe93f05929103a97056bac0d7e59c57834"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 36,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          2.0,
+          1.0
+        ],
+        "extent": [
+          90.0,
+          4.0,
+          46.0
+        ],
+        "radius": 101.15334893121434,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "source_package_sha256": "e307f914a46ba533aae3e0ceb6268e0fa6f6cc6d16947e8ba7cf8d8e1f4e532c",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "preserved_candidates": []
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_700",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular_v02",
+      "action": "REUSED_QUALIFIED_COPY_NO_REBUILD",
+      "source_positions": {
+        "vertices": 78,
+        "triangles": 120,
+        "minimum": [
+          -350.0,
+          -2.5999999046325684,
+          0.0
+        ],
+        "maximum": [
+          350.0,
+          20.0,
+          320.0
+        ],
+        "positions_sha256": "00524c3282d5a4eef9862838fa4131fd3f940c630f16b73e6148b74a6b436f22"
+      },
+      "rebuilt_positions": {
+        "vertices": 360,
+        "triangles": 120,
+        "minimum": [
+          -350.0,
+          -2.5999999046325684,
+          0.0
+        ],
+        "maximum": [
+          350.0,
+          20.0,
+          320.0
+        ],
+        "positions_sha256": "831f1de41e986514cae10c8dd153779d703f2874b99d8ec8e86a301937ae7e9b"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 120,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          8.699999809265137,
+          160.0
+        ],
+        "extent": [
+          350.0,
+          11.300000190734863,
+          160.0
+        ],
+        "radius": 385.00347900390625,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 224,
+            "triangles": 96,
+            "normals": 224,
+            "tangents": 224
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "source_package_sha256": "8c634a2a9a272a7e12ddb1832e4f804eedd92520494de3d4984f3eb85ba75d02",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "preserved_candidates": [
+        {
+          "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular",
+          "reason": "Existing copy lacks isolated, exactly preserved triangles"
+        }
+      ]
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular_v02",
+      "action": "REUSED_QUALIFIED_COPY_NO_REBUILD",
+      "source_positions": {
+        "vertices": 102,
+        "triangles": 144,
+        "minimum": [
+          -82.0,
+          -2.0,
+          0.0
+        ],
+        "maximum": [
+          82.0,
+          22.0,
+          232.0
+        ],
+        "positions_sha256": "cbe13f4b4286b023f7f0ff154e32b7c32d4bbdb7b106be814eec4151a9376ba9"
+      },
+      "rebuilt_positions": {
+        "vertices": 432,
+        "triangles": 144,
+        "minimum": [
+          -82.0,
+          -2.0,
+          0.0
+        ],
+        "maximum": [
+          82.0,
+          22.0,
+          232.0
+        ],
+        "positions_sha256": "35261d2dd1995598bea44f233b980d9f3367b746b5973a0c5b433076410e27be"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          10.0,
+          116.0
+        ],
+        "extent": [
+          82.0,
+          12.0,
+          116.0
+        ],
+        "radius": 142.56226709757388,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 258,
+            "triangles": 132,
+            "normals": 258,
+            "tangents": 258
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "source_package_sha256": "1d19e386b8b4702d54a377429bb286d3844a294cf313b816f71660a7ab2be70f",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "preserved_candidates": [
+        {
+          "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular",
+          "reason": "Existing copy lacks isolated, exactly preserved triangles"
+        }
+      ]
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck_Regular_v03",
+      "source_positions": {
+        "vertices": 324,
+        "triangles": 428,
+        "minimum": [
+          -23.0,
+          -18.600000381469727,
+          -18.200000762939453
+        ],
+        "maximum": [
+          23.0,
+          43.20199966430664,
+          29.0
+        ],
+        "positions_sha256": "537d619ebc9cadcd3d61436cfe9834bbb148f00163e3ed1741652380dec35dfb"
+      },
+      "rebuilt_positions": {
+        "vertices": 1284,
+        "triangles": 428,
+        "minimum": [
+          -23.0,
+          -18.600000381469727,
+          0.0
+        ],
+        "maximum": [
+          23.0,
+          43.20199966430664,
+          29.0
+        ],
+        "positions_sha256": "a333f48a0eb3bb01428db93ed7c77a753063289639fabf0a930fd6c9607151c8"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 428,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          12.300999641418457,
+          14.5
+        ],
+        "extent": [
+          23.0,
+          30.901000022888184,
+          14.5
+        ],
+        "radius": 39.10135792484298,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 445,
+            "triangles": 192,
+            "normals": 445,
+            "tangents": 445
+          },
+          {
+            "section": 1,
+            "vertices": 468,
+            "triangles": 200,
+            "normals": 468,
+            "tangents": 468
+          },
+          {
+            "section": 2,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "build_mode": "Fresh constructor + native fast_build=False",
+      "source_package_sha256": "d74411ee54cdfe3b4948f7a0c78aae3381e7568383d48302cc7831ffbd765a4c",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "action": "BUILT_NEW_COPY",
+      "preserved_candidates": [
+        {
+          "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck_Regular",
+          "reason": "Existing cassette section materials differ from authored case/front/casing"
+        },
+        {
+          "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck_Regular_v02",
+          "reason": "Existing cassette section materials differ from authored case/front/casing"
+        }
+      ],
+      "triangle_corner_signature": {
+        "source": "fa41ae3b5a853d15f227ef61acc21bc710ec7683d4592de6f8248fb47553b30a",
+        "copy": "fa41ae3b5a853d15f227ef61acc21bc710ec7683d4592de6f8248fb47553b30a"
+      },
+      "tangent_repair": "Isolated triangle topology; native TBN recompute",
+      "geometry_change": "Corrected Y-cylinder cap centres",
+      "triangles_by_material_slot": {
+        "0": 192,
+        "2": 200,
+        "1": 36
+      }
+    }
+  ],
+  "actors": [
+    {
+      "actor": "ART_Wall_RoomW",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular_v02.SM_KL_Wall_700_Regular_v02",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "actor": "ART_Door3_Frame",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular_v02.SM_KL_Door_Frame_Regular_v02",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "actor": "ART_DoorEntry_FrameW",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular_v02.SM_KL_Door_Frame_Regular_v02",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "actor": "ART_NoticeBoard",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Notice_Board_Regular.SM_KL_Notice_Board_Regular",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+      "actor": "G1_ListeningDeck",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck_Regular_v03.SM_KL_Prop_TapeDeck_Regular_v03",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+  ],
+  "clean_cook_verified": false,
+  "visual_accepted": false,
+  "script_sha256": "de6f65888ca8e774807816bc5b01c69a9e0a972ec1e4636847807b8abd6cc657"
+}

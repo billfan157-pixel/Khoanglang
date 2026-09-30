@@ -9,3 +9,5 @@ opencode.jsonc
 Config/DefaultEngine.ini
 *.report.txt
 *.blend1
+# Native logs stay as local evidence; commit compact, hash-bound G1 reports.
+docs/agent/EVIDENCE/G1_*.log

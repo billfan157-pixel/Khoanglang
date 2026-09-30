@@ -725,10 +725,8 @@ class B(object):
         return mk
 
     def pressed(self, letter, pc_node=None, pc_pin='ReturnValue'):
-        k = self.key(letter)
         n = self.c(F_KEY_DOWN)
-        if k is not None:
-            self.link(k, 'Key', n, 'Key')
+        self.setv(n, 'Key', letter)
         if pc_node is not None:
             self.link(pc_node, pc_pin, n, 'self')
         return n

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+  "torch_lumens": 90.0,
+  "exposure_ev": -1.5,
+  "force_no_precomputed_lighting": true,
+  "lights": [
+    {
+      "actor": "ART_Moon",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Corr",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Hall0",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Hall1",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Hall2",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Door",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Room0",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Room1",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Shaft0",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_Shaft1",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_ShaftCorr",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "ART_L_CornerHint",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "G1_Bounce_Entry",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "G1_Bounce_Hall",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    },
+    {
+      "actor": "G1_Bounce_Room",
+      "mobility": "<ComponentMobility.MOVABLE: 2>"
+    }
+  ],
+  "failures": [],
+  "visual_accepted": false
+}

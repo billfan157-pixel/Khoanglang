@@ -11,7 +11,8 @@
 
 - V3 does not prescribe the school's cut sentence and independent source pair.
   Use the interrupted roll call, its two blank positions and thầy Lâm's direct
-  account of cô Vân leading the group. Never label a copied recording independent.
+  present-day observation of the current school loop. Do not imply he witnessed
+  the 2002 evacuation. Never label a copied recording independent.
 - V3 §9 describes speaking the two-person acknowledgment; §6 requires sealing
   for Giữ. Make acknowledgment a candidate; a timed seal establishes Giữ.
 - §13 permits a temporary rice-ledger fixture for true names. Keep that fixture

@@ -1,0 +1,4303 @@
+{
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "status": "passed",
+  "meshes": [
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Floor_600_220_314b39f0_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          -4.0
+        ],
+        "extent": [
+          300.0,
+          110.0,
+          4.0
+        ],
+        "radius": 319.5559418943732,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor' (0x000002A21614E000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete' (0x000002A216143000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_600_220",
+      "source_geometry_audit": {
+        "triangles": 192,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "4b8f46779f0825e5e03d907b30628ca5bb52296425781244675ce6d6662eee9a",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 420,
+            "triangles": 180,
+            "normals": 420,
+            "tangents": 420
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 192
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Floor_2400_400_9a4ab8f2_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          -4.0
+        ],
+        "extent": [
+          1200.0,
+          200.0,
+          4.0
+        ],
+        "radius": 1216.5590820013633,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor' (0x000002A21614E000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete' (0x000002A216143000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_2400_400",
+      "source_geometry_audit": {
+        "triangles": 660,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "43778f2dcb0824ad6790a7e3cba263982dbeefd624c19f4c2d2d315a6e418b7e",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 1512,
+            "triangles": 648,
+            "normals": 1512,
+            "tangents": 1512
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 660
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Floor_1000_700_3b49cd5d_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          -4.0
+        ],
+        "extent": [
+          500.0,
+          350.0,
+          4.0
+        ],
+        "radius": 610.3408883566625,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor' (0x000002A21614E000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete' (0x000002A216143000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_1000_700",
+      "source_geometry_audit": {
+        "triangles": 396,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "48ea1b1aa1668bf18c847fa28a3339332105523b3d865818c60c289945966c9c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 896,
+            "triangles": 384,
+            "normals": 896,
+            "tangents": 896
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 396
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Ceil_600_220_bfb582cc_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          9.0
+        ],
+        "extent": [
+          300.0,
+          110.0,
+          9.0
+        ],
+        "radius": 319.65762934740036,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling' (0x000002A316AD4000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_600_220",
+      "source_geometry_audit": {
+        "triangles": 24,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "282ec6766c3e1aa7b12dc46c98a3021e954214eb67f26e04f59e80e3e7d8338c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 24
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Ceil_2400_400_6c0e9813_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          9.0
+        ],
+        "extent": [
+          1200.0,
+          200.0,
+          9.0
+        ],
+        "radius": 1216.5857963990866,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling' (0x000002A316AD4000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_2400_400",
+      "source_geometry_audit": {
+        "triangles": 24,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "2baa5264423b7cb362274e67d13d3bcb5aa638169cf28a22479b97c87e0acc2f",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 24
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Ceil_1000_700_208d0393_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          9.0
+        ],
+        "extent": [
+          500.0,
+          350.0,
+          9.0
+        ],
+        "radius": 610.3941349652698,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling' (0x000002A316AD4000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_1000_700",
+      "source_geometry_audit": {
+        "triangles": 24,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "c4bb5b9a32419b763f2960ca444806dd926445f326c543c9ad9aaa1d17d7b437",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 24
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_2400_424ab545_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          1200.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 1210.672412339078,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_2400",
+      "source_geometry_audit": {
+        "triangles": 312,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "78063c9eb7ea86bd1896b47c61f8a74b7c6ea78ebb21c4cfb8c795d188415a3d",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 672,
+            "triangles": 288,
+            "normals": 672,
+            "tangents": 672
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 312
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_1200_347c77e9_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          600.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 621.0697947887357,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1200",
+      "source_geometry_audit": {
+        "triangles": 168,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "ecbd923a0fefe06f8431853862c88317a5ffec5fc41667d3decf4b16d2a11409",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 336,
+            "triangles": 144,
+            "normals": 336,
+            "tangents": 336
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 168
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_WallDoor_140_84a6d70a_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          10.0,
+          270.0
+        ],
+        "extent": [
+          70.0,
+          10.0,
+          50.0
+        ],
+        "radius": 86.60254037844386,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallDoor_140",
+      "source_geometry_audit": {
+        "triangles": 12,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "d79ee64b75d9fae6c07afbb8d779220f9ea8619268ac59d689eb30d2945bf1d1",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 12
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_1060_a852192e_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          530.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 553.7397312807907,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1060",
+      "source_geometry_audit": {
+        "triangles": 168,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "6ff950262533a5ddbab8c7be56446c99372f989258124ffb20780f2956e35c99",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 336,
+            "triangles": 144,
+            "normals": 336,
+            "tangents": 336
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 168
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_90_5f288b33_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          45.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 166.59138632871253,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_90",
+      "source_geometry_audit": {
+        "triangles": 48,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "07de0ee1677d9fe7c5e7d9a5062f7bf3990361a810027cac2182db9e2f1f4710",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 48
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Header_220_93307994_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          10.0,
+          270.0
+        ],
+        "extent": [
+          110.0,
+          10.0,
+          50.0
+        ],
+        "radius": 121.2435565298214,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Header_220",
+      "source_geometry_audit": {
+        "triangles": 12,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "428541e8a3ecc198e3813cbbfe9397b7af1aa5e2f8389bac85e3103cbedb1a43",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 12
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_400_814f0f9a_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          200.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 256.37412115680155,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_400",
+      "source_geometry_audit": {
+        "triangles": 72,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "179eadfd66a196f9875951f98cd8be85a815ed99187f673ac976134dfcc2ff14",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 112,
+            "triangles": 48,
+            "normals": 112,
+            "tangents": 112
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 72
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_600_ccd1e399_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          300.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 340.1877275842301,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_600",
+      "source_geometry_audit": {
+        "triangles": 96,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "164581560f4be7bde565ba7104d2a69b6cfafe59fcac8f1dd1d489564514cebe",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 168,
+            "triangles": 72,
+            "normals": 168,
+            "tangents": 168
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 96
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_220_cbb5a48b_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          110.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 194.4934189090272,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre' (0x000002A216145000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_220",
+      "source_geometry_audit": {
+        "triangles": 48,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "e923ada909b77b656903f3290296964f1efb559dd66a70a112d7c3249fb9cb2c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 48
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular_v02",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.699999809265137,
+          160.0
+        ],
+        "extent": [
+          350.0,
+          11.300000190734863,
+          160.0
+        ],
+        "radius": 385.00347900390625,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_700",
+      "source_geometry_audit": {
+        "triangles": 120,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "8c634a2a9a272a7e12ddb1832e4f804eedd92520494de3d4984f3eb85ba75d02",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 224,
+            "triangles": 96,
+            "normals": 224,
+            "tangents": 224
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 120
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_1000_26809ce1_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          500.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 525.0977908912989,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1000",
+      "source_geometry_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "e3f138f925de13642ceae54d137c34ff5017ab4d72512fb2e0a7a2f688f7cc0a",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 280,
+            "triangles": 120,
+            "normals": 280,
+            "tangents": 280
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 144
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_80_e89d0e06_RegularV2",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          40.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 165.310888930289,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_80",
+      "source_geometry_audit": {
+        "triangles": 48,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "4aeaa82115a8294cb5fb0d17e693787dce8eb4d5cd13216c70150e53dbea0ac6",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 48
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_WallWin_140_2dcbd133_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          70.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 175.00768554244226,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallWin_140",
+      "source_geometry_audit": {
+        "triangles": 180,
+        "degenerate_uv_count": 48,
+        "degenerate_geometry_count": 64,
+        "degenerate_uv_examples": [
+          {
+            "triangle": 0,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                320.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ]
+            ]
+          },
+          {
+            "triangle": 1,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                320.0
+              ],
+              [
+                -70.0,
+                0.0,
+                320.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ]
+            ]
+          },
+          {
+            "triangle": 2,
+            "positions": [
+              [
+                -70.0,
+                20.0,
+                0.0
+              ],
+              [
+                -70.0,
+                20.0,
+                0.0
+              ],
+              [
+                -70.0,
+                20.0,
+                320.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ]
+            ]
+          },
+          {
+            "triangle": 3,
+            "positions": [
+              [
+                -70.0,
+                20.0,
+                0.0
+              ],
+              [
+                -70.0,
+                20.0,
+                320.0
+              ],
+              [
+                -70.0,
+                20.0,
+                320.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ],
+              [
+                0.0,
+                1.440000057220459
+              ]
+            ]
+          },
+          {
+            "triangle": 9,
+            "positions": [
+              [
+                -70.0,
+                20.0,
+                320.0
+              ],
+              [
+                -70.0,
+                0.0,
+                320.0
+              ],
+              [
+                -70.0,
+                20.0,
+                320.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.09000000357627869
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "triangle": 11,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                20.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.09000000357627869
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "triangle": 12,
+            "positions": [
+              [
+                -70.0,
+                -1.5,
+                0.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                0.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                110.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ]
+            ]
+          },
+          {
+            "triangle": 13,
+            "positions": [
+              [
+                -70.0,
+                -1.5,
+                0.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                110.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                110.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ]
+            ]
+          },
+          {
+            "triangle": 14,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                110.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ]
+            ]
+          },
+          {
+            "triangle": 15,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                110.0
+              ],
+              [
+                -70.0,
+                0.0,
+                110.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ],
+              [
+                0.0,
+                0.4950000047683716
+              ]
+            ]
+          },
+          {
+            "triangle": 21,
+            "positions": [
+              [
+                -70.0,
+                0.0,
+                110.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                110.0
+              ],
+              [
+                -70.0,
+                0.0,
+                110.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.006750000175088644
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "triangle": 23,
+            "positions": [
+              [
+                -70.0,
+                -1.5,
+                0.0
+              ],
+              [
+                -70.0,
+                0.0,
+                0.0
+              ],
+              [
+                -70.0,
+                -1.5,
+                0.0
+              ]
+            ],
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.006750000175088644
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          }
+        ],
+        "degenerate_geometry_examples": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "source_package_sha256": "ce0f2cfb6c6b474b4bb64ef7d10f24148665ee18f0e1d89f3dffdd0ce3d11f5f",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 68,
+            "triangles": 32,
+            "normals": 68,
+            "tangents": 68
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 28,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 116,
+            "triangles": 56,
+            "normals": 116,
+            "tangents": 116
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 116
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_150_fc6c8a0c_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          75.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 177.06690825482426,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_150",
+      "source_geometry_audit": {
+        "triangles": 48,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "816b6c19d8894cff142796e811af59a49fedbe2ee46977583c1419496b04349a",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 48
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_190_08c64774_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          95.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 186.4207338225079,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom' (0x000002A216144800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot' (0x000002A21614D800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt' (0x000002A21BBD7000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_190",
+      "source_geometry_audit": {
+        "triangles": 48,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "f54882ddc5c2b575582851378dbceead59f22a61856468c2c9c61c9027438bc5",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 48
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular_v02",
+      "bounds": {
+        "origin": [
+          0.0,
+          10.0,
+          116.0
+        ],
+        "extent": [
+          82.0,
+          12.0,
+          116.0
+        ],
+        "radius": 142.56226709757388,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Stone.MI_ART_Stone' (0x000002A21614B000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame",
+      "source_geometry_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "1d19e386b8b4702d54a377429bb286d3844a294cf313b816f71660a7ab2be70f",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 258,
+            "triangles": 132,
+            "normals": 258,
+            "tangents": 258
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 144
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Door_Leaf_67a75c80_RegularV3",
+      "bounds": {
+        "origin": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "extent": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "radius": 127.7243222707343,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Leaf",
+      "source_geometry_audit": {
+        "triangles": 184,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "6ef16185d44e5f6c4a05527bf725621836dd4c16fa599ba73b1ce061a39a10d2",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 180,
+            "triangles": 80,
+            "normals": 180,
+            "tangents": 180
+          },
+          {
+            "section": 1,
+            "vertices": 140,
+            "triangles": 60,
+            "normals": 140,
+            "tangents": 140
+          },
+          {
+            "section": 2,
+            "vertices": 108,
+            "triangles": 44,
+            "normals": 108,
+            "tangents": 108
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 184
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Window_Frame_aaa907d2_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          6.0,
+          75.5
+        ],
+        "extent": [
+          84.0,
+          14.0,
+          83.5
+        ],
+        "radius": 119.26546021376012,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame",
+      "source_geometry_audit": {
+        "triangles": 104,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "54d60864079d0da1567183754a3349968ccb610935561f6add344de497ad89ab",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 180,
+            "triangles": 80,
+            "normals": 180,
+            "tangents": 180
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 104
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Window_Glass_ae3d6c76_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          4.0,
+          75.0
+        ],
+        "extent": [
+          68.0,
+          0.0,
+          73.0
+        ],
+        "radius": 99.76472322419383,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass",
+      "source_geometry_audit": {
+        "triangles": 2,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "2f5215f600ec45fad0e3fc75f3368266f01dd662696e783a9b5c0df7580b677a",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 4,
+            "triangles": 2,
+            "normals": 4,
+            "tangents": 4
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 2
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Shutter_Leaf_5e576273_RegularV3",
+      "bounds": {
+        "origin": [
+          35.0,
+          3.0,
+          75.0
+        ],
+        "extent": [
+          35.0,
+          3.0,
+          75.0
+        ],
+        "radius": 82.8190799272728,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue' (0x000002A21614F800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf",
+      "source_geometry_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "73e26a1358e0d68b2e5b6f1384599d48390250ace9553395a231f1be473514bf",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 336,
+            "triangles": 144,
+            "normals": 336,
+            "tangents": 336
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 144
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Platform_149d14f5_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          8.0
+        ],
+        "extent": [
+          130.0,
+          60.0,
+          8.0
+        ],
+        "radius": 143.4015341619468,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Platform",
+      "source_geometry_audit": {
+        "triangles": 56,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "ca25309e580745bd04857b1d2620df2975535acc14a56052043d8b1ef2da0a34",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 96,
+            "triangles": 44,
+            "normals": 96,
+            "tangents": 96
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 56
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Desk_Teacher_340814b9_RegularV3",
+      "bounds": {
+        "origin": [
+          6.599998474121094,
+          0.0,
+          39.0
+        ],
+        "extent": [
+          61.599998474121094,
+          30.0,
+          63.0
+        ],
+        "radius": 93.07824564317767,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Desk_Teacher",
+      "source_geometry_audit": {
+        "triangles": 236,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "0adcd53e093d9b897fb7d42337aa51bae149e172768e1476d426986366c60c2c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 292,
+            "triangles": 128,
+            "normals": 292,
+            "tangents": 292
+          },
+          {
+            "section": 1,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          },
+          {
+            "section": 2,
+            "vertices": 180,
+            "triangles": 72,
+            "normals": 180,
+            "tangents": 180
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 236
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Chair_Teacher_34fa852b_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          46.0
+        ],
+        "extent": [
+          22.0,
+          22.0,
+          46.0
+        ],
+        "radius": 53.85313375239749,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen' (0x000002A216147800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Teacher",
+      "source_geometry_audit": {
+        "triangles": 164,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "2c0c8e3c2b8e7619999af63a27935ef7ba36d36c742027d6edc2362866fc3402",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 124,
+            "triangles": 56,
+            "normals": 124,
+            "tangents": 124
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 2,
+            "vertices": 224,
+            "triangles": 96,
+            "normals": 224,
+            "tangents": 224
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 164
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Podium_6a2b3c50_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          -1.0,
+          54.0
+        ],
+        "extent": [
+          28.0,
+          21.0,
+          54.0
+        ],
+        "radius": 64.35060217278468,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Podium",
+      "source_geometry_audit": {
+        "triangles": 92,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "90c3d45788640146e953cf6a46a7bd4b0f78ed65ca2847c69eaf7494eb7bb19c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 152,
+            "triangles": 68,
+            "normals": 152,
+            "tangents": 152
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 92
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Chalkboard_7881e2fa_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          8.0,
+          -5.0
+        ],
+        "extent": [
+          180.0,
+          8.0,
+          83.0
+        ],
+        "radius": 198.37590579503347,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk' (0x000002A316AD5000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chalkboard",
+      "source_geometry_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "675d5c61c722e7c74b108994a0f1386af53c3a0cbf7a378312444684c4cf3a5c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          },
+          {
+            "section": 1,
+            "vertices": 112,
+            "triangles": 48,
+            "normals": 112,
+            "tangents": 112
+          },
+          {
+            "section": 2,
+            "vertices": 128,
+            "triangles": 60,
+            "normals": 128,
+            "tangents": 128
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 144
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Wall_Map_f9424f59_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          2.5,
+          0.0
+        ],
+        "extent": [
+          80.0,
+          2.5,
+          60.0
+        ],
+        "radius": 100.03124511871279,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper' (0x000002A21614D000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_Map",
+      "source_geometry_audit": {
+        "triangles": 24,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "bac9c6a7ca61de287520768534892baac178032c8c67089efc704b9ec5e7f372",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 24
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Bookcase_e67b4df2_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          9.0,
+          85.0
+        ],
+        "extent": [
+          80.0,
+          9.0,
+          85.0
+        ],
+        "radius": 117.07262703125782,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue' (0x000002A21614F800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen' (0x000002A216147800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bookcase",
+      "source_geometry_audit": {
+        "triangles": 156,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "233f4b67b9e8afec8639e58f0409851ed374fe89b60e3ece16fa60d7bd580119",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 193,
+            "triangles": 84,
+            "normals": 193,
+            "tangents": 193
+          },
+          {
+            "section": 1,
+            "vertices": 80,
+            "triangles": 36,
+            "normals": 80,
+            "tangents": 80
+          },
+          {
+            "section": 2,
+            "vertices": 76,
+            "triangles": 36,
+            "normals": 76,
+            "tangents": 76
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 156
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Coat_Hook_7faf9f85_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          2.806999981403351,
+          -18.0
+        ],
+        "extent": [
+          45.0,
+          4.193000018596649,
+          28.0
+        ],
+        "radius": 53.074280484012206,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen' (0x000002A216147800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Coat_Hook",
+      "source_geometry_audit": {
+        "triangles": 120,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "c4005da27e3f619d529054f79356098f2ba3c5b05796980000b3dc37c007db5b",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 272,
+            "triangles": 96,
+            "normals": 272,
+            "tangents": 272
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 120
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Waste_Bin_5c259b5f_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          24.0
+        ],
+        "extent": [
+          20.0,
+          20.0,
+          24.0
+        ],
+        "radius": 31.241270963241593,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Waste_Bin",
+      "source_geometry_audit": {
+        "triangles": 96,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "1a0f3e59d0d110beeb4ed0bd997182751c266ac454eb075bcd1b0b07d6b754f6",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 208,
+            "triangles": 96,
+            "normals": 208,
+            "tangents": 208
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 96
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Ceiling_Fan_173e3ef8_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          -27.0
+        ],
+        "extent": [
+          52.569000244140625,
+          52.569000244140625,
+          27.0
+        ],
+        "radius": 57.43690686235458,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceiling_Fan",
+      "source_geometry_audit": {
+        "triangles": 160,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "f1ac1e01e0c7ed6906b90cb3a5967c31f7d5b396c64d936fbfb92e8dcdcd42c8",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 280,
+            "triangles": 112,
+            "normals": 280,
+            "tangents": 280
+          },
+          {
+            "section": 1,
+            "vertices": 96,
+            "triangles": 48,
+            "normals": 96,
+            "tangents": 96
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 160
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Desk_Pupil_dee8afa6_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          36.5
+        ],
+        "extent": [
+          60.0,
+          30.0,
+          36.5
+        ],
+        "radius": 74.98166442537803,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Pupil",
+      "source_geometry_audit": {
+        "triangles": 188,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "989d355e29b3161bb810a6e0f31be2bd3b40940da3372acba60dc45764ab051e",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 124,
+            "triangles": 56,
+            "normals": 124,
+            "tangents": 124
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 252,
+            "triangles": 108,
+            "normals": 252,
+            "tangents": 252
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 188
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Corridor_Beam_673d5f55_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          17.0
+        ],
+        "extent": [
+          200.0,
+          26.0,
+          17.0
+        ],
+        "radius": 202.39812252093645,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete' (0x000002A216143000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam",
+      "source_geometry_audit": {
+        "triangles": 44,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "b956b0fff55ad0dd00bcd9ec97ae7dc2820602e817c59d4e7a5c9f39260eabd7",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 96,
+            "triangles": 44,
+            "normals": 96,
+            "tangents": 96
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 44
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Fluorescent_0dc96918_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          -6.0
+        ],
+        "extent": [
+          61.0,
+          9.0,
+          6.0
+        ],
+        "radius": 61.69278726074872,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube' (0x000002A316AD3000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent",
+      "source_geometry_audit": {
+        "triangles": 76,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "8ed5564066ddc352c7732ecd049c11390e603ebcb4607c1e5dac24224db00c8a",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          },
+          {
+            "section": 1,
+            "vertices": 100,
+            "triangles": 40,
+            "normals": 100,
+            "tangents": 100
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 76
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Notice_Board_Regular",
+      "bounds": {
+        "origin": [
+          0.0,
+          2.0,
+          1.0
+        ],
+        "extent": [
+          90.0,
+          4.0,
+          46.0
+        ],
+        "radius": 101.15334893121434,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper' (0x000002A21614D000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Notice_Board",
+      "source_geometry_audit": {
+        "triangles": 36,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "e307f914a46ba533aae3e0ceb6268e0fa6f6cc6d16947e8ba7cf8d8e1f4e532c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 36
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Bench_Hall_e421c7eb_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          2.0,
+          23.0
+        ],
+        "extent": [
+          90.0,
+          26.0,
+          23.0
+        ],
+        "radius": 96.46242791885346,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bench_Hall",
+      "source_geometry_audit": {
+        "triangles": 72,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "acaad41a00ff1bf9f8a2e34ab9b02e37732652634e16be8c02c3f34e9f68ec26",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          },
+          {
+            "section": 1,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 72
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_PA_Speaker_5e4187e9_RegularV3",
+      "bounds": {
+        "origin": [
+          12.0,
+          0.0,
+          -19.0
+        ],
+        "extent": [
+          34.0,
+          34.0,
+          65.0
+        ],
+        "radius": 68.30080526611674,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_PA_Speaker",
+      "source_geometry_audit": {
+        "triangles": 168,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "983328dfa528bf8d0f089fcf6968ebf67c9d212910814bd859c2da1f52a10599",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 164,
+            "triangles": 60,
+            "normals": 164,
+            "tangents": 164
+          },
+          {
+            "section": 1,
+            "vertices": 220,
+            "triangles": 76,
+            "normals": 220,
+            "tangents": 220
+          },
+          {
+            "section": 2,
+            "vertices": 80,
+            "triangles": 32,
+            "normals": 80,
+            "tangents": 80
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 168
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Chair_Pupil_7ad4f834_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.0,
+          41.0
+        ],
+        "extent": [
+          19.0,
+          19.0,
+          41.0
+        ],
+        "radius": 47.38649542570615,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Pupil",
+      "source_geometry_audit": {
+        "triangles": 164,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "5c9da4d59a31a9765c8027fc89c06a6e881d348584e56127e39b67085f8bc0ed",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 208,
+            "triangles": 92,
+            "normals": 208,
+            "tangents": 208
+          },
+          {
+            "section": 1,
+            "vertices": 168,
+            "triangles": 72,
+            "normals": 168,
+            "tangents": 168
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 164
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_SchoolDesk_A_ae550827_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.013684272766113281,
+          34.099998474121094
+        ],
+        "extent": [
+          55.0,
+          24.986315727233887,
+          34.099998474121094
+        ],
+        "radius": 67.90119738172845,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop' (0x000002A2E3508000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame' (0x000002A2E3503000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware' (0x000002A21614F000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A",
+      "source_geometry_audit": {
+        "triangles": 3148,
+        "degenerate_uv_count": 25,
+        "degenerate_geometry_count": 10,
+        "degenerate_uv_examples": [
+          {
+            "triangle": 2,
+            "positions": [
+              [
+                55.0,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                54.967647552490234,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                54.96708679199219,
+                -24.95063018798828,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24950630962848663,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 3,
+            "positions": [
+              [
+                54.96708679199219,
+                -24.95063018798828,
+                61.79999542236328
+              ],
+              [
+                54.967647552490234,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                55.0,
+                -24.9352970123291,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.24950630962848663,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 6,
+            "positions": [
+              [
+                55.0,
+                -0.3647041916847229,
+                61.79999542236328
+              ],
+              [
+                55.0,
+                -0.3647041916847229,
+                61.825836181640625
+              ],
+              [
+                54.981178283691406,
+                -0.32991892099380493,
+                61.81827163696289
+              ]
+            ],
+            "uv": [
+              [
+                -0.003647053614258766,
+                0.38200002908706665
+              ],
+              [
+                -0.003647047793492675,
+                0.3819999694824219
+              ],
+              [
+                -0.0031495930161327124,
+                0.381908655166626
+              ]
+            ]
+          },
+          {
+            "triangle": 7,
+            "positions": [
+              [
+                54.981178283691406,
+                -0.32991892099380493,
+                61.81827163696289
+              ],
+              [
+                54.981048583984375,
+                -0.36470428109169006,
+                61.79999542236328
+              ],
+              [
+                55.0,
+                -0.3647041916847229,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.0031495930161327124,
+                0.381908655166626
+              ],
+              [
+                -0.003647053614258766,
+                0.38200002908706665
+              ],
+              [
+                -0.003647053614258766,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 26,
+            "positions": [
+              [
+                54.981178283691406,
+                -24.54708480834961,
+                62.89931106567383
+              ],
+              [
+                54.981327056884766,
+                -24.57810401916504,
+                62.959800720214844
+              ],
+              [
+                55.0,
+                -24.553007125854492,
+                62.9786262512207
+              ]
+            ],
+            "uv": [
+              [
+                -0.5499372482299805,
+                0.46219807863235474
+              ],
+              [
+                -0.5500000715255737,
+                0.46284496784210205
+              ],
+              [
+                -0.550000011920929,
+                0.4628450274467468
+              ]
+            ]
+          },
+          {
+            "triangle": 36,
+            "positions": [
+              [
+                54.979496002197266,
+                -24.549999237060547,
+                61.820499420166016
+              ],
+              [
+                55.0,
+                -24.517648696899414,
+                61.83235168457031
+              ],
+              [
+                55.0,
+                -24.549999237060547,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.24549999833106995,
+                0.38200002908706665
+              ],
+              [
+                -0.24517646431922913,
+                0.38200002908706665
+              ],
+              [
+                -0.24549999833106995,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 37,
+            "positions": [
+              [
+                55.0,
+                -24.549999237060547,
+                61.79999542236328
+              ],
+              [
+                54.967647552490234,
+                -24.582351684570312,
+                61.79999542236328
+              ],
+              [
+                54.979496002197266,
+                -24.549999237060547,
+                61.820499420166016
+              ]
+            ],
+            "uv": [
+              [
+                -0.24549999833106995,
+                0.38200002908706665
+              ],
+              [
+                -0.24582350254058838,
+                0.38200002908706665
+              ],
+              [
+                -0.24549999833106995,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 46,
+            "positions": [
+              [
+                -55.0,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                -54.967647552490234,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                -54.96708679199219,
+                -24.95063018798828,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24950630962848663,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 47,
+            "positions": [
+              [
+                -54.96708679199219,
+                -24.95063018798828,
+                61.79999542236328
+              ],
+              [
+                -54.967647552490234,
+                -24.9352970123291,
+                61.79999542236328
+              ],
+              [
+                -55.0,
+                -24.9352970123291,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.24950630962848663,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ],
+              [
+                -0.24935296177864075,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 52,
+            "positions": [
+              [
+                -55.0,
+                -0.3647041916847229,
+                61.79999542236328
+              ],
+              [
+                -54.981048583984375,
+                -0.36470428109169006,
+                61.79999542236328
+              ],
+              [
+                -54.981178283691406,
+                -0.3269055485725403,
+                61.820499420166016
+              ]
+            ],
+            "uv": [
+              [
+                -0.0036470419727265835,
+                0.38200002908706665
+              ],
+              [
+                -0.00364704430103302,
+                0.38200002908706665
+              ],
+              [
+                -0.0032690626103430986,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 53,
+            "positions": [
+              [
+                -54.981178283691406,
+                -0.3269055485725403,
+                61.820499420166016
+              ],
+              [
+                -55.0,
+                -0.35434913635253906,
+                61.83235168457031
+              ],
+              [
+                -55.0,
+                -0.3647041916847229,
+                61.79999542236328
+              ]
+            ],
+            "uv": [
+              [
+                -0.0032690626103430986,
+                0.38200002908706665
+              ],
+              [
+                -0.003543490543961525,
+                0.38200002908706665
+              ],
+              [
+                -0.0036470419727265835,
+                0.38200002908706665
+              ]
+            ]
+          },
+          {
+            "triangle": 71,
+            "positions": [
+              [
+                -55.0,
+                -24.499343872070312,
+                62.90428161621094
+              ],
+              [
+                -54.98095703125,
+                -24.529617309570312,
+                62.83529281616211
+              ],
+              [
+                -55.0,
+                -24.480205535888672,
+                62.83529281616211
+              ]
+            ],
+            "uv": [
+              [
+                0.550000011920929,
+                0.46224087476730347
+              ],
+              [
+                0.5500000715255737,
+                0.4615510106086731
+              ],
+              [
+                0.550000011920929,
+                0.4615510106086731
+              ]
+            ]
+          }
+        ],
+        "degenerate_geometry_examples": [
+          1,
+          4,
+          42,
+          44,
+          1008,
+          1009,
+          1010,
+          1011,
+          2608,
+          2625
+        ]
+      },
+      "source_package_sha256": "17fede1498e7669842487680dc4b096006bf1d0f4cf83a3b5f8e4f30b89e2e63",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 1194,
+            "triangles": 446,
+            "normals": 1194,
+            "tangents": 1194
+          },
+          {
+            "section": 1,
+            "vertices": 5104,
+            "triangles": 1852,
+            "normals": 5104,
+            "tangents": 5104
+          },
+          {
+            "section": 2,
+            "vertices": 2170,
+            "triangles": 840,
+            "normals": 2170,
+            "tangents": 2170
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 3138
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_SchoolBench_A_771fd5bf_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          0.006481647491455078,
+          19.0
+        ],
+        "extent": [
+          55.0,
+          14.980287075042725,
+          19.0
+        ],
+        "radius": 59.788918435947515,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop' (0x000002A2E3508000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame' (0x000002A2E3503000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware' (0x000002A21614F000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A",
+      "source_geometry_audit": {
+        "triangles": 2568,
+        "degenerate_uv_count": 25,
+        "degenerate_geometry_count": 10,
+        "degenerate_uv_examples": [
+          {
+            "triangle": 2,
+            "positions": [
+              [
+                55.0,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                54.97088623046875,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                54.97037887573242,
+                -14.95556640625,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.1494176834821701,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176834821701,
+                0.6499999761581421
+              ],
+              [
+                -0.14955568313598633,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 3,
+            "positions": [
+              [
+                54.97037887573242,
+                -14.95556640625,
+                35.0
+              ],
+              [
+                54.97088623046875,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                55.0,
+                -14.941766738891602,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.14955568313598633,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176834821701,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176834821701,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 6,
+            "positions": [
+              [
+                55.0,
+                -0.35823431611061096,
+                35.0235710144043
+              ],
+              [
+                54.982940673828125,
+                -0.3582337200641632,
+                35.0
+              ],
+              [
+                55.0,
+                -0.35823431611061096,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.003582341829314828,
+                0.6499999761581421
+              ],
+              [
+                -0.003582357196137309,
+                0.6499999761581421
+              ],
+              [
+                -0.0035823401995003223,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 7,
+            "positions": [
+              [
+                54.982940673828125,
+                -0.3582337200641632,
+                35.0
+              ],
+              [
+                55.0,
+                -0.35823431611061096,
+                35.0235710144043
+              ],
+              [
+                54.983055114746094,
+                -0.32692715525627136,
+                35.01655197143555
+              ]
+            ],
+            "uv": [
+              [
+                -0.003582357196137309,
+                0.6499999761581421
+              ],
+              [
+                -0.003582341829314828,
+                0.6499999761581421
+              ],
+              [
+                -0.003134632483124733,
+                0.6499172449111938
+              ]
+            ]
+          },
+          {
+            "triangle": 27,
+            "positions": [
+              [
+                55.0,
+                -14.618062973022461,
+                36.7642936706543
+              ],
+              [
+                54.983055114746094,
+                -14.600224494934082,
+                36.69748306274414
+              ],
+              [
+                54.98331069946289,
+                -14.634187698364258,
+                36.7481689453125
+              ]
+            ],
+            "uv": [
+              [
+                -0.550000011920929,
+                0.6685678958892822
+              ],
+              [
+                -0.5499435663223267,
+                0.6679855585098267
+              ],
+              [
+                -0.5500000715255737,
+                0.6685678958892822
+              ]
+            ]
+          },
+          {
+            "triangle": 36,
+            "positions": [
+              [
+                55.0,
+                -14.5829439163208,
+                35.01705551147461
+              ],
+              [
+                55.0,
+                -14.59999942779541,
+                35.0
+              ],
+              [
+                54.98155212402344,
+                -14.601508140563965,
+                35.016944885253906
+              ]
+            ],
+            "uv": [
+              [
+                -0.145829439163208,
+                0.6499999761581421
+              ],
+              [
+                -0.1459999978542328,
+                0.6499999761581421
+              ],
+              [
+                -0.14600753784179688,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 37,
+            "positions": [
+              [
+                55.0,
+                -14.59999942779541,
+                35.0
+              ],
+              [
+                54.97088623046875,
+                -14.629117012023926,
+                35.0
+              ],
+              [
+                54.98155212402344,
+                -14.601508140563965,
+                35.016944885253906
+              ]
+            ],
+            "uv": [
+              [
+                -0.1459999978542328,
+                0.6499999761581421
+              ],
+              [
+                -0.14629118144512177,
+                0.6499999761581421
+              ],
+              [
+                -0.14600753784179688,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 46,
+            "positions": [
+              [
+                -55.0,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                -54.97088623046875,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                -54.97037887573242,
+                -14.95556640625,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.1494176685810089,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176685810089,
+                0.6499999761581421
+              ],
+              [
+                -0.14955566823482513,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 47,
+            "positions": [
+              [
+                -54.97037887573242,
+                -14.95556640625,
+                35.0
+              ],
+              [
+                -54.97088623046875,
+                -14.941766738891602,
+                35.0
+              ],
+              [
+                -55.0,
+                -14.941766738891602,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.14955566823482513,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176685810089,
+                0.6499999761581421
+              ],
+              [
+                -0.1494176685810089,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 52,
+            "positions": [
+              [
+                -54.983055114746094,
+                -0.32355332374572754,
+                35.018455505371094
+              ],
+              [
+                -55.0,
+                -0.3466404676437378,
+                35.029117584228516
+              ],
+              [
+                -55.0,
+                -0.35823431611061096,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.0032355315051972866,
+                0.6499999761581421
+              ],
+              [
+                -0.0034663958940654993,
+                0.6499999761581421
+              ],
+              [
+                -0.0035823434591293335,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 53,
+            "positions": [
+              [
+                -54.983055114746094,
+                -0.32355332374572754,
+                35.018455505371094
+              ],
+              [
+                -55.0,
+                -0.35823431611061096,
+                35.0
+              ],
+              [
+                -54.982940673828125,
+                -0.3582337200641632,
+                35.0
+              ]
+            ],
+            "uv": [
+              [
+                -0.0032355315051972866,
+                0.6499999761581421
+              ],
+              [
+                -0.0035823434591293335,
+                0.6499999761581421
+              ],
+              [
+                -0.0035823583602905273,
+                0.6499999761581421
+              ]
+            ]
+          },
+          {
+            "triangle": 71,
+            "positions": [
+              [
+                -55.0,
+                -14.549992561340332,
+                36.70073318481445
+              ],
+              [
+                -54.98269271850586,
+                -14.57850456237793,
+                36.64176940917969
+              ],
+              [
+                -55.0,
+                -14.525884628295898,
+                36.64176940917969
+              ]
+            ],
+            "uv": [
+              [
+                0.550000011920929,
+                0.6679929494857788
+              ],
+              [
+                0.5500000715255737,
+                0.6674032211303711
+              ],
+              [
+                0.550000011920929,
+                0.6674032211303711
+              ]
+            ]
+          }
+        ],
+        "degenerate_geometry_examples": [
+          1,
+          4,
+          42,
+          44,
+          756,
+          757,
+          758,
+          759,
+          2096,
+          2113
+        ]
+      },
+      "source_package_sha256": "9f621066c329f8dd7e0632cd30065cb0ae1e668d5fe6416bb7725bc5b8d0e7c6",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 787,
+            "triangles": 298,
+            "normals": 787,
+            "tangents": 787
+          },
+          {
+            "section": 1,
+            "vertices": 3904,
+            "triangles": 1420,
+            "normals": 3904,
+            "tangents": 3904
+          },
+          {
+            "section": 2,
+            "vertices": 2160,
+            "triangles": 840,
+            "normals": 2160,
+            "tangents": 2160
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 2558
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_AttBook_a977bc81_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          -1.5,
+          3.5
+        ],
+        "extent": [
+          16.0,
+          13.0,
+          3.5
+        ],
+        "radius": 20.910523666326483,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper' (0x000002A21614D000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk' (0x000002A316AD5000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen' (0x000002A216147800) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_AttBook",
+      "source_geometry_audit": {
+        "triangles": 232,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "7c51a2ebb239d1bec41567edbdfafd8d6c2350f25060a1561cacee25b568d545",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 220,
+            "triangles": 100,
+            "normals": 220,
+            "tangents": 220
+          },
+          {
+            "section": 1,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 2,
+            "vertices": 224,
+            "triangles": 96,
+            "normals": 224,
+            "tangents": 224
+          },
+          {
+            "section": 3,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 232
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck_Regular_v03",
+      "bounds": {
+        "origin": [
+          0.0,
+          12.300999641418457,
+          14.5
+        ],
+        "extent": [
+          23.0,
+          30.901000022888184,
+          14.5
+        ],
+        "radius": 39.10135792484298,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck",
+      "source_geometry_audit": {
+        "triangles": 428,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "d74411ee54cdfe3b4948f7a0c78aae3381e7568383d48302cc7831ffbd765a4c",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 445,
+            "triangles": 192,
+            "normals": 445,
+            "tangents": 445
+          },
+          {
+            "section": 1,
+            "vertices": 468,
+            "triangles": 200,
+            "normals": 468,
+            "tangents": 468
+          },
+          {
+            "section": 2,
+            "vertices": 84,
+            "triangles": 36,
+            "normals": 84,
+            "tangents": 84
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 428
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_Figure_a4605c3d_RegularV3",
+      "bounds": {
+        "origin": [
+          0.0,
+          24.0,
+          38.5
+        ],
+        "extent": [
+          23.0,
+          26.0,
+          38.5
+        ],
+        "radius": 48.34811229156939,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper' (0x000002A21614D000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue' (0x000002A21614F800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure",
+      "source_geometry_audit": {
+        "triangles": 748,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "b67dfb30dab0a2e8cef8872ae44f4e48c139430360a7512364de37c2eb453f5b",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 480,
+            "triangles": 220,
+            "normals": 480,
+            "tangents": 480
+          },
+          {
+            "section": 1,
+            "vertices": 376,
+            "triangles": 176,
+            "normals": 376,
+            "tangents": 376
+          },
+          {
+            "section": 2,
+            "vertices": 384,
+            "triangles": 176,
+            "normals": 384,
+            "tangents": 384
+          },
+          {
+            "section": 3,
+            "vertices": 384,
+            "triangles": 176,
+            "normals": 384,
+            "tangents": 384
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 748
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Door_Leaf_ee4b8cc0_RegularV3",
+      "bounds": {
+        "origin": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "extent": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "radius": 127.7243222707343,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf",
+      "source_geometry_audit": {
+        "triangles": 184,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "0f55bb93e36fe412409bc3ff37c860a0124c8e84df0b8ce319b8e14559bf22d9",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 180,
+            "triangles": 80,
+            "normals": 180,
+            "tangents": 180
+          },
+          {
+            "section": 1,
+            "vertices": 140,
+            "triangles": 60,
+            "normals": 140,
+            "tangents": 140
+          },
+          {
+            "section": 2,
+            "vertices": 108,
+            "triangles": 44,
+            "normals": 108,
+            "tangents": 108
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 184
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Door_Leaf_6bedc471_RegularV3",
+      "bounds": {
+        "origin": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "extent": [
+          68.0,
+          6.25,
+          108.0
+        ],
+        "radius": 127.7243222707343,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood' (0x000002A21BBDC800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust' (0x000002A216142000) Class 'MaterialInstanceConstant'>"
+      ],
+      "source_origin": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Leaf",
+      "source_geometry_audit": {
+        "triangles": 184,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "source_package_sha256": "4cc00110071f539ce348e990104c1f6a8f8c9b2987b09401683ed8a5f766a21e",
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 180,
+            "triangles": 80,
+            "normals": 180,
+            "tangents": 180
+          },
+          {
+            "section": 1,
+            "vertices": 140,
+            "triangles": 60,
+            "normals": 140,
+            "tangents": 140
+          },
+          {
+            "section": 2,
+            "vertices": 108,
+            "triangles": 44,
+            "normals": 108,
+            "tangents": 108
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 184
+    },
+    {
+      "path": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_G1_DeckShelf_V1",
+      "bounds": {
+        "origin": [
+          11.5,
+          0.0,
+          102.5
+        ],
+        "extent": [
+          56.5,
+          37.0,
+          19.5
+        ],
+        "radius": 70.29580357318636,
+        "finite": true
+      },
+      "default_materials": [
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark' (0x000002A21BBD8000) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal' (0x000002A216141800) Class 'MaterialInstanceConstant'>"
+      ],
+      "buffers": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 24,
+            "triangles": 12,
+            "normals": 24,
+            "tangents": 24
+          },
+          {
+            "section": 1,
+            "vertices": 160,
+            "triangles": 80,
+            "normals": 160,
+            "tangents": 160
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "rendered_triangles": 92
+    }
+  ],
+  "failures": [],
+  "map_sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e"
+}

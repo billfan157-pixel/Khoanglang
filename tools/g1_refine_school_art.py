@@ -20,12 +20,9 @@ SOURCE_MASTER = '/Game/KhoangLang/Production/Materials/M_KL_ART_Surface'
 MASTER = FOLDER + '/M_KL_G1_Surface'
 MEL = unreal.MaterialEditingLibrary
 PIN_BINDINGS = []
-# Initial corrective candidate after actual G1_refined_deck.png showed severe
-# clipping at +1 EV. This is deliberately exposed for the editor owner's
-# measured -3/-4 EV comparison; it is NOT an accepted visual calibration.
-# Physical-camera exposure remains disabled, so the installed renderer applies
-# compensation as 2**bias. +1 -> -3 is a sixteen-fold exposure reduction.
-EXPOSURE_BIAS_EV = -3.0
+# The initial +1 EV clipped highlights; -3 EV lost navigation edges in actual
+# captures. This measured intermediate candidate still requires inspection.
+EXPOSURE_BIAS_EV = -1.5
 
 # Intensity is explicitly lumens for local lights. These are starting values,
 # not measured lighting qualification; screenshots and frame times decide.
@@ -170,6 +167,9 @@ def build_master():
         return sample
 
     albedo = texture('Detail', 'Plaster', 'A', detail_uv)
+    desaturated_albedo = node(unreal.MaterialExpressionDesaturation)
+    wire(albedo, desaturated_albedo, 'None')
+    wire(scalar('DetailDesaturation', 0), desaturated_albedo, 'Fraction')
     rough_texture = texture('DetailRough', 'Plaster', 'R', detail_uv)
     grunge = texture('Grunge', 'Grunge', 'A', grunge_uv)
     tangent_normal = texture('NormalMap', 'Plaster', 'N', detail_uv, True)
@@ -187,7 +187,7 @@ def build_master():
                  vector('DirtTint', (.29, .27, .22)), damp)
     white = node(unreal.MaterialExpressionConstant3Vector,
                  constant=unreal.LinearColor(1, 1, 1, 1))
-    detail_variation = lerp(white, albedo, scalar('DetailAmount', .35))
+    detail_variation = lerp(white, desaturated_albedo, scalar('DetailAmount', .35))
     dirt_variation = lerp(white, grunge, scalar('GrungeAmount', .12))
     output(binary(unreal.MaterialExpressionMultiply,
                   binary(unreal.MaterialExpressionMultiply,
@@ -252,11 +252,9 @@ def main():
         path = material.get_path_name().split('.')[0]
         if path in adopted:
             return adopted[path]
-        if path.startswith(FOLDER + '/'):
-            return material
         if not isinstance(material, unreal.MaterialInstanceConstant):
             return material
-        if not path.startswith(('/Game/KhoangLang/MaterialsArt/',
+        if not path.startswith((FOLDER + '/', '/Game/KhoangLang/MaterialsArt/',
                                 '/Game/KhoangLang/Production/Materials/')):
             return material
         parent = material.get_editor_property('parent')
@@ -295,6 +293,11 @@ def main():
                 vector_values['BaseTint'] = (.60, .55, .40, 1)
             if 'wallclassroom' in name:
                 vector_values['BaseTint'] = (.63, .60, .48, 1)
+            if 'wood' in name:
+                scalar_values.update(DetailDesaturation=.78, NormalStrength=.08,
+                                     GrungeAmount=.06, RoughnessFloor=.80)
+                vector_values['BaseTint'] = ((.29, .24, .18, 1) if 'dark' in name
+                                             else (.48, .39, .27, 1))
         elif 'emissive' in parent.get_name().lower():
             # Lamp surfaces remain perceptible without becoming white slabs.
             source_strength = MEL.get_material_instance_scalar_parameter_value(
@@ -355,6 +358,7 @@ def main():
             raise RuntimeError('Not a local light: ' + label)
         a.modify()
         c.modify()
+        c.set_mobility(unreal.ComponentMobility.MOVABLE)
         before = float(c.get_editor_property('intensity'))
         c.set_editor_property('intensity_units', unreal.LightUnits.LUMENS)
         c.set_editor_property('intensity', float(intensity))
@@ -376,6 +380,7 @@ def main():
     moon.modify()
     moon_component = moon.get_component_by_class(unreal.DirectionalLightComponent)
     moon_component.modify()
+    moon_component.set_mobility(unreal.ComponentMobility.MOVABLE)
     moon_component.set_editor_property('intensity', .12)
     moon_component.set_editor_property('light_color',
         unreal.Color(r=199, g=217, b=255, a=255))
@@ -430,6 +435,7 @@ def main():
     grade.set_editor_property('priority', 100.0)
     grade.set_editor_property('unbound', True)
     grade.set_editor_property('blend_weight', 1.0)
+    world.get_world_settings().set_editor_property('force_no_precomputed_lighting', True)
     if not unreal.EditorLoadingAndSavingUtils.save_map(world, MAP):
         raise RuntimeError('Refined map save failed')
     report['postprocess'] = {'manual_bias_ev': EXPOSURE_BIAS_EV,

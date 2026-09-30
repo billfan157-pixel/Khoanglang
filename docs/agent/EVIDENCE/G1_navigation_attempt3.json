@@ -1,0 +1,5988 @@
+{
+  "status": "failed",
+  "method": "Native Move Blueprint, actual game Tick and collision; debug control-rotation steering",
+  "scope_limit": "No physical keyboard/mouse, remapping, packaged performance, or complete narrative acceptance",
+  "prior_deck_disappearance": "Cause unresolved; no source destroy/damage operation found in core/native player. This run diagnoses survival rather than inferring a cause.",
+  "binding": {
+    "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+    "pawn": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.BP_KL_SchoolPlayer_C_0",
+    "pawn_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.BP_KL_SchoolPlayer_C",
+    "start_game_time": 5.137945383787155,
+    "pie_start_result": "not supplied",
+    "pie_session_note": "Fresh source defaults are asserted; this script does not start PIE or establish a newly created session. An already-running PIE may have earlier presentation cues.",
+    "started_utc": "2026-09-30T15:57:37.152520+00:00",
+    "files_at_start": {
+      "canon": {
+        "path": "docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md",
+        "sha256": "80eee1981bf2a155726da34617300647c1a9813b3d93f60628856b2e5eec7e44"
+      },
+      "core_source": {
+        "path": "tools/g1_build_school_loop.py",
+        "sha256": "7440004a15c1bab54f75d4a0dc2db1077c1112cf6afd97120cdec9b635a77b42"
+      },
+      "player_source": {
+        "path": "tools/g1_build_native_player.py",
+        "sha256": "10658c53b31e31297af629a2536fabe0ebc11f4d138197ad419c19393061b902"
+      },
+      "trial_source": {
+        "path": "tools/g1_navigation_trial.py",
+        "sha256": "21b4d110ea9ea88deacc8cc210402cdee1d63cd4f4a8fbd88f74d5658dc71c13"
+      },
+      "core_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop.uasset",
+        "sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb"
+      },
+      "player_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.uasset",
+        "sha256": "e3cde492a1b89c0d8c1845372ef285eb761572b999e7e25089c54d8cafd5073b"
+      },
+      "map": {
+        "path": "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap",
+        "sha256": "cdaf14643ff92d00cf582edc2e6c5a117e0411137ef9314d0cb0f61c9a714c3f"
+      }
+    },
+    "qualification": "Saved disk assets/source and runtime class; no in-memory bytecode hash",
+    "files_at_end": {
+      "canon": {
+        "path": "docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md",
+        "sha256": "80eee1981bf2a155726da34617300647c1a9813b3d93f60628856b2e5eec7e44"
+      },
+      "core_source": {
+        "path": "tools/g1_build_school_loop.py",
+        "sha256": "7440004a15c1bab54f75d4a0dc2db1077c1112cf6afd97120cdec9b635a77b42"
+      },
+      "player_source": {
+        "path": "tools/g1_build_native_player.py",
+        "sha256": "10658c53b31e31297af629a2536fabe0ebc11f4d138197ad419c19393061b902"
+      },
+      "trial_source": {
+        "path": "tools/g1_navigation_trial.py",
+        "sha256": "21b4d110ea9ea88deacc8cc210402cdee1d63cd4f4a8fbd88f74d5658dc71c13"
+      },
+      "core_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop.uasset",
+        "sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb"
+      },
+      "player_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.uasset",
+        "sha256": "e3cde492a1b89c0d8c1845372ef285eb761572b999e7e25089c54d8cafd5073b"
+      },
+      "map": {
+        "path": "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap",
+        "sha256": "cdaf14643ff92d00cf582edc2e6c5a117e0411137ef9314d0cb0f61c9a714c3f"
+      }
+    }
+  },
+  "waypoint_plan": [
+    {
+      "name": "entry corridor",
+      "xy": [
+        -600.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "hall entrance",
+      "xy": [
+        0.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "Lam hall approach",
+      "xy": [
+        560.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "Lam present witness",
+      "xy": [
+        740.0,
+        -90.0
+      ],
+      "interaction": "LamActor"
+    },
+    {
+      "name": "return hall center",
+      "xy": [
+        740.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "east hall center",
+      "xy": [
+        1600.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "listening deck west approach",
+      "xy": [
+        1770.0,
+        0.0
+      ],
+      "interaction": "ListenActor"
+    },
+    {
+      "name": "return classroom hall",
+      "xy": [
+        870.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "classroom door",
+      "xy": [
+        870.0,
+        200.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "classroom front cross aisle",
+      "xy": [
+        870.0,
+        240.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "classroom east aisle entry",
+      "xy": [
+        1400.0,
+        240.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "classroom east aisle",
+      "xy": [
+        1400.0,
+        790.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "notebook east side",
+      "xy": [
+        1200.0,
+        790.0
+      ],
+      "interaction": "NotebookActor"
+    },
+    {
+      "name": "notebook retreat east",
+      "xy": [
+        1400.0,
+        790.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "teacher front aisle east",
+      "xy": [
+        1400.0,
+        664.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "ledger front aisle",
+      "xy": [
+        750.0,
+        664.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "rice ledger diagonal side",
+      "xy": [
+        750.0,
+        680.0
+      ],
+      "interaction": "LedgerActor"
+    },
+    {
+      "name": "ledger retreat front aisle",
+      "xy": [
+        750.0,
+        664.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return east front aisle",
+      "xy": [
+        1400.0,
+        664.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return east cross aisle",
+      "xy": [
+        1400.0,
+        240.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return doorway aisle",
+      "xy": [
+        870.0,
+        240.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "leave classroom doorway",
+      "xy": [
+        870.0,
+        200.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return hall",
+      "xy": [
+        870.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return hall entrance",
+      "xy": [
+        0.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "return corridor",
+      "xy": [
+        -600.0,
+        0.0
+      ],
+      "interaction": null
+    },
+    {
+      "name": "exit interior approach",
+      "xy": [
+        -800.0,
+        -70.0
+      ],
+      "interaction": "ExitActor"
+    }
+  ],
+  "waypoints": [
+    {
+      "index": 0,
+      "name": "entry corridor",
+      "game_time": 9.096263259649277,
+      "pawn": [
+        -602.9813422760287,
+        0.0,
+        90.14999961853027
+      ],
+      "remaining_cm": 2.9813422760287267,
+      "leg_duration_s": 3.558317869901657
+    },
+    {
+      "index": 1,
+      "name": "hall entrance",
+      "game_time": 14.197671920061111,
+      "pawn": [
+        -3.0160560911425343,
+        0.0,
+        90.14999675750732
+      ],
+      "remaining_cm": 3.0160560911425343,
+      "leg_duration_s": 5.101408660411835
+    },
+    {
+      "index": 2,
+      "name": "Lam hall approach",
+      "game_time": 18.910863786935806,
+      "pawn": [
+        555.9426786663423,
+        0.0,
+        90.14999675750732
+      ],
+      "remaining_cm": 4.057321333657683,
+      "leg_duration_s": 4.713191866874695
+    },
+    {
+      "index": 3,
+      "name": "Lam present witness",
+      "game_time": 21.9546277821064,
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "remaining_cm": 4.29544543998225,
+      "leg_duration_s": 3.0437639951705933
+    },
+    {
+      "index": 4,
+      "name": "return hall center",
+      "game_time": 25.327183693647385,
+      "pawn": [
+        739.8671121548373,
+        -3.034307505268498,
+        90.14999675750732
+      ],
+      "remaining_cm": 3.0372160304991023,
+      "leg_duration_s": 2.702763110399246
+    },
+    {
+      "index": 5,
+      "name": "east hall center",
+      "game_time": 31.397823005914688,
+      "pawn": [
+        1595.9374286115524,
+        -0.014331576158863853,
+        90.14999675750732
+      ],
+      "remaining_cm": 4.062596667195557,
+      "leg_duration_s": 6.0706393122673035
+    },
+    {
+      "index": 6,
+      "name": "listening deck west approach",
+      "game_time": 34.45318904519081,
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "remaining_cm": 3.4824421857497234,
+      "leg_duration_s": 3.055366039276123
+    },
+    {
+      "index": 7,
+      "name": "return classroom hall",
+      "game_time": 41.62683320045471,
+      "pawn": [
+        873.5205572109028,
+        -4.8910626549051415e-05,
+        90.14999675750732
+      ],
+      "remaining_cm": 3.5205572112425343,
+      "leg_duration_s": 6.49792006611824
+    },
+    {
+      "index": 8,
+      "name": "classroom door",
+      "game_time": 44.680817782878876,
+      "pawn": [
+        870.0736695082784,
+        195.81488466265776,
+        90.14999675750732
+      ],
+      "remaining_cm": 4.185763679820831,
+      "leg_duration_s": 3.053984582424164
+    },
+    {
+      "index": 9,
+      "name": "classroom front cross aisle",
+      "game_time": 46.71368759870529,
+      "pawn": [
+        870.006803146326,
+        235.92009843473636,
+        90.1500015258789
+      ],
+      "remaining_cm": 4.079907237308299,
+      "leg_duration_s": 2.032869815826416
+    }
+  ],
+  "samples": [
+    {
+      "game_time": 5.53794538974762,
+      "index": 0,
+      "mode": "init",
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -880.0,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 5.937945395708084,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -810.4000001442433,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -810.4000001442433,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 6.337945401668549,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -726.24000289917,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        210.39999389648438,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -726.24000289917,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 6.680889695882797,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -682.9467128434333,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        126.24000549316408,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -682.9467128434333,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 7.01422318816185,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -655.2977939142093,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        82.94671630859375,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -655.2977939142093,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 7.35855957865715,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -636.2567521156582,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        55.29779052734375,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -636.2567521156582,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 7.702886790037155,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -623.7725656658592,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        36.256752014160156,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -623.7725656658592,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 8.046298384666443,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -614.2890782593801,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        27.61551284790161,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -614.2890782593801,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 8.389599174261093,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -608.5906365838488,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        16.598976135253906,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -608.5906365838488,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 8.723362565040588,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -605.2598935496435,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        9.97935390472446,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -605.2598935496435,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 9.096263259649277,
+      "index": 0,
+      "mode": "walk",
+      "pawn": [
+        -602.9813422760287,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        6.110343456267726,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -602.9813422760287,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 9.438071370124817,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -602.9813422760287,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -602.9813422760287,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 9.780761569738388,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -545.989497357897,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -545.989497357897,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 10.121706157922745,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -470.98168713777466,
+        0.0,
+        90.14999961853027
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+        "label": "ART_Floor_Corr",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -470.98168713777466,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 10.461649268865585,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -396.19420191078586,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.00000000000003,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -396.194201910786,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 10.80356165766716,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -320.97347555487556,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -320.9734755548757,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 11.145093560218811,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -245.83645617394848,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -245.8364561739486,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 11.487741857767105,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -170.45382989375992,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99999999999997,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -170.45382989375992,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 11.830354452133179,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -102.27940166390442,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        198.9840087890625,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -102.27940166390442,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 12.17261654138565,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -61.41375637554606,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        119.39868927001953,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -61.413756375546086,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 12.506168752908707,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -37.500379329476885,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        71.69305419921875,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -37.500379329476914,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 12.846914142370224,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -22.58353171082132,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        43.77710723876953,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -22.583531710821262,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 13.180247634649277,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -13.794773912273612,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        26.366260528564453,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -13.794773912273627,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 13.5136259496212,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -8.42008753270477,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        16.121883392333984,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -8.42008753270477,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 13.853781133890152,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -5.057886338763609,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        9.884315490722656,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -5.0578863387636375,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 14.197671920061111,
+      "index": 1,
+      "mode": "walk",
+      "pawn": [
+        -3.0160560911425343,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        5.937438011169434,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -3.016056091142559,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 14.539005726575851,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        -3.0160560911425343,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          -3.016056091142559,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 14.872339129447937,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        51.91729354386247,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          51.917293543862456,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 15.209096521139145,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        126.00392053549207,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          126.00392053549206,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 15.542430013418198,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        199.33728965644752,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          199.33728965644752,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 15.879029601812363,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        273.3891999227277,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          273.3891999227277,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 16.216744989156723,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        347.68658595805084,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          347.68658595805084,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 16.55008539557457,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        421.021476189541,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        220.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          421.021476189541,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 16.89074820280075,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        477.09806487781833,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        164.61024475097656,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          477.09806487781833,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 17.224088102579117,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        509.54601328909126,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        97.34192657470703,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          509.54601328909126,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 17.56493788957596,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        529.7386848975223,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        59.24214172363281,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          529.7386848975223,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 17.89827138185501,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        541.576286296168,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        35.512786865234375,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          541.576286296168,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 18.23835027217865,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        548.9291049197359,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        21.620920181273153,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          548.9291049197359,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 18.571683675050735,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        553.2598092890504,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        12.992110252379348,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          553.2598092890504,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 18.910863786935806,
+      "index": 2,
+      "mode": "walk",
+      "pawn": [
+        555.9426786663423,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        7.9098663330078125,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          555.9426786663423,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 19.24422177672386,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        555.9426786663423,
+        0.0,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          555.9426786663423,
+          0.0,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 19.581066071987152,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        605.9860877624246,
+        -24.47013157139552,
+        90.14999675750732
+      ],
+      "velocity": [
+        197.63760113421918,
+        -96.64046056342598,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          605.9860877624246,
+          -24.47013157139552,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 19.914400279521942,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        658.6677411925662,
+        -50.2303068695878,
+        90.14999675750732
+      ],
+      "velocity": [
+        158.04454403582724,
+        -77.28032235519085,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          658.6677411925662,
+          -50.2303068695878,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 20.256263375282288,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        691.4579880381577,
+        -66.26401978130419,
+        90.14999675750732
+      ],
+      "velocity": [
+        95.91630946693945,
+        -46.9009756707893,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          691.4579880381577,
+          -66.26401978130419,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 20.598087280988693,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        710.8725676236738,
+        -75.75732420324675,
+        90.14999675750732
+      ],
+      "velocity": [
+        56.79702048283978,
+        -27.772499699408776,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          710.8725676236738,
+          -75.75732420324675,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 20.931423395872116,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        722.2329341183805,
+        -81.31229473475118,
+        90.14999675750732
+      ],
+      "velocity": [
+        34.080814710757465,
+        -16.66477234657295,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          722.2329341183805,
+          -81.31229473475118,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 21.26871758699417,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        729.2447797715654,
+        -84.74093376616337,
+        90.14999675750732
+      ],
+      "velocity": [
+        20.788515664666086,
+        -10.165129088462127,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          729.2447797715654,
+          -84.74093376616337,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 21.611032992601395,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        733.5525596982135,
+        -86.8473438507223,
+        90.14999675750732
+      ],
+      "velocity": [
+        12.584241927782912,
+        -6.153418826999836,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          733.5525596982135,
+          -86.8473438507223,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 21.9546277821064,
+      "index": 3,
+      "mode": "walk",
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "velocity": [
+        7.533917283085654,
+        -3.6839206300096334,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          736.1411744493092,
+          -88.11311979786728,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 22.287961274385452,
+      "index": 3,
+      "mode": "aim",
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          736.1411744493092,
+          -88.11311979786728,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 22.62442058324814,
+      "index": 3,
+      "mode": "aim",
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          736.1411744493092,
+          -88.11311979786728,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 22.957753986120224,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          736.1411744493092,
+          -88.11311979786728,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 23.297935277223587,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        737.2936497107227,
+        -61.79726747103884,
+        90.14999675750732
+      ],
+      "velocity": [
+        4.492294116339875,
+        102.57794898722723,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          737.2936497107227,
+          -61.79726747103884,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 23.64023408293724,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        738.3829269214344,
+        -36.92449216745142,
+        90.14999675750732
+      ],
+      "velocity": [
+        3.182240722653038,
+        72.66392583823465,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          738.3829269214344,
+          -36.92449216745142,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 23.983568996191025,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        739.0317126639618,
+        -22.10998780129518,
+        90.14999675750732
+      ],
+      "velocity": [
+        1.8896584950800377,
+        43.14884281652938,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.0317126639618,
+          -22.10998780129518,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 24.31690290570259,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        739.4077441460557,
+        -13.523609174062043,
+        90.14999675750732
+      ],
+      "velocity": [
+        1.128092483727773,
+        25.759091068336392,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.4077441460557,
+          -13.523609174062043,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 24.655857414007187,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        739.6416226142516,
+        -8.183181108018745,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.6899995719041878,
+        15.755589250195415,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.6416226142516,
+          -8.183181108018745,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 24.98919090628624,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        739.7807963563785,
+        -5.0052598387128615,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.4175210226257626,
+        9.533759155318945,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.7807963563785,
+          -5.0052598387128615,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 25.327183693647385,
+      "index": 4,
+      "mode": "walk",
+      "pawn": [
+        739.8671121548373,
+        -3.034307505268498,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.255377631521893,
+        5.831344293199207,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.8671121548373,
+          -3.034307505268498,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 25.665576606988907,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        739.8671121548373,
+        -3.034307505268498,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          739.8671121548373,
+          -3.034307505268498,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 25.998912900686264,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        794.8007559532309,
+        -2.840517020094234,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.9986310842588,
+        0.7760934558056634,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          794.8007559532309,
+          -2.840517020094234,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 26.337669909000397,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        869.3268348720977,
+        -2.577609919942159,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425888,
+        0.776093455805655,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          869.3268348720977,
+          -2.577609919942159,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 26.67100340127945,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        942.6597476875834,
+        -2.318911975092367,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425853,
+        0.7760934558056561,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          942.6597476875834,
+          -2.318911975092367,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 27.013798594474792,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1018.0742217523815,
+        -2.0528708660806507,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425782,
+        0.7760934558056608,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1018.0742217523815,
+          -2.0528708660806507,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 27.3563295006752,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1093.4305530400811,
+        -1.7870348684761588,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425683,
+        0.776093455805657,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1093.4305530400811,
+          -1.7870348684761588,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 27.689662992954254,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1166.7634658555673,
+        -1.5283369236263675,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425853,
+        0.7760934558056561,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1166.7634658555673,
+          -1.5283369236263675,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 28.030923306941986,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1241.8402685958122,
+        -1.2634870243231322,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108426072,
+        0.776093455805653,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1241.8402685958122,
+          -1.2634870243231322,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 28.36425930261612,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1315.1737321547891,
+        -1.004787136604803,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108425808,
+        0.7760934558056569,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1315.1737321547891,
+          -1.004787136604803,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 28.700808197259903,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1389.2140290889015,
+        -0.7435937390219627,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.99863108426143,
+        0.7760934558056484,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1389.2140290889015,
+          -0.7435937390219627,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 29.03695499897003,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1463.165866128041,
+        -0.48271240313355857,
+        90.14999675750732
+      ],
+      "velocity": [
+        219.9986310842597,
+        0.7760934558056531,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1463.165866128041,
+          -0.48271240313355857,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 29.370290100574493,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1516.6284183781834,
+        -0.2941115162666182,
+        90.14999675750732
+      ],
+      "velocity": [
+        160.3868041359018,
+        0.5657996528159446,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1516.6284183781834,
+          -0.2941115162666182,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 29.71243929862976,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1550.531984620739,
+        -0.17450924529046846,
+        90.14999675750732
+      ],
+      "velocity": [
+        99.0900053722767,
+        0.34956174193520084,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1550.531984620739,
+          -0.17450924529046846,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 30.055326104164124,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1570.361848397099,
+        -0.10455504861887212,
+        90.14999675750732
+      ],
+      "velocity": [
+        57.83209864262437,
+        0.20401542078168516,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1570.361848397099,
+          -0.10455504861887212,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 30.389256209135056,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1581.9074332481493,
+        -0.06382546406560495,
+        90.14999675750732
+      ],
+      "velocity": [
+        34.57485428950617,
+        0.12197038689409688,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1581.9074332481493,
+          -0.06382546406560495,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 30.726324021816254,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1589.0216435535524,
+        -0.03872852580723521,
+        90.14999675750732
+      ],
+      "velocity": [
+        21.106169023338765,
+        0.07445664355004235,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1589.0216435535524,
+          -0.03872852580723521,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 31.059662014245987,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1593.2906948801092,
+        -0.02366851029391,
+        90.14999675750732
+      ],
+      "velocity": [
+        12.806974829748931,
+        0.04517941454931868,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1593.2906948801092,
+          -0.02366851029391,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 31.397823005914688,
+      "index": 5,
+      "mode": "walk",
+      "pawn": [
+        1595.9374286115524,
+        -0.014331576158863853,
+        90.14999675750732
+      ],
+      "velocity": [
+        7.826845104827821,
+        0.027610913920359147,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1595.9374286115524,
+          -0.014331576158863853,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 31.73115912079811,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1595.9374286115524,
+        -0.014331576158863853,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1595.9374286115524,
+          -0.014331576158863853,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 32.06916531920433,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1648.3104340191362,
+        -0.010019404505002981,
+        90.14999675750732
+      ],
+      "velocity": [
+        205.8931420023003,
+        0.016952370095188685,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1648.3104340191362,
+          -0.010019404505002981,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 32.40689301490784,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1696.9238873314985,
+        -0.006016778462474894,
+        90.14999675750732
+      ],
+      "velocity": [
+        143.94274853552892,
+        0.011851636834342538,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1696.9238873314985,
+          -0.006016778462474894,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 32.750721126794815,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1726.6441936436815,
+        -0.003569734199383964,
+        90.14999675750732
+      ],
+      "velocity": [
+        86.43942994382245,
+        0.007117056901333872,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1726.6441936436815,
+          -0.003569734199383964,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 33.092077136039734,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1743.8618258031997,
+        -0.002152107222144992,
+        90.14999675750732
+      ],
+      "velocity": [
+        50.438930340507575,
+        0.004152928096692693,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1743.8618258031997,
+          -0.002152107222144992,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 33.43596214056015,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1754.318825067804,
+        -0.0012911221504969387,
+        90.14999675750732
+      ],
+      "velocity": [
+        30.408418552321145,
+        0.0025037005132625876,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1754.318825067804,
+          -0.0012911221504969387,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 33.77830985188484,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1760.5632544735338,
+        -0.000776982255939316,
+        90.14999675750732
+      ],
+      "velocity": [
+        18.240020690128603,
+        0.0015018061227092695,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1760.5632544735338,
+          -0.000776982255939316,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 34.111643344163895,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1764.222132665778,
+        -0.0004757257077855286,
+        90.14999675750732
+      ],
+      "velocity": [
+        10.97662921999661,
+        0.0009037692034102093,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1764.222132665778,
+          -0.0004757257077855286,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 34.45318904519081,
+      "index": 6,
+      "mode": "walk",
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "velocity": [
+        6.720696903336906,
+        0.0005533537450298396,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1766.5175578260544,
+          -0.00028673011296203834,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 34.79524603486061,
+      "index": 6,
+      "mode": "aim",
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1766.5175578260544,
+          -0.00028673011296203834,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 35.12891313433647,
+      "index": 6,
+      "mode": "aim",
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1766.5175578260544,
+          -0.00028673011296203834,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 35.46624222397804,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1766.5175578260544,
+          -0.00028673011296203834,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 35.80909591913223,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1709.4897438889889,
+        -0.0002715426874584524,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999022,
+        5.858954394562702e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1709.4897438889889,
+          -0.0002715426874584524,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 36.15008872747421,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1634.4713252341926,
+        -0.00025156407411069395,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999002,
+        5.8589543945627965e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1634.4713252341926,
+          -0.00025156407411069395,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 36.4937704205513,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1558.8613519376727,
+        -0.0002314279202325832,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.9999999999903,
+        5.8589543945627714e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1558.8613519376727,
+          -0.0002314279202325832,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 36.827103823423386,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1485.5280024862527,
+        -0.0002118980679582006,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999454,
+        5.8589543945626576e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1485.5280024862527,
+          -0.0002118980679582006,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 37.16593623161316,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1410.9848718649419,
+        -0.0001920460314701001,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999998974,
+        5.8589543945627355e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1410.9848718649419,
+          -0.0001920460314701001,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 37.49926972389221,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1337.651502743989,
+        -0.000172516173957404,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999454,
+        5.858954394562706e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1337.651502743989,
+          -0.000172516173957404,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 37.84041503071785,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1262.599534422788,
+        -0.0001525286257930357,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999,
+        5.8589543945627606e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1262.599534422788,
+          -0.0001525286257930357,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 38.18229782581329,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1187.3853186822298,
+        -0.00013249786852727416,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.9999999999901,
+        5.858954394562766e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1187.3853186822298,
+          -0.00013249786852727416,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 38.52554792165756,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1111.87029677693,
+        -0.00011238700173420247,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999025,
+        5.8589543945627565e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1111.87029677693,
+          -0.00011238700173420247,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 38.86879700422287,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        1036.3554977930016,
+        -9.227619430868292e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -219.99999999999025,
+        5.858954394562767e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1036.3554977930016,
+          -9.227619430868292e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 39.20214229822159,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        971.7334324950493,
+        -7.506629733308403e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -193.85923767089025,
+        5.162783783993177e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          971.7334324950493,
+          -7.506629733308403e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 39.53614500164986,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        932.1363683131842,
+        -6.452096127853268e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -118.55312347411568,
+        3.157260653490193e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          932.1363683131842,
+          -6.452096127853268e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 39.87806060910225,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        907.3784506927499,
+        -5.7927528994783913e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -72.40943908691159,
+        1.9283800061186262e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          907.3784506927499,
+          -5.7927528994783913e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 40.2113941013813,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        892.8589772069155,
+        -5.406075931357606e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -43.558399200436725,
+        1.1600303382524432e-05,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          892.8589772069155,
+          -5.406075931357606e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 40.611394107341766,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        882.1620793585813,
+        -5.1212003101908375e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -26.742244720457848,
+        7.121890555700243e-06,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          882.1620793585813,
+          -5.1212003101908375e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 40.94988292455673,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        878.0453513031423,
+        -5.011565210501585e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -12.162079811096191,
+        3.2389577707382927e-06,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          878.0453513031423,
+          -5.011565210501585e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 41.29347240924835,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        875.2810532591453,
+        -4.9379475006254195e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -8.045351028441168,
+        2.1426065801769297e-06,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          875.2810532591453,
+          -4.9379475006254195e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 41.62683320045471,
+      "index": 7,
+      "mode": "walk",
+      "pawn": [
+        873.5205572109028,
+        -4.8910626549051415e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        -5.281053066254344,
+        1.406429503201965e-06,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          873.5205572109028,
+          -4.8910626549051415e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 41.96611389517784,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        873.5205572109028,
+        -4.8910626549051415e-05,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          873.5205572109028,
+          -4.8910626549051415e-05,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 42.308234483003616,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        872.5197030905165,
+        56.85767318772176,
+        90.14999675750732
+      ],
+      "velocity": [
+        -3.8720123282929744,
+        219.96592354391979,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          872.5197030905165,
+          56.85767318772176,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 42.64949479699135,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        871.5186541190332,
+        113.72646462104754,
+        90.14999675750732
+      ],
+      "velocity": [
+        -2.9333881483553665,
+        166.6434345910348,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          871.5186541190332,
+          113.72646462104754,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 42.9899385869503,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.914169677873,
+        148.0667422581023,
+        90.14999675750732
+      ],
+      "velocity": [
+        -1.7755777969056914,
+        100.86915453922137,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.914169677873,
+          148.0667422581023,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 43.33065930008888,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.5499979851506,
+        168.75504485799496,
+        90.14999675750732
+      ],
+      "velocity": [
+        -1.0688275608082392,
+        60.71923888372849,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.5499979851506,
+          168.75504485799496,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 43.663992792367935,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.3356492224027,
+        180.93202663404867,
+        90.14999675750732
+      ],
+      "velocity": [
+        -0.6430459744286496,
+        36.53092750059257,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.3356492224027,
+          180.93202663404867,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 44.004290491342545,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.2017681901833,
+        188.53770099668202,
+        90.14999675750732
+      ],
+      "velocity": [
+        -0.39342326191732585,
+        22.350060850515305,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.2017681901833,
+          188.53770099668202,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 44.34748429059982,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.1204750387789,
+        193.1558999098787,
+        90.14999675750732
+      ],
+      "velocity": [
+        -0.23687243387782242,
+        13.456533518559139,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.1204750387789,
+          193.1558999098787,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 44.680817782878876,
+      "index": 8,
+      "mode": "walk",
+      "pawn": [
+        870.0736695082784,
+        195.81488466265776,
+        90.14999675750732
+      ],
+      "velocity": [
+        -0.14041652297620022,
+        7.97695036548165,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.0736695082784,
+          195.81488466265776,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 45.02075517177582,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.0736695082784,
+        195.81488466265776,
+        90.14999675750732
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_1",
+        "label": "ART_Floor_Hall",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.0736695082784,
+          195.81488466265776,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 45.3540885746479,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.052229901313,
+        208.6739665003226,
+        92.15000295639038
+      ],
+      "velocity": [
+        -0.08586247751903413,
+        51.49873442168716,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_24",
+        "label": "ART_Door3_Frame",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.052229901313,
+          208.6739665003226,
+          1.9999999999999858
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 45.69207116961479,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.0316555023711,
+        221.01411248263878,
+        92.15000295639038
+      ],
+      "velocity": [
+        -0.060874136779133045,
+        36.51118735126094,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_24",
+        "label": "ART_Door3_Frame",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.0316555023711,
+          221.01411248263878,
+          1.9999999999999858
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 46.031304985284805,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.0190198418182,
+        228.5927492265508,
+        90.1500015258789
+      ],
+      "velocity": [
+        -0.037247644044986816,
+        22.340451660808043,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.0190198418182,
+          228.59274922655084,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 46.36599078774452,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.0115297660891,
+        233.08515885554274,
+        90.1500015258789
+      ],
+      "velocity": [
+        -0.022379424494276275,
+        13.422767102673717,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.0115297660891,
+          233.08515885554277,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 46.71368759870529,
+      "index": 9,
+      "mode": "walk",
+      "pawn": [
+        870.006803146326,
+        235.92009843473636,
+        90.1500015258789
+      ],
+      "velocity": [
+        -0.013594084165591134,
+        8.153481595030687,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.006803146326,
+          235.92009843473636,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 47.05411919951439,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        870.006803146326,
+        235.92009843473636,
+        90.1500015258789
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          870.006803146326,
+          235.92009843473636,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 47.38745328783989,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        917.4469020869554,
+        241.58713067004123,
+        90.14999719117031
+      ],
+      "velocity": [
+        70.44808517148623,
+        109.36025710069246,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          917.4469020869554,
+          241.58713067004123,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 47.72534167766571,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        982.6552470161319,
+        256.6531597739992,
+        90.14999721966011
+      ],
+      "velocity": [
+        219.97591173146614,
+        3.2554965688781574,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          982.6552470161319,
+          256.6531597739992,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 48.06785726547241,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1057.9662533236951,
+        254.21520784097163,
+        90.14999721966011
+      ],
+      "velocity": [
+        219.82856687604124,
+        -8.683385585512418,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1057.9662533236951,
+          254.21520784097163,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 48.401190757751465,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1131.2372478367804,
+        251.19133869102993,
+        90.14999721966011
+      ],
+      "velocity": [
+        219.81040247039604,
+        -9.131646390637577,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1131.2372478367804,
+          251.19133869102996,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 48.749874860048294,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1207.906100774231,
+        250.02137457636945,
+        90.14999721966011
+      ],
+      "velocity": [
+        219.95083375651132,
+        -0.00898645595888958,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1207.906100774231,
+          250.02137457636945,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 49.08882936835289,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1282.4506236091415,
+        250.02137457636945,
+        90.14999721966011
+      ],
+      "velocity": [
+        219.93501890511624,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1282.4506236091415,
+          250.02137457636945,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 49.43109855055809,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1328.7354290884475,
+        250.01096730903114,
+        90.14999721966011
+      ],
+      "velocity": [
+        135.22521742670432,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1328.7354290884475,
+          250.01096730903112,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 49.774054139852524,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1356.9869359843933,
+        250.01096730903114,
+        90.14999891818013
+      ],
+      "velocity": [
+        82.36722201695189,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1356.9869359843933,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 50.1170220375061,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1374.2613805370133,
+        250.01096730903114,
+        90.14999891818013
+      ],
+      "velocity": [
+        50.35202352535094,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1374.2613805370133,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 50.45805433392525,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1385.0791735411485,
+        250.01096730903114,
+        90.14999891818013
+      ],
+      "velocity": [
+        31.707596492942205,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1385.0791735411485,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 50.798992335796356,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1391.9478141375305,
+        250.01096730903114,
+        90.14999891818013
+      ],
+      "velocity": [
+        20.125378757024503,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1391.9478141375305,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 51.13232582807541,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1396.495488217426,
+        250.01096730903114,
+        90.14999891818013
+      ],
+      "velocity": [
+        13.658418493995066,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1396.495488217426,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 51.469597816467285,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.1018907664643,
+        250.01096730903114,
+        90.150003809032
+      ],
+      "velocity": [
+        4.997341414088772,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.1018907664643,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 51.808621913194656,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.6908702309588,
+        250.01096730903114,
+        90.14999805447349
+      ],
+      "velocity": [
+        0.8780735513298319,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.6908702309588,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 52.15126430988312,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.8159087811123,
+        250.01096730903114,
+        90.15000034654224
+      ],
+      "velocity": [
+        0.24108543127334442,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.8159087811123,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 52.48459780216217,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.8668765616467,
+        250.01096730903114,
+        90.15000305584374
+      ],
+      "velocity": [
+        0.13163268747507226,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.8668765616467,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 52.82489049434662,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.9010332772796,
+        250.01096730903114,
+        90.14999771851797
+      ],
+      "velocity": [
+        0.09298452591339854,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.9010332772796,
+          250.01096730903112,
+          -1.4210854715202004e-14
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 53.16572770476341,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.9260287425013,
+        250.01096730903114,
+        90.15000001058672
+      ],
+      "velocity": [
+        0.06871728725435972,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.9260287425013,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 53.4990639090538,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.9442330865882,
+        250.01096730903114,
+        90.15000271988822
+      ],
+      "velocity": [
+        0.05126246580551895,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.9442330865882,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 53.83881062269211,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.958195362418,
+        250.01096730903114,
+        90.14999654809696
+      ],
+      "velocity": [
+        0.038716440027894,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.958195362418,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    },
+    {
+      "game_time": 54.18202942609787,
+      "index": 10,
+      "mode": "walk",
+      "pawn": [
+        1399.968770605356,
+        250.01096730903114,
+        90.14999925739846
+      ],
+      "velocity": [
+        0.028977460277861425,
+        0.0,
+        0.0
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+      "floor": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+        "label": "ART_Floor_Room",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1399.968770605356,
+          250.01096730903112,
+          0.0
+        ]
+      },
+      "raw_retained": true
+    }
+  ],
+  "interactions": [
+    {
+      "target": "LamActor",
+      "game_time": 22.62442058324814,
+      "pawn": [
+        736.1411744493092,
+        -88.11311979786728,
+        90.14999675750732
+      ],
+      "camera": [
+        736.1411744493092,
+        -88.11311979786728,
+        154.14999675750732
+      ],
+      "ray_end": [
+        467.39467932578333,
+        -119.98117033140994,
+        24.6905486124908
+      ],
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_53",
+      "camera_hit": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_53",
+        "label": "G1_Lam",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          569.5907278060913,
+          -107.86272716522217,
+          73.91999816894531
+        ]
+      },
+      "before_acquired": false,
+      "acquired": true,
+      "message": "Thầy Lâm: «Tôi nghe cô dừng hai lần. Không chỉ một.»",
+      "raw_retained": true
+    },
+    {
+      "target": "ListenActor",
+      "game_time": 35.12891313433647,
+      "pawn": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        90.14999675750732
+      ],
+      "camera": [
+        1766.5175578260544,
+        -0.00028673011296203834,
+        154.14999675750732
+      ],
+      "ray_end": [
+        2061.7674985656313,
+        22.215885379371485,
+        105.83939553916122
+      ],
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_52",
+      "camera_hit": {
+        "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_52",
+        "label": "G1_ListeningDeck",
+        "component": "StaticMeshComponent0",
+        "blocking_hit": true,
+        "impact_point": [
+          1907.0,
+          10.570357605595518,
+          131.16340029945385
+        ]
+      },
+      "before_acquired": false,
+      "acquired": true,
+      "message": "Đang thu đoạn ngắt. Nghe hết lượt điểm danh và tiếng đáp.",
+      "raw_retained": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Actual player starts at entry without positioning fixture",
+      "pass": true
+    },
+    {
+      "name": "LamActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ListenActor resolved",
+      "pass": true
+    },
+    {
+      "name": "NotebookActor resolved",
+      "pass": true
+    },
+    {
+      "name": "LedgerActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ExitActor resolved",
+      "pass": true
+    },
+    {
+      "name": "Native camera ray actually hits LamActor",
+      "pass": true
+    },
+    {
+      "name": "Actual Interact acquires bLamWitness",
+      "pass": true
+    },
+    {
+      "name": "Native camera ray actually hits ListenActor",
+      "pass": true
+    },
+    {
+      "name": "Actual Interact acquires bWorkingAvailable",
+      "pass": true
+    },
+    {
+      "name": "Deck interaction does not fabricate whole-roll listening",
+      "pass": true
+    },
+    {
+      "name": "Native route completes without blocked leg/fall/wrong target",
+      "pass": false
+    },
+    {
+      "name": "Source/core/player/map hashes unchanged",
+      "pass": true
+    }
+  ],
+  "steering_inputs": [
+    {
+      "game_time": 5.53794538974762,
+      "index": 0,
+      "remaining_cm": 280.0,
+      "actual_game_delta_s": 0.4000000059604645,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 88.00000131130219
+    },
+    {
+      "game_time": 5.937945395708084,
+      "index": 0,
+      "remaining_cm": 210.40000014424334,
+      "actual_game_delta_s": 0.4000000059604645,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.9563636227683595,
+      "predicted_input_step_cm": 84.16000005769735
+    },
+    {
+      "game_time": 6.337945401668549,
+      "index": 0,
+      "remaining_cm": 126.24000289917001,
+      "actual_game_delta_s": 0.4000000059604645,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.5738181864456701,
+      "predicted_input_step_cm": 50.496001159668005
+    },
+    {
+      "game_time": 6.680889695882797,
+      "index": 0,
+      "remaining_cm": 82.94671284343326,
+      "actual_game_delta_s": 0.34294429421424866,
+      "slate_delta_s": 0.10168489813804626,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.3770305073065043,
+      "predicted_input_step_cm": 33.17868513737331
+    },
+    {
+      "game_time": 7.01422318816185,
+      "index": 0,
+      "remaining_cm": 55.29779391420925,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.2513536049554906,
+      "predicted_input_step_cm": 22.119117565683702
+    },
+    {
+      "game_time": 7.35855957865715,
+      "index": 0,
+      "remaining_cm": 36.25675211565817,
+      "actual_game_delta_s": 0.3443363904953003,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.1648034162517749,
+      "predicted_input_step_cm": 14.50270084626327
+    },
+    {
+      "game_time": 7.702886790037155,
+      "index": 0,
+      "remaining_cm": 23.772565665859247,
+      "actual_game_delta_s": 0.3443272113800049,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3443363904953003,
+      "throttle": 0.12552506170790148,
+      "predicted_input_step_cm": 9.5090262663437
+    },
+    {
+      "game_time": 8.046298384666443,
+      "index": 0,
+      "remaining_cm": 14.289078259380062,
+      "actual_game_delta_s": 0.3434115946292877,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3443363904953003,
+      "throttle": 0.07544988855929977,
+      "predicted_input_step_cm": 5.715631303752025
+    },
+    {
+      "game_time": 8.389599174261093,
+      "index": 0,
+      "remaining_cm": 8.590636583848777,
+      "actual_game_delta_s": 0.34330078959465027,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3443363904953003,
+      "throttle": 0.045360698649638063,
+      "predicted_input_step_cm": 3.436254633539511
+    },
+    {
+      "game_time": 8.723362565040588,
+      "index": 0,
+      "remaining_cm": 5.259893549643493,
+      "actual_game_delta_s": 0.33376339077949524,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3443272113800049,
+      "throttle": 0.027774287077704296,
+      "predicted_input_step_cm": 2.1039574198573976
+    },
+    {
+      "game_time": 9.438071370124817,
+      "index": 1,
+      "remaining_cm": 602.9813422760287,
+      "actual_game_delta_s": 0.34180811047554016,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.37290069460868835,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 82.03815281391144
+    },
+    {
+      "game_time": 9.780761569738388,
+      "index": 1,
+      "remaining_cm": 545.989497357897,
+      "actual_game_delta_s": 0.34269019961357117,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.37290069460868835,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 82.03815281391144
+    },
+    {
+      "game_time": 10.121706157922745,
+      "index": 1,
+      "remaining_cm": 470.98168713777466,
+      "actual_game_delta_s": 0.3409445881843567,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.37290069460868835,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 82.03815281391144
+    },
+    {
+      "game_time": 10.461649268865585,
+      "index": 1,
+      "remaining_cm": 396.19420191078586,
+      "actual_game_delta_s": 0.3399431109428406,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34269019961357117,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.39184391498566
+    },
+    {
+      "game_time": 10.80356165766716,
+      "index": 1,
+      "remaining_cm": 320.97347555487556,
+      "actual_game_delta_s": 0.3419123888015747,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34269019961357117,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.39184391498566
+    },
+    {
+      "game_time": 11.145093560218811,
+      "index": 1,
+      "remaining_cm": 245.83645617394848,
+      "actual_game_delta_s": 0.341531902551651,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3419123888015747,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.22072553634644
+    },
+    {
+      "game_time": 11.487741857767105,
+      "index": 1,
+      "remaining_cm": 170.45382989375992,
+      "actual_game_delta_s": 0.34264829754829407,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34264829754829407,
+      "throttle": 0.9044727686370894,
+      "predicted_input_step_cm": 68.18153195750396
+    },
+    {
+      "game_time": 11.830354452133179,
+      "index": 1,
+      "remaining_cm": 102.27940166390442,
+      "actual_game_delta_s": 0.3426125943660736,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34264829754829407,
+      "throttle": 0.5427213554260139,
+      "predicted_input_step_cm": 40.91176066556178
+    },
+    {
+      "game_time": 12.17261654138565,
+      "index": 1,
+      "remaining_cm": 61.41375637554606,
+      "actual_game_delta_s": 0.3422620892524719,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34264829754829407,
+      "throttle": 0.3258775135531722,
+      "predicted_input_step_cm": 24.565502550218426
+    },
+    {
+      "game_time": 12.506168752908707,
+      "index": 1,
+      "remaining_cm": 37.500379329476885,
+      "actual_game_delta_s": 0.33355221152305603,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34264829754829407,
+      "throttle": 0.19898685725168758,
+      "predicted_input_step_cm": 15.000151731790755
+    },
+    {
+      "game_time": 12.846914142370224,
+      "index": 1,
+      "remaining_cm": 22.58353171082132,
+      "actual_game_delta_s": 0.34074538946151733,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3426125943660736,
+      "throttle": 0.11984663559412287,
+      "predicted_input_step_cm": 9.033412684328528
+    },
+    {
+      "game_time": 13.180247634649277,
+      "index": 1,
+      "remaining_cm": 13.794773912273612,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3422620892524719,
+      "throttle": 0.07328128910801827,
+      "predicted_input_step_cm": 5.517909564909444
+    },
+    {
+      "game_time": 13.5136259496212,
+      "index": 1,
+      "remaining_cm": 8.42008753270477,
+      "actual_game_delta_s": 0.33337831497192383,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34074538946151733,
+      "throttle": 0.044928707865003095,
+      "predicted_input_step_cm": 3.368035013081908
+    },
+    {
+      "game_time": 13.853781133890152,
+      "index": 1,
+      "remaining_cm": 5.057886338763609,
+      "actual_game_delta_s": 0.3401551842689514,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34074538946151733,
+      "throttle": 0.026988353368780603,
+      "predicted_input_step_cm": 2.023154535505444
+    },
+    {
+      "game_time": 14.539005726575851,
+      "index": 2,
+      "remaining_cm": 563.0160560911426,
+      "actual_game_delta_s": 0.34133380651474,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3438907861709595,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.65597295761108
+    },
+    {
+      "game_time": 14.872339129447937,
+      "index": 2,
+      "remaining_cm": 508.08270645613754,
+      "actual_game_delta_s": 0.33333340287208557,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3438907861709595,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.65597295761108
+    },
+    {
+      "game_time": 15.209096521139145,
+      "index": 2,
+      "remaining_cm": 433.99607946450794,
+      "actual_game_delta_s": 0.3367573916912079,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3438907861709595,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.65597295761108
+    },
+    {
+      "game_time": 15.542430013418198,
+      "index": 2,
+      "remaining_cm": 360.6627103435525,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34133380651474,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.0934374332428
+    },
+    {
+      "game_time": 15.879029601812363,
+      "index": 2,
+      "remaining_cm": 286.6108000772723,
+      "actual_game_delta_s": 0.33659958839416504,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3367573916912079,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.08662617206573
+    },
+    {
+      "game_time": 16.216744989156723,
+      "index": 2,
+      "remaining_cm": 212.31341404194916,
+      "actual_game_delta_s": 0.33771538734436035,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33771538734436035,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.29738521575928
+    },
+    {
+      "game_time": 16.55008539557457,
+      "index": 2,
+      "remaining_cm": 138.97852381045902,
+      "actual_game_delta_s": 0.3333404064178467,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33771538734436035,
+      "throttle": 0.748228344278152,
+      "predicted_input_step_cm": 55.59140952418361
+    },
+    {
+      "game_time": 16.89074820280075,
+      "index": 2,
+      "remaining_cm": 82.90193512218167,
+      "actual_game_delta_s": 0.34066280722618103,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34066280722618103,
+      "throttle": 0.44246330369479575,
+      "predicted_input_step_cm": 33.16077404887267
+    },
+    {
+      "game_time": 17.224088102579117,
+      "index": 2,
+      "remaining_cm": 50.45398671090874,
+      "actual_game_delta_s": 0.3333398997783661,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34066280722618103,
+      "throttle": 0.2692824674331259,
+      "predicted_input_step_cm": 20.181594684363493
+    },
+    {
+      "game_time": 17.56493788957596,
+      "index": 2,
+      "remaining_cm": 30.261315102477738,
+      "actual_game_delta_s": 0.34084978699684143,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34084978699684143,
+      "throttle": 0.16142176117629717,
+      "predicted_input_step_cm": 12.104526040991097
+    },
+    {
+      "game_time": 17.89827138185501,
+      "index": 2,
+      "remaining_cm": 18.42371370383205,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34084978699684143,
+      "throttle": 0.09827690248785471,
+      "predicted_input_step_cm": 7.36948548153282
+    },
+    {
+      "game_time": 18.23835027217865,
+      "index": 2,
+      "remaining_cm": 11.070895080264108,
+      "actual_game_delta_s": 0.3400788903236389,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34084978699684143,
+      "throttle": 0.059055046867672746,
+      "predicted_input_step_cm": 4.428358032105644
+    },
+    {
+      "game_time": 18.571683675050735,
+      "index": 2,
+      "remaining_cm": 6.740190710949605,
+      "actual_game_delta_s": 0.33333340287208557,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34084978699684143,
+      "throttle": 0.035953938272052136,
+      "predicted_input_step_cm": 2.6960762843798425
+    },
+    {
+      "game_time": 19.24422177672386,
+      "index": 3,
+      "remaining_cm": 204.8831314103758,
+      "actual_game_delta_s": 0.3333579897880554,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3400788903236389,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.81735587120056
+    },
+    {
+      "game_time": 19.581066071987152,
+      "index": 3,
+      "remaining_cm": 149.17738544930586,
+      "actual_game_delta_s": 0.3368442952632904,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3391801118850708,
+      "throttle": 0.7996683779611881,
+      "predicted_input_step_cm": 59.670954179722344
+    },
+    {
+      "game_time": 19.914400279521942,
+      "index": 3,
+      "remaining_cm": 90.53488175508132,
+      "actual_game_delta_s": 0.33333420753479004,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3391801118850708,
+      "throttle": 0.48531405630913416,
+      "predicted_input_step_cm": 36.21395270203253
+    },
+    {
+      "game_time": 20.256263375282288,
+      "index": 3,
+      "remaining_cm": 54.03446753921016,
+      "actual_game_delta_s": 0.34186309576034546,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34186309576034546,
+      "throttle": 0.28737961965862324,
+      "predicted_input_step_cm": 21.613787015684064
+    },
+    {
+      "game_time": 20.598087280988693,
+      "index": 3,
+      "remaining_cm": 32.42315732140956,
+      "actual_game_delta_s": 0.34182390570640564,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34186309576034546,
+      "throttle": 0.17244094452114195,
+      "predicted_input_step_cm": 12.969262928563825
+    },
+    {
+      "game_time": 20.931423395872116,
+      "index": 3,
+      "remaining_cm": 19.77738235504485,
+      "actual_game_delta_s": 0.33333611488342285,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34186309576034546,
+      "throttle": 0.10518502129981448,
+      "predicted_input_step_cm": 7.91095294201794
+    },
+    {
+      "game_time": 21.26871758699417,
+      "index": 3,
+      "remaining_cm": 11.97215685722542,
+      "actual_game_delta_s": 0.33729419112205505,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34186309576034546,
+      "throttle": 0.06367331891678543,
+      "predicted_input_step_cm": 4.788862742890168
+    },
+    {
+      "game_time": 21.611032992601395,
+      "index": 3,
+      "remaining_cm": 7.176958077115923,
+      "actual_game_delta_s": 0.3423154056072235,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3423154056072235,
+      "throttle": 0.03811985809554216,
+      "predicted_input_step_cm": 2.87078323084637
+    },
+    {
+      "game_time": 22.957753986120224,
+      "index": 4,
+      "remaining_cm": 88.19757601626009,
+      "actual_game_delta_s": 0.33333340287208557,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3435947895050049,
+      "throttle": 0.4667103053323137,
+      "predicted_input_step_cm": 35.27903040650404
+    },
+    {
+      "game_time": 23.297935277223587,
+      "index": 4,
+      "remaining_cm": 61.85650005274617,
+      "actual_game_delta_s": 0.34018129110336304,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34018129110336304,
+      "throttle": 0.33060713999728225,
+      "predicted_input_step_cm": 24.742600021098472
+    },
+    {
+      "game_time": 23.64023408293724,
+      "index": 4,
+      "remaining_cm": 36.959884295890355,
+      "actual_game_delta_s": 0.34229880571365356,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34229880571365356,
+      "throttle": 0.19631908878205911,
+      "predicted_input_step_cm": 14.783953718356143
+    },
+    {
+      "game_time": 23.983568996191025,
+      "index": 4,
+      "remaining_cm": 22.13118028796823,
+      "actual_game_delta_s": 0.3433349132537842,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3433349132537842,
+      "throttle": 0.11719900325063778,
+      "predicted_input_step_cm": 8.852472115187293
+    },
+    {
+      "game_time": 24.31690290570259,
+      "index": 4,
+      "remaining_cm": 13.53657165198435,
+      "actual_game_delta_s": 0.33333390951156616,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3433349132537842,
+      "throttle": 0.07168495689793382,
+      "predicted_input_step_cm": 5.41462866079374
+    },
+    {
+      "game_time": 24.655857414007187,
+      "index": 4,
+      "remaining_cm": 8.1910248075104,
+      "actual_game_delta_s": 0.33895450830459595,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3433349132537842,
+      "throttle": 0.043376807316660194,
+      "predicted_input_step_cm": 3.2764099230041603
+    },
+    {
+      "game_time": 24.98919090628624,
+      "index": 4,
+      "remaining_cm": 5.010057513682738,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3433349132537842,
+      "throttle": 0.02653151522836794,
+      "predicted_input_step_cm": 2.0040230054730954
+    },
+    {
+      "game_time": 25.665576606988907,
+      "index": 5,
+      "remaining_cm": 860.1382399212906,
+      "actual_game_delta_s": 0.3383929133415222,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33895450830459595,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.56999182701111
+    },
+    {
+      "game_time": 25.998912900686264,
+      "index": 5,
+      "remaining_cm": 805.204254304726,
+      "actual_game_delta_s": 0.3333362936973572,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3383929133415222,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.44644093513489
+    },
+    {
+      "game_time": 26.337669909000397,
+      "index": 5,
+      "remaining_cm": 730.677711656053,
+      "actual_game_delta_s": 0.3387570083141327,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3387570083141327,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.52654182910919
+    },
+    {
+      "game_time": 26.67100340127945,
+      "index": 5,
+      "remaining_cm": 657.3443425350977,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3387570083141327,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 74.52654182910919
+    },
+    {
+      "game_time": 27.013798594474792,
+      "index": 5,
+      "remaining_cm": 581.9293992125585,
+      "actual_game_delta_s": 0.342795193195343,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.342795193195343,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.41494250297546
+    },
+    {
+      "game_time": 27.3563295006752,
+      "index": 5,
+      "remaining_cm": 506.57259902890445,
+      "actual_game_delta_s": 0.34253090620040894,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.342795193195343,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.41494250297546
+    },
+    {
+      "game_time": 27.689662992954254,
+      "index": 5,
+      "remaining_cm": 433.2392299079485,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.342795193195343,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.41494250297546
+    },
+    {
+      "game_time": 28.030923306941986,
+      "index": 5,
+      "remaining_cm": 358.16196001108295,
+      "actual_game_delta_s": 0.34126031398773193,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.342795193195343,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.41494250297546
+    },
+    {
+      "game_time": 28.36425930261612,
+      "index": 5,
+      "remaining_cm": 284.82804014320936,
+      "actual_game_delta_s": 0.3333359956741333,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34253090620040894,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.35679936408997
+    },
+    {
+      "game_time": 28.700808197259903,
+      "index": 5,
+      "remaining_cm": 210.78728250201237,
+      "actual_game_delta_s": 0.33654889464378357,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34126031398773193,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.07726907730103
+    },
+    {
+      "game_time": 29.03695499897003,
+      "index": 5,
+      "remaining_cm": 136.8349853062196,
+      "actual_game_delta_s": 0.3361468017101288,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34126031398773193,
+      "throttle": 0.7290354962982557,
+      "predicted_input_step_cm": 54.733994122487836
+    },
+    {
+      "game_time": 29.370290100574493,
+      "index": 5,
+      "remaining_cm": 83.37210039160122,
+      "actual_game_delta_s": 0.33333510160446167,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33654889464378357,
+      "throttle": 0.4504119297021692,
+      "predicted_input_step_cm": 33.34884015664049
+    },
+    {
+      "game_time": 29.71243929862976,
+      "index": 5,
+      "remaining_cm": 49.46832318807156,
+      "actual_game_delta_s": 0.34214919805526733,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34214919805526733,
+      "throttle": 0.26287481106989286,
+      "predicted_input_step_cm": 19.787329275228625
+    },
+    {
+      "game_time": 30.055326104164124,
+      "index": 5,
+      "remaining_cm": 29.63833602270432,
+      "actual_game_delta_s": 0.3428868055343628,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3428868055343628,
+      "throttle": 0.15715939723508487,
+      "predicted_input_step_cm": 11.85533440908173
+    },
+    {
+      "game_time": 30.389256209135056,
+      "index": 5,
+      "remaining_cm": 18.092679330603165,
+      "actual_game_delta_s": 0.333930104970932,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3428868055343628,
+      "throttle": 0.09593772659123209,
+      "predicted_input_step_cm": 7.237071732241266
+    },
+    {
+      "game_time": 30.726324021816254,
+      "index": 5,
+      "remaining_cm": 10.978424757858884,
+      "actual_game_delta_s": 0.3370678126811981,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3428868055343628,
+      "throttle": 0.05821388272992546,
+      "predicted_input_step_cm": 4.391369903143554
+    },
+    {
+      "game_time": 31.059662014245987,
+      "index": 5,
+      "remaining_cm": 6.709346867629712,
+      "actual_game_delta_s": 0.3333379924297333,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3428868055343628,
+      "throttle": 0.035576791785815624,
+      "predicted_input_step_cm": 2.683738747051885
+    },
+    {
+      "game_time": 31.73115912079811,
+      "index": 6,
+      "remaining_cm": 174.06257197844832,
+      "actual_game_delta_s": 0.33333611488342285,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33816099166870117,
+      "throttle": 0.9358779143492519,
+      "predicted_input_step_cm": 69.62502879137935
+    },
+    {
+      "game_time": 32.06916531920433,
+      "index": 6,
+      "remaining_cm": 121.6895663933415,
+      "actual_game_delta_s": 0.3380061984062195,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33816099166870117,
+      "throttle": 0.654285273966687,
+      "predicted_input_step_cm": 48.67582655733659
+    },
+    {
+      "game_time": 32.40689301490784,
+      "index": 6,
+      "remaining_cm": 73.0761129161996,
+      "actual_game_delta_s": 0.33772769570350647,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33816099166870117,
+      "throttle": 0.3929065241735662,
+      "predicted_input_step_cm": 29.230445166479843
+    },
+    {
+      "game_time": 32.750721126794815,
+      "index": 6,
+      "remaining_cm": 43.35580650327688,
+      "actual_game_delta_s": 0.34382811188697815,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34382811188697815,
+      "throttle": 0.22926787069342175,
+      "predicted_input_step_cm": 17.34232260131075
+    },
+    {
+      "game_time": 33.092077136039734,
+      "index": 6,
+      "remaining_cm": 26.138174285397987,
+      "actual_game_delta_s": 0.3413560092449188,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34382811188697815,
+      "throttle": 0.13822009196793092,
+      "predicted_input_step_cm": 10.455269714159195
+    },
+    {
+      "game_time": 33.43596214056015,
+      "index": 6,
+      "remaining_cm": 15.681174985348763,
+      "actual_game_delta_s": 0.34388500452041626,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34388500452041626,
+      "throttle": 0.08290919019819012,
+      "predicted_input_step_cm": 6.272469994139506
+    },
+    {
+      "game_time": 33.77830985188484,
+      "index": 6,
+      "remaining_cm": 9.43674555845295,
+      "actual_game_delta_s": 0.3423477113246918,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34388500452041626,
+      "throttle": 0.04989376963707802,
+      "predicted_input_step_cm": 3.77469822338118
+    },
+    {
+      "game_time": 34.111643344163895,
+      "index": 6,
+      "remaining_cm": 5.777867353806681,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34388500452041626,
+      "throttle": 0.03054862303521558,
+      "predicted_input_step_cm": 2.3111469415226726
+    },
+    {
+      "game_time": 35.46624222397804,
+      "index": 7,
+      "remaining_cm": 896.5175578261002,
+      "actual_game_delta_s": 0.33732908964157104,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3420569896697998,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.25253772735596
+    },
+    {
+      "game_time": 35.80909591913223,
+      "index": 7,
+      "remaining_cm": 839.4897438890328,
+      "actual_game_delta_s": 0.34285369515419006,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34285369515419006,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.42781293392181
+    },
+    {
+      "game_time": 36.15008872747421,
+      "index": 7,
+      "remaining_cm": 764.471325234234,
+      "actual_game_delta_s": 0.34099280834198,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34285369515419006,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.42781293392181
+    },
+    {
+      "game_time": 36.4937704205513,
+      "index": 7,
+      "remaining_cm": 688.8613519377116,
+      "actual_game_delta_s": 0.3436816930770874,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3436816930770874,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.60997247695923
+    },
+    {
+      "game_time": 36.827103823423386,
+      "index": 7,
+      "remaining_cm": 615.5280024862892,
+      "actual_game_delta_s": 0.33333340287208557,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3436816930770874,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.60997247695923
+    },
+    {
+      "game_time": 37.16593623161316,
+      "index": 7,
+      "remaining_cm": 540.984871864976,
+      "actual_game_delta_s": 0.33883240818977356,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3436816930770874,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.60997247695923
+    },
+    {
+      "game_time": 37.49926972389221,
+      "index": 7,
+      "remaining_cm": 467.65150274402095,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3436816930770874,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.60997247695923
+    },
+    {
+      "game_time": 37.84041503071785,
+      "index": 7,
+      "remaining_cm": 392.5995344228177,
+      "actual_game_delta_s": 0.3411453068256378,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3411453068256378,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.05196750164032
+    },
+    {
+      "game_time": 38.18229782581329,
+      "index": 7,
+      "remaining_cm": 317.3853186822575,
+      "actual_game_delta_s": 0.3418827950954437,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3418827950954437,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.21421492099762
+    },
+    {
+      "game_time": 38.52554792165756,
+      "index": 7,
+      "remaining_cm": 241.8702967769561,
+      "actual_game_delta_s": 0.3432500958442688,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3432500958442688,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.51502108573914
+    },
+    {
+      "game_time": 38.86879700422287,
+      "index": 7,
+      "remaining_cm": 166.3554977930272,
+      "actual_game_delta_s": 0.3432490825653076,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3432500958442688,
+      "throttle": 0.8811783160552841,
+      "predicted_input_step_cm": 66.54219911721088
+    },
+    {
+      "game_time": 39.20214229822159,
+      "index": 7,
+      "remaining_cm": 101.73343249507703,
+      "actual_game_delta_s": 0.33334529399871826,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3432500958442688,
+      "throttle": 0.538877860496495,
+      "predicted_input_step_cm": 40.69337299803081
+    },
+    {
+      "game_time": 39.53614500164986,
+      "index": 7,
+      "remaining_cm": 62.136368313217716,
+      "actual_game_delta_s": 0.33400270342826843,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3432500958442688,
+      "throttle": 0.3291338195756767,
+      "predicted_input_step_cm": 24.854547325287086
+    },
+    {
+      "game_time": 39.87806060910225,
+      "index": 7,
+      "remaining_cm": 37.378450692794765,
+      "actual_game_delta_s": 0.3419156074523926,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3432490825653076,
+      "throttle": 0.19799271984511305,
+      "predicted_input_step_cm": 14.951380277117908
+    },
+    {
+      "game_time": 40.2113941013813,
+      "index": 7,
+      "remaining_cm": 22.85897720697941,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3419156074523926,
+      "throttle": 0.1215556582796517,
+      "predicted_input_step_cm": 9.143590882791765
+    },
+    {
+      "game_time": 40.611394107341766,
+      "index": 7,
+      "remaining_cm": 12.16207935868913,
+      "actual_game_delta_s": 0.4000000059604645,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.05528217807936377,
+      "predicted_input_step_cm": 4.864831743475652
+    },
+    {
+      "game_time": 40.94988292455673,
+      "index": 7,
+      "remaining_cm": 8.045351303298386,
+      "actual_game_delta_s": 0.3384888172149658,
+      "slate_delta_s": 0.042941298335790634,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.036569778106424145,
+      "predicted_input_step_cm": 3.2181405213193544
+    },
+    {
+      "game_time": 41.29347240924835,
+      "index": 7,
+      "remaining_cm": 5.28105325937618,
+      "actual_game_delta_s": 0.3435894846916199,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.4000000059604645,
+      "throttle": 0.024004787184919798,
+      "predicted_input_step_cm": 2.112421303750472
+    },
+    {
+      "game_time": 41.96611389517784,
+      "index": 8,
+      "remaining_cm": 200.03103231080985,
+      "actual_game_delta_s": 0.3392806947231293,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3435894846916199,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.58968663215637
+    },
+    {
+      "game_time": 42.308234483003616,
+      "index": 8,
+      "remaining_cm": 143.16450198599313,
+      "actual_game_delta_s": 0.34212058782577515,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3435894846916199,
+      "throttle": 0.757587487735873,
+      "predicted_input_step_cm": 57.26580079439725
+    },
+    {
+      "game_time": 42.64949479699135,
+      "index": 8,
+      "remaining_cm": 86.28690061137101,
+      "actual_game_delta_s": 0.34126031398773193,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34212058782577515,
+      "throttle": 0.4585671819281165,
+      "predicted_input_step_cm": 34.514760244548405
+    },
+    {
+      "game_time": 42.9899385869503,
+      "index": 8,
+      "remaining_cm": 51.94130308229011,
+      "actual_game_delta_s": 0.34044378995895386,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34212058782577515,
+      "throttle": 0.27603931548540434,
+      "predicted_input_step_cm": 20.776521232916046
+    },
+    {
+      "game_time": 43.33065930008888,
+      "index": 8,
+      "remaining_cm": 31.24979551308419,
+      "actual_game_delta_s": 0.3407207131385803,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34212058782577515,
+      "throttle": 0.16607538992281837,
+      "predicted_input_step_cm": 12.499918205233676
+    },
+    {
+      "game_time": 43.663992792367935,
+      "index": 8,
+      "remaining_cm": 19.07092731581579,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34126031398773193,
+      "throttle": 0.10160693136656311,
+      "predicted_input_step_cm": 7.6283709263263155
+    },
+    {
+      "game_time": 44.004290491342545,
+      "index": 8,
+      "remaining_cm": 11.464074705096536,
+      "actual_game_delta_s": 0.3402976989746094,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3407207131385803,
+      "throttle": 0.061175535819587484,
+      "predicted_input_step_cm": 4.5856298820386145
+    },
+    {
+      "game_time": 44.34748429059982,
+      "index": 8,
+      "remaining_cm": 6.8451603544816235,
+      "actual_game_delta_s": 0.34319379925727844,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34319379925727844,
+      "throttle": 0.03626448416606568,
+      "predicted_input_step_cm": 2.7380641417926497
+    },
+    {
+      "game_time": 45.02075517177582,
+      "index": 9,
+      "remaining_cm": 44.185176751606264,
+      "actual_game_delta_s": 0.33993738889694214,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34319379925727844,
+      "throttle": 0.23408547933202994,
+      "predicted_input_step_cm": 17.674070700642506
+    },
+    {
+      "game_time": 45.3540885746479,
+      "index": 9,
+      "remaining_cm": 31.326077041109095,
+      "actual_game_delta_s": 0.33333340287208557,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34319379925727844,
+      "throttle": 0.1659601771196614,
+      "predicted_input_step_cm": 12.530430816443639
+    },
+    {
+      "game_time": 45.69207116961479,
+      "index": 9,
+      "remaining_cm": 18.9859139072293,
+      "actual_game_delta_s": 0.3379825949668884,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33993738889694214,
+      "throttle": 0.10154765140634449,
+      "predicted_input_step_cm": 7.594365562891721
+    },
+    {
+      "game_time": 46.031304985284805,
+      "index": 9,
+      "remaining_cm": 11.407266629773321,
+      "actual_game_delta_s": 0.3392338156700134,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.33993738889694214,
+      "throttle": 0.06101266132774196,
+      "predicted_input_step_cm": 4.562906651909329
+    },
+    {
+      "game_time": 46.36599078774452,
+      "index": 9,
+      "remaining_cm": 6.914850756783186,
+      "actual_game_delta_s": 0.3346858024597168,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3392338156700134,
+      "throttle": 0.03706132861959056,
+      "predicted_input_step_cm": 2.7659403027132745
+    },
+    {
+      "game_time": 47.05411919951439,
+      "index": 10,
+      "remaining_cm": 530.0089002157978,
+      "actual_game_delta_s": 0.3404316008090973,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34769681096076965,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 76.49329841136932
+    },
+    {
+      "game_time": 47.38745328783989,
+      "index": 10,
+      "remaining_cm": 482.5557079646247,
+      "actual_game_delta_s": 0.3333340883255005,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34769681096076965,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 76.49329841136932
+    },
+    {
+      "game_time": 47.72534167766571,
+      "index": 10,
+      "remaining_cm": 417.6768734005083,
+      "actual_game_delta_s": 0.3378883898258209,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34769681096076965,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 76.49329841136932
+    },
+    {
+      "game_time": 48.06785726547241,
+      "index": 10,
+      "remaining_cm": 342.3290171741109,
+      "actual_game_delta_s": 0.34251558780670166,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34251558780670166,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.35342931747437
+    },
+    {
+      "game_time": 48.401190757751465,
+      "index": 10,
+      "remaining_cm": 268.9956561211455,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.34251558780670166,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 75.35342931747437
+    },
+    {
+      "game_time": 48.749874860048294,
+      "index": 10,
+      "remaining_cm": 192.35512488145415,
+      "actual_game_delta_s": 0.3486841022968292,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3486841022968292,
+      "throttle": 1.0,
+      "predicted_input_step_cm": 76.71050250530243
+    },
+    {
+      "game_time": 49.08882936835289,
+      "index": 10,
+      "remaining_cm": 117.97577648941167,
+      "actual_game_delta_s": 0.33895450830459595,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3486841022968292,
+      "throttle": 0.61517405119987,
+      "predicted_input_step_cm": 47.19031059576467
+    },
+    {
+      "game_time": 49.43109855055809,
+      "index": 10,
+      "remaining_cm": 71.96428651539722,
+      "actual_game_delta_s": 0.3422691822052002,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3486841022968292,
+      "throttle": 0.3752512845834786,
+      "predicted_input_step_cm": 28.785714606158887
+    },
+    {
+      "game_time": 49.774054139852524,
+      "index": 10,
+      "remaining_cm": 44.16268948414679,
+      "actual_game_delta_s": 0.3429555892944336,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3486841022968292,
+      "throttle": 0.23028236312801706,
+      "predicted_input_step_cm": 17.665075793658715
+    },
+    {
+      "game_time": 50.1170220375061,
+      "index": 10,
+      "remaining_cm": 27.616951285812235,
+      "actual_game_delta_s": 0.3429678976535797,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3429678976535797,
+      "throttle": 0.14640623523369783,
+      "predicted_input_step_cm": 11.046780514324894
+    },
+    {
+      "game_time": 50.45805433392525,
+      "index": 10,
+      "remaining_cm": 17.968041870990078,
+      "actual_game_delta_s": 0.3410322964191437,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3429678976535797,
+      "throttle": 0.09525430007201957,
+      "predicted_input_step_cm": 7.187216748396031
+    },
+    {
+      "game_time": 50.798992335796356,
+      "index": 10,
+      "remaining_cm": 12.847457477113679,
+      "actual_game_delta_s": 0.340938001871109,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3429678976535797,
+      "throttle": 0.06810845491535274,
+      "predicted_input_step_cm": 5.138982990845472
+    },
+    {
+      "game_time": 51.13232582807541,
+      "index": 10,
+      "remaining_cm": 10.606652124807788,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3429678976535797,
+      "throttle": 0.05622923363102635,
+      "predicted_input_step_cm": 4.242660849923115
+    },
+    {
+      "game_time": 51.469597816467285,
+      "index": 10,
+      "remaining_cm": 10.051172402155501,
+      "actual_game_delta_s": 0.3372719883918762,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3410322964191437,
+      "throttle": 0.053586886359142355,
+      "predicted_input_step_cm": 4.020468960862201
+    },
+    {
+      "game_time": 51.808621913194656,
+      "index": 10,
+      "remaining_cm": 10.015738998026942,
+      "actual_game_delta_s": 0.3390240967273712,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.340938001871109,
+      "throttle": 0.05341274496221043,
+      "predicted_input_step_cm": 4.006295599210777
+    },
+    {
+      "game_time": 52.15126430988312,
+      "index": 10,
+      "remaining_cm": 10.012659788455904,
+      "actual_game_delta_s": 0.3426423966884613,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3426423966884613,
+      "throttle": 0.05313071632394344,
+      "predicted_input_step_cm": 4.005063915382362
+    },
+    {
+      "game_time": 52.48459780216217,
+      "index": 10,
+      "remaining_cm": 10.011852391657065,
+      "actual_game_delta_s": 0.33333349227905273,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3426423966884613,
+      "throttle": 0.05312643199079058,
+      "predicted_input_step_cm": 4.004740956662826
+    },
+    {
+      "game_time": 52.82489049434662,
+      "index": 10,
+      "remaining_cm": 10.011456481186755,
+      "actual_game_delta_s": 0.34029269218444824,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3426423966884613,
+      "throttle": 0.05312433114972216,
+      "predicted_input_step_cm": 4.004582592474702
+    },
+    {
+      "game_time": 53.16572770476341,
+      "index": 10,
+      "remaining_cm": 10.011240592924846,
+      "actual_game_delta_s": 0.3408372104167938,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3426423966884613,
+      "throttle": 0.05312318557020149,
+      "predicted_input_step_cm": 4.004496237169938
+    },
+    {
+      "game_time": 53.4990639090538,
+      "index": 10,
+      "remaining_cm": 10.011122634905727,
+      "actual_game_delta_s": 0.33333620429039,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3408372104167938,
+      "throttle": 0.053403914238458965,
+      "predicted_input_step_cm": 4.004449053962291
+    },
+    {
+      "game_time": 53.83881062269211,
+      "index": 10,
+      "remaining_cm": 10.011054594307916,
+      "actual_game_delta_s": 0.33974671363830566,
+      "slate_delta_s": 0.125,
+      "conservative_delta_s": 0.3408372104167938,
+      "throttle": 0.05340355127874079,
+      "predicted_input_step_cm": 4.004421837723167
+    }
+  ],
+  "fixture": "Only control rotation and Move inputs are debug driven; no location/collision/time/source state writes",
+  "capsule": {
+    "radius": 30.0,
+    "half_height": 88.0
+  },
+  "speed_cm_s": 220.0,
+  "minimum_analog_speed_cm_s": 0.0,
+  "steering_rule": "Throttle = min(1, 0.4 * distance/(maxWalkSpeed * conservative actual game/callback delta)); five-centimetre arrival, native braking only at arrival",
+  "world_kill_z": -400.0,
+  "world_bounds_checks": true,
+  "spawn": {
+    "position": [
+      -880.0,
+      0.0,
+      90.14999961853027
+    ],
+    "waypoint": [
+      -600.0,
+      0.0
+    ],
+    "distance_xy_cm": 280.0,
+    "floor": {
+      "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_0",
+      "label": "ART_Floor_Corr",
+      "component": "StaticMeshComponent0",
+      "blocking_hit": true,
+      "impact_point": [
+        -880.0,
+        0.0,
+        0.0
+      ]
+    },
+    "forward_capsule_visibility_blocker": null,
+    "qualification": "Visibility diagnostics identify geometry; actual Pawn collision is the native movement result",
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+  },
+  "target_positions": {
+    "LamActor": [
+      560.0,
+      -120.0,
+      0.0
+    ],
+    "ListenActor": [
+      1930.0,
+      0.0,
+      122.0
+    ],
+    "NotebookActor": [
+      1050.0,
+      790.0,
+      91.0
+    ],
+    "LedgerActor": [
+      570.0,
+      570.0,
+      126.0
+    ],
+    "ExitActor": [
+      -975.0,
+      -70.0,
+      0.0
+    ]
+  },
+  "actions": [
+    {
+      "game_time": 34.45318904519081,
+      "action": "ToggleEcho native gameplay API"
+    },
+    {
+      "game_time": 35.12891313433647,
+      "action": "ToggleEcho native gameplay API; traversal continues in present channel"
+    }
+  ],
+  "blocked_leg": {
+    "index": 10,
+    "name": "classroom east aisle entry",
+    "game_time": 54.18202942609787,
+    "seconds_without_progress": 2.7124316096305847,
+    "position": [
+      1399.968770605356,
+      250.01096730903114,
+      90.14999925739846
+    ],
+    "waypoint": [
+      1400.0,
+      240.0
+    ],
+    "distance_xy_cm": 10.011016019245005,
+    "floor": {
+      "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_2",
+      "label": "ART_Floor_Room",
+      "component": "StaticMeshComponent0",
+      "blocking_hit": true,
+      "impact_point": [
+        1399.968770605356,
+        250.01096730903112,
+        0.0
+      ]
+    },
+    "forward_capsule_visibility_blocker": {
+      "actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_9",
+      "label": "ART_Wall_HallN_B",
+      "component": "StaticMeshComponent0",
+      "blocking_hit": true,
+      "impact_point": [
+        1399.9688034057617,
+        220.0,
+        134.5751495361328
+      ]
+    },
+    "qualification": "Visibility diagnostics identify geometry; actual Pawn collision is the native movement result",
+    "velocity": [
+      0.028977460277861425,
+      0.0,
+      0.0
+    ],
+    "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+    "classification": "Forward collision candidate; native route progress stalled"
+  },
+  "error": "Traceback (most recent call last):\n  File \"..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\tools\\g1_navigation_trial.py\", line 311, in tick\n    raise AssertionError('Native route progress failed; see qualified blocker diagnostics')\nAssertionError: Native route progress failed; see qualified blocker diagnostics\n",
+  "failed_checks": 1,
+  "finished_game_time": 54.18202942609787,
+  "control_rotation_fixture_updates": 133
+}

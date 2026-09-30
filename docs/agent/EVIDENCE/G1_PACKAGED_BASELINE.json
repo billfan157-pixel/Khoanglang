@@ -1,0 +1,188 @@
+{
+  "schema": "kl.g1-packaged-stationary-baseline.v1",
+  "qualified": false,
+  "release_complete": false,
+  "scope": "Prior exact Development candidate, stationary school opening, native offscreen1280x720 low, no autoplay/input evidence",
+  "binding": {
+    "source_revision": "a9e7f63a889467cd33e47a039f8e62dd0f4b3cca",
+    "source_sha256": "ebb19702a06853f08c64c1653b868f44d3d2a4b896007f081e0c74f62a717333",
+    "artifact_sha256": "8943b0d4065fe8600b151c7e1a867a542d4523c297d7c6d32d56b286ae32effb",
+    "nonce": "ea2b7a8122a64248a958619a43dd8b7b"
+  },
+  "actual_process_pid": 11236,
+  "actual_process_exit_code": 777003,
+  "native_exit_failure": {
+    "code": 777003,
+    "enum": "ECrashExitCodes::CrashReporterCrashed",
+    "source": "WindowsPlatformCrashContext.cpp exception handler in crash-reporting thread",
+    "interpretation": "Abnormal process failure after capture; not a CSV success code"
+  },
+  "runtime_proof": {
+    "canonical_map_entered_game": true,
+    "native_csv_completion_requested_exit": true,
+    "native_exit_request_line": "[2026.09.30-15.22.46:502][401]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, CsvProfiler.ExitAfterCsvProfiling)",
+    "native_capture_frames_line": "[2026.09.30-15.22.46:493][400]LogCsvProfiler: Display:   Frames : 2400",
+    "log_counter_display": "GFrameCounter modulo 1000; not total capture frame count"
+  },
+  "analysis_result": "_release_work/g1_smoke_20260930_222144_c831727d/result.json",
+  "analysis_result_sha256": "eb807cf33c4a5d146e33f73a4bc939b1968e53503d41ffbda8e9ab58e72d9f3d",
+  "runtime_log": "_release_work/g1_smoke_20260930_222144_c831727d/runtime.log",
+  "runtime_log_sha256": "b0820b057037a591c474e9dda4646fbad28f0bdfcd676b3a59be6040e66042e9",
+  "hardware": {
+    "config": "Development",
+    "engineversion": "5.8.3-58210709+++UE5+Release-5.8",
+    "cpu": "GenuineIntel|Intel(R) Core(TM) Ultra 7 155H",
+    "rhiname": "D3D12",
+    "rhifeaturelevel": "SM5",
+    "gpu": "Intel(R) Arc(TM) Graphics"
+  },
+  "performance": {
+    "source_csv_sha256": "05d68432aa5ae903bf9edfee333283990b414308be5bd8c24e6f445e16523372",
+    "native_frame_column": "FrameTime",
+    "native_memory_column": "PhysicalUsedMB",
+    "valid_csv_rows": 2400,
+    "warmup_rows_discarded": 600,
+    "measured_frames": 1800,
+    "measured_seconds": 28.242376800000002,
+    "median_ms": 12.59575,
+    "p95_ms": 44.7787,
+    "max_ms": 153.4593,
+    "mean_fps": 63.734012641598916,
+    "frame_sampled_peak_physical_bytes": 1677426740,
+    "peak_memory_scope": "native PhysicalUsedMB samples; not OS lifetime high-water mark",
+    "frame_times_sha256": "77a63a489443548e918066306abf5e2321e1b15de97b3adf7dcd7da4e68564ab",
+    "provisional_33_3_ms_budget_pass": false
+  },
+  "native_csv": "_release_work/g1_smoke_20260930_222144_c831727d/UserData/Saved/Profiling/CSV/Profile(20260930_222154).csv",
+  "frame_times": "_release_work/g1_smoke_20260930_222144_c831727d/UserData/Saved/Profiling/CSV/measured_frame_times_ms.txt",
+  "screenshots": {
+    "1280x720": {
+      "file": "_release_work/g1_smoke_20260930_222144_c831727d/UserData/Saved/Screenshots/Windows/g1_opening_1280x72000000.png",
+      "sha256": "da5890ec1aa98faaee63c094b56fdc1909feca12e084e454f0a6398bacab43d5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "visually_reviewed": true,
+      "visual_review_scope": "Original unmodified PNG inspected by main and packaging agents",
+      "school_geometry_visible": false,
+      "visual_quality_accepted": false,
+      "visual_notes": [
+        "Actual frame-300 PNG contains a blue gradient, Vietnamese HUD, crosshair and CSV overlay; no school geometry is visible.",
+        "PNG dimensions are correct but this does not verify a rendered 720p school scene."
+      ]
+    },
+    "1920x1080": {
+      "file": "_release_work/g1_smoke_20260930_222144_c831727d/UserData/Saved/Screenshots/Windows/g1_opening_1920x108000000.png",
+      "sha256": "89820d86f08044ee9611ef323b01ef719d296417d7d8bebee7cda848a6783e75",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visually_reviewed": true,
+      "visual_review_scope": "Original unmodified PNG inspected by main and packaging agents",
+      "school_geometry_visible": true,
+      "visual_quality_accepted": false,
+      "visual_notes": [
+        "Actual frame-390 PNG after the frame-360 native resize shows school corridor and open wooden doors.",
+        "Severe bright clipping and LIGHTING NEEDS TO BE REBUILT (199 unbuilt objects) remain visible; visual quality fails."
+      ]
+    }
+  },
+  "actual_runtime_errors": [
+    "[2026.09.30-15.22.01:114][  0]LogMaterial: Error: Loading a material resource None with an invalid ShaderMap!",
+    "[2026.09.30-15.22.01:116][  0]LogMaterial: Error: Tried to access an uncooked shader map ID in a cooked application",
+    "[2026.09.30-15.22.02:957][  1]LogMaterial: Error: Tried to access an uncooked shader map ID in a cooked application"
+  ],
+  "artifact_unchanged": true,
+  "limitations": [
+    "CSV/picture capture completed; overall runtime failed",
+    "P9544.7787ms exceeds provisional33.3ms frame budget",
+    "No current revised lighting candidate measurement",
+    "No exploration/core-loop/input/save/ending/Vietnamese glyph quality qualification",
+    "Original screenshots inspected; 720p scene geometry absent, 1080p clipping/lighting warnings unacceptable; no audio-quality acceptance"
+  ],
+  "two_resolution_school_scene_verified": false,
+  "status": "STATIC_CAPTURE_WITH_RUNTIME_AND_VISUAL_FAILURE",
+  "screenshot_path_investigation": {
+    "native_source_proof": {
+      "screenshot": {
+        "path_relative_to_engine": "Engine/Source/Runtime/Engine/Private/GameViewportClient.cpp",
+        "sha256": "ca334450efebbaacb459b1eafe9342a02a83b94c532619dd187d426101cc0996",
+        "lines": {
+          "HandleScreenshotCommand": 3587,
+          "TEXT(\"SHOWUI\")": 4288,
+          "TEXT(\"nosuffix\")": 4296,
+          "FSlateApplication::Get().TakeScreenshot": 2413
+        }
+      },
+      "slate_capture": {
+        "path_relative_to_engine": "Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp",
+        "sha256": "4d099795cfdc1c6747940d31178cd21380087a669e079c67a3060b69a525f76a",
+        "lines": {
+          "TakeScreenshotCommon": 4408,
+          "Renderer->PrepareToTakeScreenshot": 4443,
+          "PrivateDrawWindows(WidgetWindow)": 4444
+        }
+      },
+      "slate_readback": {
+        "path_relative_to_engine": "Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderer.cpp",
+        "sha256": "5ff5b9ce544cc8ad58d65e643762444e351fe1dcfe2ef72c7e272a47fc98aa03",
+        "lines": {
+          "PrepareToTakeScreenshot": 1409,
+          "ScreenshotState.ViewportToCapture": 1045,
+          "RHICmdList.ReadSurfaceData": 1200
+        }
+      },
+      "resolution_sink": {
+        "path_relative_to_engine": "Engine/Source/Runtime/Engine/Private/UnrealEngine.cpp",
+        "sha256": "a856525bd245039126444ff9978c1bf68ffadd76aeaf340b01da30d608af84bf",
+        "lines": {
+          "TEXT(\"r.SetRes\")": 504,
+          "SystemResolutionSinkCallback": 1142,
+          "Viewport->ResizeFrame(ResX, ResY, WindowMode)": 1184
+        }
+      },
+      "scene_resize": {
+        "path_relative_to_engine": "Engine/Source/Runtime/Engine/Private/Slate/SceneViewport.cpp",
+        "sha256": "a4ed0de6c9fa3d43e7801f57997c9fd60543f1231e61d593bb690c4c4b8e2efd",
+        "lines": {
+          "void FSceneViewport::ResizeViewport": 1946,
+          "UpdateViewportRHI(false, NewSizeX, NewSizeY": 1981,
+          "Invalidate, then redraw immediately": 1988
+        }
+      },
+      "offscreen_d3d12": {
+        "path_relative_to_engine": "Engine/Source/Runtime/D3D12RHI/Private/Windows/WindowsD3D12Viewport.cpp",
+        "sha256": "bbd0df190f24c327806f08c9361f312ed2d439dccd7d751ba48e59db4e9c34e9",
+        "lines": {
+          "bNeedSwapChain(!FParse::Param(FCommandLine::Get(), TEXT(\"RenderOffScreen\")))": 34,
+          "Resize(SizeX, SizeY, bIsFullscreen, PixelFormat)": 192
+        }
+      }
+    },
+    "verified_source_behavior": [
+      "SHOWUI routes through Slate TakeScreenshot and redraws the window before RHI surface readback.",
+      "D3D12 RenderOffScreen disables the native swapchain; native backbuffers still exist.",
+      "r.SetRes sink resizes the game viewport; scene ResizeViewport rebuilds RHI resources and invalidates/redraws."
+    ],
+    "actual_prior_resize_evidence": "runtime.log frames360/390: native r.SetRes1920x1080w executed, subsequent actual PNG contains school geometry.",
+    "cause_status": "Initial blank Slate capture cause unproven; no crash stack or specific engine defect established.",
+    "next_schedule": "resize-before-slate-capture-v2-unverified",
+    "next_schedule_commands": [
+      "240:r.SetRes 1280x720w",
+      "280:Shot filename=g1_scene_1280x720.png -nosuffix",
+      "300:Shot SHOWUI filename=g1_opening_1280x720.png -nosuffix",
+      "360:r.SetRes 1920x1080w",
+      "390:Shot SHOWUI filename=g1_opening_1920x1080.png -nosuffix",
+      "450:r.SetRes 1280x720w"
+    ],
+    "next_schedule_initial_resolution": [
+      960,
+      540
+    ],
+    "next_schedule_actual_verification": false,
+    "hypothesis": "Force a real size change at frame240 before first720p capture; compare raw viewport Shot at280 with Slate SHOWUI at300 to distinguish paths.",
+    "new_game_process_launched": false
+  }
+}

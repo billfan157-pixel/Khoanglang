@@ -88,3 +88,32 @@ then Giữ anchor. With all exhausted, defer touch and approach outside touch ra
 until a draft is reacquired; never increment a loss counter without a loss.
 This is a reversible composition default, not a new canon fact. Correct sealing
 consumes only the working draft; completed listening/raw material persists.
+
+## 2026-09-30: Dynamic lighting and isolated cooked material defaults
+
+GI is disabled for the integrated GPU budget. Use Movable practicals and three
+restrained bounce proxies, with neutral -1.5 EV after inspected -1/-3 trials.
+Do not hide unbuilt-light warnings. Actor material overrides still let source
+mesh defaults cook the invalid MaterialsArt master; bind defaults in G1 copies.
+Native runtime/cook must prove the result. Original assets remain immutable.
+
+## 2026-09-30: Fresh mesh builds and private callback scopes
+
+Native BuildFromStaticMeshDescriptions on an existing rendered copy crashed at
+RenderResource.cpp254. Build fresh owned meshes only; validate/reuse existing
+ones or version invalid copies. Strict zero/NaN tangent checks remain mandatory.
+Execute asynchronous Slate trials in a private globals dictionary so another
+remote script cannot overwrite their world/pawn/state globals. Test source and
+disk asset hashes do not prove in-memory bytecode identity under concurrent work.
+
+## 2026-10-01: Finish the current atomic G1 checkpoint
+
+The user superseded continued campaign expansion with a stable checkpoint.
+Stop after implementation, relevant verification, regression repair and scoped
+reviewable commit. G1 art/audio and full release acceptance remain separate.
+Fresh material-bound geometry copies avoid invalid fast-build derived data in
+native duplicates. Remove only zero-area source faces, record degenerate UV
+projection, retain simple collision through native aggregate-struct copying and
+audit actual render buffers. Non-Mikk recomputation is allowed only with the same
+strict vector audit afterward. Preserve unused attempts outside Content, not by
+deleting them. See G1_CHECKPOINT.md for assumptions and verification scope.

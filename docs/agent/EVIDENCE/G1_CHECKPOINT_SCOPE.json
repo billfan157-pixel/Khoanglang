@@ -1,0 +1,63 @@
+{
+  "preserved_files": [
+    {
+      "path": "Content/KhoangLang/Production/Blueprints/Player/BP_KL_Character.uasset",
+      "sha256": "eab932568442fbdce815cc7e14ce9e9897ff67d021a49969cf72d2eecff8628c",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolCharacter.uasset",
+      "sha256": "4d36afe50936ef684fe79b06f20c472ff36c7ea28ab74b66e46d626dd0fc1d55",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G0_2026-09-30_editor_runtime.log",
+      "sha256": "4b34d67d425d05a1678751d927d2b76e661c2b5135fe86fe2c13cc2bf97823ad",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G1_focus_probe.json",
+      "sha256": "34df9c6035f6db55e308abd3d679f8b10031c66aa01eb512b2fb35ec6864808d",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G1_merged_editor_runtime.log",
+      "sha256": "a2717955be4bc6cf4488777e7d58c6830d2e4d87f2929c10410b851484280939",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G1_native_player_build.json",
+      "sha256": "96b1e2ca1bc814fcaf9b711db936b09d277929c4ce424241d73d3622aee291ca",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G1_runtime_worlds.json",
+      "sha256": "39ea580c7e62d5a2f8013ff7de10272ebd24c107a56771d4901dfffd1eb6d9a4",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G0_current_classroom.png",
+      "sha256": "1448cf0e5f34c9d5d0f9022d493ba14d346f169ab87b93f1d6cd33f215ec6f05",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G0_current_runtime.json",
+      "sha256": "39ea580c7e62d5a2f8013ff7de10272ebd24c107a56771d4901dfffd1eb6d9a4",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "docs/agent/EVIDENCE/G0_current_traversal.json",
+      "sha256": "0c0ed8050064d4da582e0de9296a77d5c90d8a71c76a5e127e237ba19b3f9e13",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    },
+    {
+      "path": "tools/rebuild_and_verify_inputs.py",
+      "sha256": "9201884e25bc34ff5f80b9cbb4654baf7f1f05b76718970592d6b9dec765c0df",
+      "ownership": "Preexisting concurrent work outside this scoped checkpoint"
+    }
+  ],
+  "package_content_matches_current_source": true,
+  "scope_note": "Scoped clean checkpoint; existing user/concurrent changes intentionally remain in the checkout",
+  "selection_files": 225,
+  "staged_changed_files": 181
+}

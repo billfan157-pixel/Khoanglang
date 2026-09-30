@@ -1,0 +1,92 @@
+{
+  "visual_accepted": false,
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "source_script_sha256": "6f32cbcc28ab76ace8193d535b71c505655e32f255908a06b8e7ac942092264f",
+  "lights": [
+    {
+      "label": "ART_L_Corr",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Hall0",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Hall1",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Hall2",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Door",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Room0",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Room1",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Shaft0",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_Shaft1",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_ShaftCorr",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_L_CornerHint",
+      "mobility": "Movable"
+    },
+    {
+      "label": "ART_Moon",
+      "mobility": "Movable"
+    },
+    {
+      "label": "G1_Bounce_Entry",
+      "position": [
+        -560,
+        0,
+        105
+      ],
+      "lumens": 380.0,
+      "radius_cm": 1050.0,
+      "shadows": false
+    },
+    {
+      "label": "G1_Bounce_Hall",
+      "position": [
+        620,
+        0,
+        105
+      ],
+      "lumens": 460.0,
+      "radius_cm": 1250.0,
+      "shadows": false
+    },
+    {
+      "label": "G1_Bounce_Room",
+      "position": [
+        1070,
+        580,
+        105
+      ],
+      "lumens": 520.0,
+      "radius_cm": 1250.0,
+      "shadows": false
+    }
+  ],
+  "exposure_ev": -1.5,
+  "method": "Movable practical lights plus restrained bounce proxies; no baked lighting",
+  "force_no_precomputed_lighting": true,
+  "map_sha256": "46dbe6d468f1ebe6e9109652ff329f6841751aded9f4c875595666b16a7ec262"
+}

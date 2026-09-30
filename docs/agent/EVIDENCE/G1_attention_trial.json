@@ -1,0 +1,1484 @@
+{
+  "status": "passed",
+  "method": "Recorded debug fixtures; actual game-time Blueprint Tick pursuit/contact/decay",
+  "scope_limit": "No physical input, collision-route, voice/scare, campaign, or packaged-performance acceptance",
+  "binding": {
+    "source_revision": "df7ae85",
+    "started_utc": "2026-09-30T16:52:14.877565+00:00",
+    "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+    "loop_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop.BP_KL_SchoolLoop_C",
+    "pawn_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.BP_KL_SchoolPlayer_C",
+    "files_at_start": {
+      "canon": {
+        "path": "docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md",
+        "sha256": "80eee1981bf2a155726da34617300647c1a9813b3d93f60628856b2e5eec7e44"
+      },
+      "core_source": {
+        "path": "tools/g1_build_school_loop.py",
+        "sha256": "7440004a15c1bab54f75d4a0dc2db1077c1112cf6afd97120cdec9b635a77b42"
+      },
+      "player_source": {
+        "path": "tools/g1_build_native_player.py",
+        "sha256": "10658c53b31e31297af629a2536fabe0ebc11f4d138197ad419c19393061b902"
+      },
+      "scenario_source": {
+        "path": "tools/g1_attention_trial.py",
+        "sha256": "533c3e7384f2fd6c21098348b4b3f05465b90239235e753ada9f6823cc7c81bb"
+      },
+      "core_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop.uasset",
+        "sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb"
+      },
+      "player_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.uasset",
+        "sha256": "e3cde492a1b89c0d8c1845372ef285eb761572b999e7e25089c54d8cafd5073b"
+      },
+      "map": {
+        "path": "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap",
+        "sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e"
+      }
+    },
+    "qualification": "Saved disk assets/source plus observed runtime class; no in-memory bytecode hash claimed",
+    "files_at_end": {
+      "canon": {
+        "path": "docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md",
+        "sha256": "80eee1981bf2a155726da34617300647c1a9813b3d93f60628856b2e5eec7e44"
+      },
+      "core_source": {
+        "path": "tools/g1_build_school_loop.py",
+        "sha256": "7440004a15c1bab54f75d4a0dc2db1077c1112cf6afd97120cdec9b635a77b42"
+      },
+      "player_source": {
+        "path": "tools/g1_build_native_player.py",
+        "sha256": "10658c53b31e31297af629a2536fabe0ebc11f4d138197ad419c19393061b902"
+      },
+      "scenario_source": {
+        "path": "tools/g1_attention_trial.py",
+        "sha256": "533c3e7384f2fd6c21098348b4b3f05465b90239235e753ada9f6823cc7c81bb"
+      },
+      "core_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop.uasset",
+        "sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb"
+      },
+      "player_asset": {
+        "path": "Content/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.uasset",
+        "sha256": "e3cde492a1b89c0d8c1845372ef285eb761572b999e7e25089c54d8cafd5073b"
+      },
+      "map": {
+        "path": "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap",
+        "sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e"
+      }
+    }
+  },
+  "expected_tier2_obscured_criteria": 1,
+  "expectation_origin": "Existing one-criterion noise preserved; canon tier2 adds geometry/draft risk without an additional mask count",
+  "fixture_setup": [
+    {
+      "game_time": 3.160689100623131,
+      "fields": {
+        "QuietRate": 0.0,
+        "EchoRate": 0.0,
+        "Attention": 55.0,
+        "bWorkingAvailable": true,
+        "bObserved": false,
+        "bNotebook": false,
+        "bLamWitness": false,
+        "LamState": 2,
+        "bAttackProvoked": false
+      }
+    },
+    {
+      "game_time": 8.181992903351784,
+      "fields": {
+        "Attention": 0.0,
+        "bAttackProvoked": true,
+        "bWorkingAvailable": true,
+        "FalseRemaining": 0.0,
+        "ExposureTime": 0.0,
+        "ContactCooldown": 0.0
+      }
+    },
+    {
+      "game_time": 8.181992903351784,
+      "debug_teacher_position": [
+        170.0,
+        0.0,
+        14.0
+      ],
+      "purpose": "Known initial planar separation; not navigation proof"
+    },
+    {
+      "game_time": 10.236079894006252,
+      "fields": {
+        "Attention": 80.0,
+        "bAttackProvoked": false,
+        "bWorkingAvailable": true,
+        "ContactCooldown": 0.0,
+        "ExposureTime": 0.0
+      }
+    },
+    {
+      "game_time": 10.236079894006252,
+      "debug_teacher_position": [
+        170.0,
+        0.0,
+        14.0
+      ],
+      "purpose": "Known initial planar separation; not navigation proof"
+    },
+    {
+      "game_time": 21.621218230575323,
+      "fields": {
+        "QuietRate": 4.0,
+        "EchoRate": 1.8,
+        "bAttackProvoked": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "TeacherActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ChildActor resolved",
+      "pass": true
+    },
+    {
+      "name": "FalseGeometryActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ListenActor resolved",
+      "pass": true
+    },
+    {
+      "name": "Back-row child is separate from cô Vân",
+      "pass": true
+    },
+    {
+      "name": "Back-row child retains its own KL_Child identity",
+      "pass": true
+    },
+    {
+      "name": "Raw recording retention starts true",
+      "pass": true
+    },
+    {
+      "name": "Tier2 preserves existing one-criterion preview noise",
+      "pass": true,
+      "details": {
+        "expected": 1,
+        "observed": 1
+      }
+    },
+    {
+      "name": "Preview/high attention cannot bypass missing independent-source and whole-listening gates",
+      "pass": true
+    },
+    {
+      "name": "Tier2 persists under fixed-attention fixture",
+      "pass": true
+    },
+    {
+      "name": "Tier2 exposes false-space state",
+      "pass": true
+    },
+    {
+      "name": "Tier2 actually unhides false geometry actor",
+      "pass": true
+    },
+    {
+      "name": "Sustained tier2 consumes exactly one available working reconstruction",
+      "pass": true
+    },
+    {
+      "name": "Tier2 loss removes active unsealed work, not raw evidence",
+      "pass": true
+    },
+    {
+      "name": "Tier2 erosion preserves raw recordings",
+      "pass": true
+    },
+    {
+      "name": "Tier2 working-material loss does not silently change trust/entity state",
+      "pass": true
+    },
+    {
+      "name": "Wrong-response provocation works independently of high attention",
+      "pass": true
+    },
+    {
+      "name": "Entity-specific provocation causes actual planar movement at tier0",
+      "pass": true
+    },
+    {
+      "name": "Provoked approach preserves teacher height",
+      "pass": true
+    },
+    {
+      "name": "Sustained tier3 drives pursuit without wrong-response provocation",
+      "pass": true
+    },
+    {
+      "name": "Tier3 remains sustained for at least eight game seconds",
+      "pass": true
+    },
+    {
+      "name": "Actual teacher approach closes substantial distance across eight seconds",
+      "pass": true
+    },
+    {
+      "name": "Meaningful contact follows eight seconds of real pursuit",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact applies exactly one new loss",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact loses actual available unsealed material",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact leaves the other loss alternatives unchanged",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact retains raw recordings",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact arms cooldown",
+      "pass": true
+    },
+    {
+      "name": "Automatic contact opens false space",
+      "pass": true
+    },
+    {
+      "name": "Contact/reset preserves teacher height",
+      "pass": true
+    },
+    {
+      "name": "Real off-channel quiet decay returns attention to zero",
+      "pass": true
+    },
+    {
+      "name": "Real Tick returns to tier0",
+      "pass": true
+    },
+    {
+      "name": "Recovered tier0 actually hides false geometry",
+      "pass": true
+    },
+    {
+      "name": "Raw recordings retained through attention recovery",
+      "pass": true
+    },
+    {
+      "name": "Cooldown/recovery preserves exactly one contact loss",
+      "pass": true
+    },
+    {
+      "name": "Back-row reply is captioned as bé Bống, independently of Nhi",
+      "pass": true
+    },
+    {
+      "name": "Bound source/core/player/map files unchanged during trial",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "phase": 1,
+      "game_time": 3.160689100623131,
+      "Attention": 58.0,
+      "Tier": 0,
+      "EntityState": 0,
+      "LamState": 2,
+      "LossCount": 0,
+      "LastLoss": 0,
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": true,
+      "bRawRetained": true,
+      "bSealing": false,
+      "bFalseSpace": true
+    },
+    {
+      "phase": 2,
+      "game_time": 8.181992903351784,
+      "Attention": 0.0,
+      "Tier": 2,
+      "EntityState": 0,
+      "LamState": 2,
+      "LossCount": 1,
+      "LastLoss": 1,
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": true,
+      "bRawRetained": true,
+      "bSealing": false,
+      "bFalseSpace": true
+    },
+    {
+      "phase": 3,
+      "game_time": 10.236079894006252,
+      "Attention": 80.0,
+      "Tier": 0,
+      "EntityState": 0,
+      "LamState": 2,
+      "LossCount": 1,
+      "LastLoss": 1,
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": true,
+      "bRawRetained": true,
+      "bSealing": false,
+      "bFalseSpace": false
+    },
+    {
+      "phase": 4,
+      "game_time": 21.621218230575323,
+      "Attention": 46.0,
+      "Tier": 3,
+      "EntityState": 0,
+      "LamState": 2,
+      "LossCount": 2,
+      "LastLoss": 1,
+      "ContactCooldown": 12.0,
+      "bWorkingAvailable": false,
+      "bRawRetained": true,
+      "bSealing": false,
+      "bFalseSpace": true
+    }
+  ],
+  "teacher_samples": [
+    {
+      "phase": 1,
+      "game_time": 3.18391390144825,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 3.7050894014537334,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 4.2283237017691135,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 4.744931202381849,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 5.247990902513266,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 5.753773599863052,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 6.25757360085845,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 6.761245600879192,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 7.272970702499151,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 1,
+      "game_time": 7.783417001366615,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 58.0,
+      "tier": 2,
+      "loss_count": 0,
+      "provoked": false
+    },
+    {
+      "phase": 2,
+      "game_time": 8.31781730055809,
+      "teacher": [
+        158.45492623746395,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 1038.454926237464,
+      "attention": 0.0,
+      "tier": 0,
+      "loss_count": 1,
+      "provoked": true
+    },
+    {
+      "phase": 2,
+      "game_time": 8.825136102735996,
+      "teacher": [
+        115.33282805234194,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 995.3328280523419,
+      "attention": 0.0,
+      "tier": 0,
+      "loss_count": 1,
+      "provoked": true
+    },
+    {
+      "phase": 2,
+      "game_time": 9.388485096395016,
+      "teacher": [
+        67.44816359132528,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 947.4481635913253,
+      "attention": 0.0,
+      "tier": 0,
+      "loss_count": 1,
+      "provoked": true
+    },
+    {
+      "phase": 2,
+      "game_time": 9.930394597351551,
+      "teacher": [
+        21.38585601001978,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 901.3858560100198,
+      "attention": 0.0,
+      "tier": 0,
+      "loss_count": 1,
+      "provoked": true
+    },
+    {
+      "phase": 3,
+      "game_time": 10.471524693071842,
+      "teacher": [
+        149.98719207942486,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 1029.9871920794249,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 11.0187653824687,
+      "teacher": [
+        103.47173348069191,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 983.4717334806919,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 11.56376338750124,
+      "teacher": [
+        57.14690305292606,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 937.1469030529261,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 12.111776985228062,
+      "teacher": [
+        10.565747246146202,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 890.5657472461462,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 12.65452729165554,
+      "teacher": [
+        -35.568028800189495,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 844.4319711998105,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 13.199748888611794,
+      "teacher": [
+        -81.911864541471,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 798.088135458529,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 13.748270191252232,
+      "teacher": [
+        -128.53617526590824,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 751.4638247340918,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 14.292136386036873,
+      "teacher": [
+        -174.76480182260275,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 705.2351981773973,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 14.837201587855816,
+      "teacher": [
+        -221.0953439772129,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 658.9046560227871,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 15.383097991347313,
+      "teacher": [
+        -267.49653827399015,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 612.5034617260098,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 15.92853108793497,
+      "teacher": [
+        -313.8583514839411,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 566.1416485160589,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 16.47216647863388,
+      "teacher": [
+        -360.0673596933484,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 519.9326403066516,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 16.97975278273225,
+      "teacher": [
+        -403.21219554170966,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 476.78780445829034,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 17.492410484701395,
+      "teacher": [
+        -446.78810020908713,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 433.21189979091287,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 18.036964785307646,
+      "teacher": [
+        -493.07521576061845,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 386.92478423938155,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 18.582800898700953,
+      "teacher": [
+        -539.4712853990495,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 340.5287146009505,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 19.128138590604067,
+      "teacher": [
+        -585.8249892108142,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 294.17501078918576,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 19.674504105001688,
+      "teacher": [
+        -632.266057934612,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 247.73394206538796,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 20.21608141437173,
+      "teacher": [
+        -678.3001292310655,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 201.6998707689345,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 20.758900422602892,
+      "teacher": [
+        -724.4397449307144,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 155.56025506928563,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 3,
+      "game_time": 21.305170226842165,
+      "teacher": [
+        -770.8726782910526,
+        0.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 109.12732170894742,
+      "attention": 80.0,
+      "tier": 3,
+      "loss_count": 1,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 21.860137034207582,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 45.04432478547096,
+      "tier": 2,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 22.403915029019117,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 42.86921280622482,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 22.918656326830387,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 40.810247614979744,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 23.429476726800203,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 38.76696601510048,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 23.943672128021717,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 36.710184410214424,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 24.46766772866249,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 34.61420200765133,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 24.98813772946596,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 32.53232200443745,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 25.491230826824903,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 30.51994961500168,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 25.997443329542875,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 28.49509960412979,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 26.51713852956891,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 26.41631880402565,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 27.018272828310728,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 24.41178160905838,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 27.525372426956892,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 22.383383214473724,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 28.04181992635131,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 20.317593216896057,
+      "tier": 1,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 28.553160429000854,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 18.272231206297874,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 29.067657828330994,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 16.214241608977318,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 29.5774561278522,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 14.175048410892487,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 30.089365426450968,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 12.127411216497421,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 30.61240152642131,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 10.035266816616058,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 31.134272128343582,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 7.947784408926964,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 31.640538327395916,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 5.9227196127176285,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 32.14666372910142,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 3.8982180058956146,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    },
+    {
+      "phase": 4,
+      "game_time": 32.64946552738547,
+      "teacher": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "pawn": [
+        -880.0,
+        0.0,
+        90.14999961853027
+      ],
+      "distance_xy_cm": 2226.5724780478176,
+      "attention": 1.8870108127593994,
+      "tier": 0,
+      "loss_count": 2,
+      "provoked": false
+    }
+  ],
+  "back_row_child_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_55",
+  "nhi_scope": "No Nhi identity assigned to the back-row actor; observe bé Bống caption",
+  "tier2_preview": {
+    "criteria": {
+      "PreviewVoice": "Giọng: khớp",
+      "PreviewRhythm": "Nhịp: khớp",
+      "PreviewRoom": "Tiếng phòng: không rõ · nhiễu che"
+    },
+    "obscured_count": 1
+  },
+  "back_row_caption": "Bàn cuối · bé Bống: «Cô ơi, còn con nữa.»",
+  "eight_second_pursuit": {
+    "duration_s": 8.035650599747896,
+    "start": [
+      170.0,
+      0.0,
+      14.0
+    ],
+    "end": [
+      -513.0303009785712,
+      0.0,
+      14.0
+    ],
+    "distance_closed_cm": 683.0303009785712,
+    "teacher_z_delta_cm": 0.0,
+    "maximum_z_deviation_cm": 0.0
+  },
+  "contact": {
+    "game_time": 21.621218230575323,
+    "teacher_end": [
+      1180.0,
+      845.0,
+      14.0
+    ],
+    "pawn_end": [
+      -880.0,
+      0.0,
+      90.14999961853027
+    ],
+    "cooldown": 12.0,
+    "loss_delta": 1
+  },
+  "failed_checks": 0,
+  "finished_game_time": 33.11866482719779,
+  "finished_utc": "2026-09-30T16:52:44.881645+00:00"
+}

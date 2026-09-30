@@ -1069,7 +1069,7 @@ def key_pressed(b, letter, pc):
     argument), so the struct default is written straight onto the Key pin.
     """
     n = b.c(K.F_KEY_DOWN)
-    b.setv(n, 'Key', '(KeyName="%s")' % letter)
+    b.setv(n, 'Key', letter)
     b.link(pc[0], pc[1], n, 'self')
     return (n, 'ReturnValue')
 

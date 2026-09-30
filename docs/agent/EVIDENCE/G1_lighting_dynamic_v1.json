@@ -1,0 +1,92 @@
+{
+  "status": "failed",
+  "scope": "Runtime exposure fixtures, inspected images required; no assets changed",
+  "map_sha256": "35c0f6960a7eba113ae174ad011138384dd5e65ff599b7f445f53331b55a1262",
+  "captures": [
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_entry_off.png",
+      "screenshot_source": "ScreenShot00029.png",
+      "sha256": "f12d69292a8111f82319aefc281664138c8a6665ed71ba9a25a792a97eaf8b27"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_entry_on.png",
+      "screenshot_source": "ScreenShot00030.png",
+      "sha256": "d4f61040064ef6e456700b20a4ed8439151e19e1a447d0cfc6645ee2cde5265c"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_hall_off.png",
+      "screenshot_source": "ScreenShot00031.png",
+      "sha256": "e8631c951fe8b655e7e3f429f08b03e37f80ea7429f65d9b7d5a3459d5b26c5c"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_hall_on.png",
+      "screenshot_source": "ScreenShot00032.png",
+      "sha256": "e214e9fd4ea1f4fb5f537636f0614b926b57ccdb29c503f2b76d36bfc7b43088"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_classroom_off.png",
+      "screenshot_source": "ScreenShot00033.png",
+      "sha256": "a9225e82b73c0815fbbbec1430fe75d0df82db3d19bed6df47601dfe2dde615e"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v1_ev-1p5_classroom_on.png",
+      "screenshot_source": "ScreenShot00034.png",
+      "sha256": "b2f07d5e60a566bb8768949f27f2a6d6639595a93a87acacc5bd55b5ca20ca5d"
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\tools\\g1_lighting_trial.py\", line 63, in tick\n    lamp.set_visibility(torch, True)\nException: SpotLightComponent: Internal Error - ObjectInstance is null!\n"
+}

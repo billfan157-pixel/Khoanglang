@@ -1,90 +1,92 @@
 # Production state
 
-Current gate: G1 canonical school engineering implemented; quality gate unmet.
-Full-game goal active. G1-G5 not accepted; seven-chapter campaign/RC missing.
+Current work: G1 repair/test atomic checkpoint; no next feature authorized.
+G1 art/audio acceptance and G2-G5/full release remain unmet.
 After compaction read this file and the original user brief:
 attachment 00a0dcee-7741-4032-a8f1-9968f060c815/pasted-text-1.txt.
+The newer user goal requires finishing this checkpoint, not campaign expansion.
 
-## Verified facts (2026-09-30)
+## Verified facts (2026-10-01)
 
 - Project KhoangLang0217.uproject, Unreal 5.8.3, Blueprint-only.
-- Branch production/g1-canonical-loop; pre-change checkpoint fe9a830.
-  Current observed HEAD a9e7f63a889467cd33e47a039f8e62dd0f4b3cca.
-  Concurrent commit repaired baseline prop collision/retired copies. Preserve it.
-- Existing/concurrent runtime logs remain dirty; no bulk restore or commit.
-- Canonical V3: 1,132 lines, updated 30/09, SHA256
+- Branch production/g1-canonical-loop; prior checkpoint df7ae85.
+  Current checkpoint is the scoped G1 repair/test commit following df7ae85.
+  Preserve unrelated concurrent work listed in G1_CHECKPOINT_SCOPE.json.
+- V3 Bible: 1,132 lines, updated 30/09, SHA256
   80EEE1981BF2A155726DA34617300647C1A9813B3D93F60628856B2E5EEC7E44.
-  Older versions preserved. Raw sources must remain immutable.
-- G0_CURRENT.md: fresh audit compiled 10 production Blueprints; baseline PIE
-  screenshots inspected. This did not prove cooked compiler compatibility.
-- New isolated map: /Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.
-  Core loop, HUD, native Character and native GameMode compiled/saved.
-  Old/template assets preserved; new player has no FirstPerson/animation refs.
-- G1_trial_suite.json: all eight fresh-PIE engineering cases passed:
+  Original story/source art packages remain immutable.
+- G1 map: /Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.
+  Native SchoolPlayer/GameMode/core Blueprints compiled and saved; no template
+  FirstPerson/animation dependencies in the independent native player.
+- Saved lighting: 12 authored lights + 3 bounce points Movable, no precomputed
+  lighting, neutral -1.5 EV, saved torch90 lumens. Actual PIE readback passed
+  in G1_runtime_scene_audit.json; fixtures did not establish those defaults.
+- Mesh repairs: fresh regular builds, exact wall/door triangle corners and UVs;
+  corrected cassette Y-cylinder cap centres and supported authored shelf.
+  Mesh default materials bound to copied G1 master. Original meshes preserved.
+- Reloaded saved map: 51 unique meshes pass finite bounds/buffer/material audit.
+  G1_mesh_binding_audit.json records actual readbacks,50 source origins/package
+  hashes, original degeneracy and adopted triangle counts. All nonzero source
+  triangle counts preserved. The shelf is new. Strict checks were not relaxed.
+- Zero-area faces and degenerate UV projection exist in some source props.
+  Owned copies remove only zero-area faces; native non-Mikk recomputation fixes
+  tiny desk tangents. Collision structs/component modes retained.
+- 11 unused newly authored attempts preserved intact outside Content under
+  _release_work/g1_checkpoint_recovery/, with moved_unused_meshes.json.
+- G1_navigation_trial.json passed26 native movement waypoints, real collision
+  and camera-ray Lam/deck/notebook/ledger/exit interactions, no teleport.
+  Four failed candidate routes preserved. Before/after disk hashes stable.
+- G1_trial_suite.json: all8 fresh-PIE cases passed after final map/player writes:
   held, names, wrong, tier1, decay, contact, avoidance, interactions.
-  These use debug calls/explicit fixture state; not physical-input qualification.
-- Whole listening requires issued playback + 13s roll + 3.2s reply; early seal
-  rejected. Timed seal takes 4s. Correct seal consumes unsealed working draft.
-- Contact tested all three applicable losses, cooldown, exhausted deferral and
-  timed recovery; raw retained. Exhausted rule is a reversible default.
-- Real camera rays acquired Lam/notebook/ledger/deck after debug positioning.
-  Notebook needs a side approach: the south-facing raised desk lid blocks
-  a rear approach. Exit trial corrected from outside-wall to interior approach.
-- G1_canonical_art_refine.json: copied master/materials, 30 instances,
-  259 overrides, 12 light changes and neutral manual-exposure postprocess saved.
-  Native material API quirks fixed by declared pins/parameter readbacks.
-- Actual inspected G1_refined_deck.png still clips badly; no art acceptance.
-  G1_lighting_candidates.json contains 12 real PIE images with 90-lumen
-  runtime torch fixtures and -1/-3 EV. Hall/classroom images inspected:
-  darkness still loses floor detail. Runtime fixtures did NOT save assets.
-- Windows Development G1 package built: UAT exit 0, 50 files, 909806066 bytes.
-  Evidence G1_WINDOWS_PACKAGE.json; isolated source and artifact manifests.
-  Archive: _release_work/20260930_214738_28dac5b5/WindowsBuild.
-  Launcher: KhoangLang0217.exe; keep the entire archive directory.
-- Pre-launch source SHA:
-  ebb19702a06853f08c64c1653b868f44d3d2a4b896007f081e0c74f62a717333.
-  Pre-launch artifact SHA:
-  8943b0d4065fe8600b151c7e1a867a542d4523c297d7c6d32d56b286ae32effb.
-- Package excludes editor/MCP/Python modules. Sanitized packaging config uses
-  DefaultGame. Unused StateTree/Landmass guarded in isolated copy only.
-  Native SDK is INVALID; installed Blueprint target nevertheless packaged.
-- Packaged game launched and its real Vietnamese HUD was visually observed.
-  Physical Q/J trial did not execute: user stopped Computer Use with Escape.
-  Do not claim keyboard/mouse qualification. No further Computer Use this turn.
-- Packaged view shows LIGHTING NEEDS TO BE REBUILT (199 objects), clipping,
-  crushed shadows; log reports first-load PSO hitches and audio underrun.
-  Standalone performance, Vietnamese layouts at both resolutions unqualified.
-- Editor restarted after Blueprint compile crash; owned PID 24032 last seen
-  responsive. Empty-map compilation succeeded. PIE stopped before game launch.
-  Packaged UnrealGame PID 15396 last seen responding. Recheck ownership;
-  preserve user's current game interaction and do not kill unrelated processes.
+- G1_attention_trial.json: tier2 draft loss/false geometry, tier3 native pursuit
+  and automatic contact, raw retention, cooldown, quiet recovery passed;
+  before/after source/player/map hashes stable. Explicit fixtures recorded.
+- G1_input_pin_audit.json: all16 declared keys read correctly from native saved
+  graphs. Concurrent bare FKey source fixes integrated; no physical-input claim.
+- G1_lighting_checkpoint_final.json: 12 actual PIE captures. Front/side deck and
+  classroom images inspected: support/cap spikes improved; deep unlit shadows,
+  bright torch response, coarse source art and pale-surface HUD contrast remain.
+- Windows Development package: UAT0, no error/NaN/ShaderMap/degenerate lines in
+  final cook log. G1_CHECKPOINT_BUILD.json; archive
+  _release_work/20260930_235642_f042e94a/WindowsBuild, retain entire directory.
+  Source SHA439582a23e69c3a9bd4a8a3d90eb98595849c377676feb10a1feb2e03e3c34c3.
+  Artifact SHAbed93a176461c2af81f81f64e7ff5cee8c7a3541fe7863ed0cc49c3535743538.
+- G1_CHECKPOINT_RUNTIME.json: real Intel Arc/D3D12 opening,2400CSV frames,
+  discard600 ->1800/25.04s, median13.66ms,p95 16.97ms,max79.89ms, mean71.88fps,
+  sampled peak physical1.60GiB. Stationary720p low only; no campaign performance.
+  720p/1080p screenshots inspected: actual school/Vietnamese HUD present,
+  no lighting rebuild warning; HUD contrast/source art still unaccepted.
+  Runtime shader/NaN errors absent, archive unchanged. Exit777003 still FAIL.
+- Shutdown control loaded actual /Engine/Maps/Entry with GameModeBase,
+  NullRHI/no sound and60CSV frames, also exited777003. Thus failure does not
+  depend on G1 world content/RHI/audio. Binary/environment cause unresolved;
+  no forced-exit workaround, crash suppression or runtime acceptance.
+- Prior package baseline preserved: p95 44.78ms, shader/NaN warnings,
+  blank720p capture and same777003 exit; G1_PACKAGED_BASELINE.json.
+- G1_CHECKPOINT.md lists implementation, important files and assumptions.
+  Python authoring/test only; native Blueprint Tick/Character runtime remains.
+- Original/legacy Character edits, diagnostic scripts and tracked baseline logs
+  predate these scoped changes. Preserve them outside this repair commit.
 
-## Canon and completion constraints
+## Constraints and review
 
-- Bống is the back-row child; Nhi is separate. Lam testimony here is current
-  observation, not invented 2002 eyewitness history. Notebook is related source.
-- Names/ledger are isolated Section 13 G1 fixture; never early Hồi 1 disclosure.
-- Giữ needs two-person acknowledgment + seal; single-child reply only pauses.
-- HUMAN_SIGNOFF.md is user-owned: never create/edit it.
-- RC completion requires tools/verify_release passing plus user's signoff.
-  Package-only explicitly remains G1_PACKAGE_BUILT_RUNTIME_UNQUALIFIED.
-- Audio still synthesized tones without Vietnamese performances. No agent
-  listening/scare acceptance. Exact human moments belong in REVIEW_QUEUE.
-- Original DefaultEngine.ini contains a local token: do not print/package it.
-- Remote Python enabled ephemerally on 127.0.0.1 only; disable at next safe
-  editor cleanup. No Blender MCP callable discovered; never simulate it.
-- Source scripts/new G1 assets/evidence are saved but not checkpoint-committed
-  in this stopping segment. Preserve existing assets/logs/recovery directories.
+- Bống is the back-row child; Nhi is separate. Lam describes current observation,
+  not invented2002 eyewitness history. Names/ledger are isolated G1 fixtures.
+- Temporary numbers/inventory exhaustion defaults are engineering assumptions.
+  Giữ needs two-person acknowledgment + seal; single-child reply only pauses.
+- HUMAN_SIGNOFF.md is user-owned: never create/edit. Original full release would
+  require tools/verify_release passing and user signoff; checkpoint is not RC.
+- No new Vietnamese performances. Editor engineering used -nosound; agent does
+  not qualify listening/scare effectiveness. Exact reviews in REVIEW_QUEUE.md.
+- User stopped Computer Use with Escape; no physical-input automation resumed.
+- Original DefaultEngine.ini has local token: never print/package. Packaging uses
+  sanitized isolated config and excludes editor/MCP/Python runtime modules.
+- Remote Python is ephemeral/loopback only. Final test editor closed with no
+  dirty packages. Read-only provenance editor also closed with no dirty packages.
+- No paid/third-party assets added; no Blender MCP simulated.
 
-## Next executable steps
+## Stop boundary
 
-1. Respect Computer Use stop. Continue UI control only with renewed user intent.
-2. Check source/asset hashes and process ownership; checkpoint scoped new work.
-3. Resolve dynamic-light bake warnings, measured exposure/torch readability,
-   NaN mesh bounds/material fallback and adult character placeholder art.
-4. Add tier2/tier3/pursuit and movement-route evidence, remapping/accessibility,
-   real Vietnamese voice pipeline and exact human listening review.
-5. Repackage with -SaveToUserDir runtime isolation; qualify actual controls,
-   720p/1080p text and measured standalone performance with real traces.
-6. Build G2-G5 campaign content/save-load/endings; complete release runtime
-   driver/plan, RC verifier, then leave user-owned signoff to the user.
+Implementation/evidence are ready for review. No campaign/next-system work.
+Keep runtime qualification withheld for777003 and human visual/audio/input
+acceptance outstanding. Preserve the concurrent checkout changes.

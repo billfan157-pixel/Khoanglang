@@ -1,0 +1,780 @@
+{
+  "status": "FAILED",
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "meshes": [
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Notice_Board",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Notice_Board_Regular",
+      "action": "REUSED_QUALIFIED_COPY_NO_REBUILD",
+      "source_positions": {
+        "vertices": 24,
+        "triangles": 36,
+        "minimum": [
+          -90.0,
+          -2.0,
+          -45.0
+        ],
+        "maximum": [
+          90.0,
+          6.0,
+          47.0
+        ],
+        "positions_sha256": "f90f5b9868b9d23ffc5c2c9bc7041ebe93f05929103a97056bac0d7e59c57834"
+      },
+      "rebuilt_positions": {
+        "vertices": 24,
+        "triangles": 36,
+        "minimum": [
+          -90.0,
+          -2.0,
+          -45.0
+        ],
+        "maximum": [
+          90.0,
+          6.0,
+          47.0
+        ],
+        "positions_sha256": "f90f5b9868b9d23ffc5c2c9bc7041ebe93f05929103a97056bac0d7e59c57834"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 36,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          2.0,
+          1.0
+        ],
+        "extent": [
+          90.0,
+          4.0,
+          46.0
+        ],
+        "radius": 101.15334893121434,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 56,
+            "triangles": 24,
+            "normals": 56,
+            "tangents": 56
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "source_package_sha256": "e307f914a46ba533aae3e0ceb6268e0fa6f6cc6d16947e8ba7cf8d8e1f4e532c",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "preserved_candidates": []
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_700",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular_v02",
+      "source_positions": {
+        "vertices": 78,
+        "triangles": 120,
+        "minimum": [
+          -350.0,
+          -2.5999999046325684,
+          0.0
+        ],
+        "maximum": [
+          350.0,
+          20.0,
+          320.0
+        ],
+        "positions_sha256": "00524c3282d5a4eef9862838fa4131fd3f940c630f16b73e6148b74a6b436f22"
+      },
+      "rebuilt_positions": {
+        "vertices": 360,
+        "triangles": 120,
+        "minimum": [
+          -350.0,
+          -2.5999999046325684,
+          0.0
+        ],
+        "maximum": [
+          350.0,
+          20.0,
+          320.0
+        ],
+        "positions_sha256": "831f1de41e986514cae10c8dd153779d703f2874b99d8ec8e86a301937ae7e9b"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 120,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          8.700000047683716,
+          160.0
+        ],
+        "extent": [
+          350.0,
+          11.299999952316284,
+          160.0
+        ],
+        "radius": 385.003493489244,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": true,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          },
+          {
+            "section": 1,
+            "vertices": 224,
+            "triangles": 96,
+            "normals": 224,
+            "tangents": 224
+          },
+          {
+            "section": 2,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 0,
+        "invalid_tangent_count": 0,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [],
+        "invalid_tangent_examples": []
+      },
+      "build_mode": "Fresh constructor + native fast_build=False",
+      "source_package_sha256": "8c634a2a9a272a7e12ddb1832e4f804eedd92520494de3d4984f3eb85ba75d02",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "action": "BUILT_NEW_COPY",
+      "preserved_candidates": [
+        {
+          "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Wall_700_Regular",
+          "reason": "Existing wall lacks isolated, exactly preserved triangles"
+        }
+      ],
+      "triangle_corner_signature": {
+        "source": "b8fd45bb24af3017acfb186e3fa5207ed4a45331588861eb6b0f0a369a53a600",
+        "copy": "b8fd45bb24af3017acfb186e3fa5207ed4a45331588861eb6b0f0a369a53a600"
+      },
+      "tangent_repair": "Isolated triangle topology; native TBN recompute",
+      "geometry_change": "None"
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Frame_Regular",
+      "source_positions": {
+        "vertices": 102,
+        "triangles": 144,
+        "minimum": [
+          -82.0,
+          -2.0,
+          0.0
+        ],
+        "maximum": [
+          82.0,
+          22.0,
+          232.0
+        ],
+        "positions_sha256": "cbe13f4b4286b023f7f0ff154e32b7c32d4bbdb7b106be814eec4151a9376ba9"
+      },
+      "rebuilt_positions": {
+        "vertices": 102,
+        "triangles": 144,
+        "minimum": [
+          -82.0,
+          -2.0,
+          0.0
+        ],
+        "maximum": [
+          82.0,
+          22.0,
+          232.0
+        ],
+        "positions_sha256": "cbe13f4b4286b023f7f0ff154e32b7c32d4bbdb7b106be814eec4151a9376ba9"
+      },
+      "source_triangle_uv_audit": {
+        "triangles": 144,
+        "degenerate_uv_count": 0,
+        "degenerate_geometry_count": 0,
+        "degenerate_uv_examples": [],
+        "degenerate_geometry_examples": []
+      },
+      "bounds": {
+        "origin": [
+          0.0,
+          10.0,
+          116.0
+        ],
+        "extent": [
+          82.0,
+          12.0,
+          116.0
+        ],
+        "radius": 142.56226709757388,
+        "finite": true
+      },
+      "buffer_audit": {
+        "qualified": false,
+        "sections": [
+          {
+            "section": 0,
+            "vertices": 246,
+            "triangles": 132,
+            "normals": 246,
+            "tangents": 246
+          },
+          {
+            "section": 1,
+            "vertices": 28,
+            "triangles": 12,
+            "normals": 28,
+            "tangents": 28
+          }
+        ],
+        "invalid_position_count": 0,
+        "invalid_normal_count": 12,
+        "invalid_tangent_count": 18,
+        "invalid_position_examples": [],
+        "invalid_normal_examples": [
+          {
+            "section": 0,
+            "vertex": 77,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 78,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 121,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 122,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 157,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 158,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 173,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 174,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 203,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 204,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 219,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 220,
+            "normal": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "invalid_tangent_examples": [
+          {
+            "section": 0,
+            "vertex": 72,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -80.80000305175781,
+              -2.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 73,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -80.80000305175781,
+              -0.800000011920929,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 74,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -71.19999694824219,
+              -0.800000011920929,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 75,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -71.19999694824219,
+              -2.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 76,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -71.19999694824219,
+              22.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 79,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -80.80000305175781,
+              22.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 116,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              71.19999694824219,
+              -2.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 117,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              71.19999694824219,
+              -0.800000011920929,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 118,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              80.80000305175781,
+              -0.800000011920929,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 119,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              80.80000305175781,
+              -2.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 120,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              80.80000305175781,
+              22.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 123,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              71.19999694824219,
+              22.0,
+              1.2000000476837158
+            ],
+            "normal": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 152,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -80.80000305175781,
+              -2.0,
+              221.1999969482422
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 153,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              -80.80000305175781,
+              -0.800000011920929,
+              221.1999969482422
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.0
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 154,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              80.80000305175781,
+              -0.800000011920929,
+              221.1999969482422
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.04998779296875,
+              0.04998779296875
+            ]
+          },
+          {
+            "section": 0,
+            "vertex": 155,
+            "tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "length_squared": 0.0,
+            "position": [
+              80.80000305175781,
+              -2.0,
+              221.1999969482422
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "uv": [
+              0.0,
+              0.04998779296875
+            ]
+          }
+        ]
+      },
+      "build_mode": "Fresh constructor + native fast_build=False",
+      "source_package_sha256": "1d19e386b8b4702d54a377429bb286d3844a294cf313b816f71660a7ab2be70f",
+      "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+      "action": "BUILT_NEW_COPY",
+      "preserved_candidates": [],
+      "triangle_corner_signature": null,
+      "tangent_repair": null,
+      "geometry_change": "None"
+    }
+  ],
+  "actors": [],
+  "clean_cook_verified": false,
+  "visual_accepted": false,
+  "script_sha256": "10ddb1329d2b4cb0c34655025e9ef0ba010f0cfa4ee0414c2386a3858d66c79f",
+  "error": "Invalid tangents require a separate geometry/UV repair"
+}

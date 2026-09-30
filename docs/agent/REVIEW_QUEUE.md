@@ -37,3 +37,27 @@ Do not interpret that stop as audio/art approval or game completion.
   judge whether displacement and surviving evidence make the loss understandable.
 - Scene: correct two-person response versus the ledger true-name fixture.
   Does the distinction between Giữ and Yên read clearly? Fixture is not Hồi 1.
+
+## 2026-09-30 measured candidate failures
+
+G1_PACKAGED_BASELINE.json binds the same artifact to 1800 actual frame samples:
+p95 44.78ms misses the provisional budget. Runtime ShaderMap errors and exit
+777003 fail acceptance. The inspected 720p capture has no school geometry;
+1080p has geometry, clipped highlights and the unbuilt-light warning.
+Do not treat either as proof of full Vietnamese layout/control qualification.
+
+Saved dynamic-light candidate images G1_dynamic_v3_ev-1p5_hall_off.png,
+classroom_on.png and deck_on.png were inspected: floor edges and furniture read
+better, but the cassette lacks a mount and actor models are placeholders.
+Human mood/art review belongs on a later repaired, stable Windows candidate.
+# Current atomic checkpoint (2026-10-01)
+
+G1_CHECKPOINT.md and the checkpoint build/runtime reports describe the current
+repair scope. This does not request or imply G1/full-game acceptance.
+Inspect G1_checkpoint_final_ev-1p5_deck_on.png, deck_side_off.png and
+classroom_on.png: cassette support/cap spikes improved; unlit shadows remain
+deep, flashlight response bright and HUD contrast weak over pale furniture.
+Review the source art and these exact views before visual acceptance.
+No new Vietnamese performances were produced. Editor engineering used
+-nosound; physical controls and scare effectiveness remain unqualified.
+HUMAN_SIGNOFF.md stays user-owned and untouched.

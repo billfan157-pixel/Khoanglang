@@ -70,7 +70,7 @@
   "states": [
     {
       "phase": 1,
-      "game_time": 3.092769604176283,
+      "game_time": 2.9075224064290524,
       "EntityState": 0,
       "LamState": 1,
       "Attention": 0.0,
@@ -86,7 +86,7 @@
     },
     {
       "phase": 2,
-      "game_time": 21.393737521022558,
+      "game_time": 21.22168380767107,
       "EntityState": 0,
       "LamState": 1,
       "Attention": 0.0,
@@ -97,15 +97,15 @@
       "LossCount": 0,
       "bRawRetained": true,
       "bFalseSpace": false,
-      "RollTime": 0.3000442013144493,
+      "RollTime": 0.3052877001464367,
       "RollCycles": 1
     }
   ],
   "binding": {
-    "source_revision": "a9e7f63a889467cd33e47a039f8e62dd0f4b3cca",
-    "started_utc": "2026-09-30T14:44:41.057469+00:00",
-    "loop_asset_sha256": "eba277002fa96aaa7cdbda1e8fb328bc0b05b4b324f09e0c99ff3410fb64984f",
-    "map_sha256": "dfeeb66abbabf4035806536955a32c5ceea691ca6a1508e9a4cda5738f62113e",
+    "source_revision": "df7ae853cadab9806969a48bc9186f30770ab888",
+    "started_utc": "2026-09-30T16:51:17.031227+00:00",
+    "loop_asset_sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb",
+    "map_sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e",
     "scenario_sha256": "a2b06359454877af965fbae7d7b2699718cee3c28bc4cfab9d941844810eb670",
     "pawn_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.BP_KL_SchoolPlayer_C"
   }

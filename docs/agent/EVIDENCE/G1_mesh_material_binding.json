@@ -1,0 +1,96 @@
+{
+  "status": "MATERIAL_DEFAULTS_BOUND_COOK_RUNTIME_PENDING",
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "meshes": [
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Desk_Teacher",
+      "target": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Desk_Teacher_340814b9_RegularV3.SM_KL_Desk_Teacher_340814b9_RegularV3",
+      "source_sha256_before": "0adcd53e093d9b897fb7d42337aa51bae149e172768e1476d426986366c60c2c",
+      "slots": []
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_AttBook",
+      "target": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_AttBook_a977bc81_RegularV3.SM_KL_Prop_AttBook_a977bc81_RegularV3",
+      "source_sha256_before": "7c51a2ebb239d1bec41567edbdfafd8d6c2350f25060a1561cacee25b568d545",
+      "slots": []
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure",
+      "target": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_Figure_a4605c3d_RegularV3.SM_KL_Prop_Figure_a4605c3d_RegularV3",
+      "source_sha256_before": "b67dfb30dab0a2e8cef8872ae44f4e48c139430360a7512364de37c2eb453f5b",
+      "slots": []
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Leaf",
+      "target": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Door_Leaf_6bedc471_RegularV3.SM_KL_Door_Leaf_6bedc471_RegularV3",
+      "source_sha256_before": "4cc00110071f539ce348e990104c1f6a8f8c9b2987b09401683ed8a5f766a21e",
+      "slots": []
+    }
+  ],
+  "actors": [
+    {
+      "label": "ART_Teacher_Desk",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Desk_Teacher_340814b9_RegularV3.SM_KL_Desk_Teacher_340814b9_RegularV3"
+    },
+    {
+      "label": "G1_VanNotebook",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_AttBook_a977bc81_RegularV3.SM_KL_Prop_AttBook_a977bc81_RegularV3"
+    },
+    {
+      "label": "G1_RiceLedger",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_AttBook_a977bc81_RegularV3.SM_KL_Prop_AttBook_a977bc81_RegularV3"
+    },
+    {
+      "label": "G1_Lam",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_Figure_a4605c3d_RegularV3.SM_KL_Prop_Figure_a4605c3d_RegularV3"
+    },
+    {
+      "label": "G1_Van",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_Figure_a4605c3d_RegularV3.SM_KL_Prop_Figure_a4605c3d_RegularV3"
+    },
+    {
+      "label": "G1_BackRowChild",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Prop_Figure_a4605c3d_RegularV3.SM_KL_Prop_Figure_a4605c3d_RegularV3"
+    },
+    {
+      "label": "G1_Exit",
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/MaterialBound/SM_KL_Door_Leaf_6bedc471_RegularV3.SM_KL_Door_Leaf_6bedc471_RegularV3"
+    }
+  ],
+  "runtime_shader_qualified": false,
+  "source_script_sha256": "b26f4df1fc87a3135ceaeee7d03252a35cdb3bf873306bc52bcf09af7cc2f578",
+  "geometry_changes": [
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Desk_Teacher",
+      "zero_area_faces_removed": [],
+      "degenerate_uv_faces_reprojected": [],
+      "source_triangles": 236,
+      "retained_triangles": 236,
+      "expected_corner_signature": "2c5b7c2686f828d754c0b1d9f65bfa65a8b30f2c73d9d2222c9b606c74ecd7f0"
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_AttBook",
+      "zero_area_faces_removed": [],
+      "degenerate_uv_faces_reprojected": [],
+      "source_triangles": 232,
+      "retained_triangles": 232,
+      "expected_corner_signature": "08e715a4be652d14a76c0deb11bf9f72722eb8524c5df796d845f399dcfc71b5"
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure",
+      "zero_area_faces_removed": [],
+      "degenerate_uv_faces_reprojected": [],
+      "source_triangles": 748,
+      "retained_triangles": 748,
+      "expected_corner_signature": "48a8c6158e380637fb80c5f3bd9b3938d22730a0323436866cc7a0ce3aebaa1c"
+    },
+    {
+      "source": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Leaf",
+      "zero_area_faces_removed": [],
+      "degenerate_uv_faces_reprojected": [],
+      "source_triangles": 184,
+      "retained_triangles": 184,
+      "expected_corner_signature": "7827fd23d9905521fd4a53e409a6e1fe8b0d9ac03e111772f500d6565359874e"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "scope": "Runtime exposure fixtures, inspected images required; no assets changed",
+  "map_sha256": "46dbe6d468f1ebe6e9109652ff329f6841751aded9f4c875595666b16a7ec262",
+  "captures": [],
+  "error": "Traceback (most recent call last):\n  File \"..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\tools\\g1_lighting_trial.py\", line 57, in tick\n    raise RuntimeError('Possessed pawn/lamp destroyed during debug camera placement; route unqualified')\nRuntimeError: Possessed pawn/lamp destroyed during debug camera placement; route unqualified\n"
+}

@@ -1,0 +1,60 @@
+{
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "asset": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_G1_DeckShelf_V1",
+  "actor": "G1_DeckShelf",
+  "deck": "G1_ListeningDeck",
+  "deck_position": [
+    1930,
+    0,
+    122
+  ],
+  "deck_yaw": -90,
+  "shelf_top_cm": 122,
+  "rear_wall_x": 1998,
+  "geometry_audit": {
+    "action": "REUSED_WITHOUT_REBUILD",
+    "bounds": {
+      "origin": [
+        11.5,
+        0.0,
+        102.5
+      ],
+      "extent": [
+        56.5,
+        37.0,
+        19.5
+      ],
+      "radius": 70.29580357318636,
+      "finite": true
+    },
+    "buffer_audit": {
+      "qualified": true,
+      "sections": [
+        {
+          "section": 0,
+          "vertices": 24,
+          "triangles": 12,
+          "normals": 24,
+          "tangents": 24
+        },
+        {
+          "section": 1,
+          "vertices": 160,
+          "triangles": 80,
+          "normals": 160,
+          "tangents": 160
+        }
+      ],
+      "invalid_position_count": 0,
+      "invalid_normal_count": 0,
+      "invalid_tangent_count": 0,
+      "invalid_position_examples": [],
+      "invalid_normal_examples": [],
+      "invalid_tangent_examples": []
+    }
+  },
+  "interaction_retest_passed": false,
+  "visual_accepted": false,
+  "provenance": "Project-authored shelf geometry and copied wood/metal",
+  "script_sha256": "dd7db8eab0821aa877ac4aaccb842e453d594da5e3690fa84c3e506592f866ab"
+}

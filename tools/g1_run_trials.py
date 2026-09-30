@@ -14,6 +14,10 @@ def command(*args):
                             text=True, encoding='utf-8', errors='replace', timeout=45)
     if result.returncode:
         raise RuntimeError(result.stdout + result.stderr)
+    if args[:3] == ('_mcp_tool.py', 'call', 'EditorToolset.EditorAppToolset'):
+        payload = json.loads(result.stdout)
+        if payload.get('isError'):
+            raise RuntimeError(result.stdout)
     return result.stdout
 
 
@@ -35,10 +39,11 @@ def main():
             if case == 'interactions' else 'G1_school_' + case + '_trial.json')
         # Ignored adapter leaves the checked-in scenario source unchanged.
         adapter = ROOT / '_g1_trial_adapter.py'
-        adapter.write_text('from pathlib import Path\nG1_CASE = ' + repr(case) + '\n'
-            + 'G1_SOURCE_REVISION = ' + repr(revision) + '\n'
+        adapter.write_text('from pathlib import Path\n'
             + 'exec(compile(Path(' + repr(source.as_posix())
-            + ').read_text(encoding="utf-8"), ' + repr(source.as_posix()) + ', "exec"))\n',
+            + ').read_text(encoding="utf-8"), ' + repr(source.as_posix()) + ', "exec"), '
+            + repr({'__file__': source.as_posix(), '__name__': '__main__',
+                    'G1_CASE': case, 'G1_SOURCE_REVISION': revision}) + ')\n',
             encoding='utf-8')
         before = output.stat().st_mtime_ns if output.exists() else None
         try:

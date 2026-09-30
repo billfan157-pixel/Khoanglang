@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "keys": [
+    {
+      "asset": "BP_KL_SchoolPlayer",
+      "graph": "PollNativeInput",
+      "node": "IsInputKeyDown",
+      "key": "W"
+    },
+    {
+      "asset": "BP_KL_SchoolPlayer",
+      "graph": "PollNativeInput",
+      "node": "IsInputKeyDown",
+      "key": "S"
+    },
+    {
+      "asset": "BP_KL_SchoolPlayer",
+      "graph": "PollNativeInput",
+      "node": "IsInputKeyDown",
+      "key": "D"
+    },
+    {
+      "asset": "BP_KL_SchoolPlayer",
+      "graph": "PollNativeInput",
+      "node": "IsInputKeyDown",
+      "key": "A"
+    },
+    {
+      "asset": "BP_KL_SchoolPlayer",
+      "graph": "PollNativeInput",
+      "node": "WasInputKeyJustPressed",
+      "key": "F"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "Q"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "E"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "R"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "Enter"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "X"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "One"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "Two"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "Three"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "Four"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "J"
+    },
+    {
+      "asset": "BP_KL_SchoolLoop",
+      "graph": "PollSchoolKeys",
+      "node": "WasInputKeyJustPressed",
+      "key": "V"
+    }
+  ],
+  "failures": [],
+  "physical_input_qualified": false
+}

@@ -1,0 +1,159 @@
+{
+  "status": "captured",
+  "scope": "Runtime exposure fixtures, inspected images required; no assets changed",
+  "map_sha256": "46dbe6d468f1ebe6e9109652ff329f6841751aded9f4c875595666b16a7ec262",
+  "captures": [
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        -880.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_entry_off.png",
+      "screenshot_source": "ScreenShot00035.png",
+      "sha256": "475e43fbd41b7d6da92a57eaba9c69a2a31867c99c490893120773464959132b"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        -880.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_entry_on.png",
+      "screenshot_source": "ScreenShot00036.png",
+      "sha256": "b59e67f269a6c9127e315f82f62632a3eda25243f876dd1de871a6f819f8ff43"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        300.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_hall_off.png",
+      "screenshot_source": "ScreenShot00037.png",
+      "sha256": "968eb7a990b107821a447e6a00c03ddc4d5e9e2e76de0523191dc18e35b2bdd5"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        300.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_hall_on.png",
+      "screenshot_source": "ScreenShot00038.png",
+      "sha256": "514a8f7c648fb165c2ca7c6838e2de0d4e97e846777a8b511f5cdca768341d6f"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        870.0,
+        180.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_classroom_off.png",
+      "screenshot_source": "ScreenShot00039.png",
+      "sha256": "ae95782f0495101df69d80c40b6c87edb05b3c7ec576568777719e9b14ca79d1"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        870.0,
+        180.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_classroom_on.png",
+      "screenshot_source": "ScreenShot00040.png",
+      "sha256": "956741d4c3c84a9d2111470a95c85847fb70f0663fa681a0bdabeeba25ff7946"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        1800.0,
+        -100.0,
+        154.14999961853027
+      ],
+      "pawn_location": [
+        1800.0,
+        -100.0,
+        90.14999961853027
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_deck_off.png",
+      "screenshot_source": "ScreenShot00041.png",
+      "sha256": "6eecafa43f6177683b55eebc71db32786d2a9b2a8e6c2979430d9c39dc24e732"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        1800.0,
+        -100.0,
+        154.14999961853027
+      ],
+      "pawn_location": [
+        1800.0,
+        -100.0,
+        90.14999961853027
+      ],
+      "path": "docs/agent/EVIDENCE/G1_dynamic_v3_ev-1p5_deck_on.png",
+      "screenshot_source": "ScreenShot00042.png",
+      "sha256": "4c4619c080c3e1935077fec38c01af7545f46f0faa57ed57754fde4457a3cb28"
+    }
+  ]
+}

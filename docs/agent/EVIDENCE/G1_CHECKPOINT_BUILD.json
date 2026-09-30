@@ -1,0 +1,17 @@
+{
+  "schema": "kl.verification-result.v1",
+  "gate": "g1",
+  "qualified": false,
+  "release_complete": false,
+  "run_directory": "C:\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\_release_work\\20260930_235642_f042e94a",
+  "source_revision": "df7ae853cadab9806969a48bc9186f30770ab888",
+  "source_sha256": "439582a23e69c3a9bd4a8a3d90eb98595849c377676feb10a1feb2e03e3c34c3",
+  "source_manifest": "source_manifest.json",
+  "package": "C:\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\_release_work\\20260930_235642_f042e94a\\WindowsBuild",
+  "artifact_sha256": "bed93a176461c2af81f81f64e7ff5cee8c7a3541fe7863ed0cc49c3535743538",
+  "status": "G1_PACKAGE_BUILT_RUNTIME_UNQUALIFIED",
+  "uat_log_sha256": "db33f37effcfc574d662f92f4bcf8524eb3f7c6c700c9e5a9249c7ef1131ea5d",
+  "uat_exit_code": 0,
+  "cook_error_lines": [],
+  "checks_scope": "Windows Development package only; runtime separate"
+}

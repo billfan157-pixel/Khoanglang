@@ -1,0 +1,235 @@
+{
+  "status": "captured",
+  "scope": "Runtime exposure fixtures, inspected images required; no assets changed",
+  "map_sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e",
+  "captures": [
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        -880.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_entry_off.png",
+      "screenshot_source": "ScreenShot00044.png",
+      "sha256": "9d9aee5e07db5d92228ed2f33d5a577bea85e4d875cc5b2afe4abad837b36b01"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "entry",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        -880.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_entry_on.png",
+      "screenshot_source": "ScreenShot00045.png",
+      "sha256": "daf5e97b37278735cb238f20bb58e50f210b242c605720b49be67b0c1aedefdf"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        300.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_hall_off.png",
+      "screenshot_source": "ScreenShot00046.png",
+      "sha256": "4e14f049ef951aeca7611eb3218d15b834185dc88ff626d1076fecf186edded5"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "hall",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        300.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_hall_on.png",
+      "screenshot_source": "ScreenShot00047.png",
+      "sha256": "fa5f91ae8a3d1cfb2aa101002c08a40807a93de4e27b83ba02556192e6ebe592"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        870.0,
+        180.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_classroom_off.png",
+      "screenshot_source": "ScreenShot00048.png",
+      "sha256": "e784f1735994c5349d3c39c72a38bf7acbdaeb3ca974898f74a7d88088ad2de1"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "classroom",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        870.0,
+        180.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_classroom_on.png",
+      "screenshot_source": "ScreenShot00049.png",
+      "sha256": "5fcb1c3eaf4e59ed76a981a92f4b3f3fc1249dc666b1baa1745b2dc8756a8d15"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        1780.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1780.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_off.png",
+      "screenshot_source": "ScreenShot00050.png",
+      "sha256": "6a879fd8ca7844ddf112e9ecf885453ab47d6335d3bb672e2c1697a01a8a1e2d"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        1780.0,
+        0.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1780.0,
+        0.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_on.png",
+      "screenshot_source": "ScreenShot00051.png",
+      "sha256": "efc794ff6942a5b4918bafd2a1c19c05f5eab82dd5fa4ca61dcc9eb716b089e8"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck_side",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        1880.0,
+        -120.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1880.0,
+        -120.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_side_off.png",
+      "screenshot_source": "ScreenShot00052.png",
+      "sha256": "9696941c994615921a24e355cb96ba4b1294bb170964fe668ee371ba6dfe7347"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck_side",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        1880.0,
+        -120.0,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1880.0,
+        -120.0,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_side_on.png",
+      "screenshot_source": "ScreenShot00053.png",
+      "sha256": "5414008f897cee8fec9d2e9679f19ff301b8d785bc09e59ea2d8e7115b4eb8cd"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck_back",
+      "torch": false,
+      "torch_lumens": 90.0,
+      "camera": [
+        1949.75,
+        100.00000000855714,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1949.75,
+        100.00000000855714,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_back_off.png",
+      "screenshot_source": "ScreenShot00054.png",
+      "sha256": "c6794b00fbaed990ed28149eb03768b7c9abf33a9e12eaea0df223eb4e72a9a0"
+    },
+    {
+      "bias_ev": -1.5,
+      "scene": "deck_back",
+      "torch": true,
+      "torch_lumens": 90.0,
+      "camera": [
+        1949.75,
+        100.00000000855714,
+        154.15000009536743
+      ],
+      "pawn_location": [
+        1949.75,
+        100.00000000855714,
+        90.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_back_on.png",
+      "screenshot_source": "ScreenShot00055.png",
+      "sha256": "0596bd74b9ed59ec121f62f688662914c0ba979b9277c8b67a196bb33baaf9fc"
+    }
+  ]
+}

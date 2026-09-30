@@ -19,12 +19,16 @@ camera = unreal.GameplayStatics.get_player_camera_manager(world, 0)
 lamp = pawn.get_component_by_class(unreal.SpotLightComponent)
 grade = next(a for a in unreal.GameplayStatics.get_all_actors_of_class(world,
     unreal.PostProcessVolume) if a.get_editor_property('priority') == 100)
+RUN = globals().get('G1_CAPTURE_RUN', 'candidates')
+if not RUN.replace('_', '').isalnum():
+    raise RuntimeError('Capture run identifier must be alphanumeric')
+TORCH_LUMENS = float(globals().get('G1_TORCH_LUMENS', 90.))
 cases = []
-for bias in (-1., -3.):
-    for name, position, rotation in (
+for bias in globals().get('G1_CAPTURE_BIASES', (-1., -3.)):
+    for name, position, rotation in globals().get('G1_CAPTURE_POSES', (
             ('entry', (-880, 0, 98), (0, 0)),
             ('hall', (300, 0, 98), (0, 0)),
-            ('classroom', (870, 180, 98), (0, 90))):
+            ('classroom', (870, 180, 98), (0, 90)))):
         for torch in (False, True):
             cases.append((bias, name, position, rotation, torch))
 report = {'status': 'running', 'scope': 'Runtime exposure fixtures, inspected images required; no assets changed',
@@ -36,7 +40,7 @@ state = {'index': 0, 'phase': 0, 'at': time.monotonic(), 'start': time.monotonic
 
 
 def save():
-    (OUT / 'G1_lighting_candidates.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+    (OUT / ('G1_lighting_' + RUN + '.json')).write_text(json.dumps(report, indent=2), encoding='utf-8')
 
 
 def stop(status):
@@ -47,6 +51,10 @@ def stop(status):
 
 def tick(delta):
     try:
+        if unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_game_world() != world:
+            raise RuntimeError('PIE ended or was replaced during capture')
+        if not unreal.SystemLibrary.is_valid(pawn) or not unreal.SystemLibrary.is_valid(lamp):
+            raise RuntimeError('Possessed pawn/lamp destroyed during debug camera placement; route unqualified')
         if time.monotonic() - state['start'] > 90:
             raise TimeoutError('Lighting capture wall-clock bound reached')
         bias, name, position, rotation, torch = cases[state['index']]
@@ -55,11 +63,12 @@ def tick(delta):
             settings.set_editor_property('auto_exposure_bias', bias)
             grade.set_editor_property('settings', settings)
             pawn.set_actor_location(unreal.Vector(*position), False, True)
+            pawn.get_component_by_class(unreal.CharacterMovementComponent).stop_movement_immediately()
             pc.set_control_rotation(unreal.Rotator(pitch=rotation[0], yaw=rotation[1], roll=0))
             lamp.set_visibility(torch, True)
             lamp.set_hidden_in_game(not torch, True)
             # Bounded low-intensity flashlight candidate; runtime fixture only.
-            lamp.set_editor_property('intensity', 90.)
+            lamp.set_editor_property('intensity', TORCH_LUMENS)
             state['phase'] = 1
             state['at'] = time.monotonic()
             return
@@ -74,11 +83,18 @@ def tick(delta):
         if not files:
             return
         shot = max(files, key=lambda p: p.stat().st_mtime_ns)
-        path = OUT / ('G1_ev%d_%s_%s.png' % (int(bias), name, 'on' if torch else 'off'))
+        ev = str(bias).replace('.', 'p')
+        stem = 'G1' if RUN == 'candidates' else 'G1_' + RUN
+        # Keep the initial integer-EV names for original report compatibility.
+        if RUN == 'candidates':
+            ev = str(int(bias))
+        path = OUT / ('%s_ev%s_%s_%s.png' % (stem, ev, name, 'on' if torch else 'off'))
         shutil.copyfile(shot, path)
         loc = camera.get_camera_location()
+        pawn_loc = pawn.get_actor_location()
         report['captures'].append({'bias_ev': bias, 'scene': name, 'torch': torch,
-            'torch_lumens': 90, 'camera': [loc.x, loc.y, loc.z],
+            'torch_lumens': TORCH_LUMENS, 'camera': [loc.x, loc.y, loc.z],
+            'pawn_location': [pawn_loc.x, pawn_loc.y, pawn_loc.z],
             'path': path.relative_to(ROOT).as_posix(), 'screenshot_source': shot.name,
             'sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
         save()

@@ -116,7 +116,7 @@ def build_player():
     for name, value in (('relative_location', unreal.Vector(8., 5., -5.)),
                         ('relative_rotation', unreal.Rotator(0., 0., 0.)),
                         ('intensity_units', unreal.LightUnits.LUMENS),
-                        ('intensity', 600.), ('attenuation_radius', 1200.),
+                        ('intensity', 90.), ('attenuation_radius', 1200.),
                         ('inner_cone_angle', 18.), ('outer_cone_angle', 36.),
                         ('cast_shadows', True), ('visible', True),
                         ('hidden_in_game', False),
@@ -193,7 +193,7 @@ def build_player():
         def down(key):
             node = b.c('/Script/Engine.PlayerController:IsInputKeyDown')
             wire(b, controller, node, 'self')
-            b.setv(node, 'Key', '(KeyName="%s")' % key)
+            b.setv(node, 'Key', key)
             return H.selb(b, scalar(b, 0.), scalar(b, 1.), (node, 'ReturnValue'))
         longitudinal = arithmetic(b, 'Subtract_DoubleDouble', down('W'), down('S'))
         lateral = arithmetic(b, 'Subtract_DoubleDouble', down('D'), down('A'))
