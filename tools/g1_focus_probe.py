@@ -35,12 +35,18 @@ for graph in BPT.list_graphs(bp):
                         'default': str(p.default_value) if hasattr(p, 'default_value') else ''} for p in info.input_pins],
             'outputs': [{'name': p.name, 'links': len(p.connected_pins)} for p in info.output_pins]})
 for actor in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Actor):
-    if 'Prop_AttBook' in actor.get_class().get_name():
+    if any(n in actor.get_class().get_name() for n in ('Prop_AttBook', 'Prop_ART_AttBook')):
         mesh = actor.get_component_by_class(unreal.StaticMeshComponent)
         report['props'].append({'position': vec(actor.get_actor_location()),
             'mesh_position': vec(mesh.get_world_location()), 'bounds': str(actor.get_actor_bounds(False)),
             'collision': str(mesh.get_collision_enabled()),
-            'visibility_response': str(mesh.get_collision_response_to_channel(unreal.CollisionChannel.ECC_VISIBILITY))})
+            'visibility_response': str(mesh.get_collision_response_to_channel(unreal.CollisionChannel.ECC_VISIBILITY)),
+            'meshes': [{'name':c.get_name(), 'mesh':str(c.get_editor_property('static_mesh')),
+                'local_bounds':str(c.get_local_bounds()),'world_location':vec(c.get_world_location()),
+                'collision':str(c.get_collision_enabled()),'visible':c.get_editor_property('visible'),
+                'relative_scale':str(c.get_editor_property('relative_scale3d')),
+                'response':str(c.get_collision_response_to_channel(unreal.CollisionChannel.ECC_VISIBILITY))}
+                for c in actor.get_components_by_class(unreal.StaticMeshComponent)]})
 target = Path(unreal.Paths.project_dir()) / 'docs/agent/EVIDENCE/G1_focus_probe.json'
 target.write_text(json.dumps(report, indent=2), encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items() if k != 'graphs'}))

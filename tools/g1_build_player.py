@@ -117,9 +117,15 @@ build.iff(b, e, lambda: valid(actor), then_fn=lambda en:
           build.iff(b, en, lambda: valid(interaction), then_fn=focus))
 b.ret()
 b.compile(character, 'view-directed UpdateFocus')
-K.save(build.CHAR)
-build.build_hud()
-build.build_gamemode()
+if not K.save(build.CHAR):
+    raise RuntimeError('Character save failed; check file locks')
+# Preserve already qualified UI/game mode when updating character routing.
+# Rebuilding their live graphs is unnecessary and has triggered an editor
+# access violation; dedicated UI repair scripts remain available.
+if not unreal.EditorAssetLibrary.does_asset_exist(build.HUD):
+    build.build_hud()
+if not unreal.EditorAssetLibrary.does_asset_exist(build.GM):
+    build.build_gamemode()
 report = {}
 for path in (build.CHAR, build.HUD, build.GM):
     bp = unreal.load_asset(path)

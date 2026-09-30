@@ -25,13 +25,16 @@ def component(actor, name):
 inv = component(pawn, 'BP_KL_InvestigationComponent')
 lis = component(pawn, 'BP_KL_ListeningComponent')
 actors = unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Actor)
-props = {a.get_class().get_name(): a for a in actors if 'BP_KL_Prop_' in a.get_class().get_name()}
+props = {a.get_class().get_name().replace('Prop_ART_', 'Prop_'): a
+         for a in actors if 'BP_KL_Prop_' in a.get_class().get_name()}
 book = component(props['BP_KL_Prop_AttBook_C'], 'BP_KL_InteractComponent')
 tape = component(props['BP_KL_Prop_TapeDeck_C'], 'BP_KL_InteractComponent')
 corner = component(props['BP_KL_Prop_Corner_C'], 'BP_KL_InteractComponent')
 report = {'world': world.get_path_name(), 'method': 'Blueprint debug calls; real world timers',
           'status': 'running', 'checks': [], 'phases': []}
-target = Path(unreal.Paths.project_dir()) / 'docs/agent/EVIDENCE/G1_runtime_trial.json'
+merged = any(n in world.get_path_name() for n in ('School3_Merged', 'School3_Primary'))
+target = Path(unreal.Paths.project_dir()) / ('docs/agent/EVIDENCE/G1_merged_runtime_trial.json'
+    if merged else 'docs/agent/EVIDENCE/G1_runtime_trial.json')
 state = {'phase': 0, 'at': unreal.GameplayStatics.get_time_seconds(world), 'handle': None}
 
 def save():
@@ -107,7 +110,7 @@ def tick(delta):
         elif state['phase'] == 4 and elapsed >= 17:
             check(flag('bEnded'), 'World timers finish prototype beat')
             report['scope_limit'] = 'Prototype beat only; no canonical ending, save/load or player-input proof'
-            unreal.SystemLibrary.execute_console_command(world, 'Shot showui')
+            unreal.SystemLibrary.execute_console_command(world, 'Shot')
             stop('passed')
         elif elapsed > 60:
             raise TimeoutError('Phase did not advance')

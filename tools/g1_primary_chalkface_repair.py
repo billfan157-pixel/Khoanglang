@@ -1,0 +1,21 @@
+"""Keep the existing board frame, with an explicit correctly assigned slate face."""
+import unreal
+editor=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem)
+if editor.get_game_world(): raise RuntimeError('Stop PIE first')
+world=editor.get_editor_world()
+if '/Production/Maps/Lvl_KL_School3_Primary' not in world.get_path_name(): raise RuntimeError('Primary map required')
+actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+face=next((a for a in actors.get_all_level_actors() if a.get_actor_label()=='PRIMARY_ChalkboardSlate'),None)
+if face is None:
+    face=actors.spawn_actor_from_class(unreal.StaticMeshActor,unreal.Vector(1080,888,175),unreal.Rotator())
+    face.set_actor_label('PRIMARY_ChalkboardSlate')
+face.modify()
+face.set_actor_scale3d(unreal.Vector(3.36,.01,1.32))
+c=face.get_component_by_class(unreal.StaticMeshComponent)
+c.modify()
+c.set_static_mesh(unreal.load_asset('/Engine/BasicShapes/Cube'))
+c.set_material(0,unreal.load_asset('/Game/KhoangLang/Production/Materials/MI_ART_Chalk'))
+c.set_collision_enabled(unreal.CollisionEnabled.NO_COLLISION)
+world.modify()
+if not unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).save_current_level(): raise RuntimeError('Slate face save failed')
+print('PRIMARY_CHALK_FACE_REPAIRED')

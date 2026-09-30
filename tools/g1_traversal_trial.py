@@ -14,12 +14,26 @@ if world is None or '/Production/' not in world.get_path_name():
 pawn = unreal.GameplayStatics.get_player_pawn(world, 0)
 controller = unreal.GameplayStatics.get_player_controller(world, 0)
 camera = unreal.GameplayStatics.get_player_camera_manager(world, 0)
-waypoints = [(-600, 0), (870, 0), (870, 430), (1340, 430), (1340, 800), (1250, 800)]
+if pawn is None:
+    raise RuntimeError('Production pawn did not spawn or survive on the floor')
+merged = any(n in world.get_path_name() for n in ('School3_Merged', 'School3_Primary'))
+waypoints = ([(-600,0), (870,0), (870,410), (1400,410), (1400,810), (1250,810)]
+    if merged else [(-600, 0), (870, 0), (870, 430), (1340, 430), (1340, 800), (1250, 800)])
+book_path = ('/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C'
+    if merged else '/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C')
 report = {'method': 'Move Blueprint debug calls and real CharacterMovement collision',
           'world': world.get_path_name(), 'status': 'running', 'waypoints': []}
-target = Path(unreal.Paths.project_dir()) / 'docs/agent/EVIDENCE/G1_traversal_trial.json'
+target = Path(unreal.Paths.project_dir()) / ('docs/agent/EVIDENCE/G1_merged_traversal_trial.json'
+    if merged else 'docs/agent/EVIDENCE/G1_traversal_trial.json')
 state = {'index': 0, 'started': unreal.GameplayStatics.get_time_seconds(world),
          'handle': None, 'focus_at': None}
+
+def book_point(book):
+    # Aim at the visible mesh, whose root lies on the desktop. A ray aimed at
+    # that root can correctly hit the desktop instead of the book's cover.
+    mesh=book.get_component_by_class(unreal.StaticMeshComponent)
+    bounds=mesh.get_editor_property('static_mesh').get_bounds()
+    return unreal.MathLibrary.transform_location(mesh.get_world_transform(),bounds.origin)
 
 def save():
     target.write_text(json.dumps(report, indent=2), encoding='utf-8')
@@ -50,21 +64,21 @@ def tick(delta):
             pawn.call_method('Move', (0.0, 1.0))
         elif state['focus_at'] is None:
             pawn.get_component_by_class(unreal.CharacterMovementComponent).stop_movement_immediately()
-            book_class = unreal.load_class(None, '/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C')
+            book_class = unreal.load_class(None, book_path)
             book = unreal.GameplayStatics.get_actor_of_class(world, book_class)
             controller.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(
-                camera.get_camera_location(), book.get_actor_location()))
+                camera.get_camera_location(), book_point(book)))
             state['focus_at'] = now
         else:
-            book_class = unreal.load_class(None, '/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C')
+            book_class = unreal.load_class(None, book_path)
             book = unreal.GameplayStatics.get_actor_of_class(world, book_class)
             controller.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(
-                camera.get_camera_location(), book.get_actor_location()))
+                camera.get_camera_location(), book_point(book)))
             if now - state['focus_at'] < 1:
                 return
             focus = pawn.get_editor_property('FocusCand')
             report['focus_owner'] = focus.get_owner().get_class().get_path_name() if focus else None
-            if focus is None or focus.get_owner().get_class().get_name() != 'BP_KL_Prop_AttBook_C':
+            if focus is None or focus.get_owner() != book:
                 raise AssertionError('View trace did not focus reachable attendance book')
             report['scope_limit'] = 'No physical keyboard proof; no canonical sentence or attention proof'
             unreal.SystemLibrary.execute_console_command(world, 'Shot')
