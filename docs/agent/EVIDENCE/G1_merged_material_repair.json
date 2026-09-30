@@ -1,0 +1,6 @@
+{
+  "master": "/Game/KhoangLang/Production/Materials/M_KL_ART_Surface",
+  "instances": 0,
+  "overrides": [],
+  "validation": "Native MaterialTools.recompile raises on shader errors"
+}

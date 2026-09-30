@@ -1,0 +1,1736 @@
+{
+  "source": "Content/Python/KhoangLang/art_80_level.py",
+  "placements": [
+    {
+      "label": "ART_Floor_Corr",
+      "location": [
+        -700.0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Floor_Hall",
+      "location": [
+        800.0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Floor_Room",
+      "location": [
+        1050.0,
+        550.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Corr",
+      "location": [
+        -700.0,
+        0,
+        320
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Hall",
+      "location": [
+        800.0,
+        0,
+        320
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Ceil_Room",
+      "location": [
+        1050.0,
+        550.0,
+        320
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallS",
+      "location": [
+        800.0,
+        -200.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_A",
+      "location": [
+        200.0,
+        200.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_Door",
+      "location": [
+        870.0,
+        200.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallN_B",
+      "location": [
+        1470.0,
+        200.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_N",
+      "location": [
+        -400.0,
+        155.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_S",
+      "location": [
+        -400.0,
+        -155.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallW_Head",
+      "location": [
+        -400.0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_HallE",
+      "location": [
+        2000.0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrN",
+      "location": [
+        -700.0,
+        110.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrS",
+      "location": [
+        -700.0,
+        -110.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_CorrW",
+      "location": [
+        -1000.0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomW",
+      "location": [
+        550.0,
+        550.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomS",
+      "location": [
+        1050.0,
+        900.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_S0",
+      "location": [
+        1550.0,
+        240.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_W0",
+      "location": [
+        1550.0,
+        350.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_S1",
+      "location": [
+        1550.0,
+        495.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_W1",
+      "location": [
+        1550.0,
+        640.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Wall_RoomE_SN",
+      "location": [
+        1550.0,
+        805.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Door3_Frame",
+      "location": [
+        870.0,
+        200.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Door3_Leaf",
+      "location": [
+        804.0,
+        218.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        -68.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_FrameW",
+      "location": [
+        -400.0,
+        62.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_FrameE",
+      "location": [
+        -400.0,
+        -62.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_LeafN",
+      "location": [
+        -394.0,
+        8.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        74.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_DoorEntry_LeafS",
+      "location": [
+        -394.0,
+        -8.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        -74.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win0_Frame",
+      "location": [
+        1570.0,
+        350.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win0_Glass",
+      "location": [
+        1570.0,
+        350.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win0_ShutN",
+      "location": [
+        1570.0,
+        424.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        118.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win0_ShutS",
+      "location": [
+        1570.0,
+        276.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        -118.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win1_Frame",
+      "location": [
+        1570.0,
+        640.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win1_Glass",
+      "location": [
+        1570.0,
+        640.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win1_ShutN",
+      "location": [
+        1570.0,
+        714.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        118.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Win1_ShutS",
+      "location": [
+        1570.0,
+        566.0,
+        90.0
+      ],
+      "rotation": [
+        0.0,
+        -118.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr0_Frame",
+      "location": [
+        -900.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr0_Glass",
+      "location": [
+        -900.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr1_Frame",
+      "location": [
+        -700.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr1_Glass",
+      "location": [
+        -700.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr2_Frame",
+      "location": [
+        -500.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WinCorr2_Glass",
+      "location": [
+        -500.0,
+        -112.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Room_Platform",
+      "location": [
+        1050.0,
+        800.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Teacher_Desk",
+      "location": [
+        1050.0,
+        800.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Teacher_Chair",
+      "location": [
+        1050.0,
+        720.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Podium",
+      "location": [
+        800.0,
+        830.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        12.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Chalkboard",
+      "location": [
+        1080.0,
+        896.0,
+        175.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_WallMap",
+      "location": [
+        700.0,
+        896.0,
+        190.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk0_0",
+      "location": [
+        700.0,
+        600.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench0_0",
+      "location": [
+        700.0,
+        554.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk1_0",
+      "location": [
+        880.0,
+        600.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench1_0",
+      "location": [
+        880.0,
+        554.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk2_0",
+      "location": [
+        1060.0,
+        600.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench2_0",
+      "location": [
+        1060.0,
+        554.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk3_0",
+      "location": [
+        1240.0,
+        600.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench3_0",
+      "location": [
+        1240.0,
+        554.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk0_1",
+      "location": [
+        700.0,
+        460.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench0_1",
+      "location": [
+        700.0,
+        414.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk1_1",
+      "location": [
+        880.0,
+        460.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench1_1",
+      "location": [
+        880.0,
+        414.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk2_1",
+      "location": [
+        1060.0,
+        460.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench2_1",
+      "location": [
+        1060.0,
+        414.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk3_1",
+      "location": [
+        1240.0,
+        460.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench3_1",
+      "location": [
+        1240.0,
+        414.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk0_2",
+      "location": [
+        700.0,
+        320.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench0_2",
+      "location": [
+        700.0,
+        274.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk1_2",
+      "location": [
+        880.0,
+        320.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench1_2",
+      "location": [
+        880.0,
+        274.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk2_2",
+      "location": [
+        1060.0,
+        320.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench2_2",
+      "location": [
+        1060.0,
+        274.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Desk3_2",
+      "location": [
+        1240.0,
+        320.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench3_2",
+      "location": [
+        1240.0,
+        274.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Chair_700",
+      "location": [
+        700.0,
+        300.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        188.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Chair_1060",
+      "location": [
+        1060.0,
+        440.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        166.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Chair_1240",
+      "location": [
+        1240.0,
+        300.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        202.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Chair_Fallen",
+      "location": [
+        940.0,
+        250.0,
+        20.0
+      ],
+      "rotation": [
+        0.0,
+        -96.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bookcase",
+      "location": [
+        570.0,
+        640.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CoatHook",
+      "location": [
+        554.0,
+        350.0,
+        160.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bin",
+      "location": [
+        1510.0,
+        260.0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Fan",
+      "location": [
+        1050.0,
+        500.0,
+        318.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_CornerStack0",
+      "location": [
+        596.0,
+        856.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        84.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CornerStack1",
+      "location": [
+        596.0,
+        856.0,
+        44.0
+      ],
+      "rotation": [
+        0.0,
+        88.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CornerStack2",
+      "location": [
+        596.0,
+        856.0,
+        88.0
+      ],
+      "rotation": [
+        0.0,
+        92.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Beam0",
+      "location": [
+        -200.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Beam1",
+      "location": [
+        200.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Beam2",
+      "location": [
+        600.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Beam3",
+      "location": [
+        1000.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Beam4",
+      "location": [
+        1400.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Beam5",
+      "location": [
+        1800.0,
+        0,
+        286.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_Tube0",
+      "location": [
+        -200.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Tube1",
+      "location": [
+        200.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Tube2",
+      "location": [
+        600.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Tube3",
+      "location": [
+        1000.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Tube4",
+      "location": [
+        1400.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Tube5",
+      "location": [
+        1800.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr0",
+      "location": [
+        -800.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr1",
+      "location": [
+        -600.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_TubeCorr2",
+      "location": [
+        -450.0,
+        0,
+        308.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ART_NoticeBoard",
+      "location": [
+        350.0,
+        -196.0,
+        180.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench0",
+      "location": [
+        100.0,
+        -160.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench1",
+      "location": [
+        700.0,
+        -160.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_Bench2",
+      "location": [
+        1500.0,
+        -160.0,
+        0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_PA",
+      "location": [
+        1975.0,
+        0,
+        250.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_CoatHook_Hall",
+      "location": [
+        1150.0,
+        -196.0,
+        160.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack0",
+      "location": [
+        1900.0,
+        150.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack1",
+      "location": [
+        1900.0,
+        150.0,
+        26.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    {
+      "label": "ART_ChairStack2",
+      "location": [
+        1900.0,
+        150.0,
+        52.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "label": "ART_Moon",
+      "kind": "Directional",
+      "location": [
+        0.0,
+        0.0,
+        1200.0
+      ],
+      "rotation": [
+        -46.0,
+        28.0,
+        0.0
+      ],
+      "intensity": 0.22,
+      "rgb": [
+        0.52,
+        0.64,
+        1.0
+      ],
+      "radius": 900,
+      "shadows": true,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Corr",
+      "kind": "Point",
+      "location": [
+        -560.0,
+        0.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 2600.0,
+      "rgb": [
+        0.84,
+        0.9,
+        1.0
+      ],
+      "radius": 1100.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Hall0",
+      "kind": "Point",
+      "location": [
+        -150.0,
+        0.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 4200.0,
+      "rgb": [
+        1.0,
+        0.9,
+        0.74
+      ],
+      "radius": 1200.0,
+      "shadows": true,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Hall1",
+      "kind": "Point",
+      "location": [
+        700.0,
+        0.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 3400.0,
+      "rgb": [
+        1.0,
+        0.9,
+        0.74
+      ],
+      "radius": 1200.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Hall2",
+      "kind": "Point",
+      "location": [
+        1550.0,
+        0.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 2600.0,
+      "rgb": [
+        1.0,
+        0.9,
+        0.74
+      ],
+      "radius": 1200.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Door",
+      "kind": "Point",
+      "location": [
+        870.0,
+        240.0,
+        190.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 1400.0,
+      "rgb": [
+        1.0,
+        0.9,
+        0.76
+      ],
+      "radius": 900.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Room0",
+      "kind": "Point",
+      "location": [
+        1050.0,
+        420.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 4600.0,
+      "rgb": [
+        1.0,
+        0.91,
+        0.78
+      ],
+      "radius": 1400.0,
+      "shadows": true,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Room1",
+      "kind": "Point",
+      "location": [
+        1050.0,
+        740.0,
+        296.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 3800.0,
+      "rgb": [
+        1.0,
+        0.91,
+        0.78
+      ],
+      "radius": 1400.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    },
+    {
+      "label": "ART_L_Shaft0",
+      "kind": "Spot",
+      "location": [
+        1770.0,
+        350.0,
+        190.0
+      ],
+      "rotation": [
+        0.0,
+        118.0,
+        0.0
+      ],
+      "intensity": 9000.0,
+      "rgb": [
+        0.54,
+        0.66,
+        1.0
+      ],
+      "radius": 2400.0,
+      "shadows": false,
+      "cone": [
+        22.0,
+        50.0
+      ]
+    },
+    {
+      "label": "ART_L_Shaft1",
+      "kind": "Spot",
+      "location": [
+        1770.0,
+        640.0,
+        190.0
+      ],
+      "rotation": [
+        0.0,
+        118.0,
+        0.0
+      ],
+      "intensity": 9000.0,
+      "rgb": [
+        0.54,
+        0.66,
+        1.0
+      ],
+      "radius": 2400.0,
+      "shadows": false,
+      "cone": [
+        22.0,
+        50.0
+      ]
+    },
+    {
+      "label": "ART_L_ShaftCorr",
+      "kind": "Spot",
+      "location": [
+        -940.0,
+        0.0,
+        200.0
+      ],
+      "rotation": [
+        0.0,
+        62.0,
+        0.0
+      ],
+      "intensity": 2200.0,
+      "rgb": [
+        0.52,
+        0.64,
+        1.0
+      ],
+      "radius": 1600.0,
+      "shadows": false,
+      "cone": [
+        30.0,
+        66.0
+      ]
+    },
+    {
+      "label": "ART_L_CornerHint",
+      "kind": "Point",
+      "location": [
+        1400.0,
+        760.0,
+        60.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "intensity": 260.0,
+      "rgb": [
+        0.5,
+        0.62,
+        0.92
+      ],
+      "radius": 520.0,
+      "shadows": false,
+      "cone": [
+        28,
+        60
+      ]
+    }
+  ]
+}

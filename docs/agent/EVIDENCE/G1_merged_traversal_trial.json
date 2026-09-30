@@ -1,0 +1,63 @@
+{
+  "method": "Move Blueprint debug calls and real CharacterMovement collision",
+  "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary",
+  "status": "failed",
+  "waypoints": [
+    {
+      "index": 0,
+      "location": [
+        -606.25181622192,
+        0.0,
+        98.14999961853027
+      ],
+      "game_time": 1.9556660130620003
+    },
+    {
+      "index": 1,
+      "location": [
+        855.4480181301238,
+        0.0,
+        98.14999961853027
+      ],
+      "game_time": 4.419044014066458
+    },
+    {
+      "index": 2,
+      "location": [
+        871.9641797243892,
+        395.1557217445557,
+        98.14999961853027
+      ],
+      "game_time": 5.2073761112987995
+    },
+    {
+      "index": 3,
+      "location": [
+        1384.03984287846,
+        411.1715232910952,
+        98.14999961853027
+      ],
+      "game_time": 6.211276412010193
+    },
+    {
+      "index": 4,
+      "location": [
+        1400.9134013909406,
+        804.3916181862481,
+        98.14999961853027
+      ],
+      "game_time": 6.989530812948942
+    },
+    {
+      "index": 5,
+      "location": [
+        1251.9569099998298,
+        820.8762649673023,
+        98.14999961853027
+      ],
+      "game_time": 7.336057413369417
+    }
+  ],
+  "focus_owner": null,
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_traversal_trial.py\", line 82, in tick\n    raise AssertionError('View trace did not focus reachable attendance book')\nAssertionError: View trace did not focus reachable attendance book\n"
+}

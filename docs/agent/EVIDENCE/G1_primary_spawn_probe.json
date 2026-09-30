@@ -1,0 +1,10 @@
+{
+  "game_mode": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+  "pawn_class": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_Character.BP_KL_Character_C",
+  "spectator": false,
+  "overlaps": [],
+  "capsule": {
+    "radius": 33.99907684326172,
+    "height": 96.0
+  }
+}

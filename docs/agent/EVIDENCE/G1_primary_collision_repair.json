@@ -1,0 +1,279 @@
+{
+  "meshes": [
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_600_220",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_600_220"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_2400_400",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_2400_400"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_1000_700",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_1000_700"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_600_220",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_600_220"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_2400_400",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_2400_400"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_1000_700",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_1000_700"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_2400",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_2400"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1200",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1200"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallDoor_140",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallDoor_140"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1060",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1060"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_90"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Header_220",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Header_220"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_400",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_400"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_600"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_220",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_220"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_700",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_700"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1000",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1000"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_80",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_80"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallWin_140",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallWin_140"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_150",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_150"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_190",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_190"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Leaf"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Platform",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Platform"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Teacher",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Teacher"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Teacher",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Teacher"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Podium",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Podium"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chalkboard",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chalkboard"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Wall_Map",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_Map"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bookcase",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bookcase"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Coat_Hook",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Coat_Hook"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Waste_Bin",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Waste_Bin"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Ceiling_Fan",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceiling_Fan"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Pupil"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Notice_Board",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Notice_Board"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bench_Hall"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Arch/SM_KL_PA_Speaker",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_PA_Speaker"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Pupil"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_AttBook",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_AttBook"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Roster",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_Roster"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_TapeDeck",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_TapeDeck"
+    },
+    {
+      "source": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Figure",
+      "copy": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_Figure"
+    }
+  ],
+  "actors": [
+    "ART_Floor_Corr",
+    "ART_Floor_Hall",
+    "ART_Floor_Room",
+    "ART_Ceil_Corr",
+    "ART_Ceil_Hall",
+    "ART_Ceil_Room",
+    "ART_Wall_HallS",
+    "ART_Wall_HallN_A",
+    "ART_Wall_HallN_Door",
+    "ART_Wall_HallN_B",
+    "ART_Wall_HallW_N",
+    "ART_Wall_HallW_S",
+    "ART_Wall_HallW_Head",
+    "ART_Wall_HallE",
+    "ART_Wall_CorrN",
+    "ART_Wall_CorrS",
+    "ART_Wall_CorrW",
+    "ART_Wall_RoomW",
+    "ART_Wall_RoomS",
+    "ART_Wall_RoomE_S0",
+    "ART_Wall_RoomE_W0",
+    "ART_Wall_RoomE_S1",
+    "ART_Wall_RoomE_W1",
+    "ART_Wall_RoomE_SN",
+    "ART_Door3_Frame",
+    "ART_Door3_Leaf",
+    "ART_DoorEntry_FrameW",
+    "ART_DoorEntry_FrameE",
+    "ART_DoorEntry_LeafN",
+    "ART_DoorEntry_LeafS",
+    "ART_Win0_Frame",
+    "ART_Win0_Glass",
+    "ART_Win0_ShutN",
+    "ART_Win0_ShutS",
+    "ART_Win1_Frame",
+    "ART_Win1_Glass",
+    "ART_Win1_ShutN",
+    "ART_Win1_ShutS",
+    "ART_WinCorr0_Frame",
+    "ART_WinCorr0_Glass",
+    "ART_WinCorr1_Frame",
+    "ART_WinCorr1_Glass",
+    "ART_WinCorr2_Frame",
+    "ART_WinCorr2_Glass",
+    "ART_Room_Platform",
+    "ART_Teacher_Desk",
+    "ART_Teacher_Chair",
+    "ART_Podium",
+    "ART_Chalkboard",
+    "ART_WallMap",
+    "ART_Bookcase",
+    "ART_CoatHook",
+    "ART_Bin",
+    "ART_Fan",
+    "ART_CornerStack0",
+    "ART_CornerStack1",
+    "ART_CornerStack2",
+    "ART_Beam0",
+    "ART_Beam1",
+    "ART_Beam2",
+    "ART_Beam3",
+    "ART_Beam4",
+    "ART_Beam5",
+    "ART_Tube0",
+    "ART_Tube1",
+    "ART_Tube2",
+    "ART_Tube3",
+    "ART_Tube4",
+    "ART_Tube5",
+    "ART_TubeCorr0",
+    "ART_TubeCorr1",
+    "ART_TubeCorr2",
+    "ART_NoticeBoard",
+    "ART_Bench0",
+    "ART_Bench1",
+    "ART_Bench2",
+    "ART_PA",
+    "ART_CoatHook_Hall",
+    "ART_ChairStack0",
+    "ART_ChairStack1",
+    "ART_ChairStack2",
+    "ART_AttBook",
+    "ART_Roster",
+    "ART_TapeDeck",
+    "ART_Corner"
+  ]
+}

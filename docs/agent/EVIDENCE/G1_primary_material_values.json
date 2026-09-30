@@ -1,0 +1,37 @@
+[
+  {
+    "name": "MI_ART_Chalk",
+    "detail": "/Game/KhoangLang/TexturesArt/T_ART_Chalk_A.T_ART_Chalk_A",
+    "base": "<Struct 'LinearColor' (0x000002740F8614A0) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "dirt": "<Struct 'LinearColor' (0x000002740F8614A0) {r: 0.100000, g: 0.160000, b: 0.120000, a: 1.000000}>",
+    "parent": "/Game/KhoangLang/Production/Materials/M_KL_ART_Surface.M_KL_ART_Surface"
+  },
+  {
+    "name": "MI_ART_Wood",
+    "detail": "/Game/KhoangLang/TexturesArt/T_ART_Wood_A.T_ART_Wood_A",
+    "base": "<Struct 'LinearColor' (0x000002740FB1D1E0) {r: 0.460000, g: 0.280000, b: 0.130000, a: 1.000000}>",
+    "dirt": "<Struct 'LinearColor' (0x000002740FB1D1E0) {r: 0.180000, g: 0.110000, b: 0.060000, a: 1.000000}>",
+    "parent": "/Game/KhoangLang/Production/Materials/M_KL_ART_Surface.M_KL_ART_Surface"
+  },
+  {
+    "name": "MI_ART_WallClassroom",
+    "detail": "/Game/KhoangLang/TexturesArt/T_ART_Plaster_A.T_ART_Plaster_A",
+    "base": "<Struct 'LinearColor' (0x000002740FD3C5A0) {r: 0.840000, g: 0.780000, b: 0.580000, a: 1.000000}>",
+    "dirt": "<Struct 'LinearColor' (0x000002740FD3C5A0) {r: 0.330000, g: 0.290000, b: 0.210000, a: 1.000000}>",
+    "parent": "/Game/KhoangLang/Production/Materials/M_KL_ART_Surface.M_KL_ART_Surface"
+  },
+  {
+    "name": "MI_ART_WallOchre",
+    "detail": "/Game/KhoangLang/TexturesArt/T_ART_Plaster_A.T_ART_Plaster_A",
+    "base": "<Struct 'LinearColor' (0x000002740FD808A0) {r: 0.820000, g: 0.730000, b: 0.500000, a: 1.000000}>",
+    "dirt": "<Struct 'LinearColor' (0x000002740FD808A0) {r: 0.300000, g: 0.260000, b: 0.190000, a: 1.000000}>",
+    "parent": "/Game/KhoangLang/Production/Materials/M_KL_ART_Surface.M_KL_ART_Surface"
+  },
+  {
+    "name": "MI_SF_Wood_AgedTop",
+    "detail": "/Game/KhoangLang/TexturesArt/T_ART_Wood_A.T_ART_Wood_A",
+    "base": "<Struct 'LinearColor' (0x000002740FF38120) {r: 0.460000, g: 0.280000, b: 0.130000, a: 1.000000}>",
+    "dirt": "<Struct 'LinearColor' (0x000002740FF38120) {r: 0.180000, g: 0.110000, b: 0.060000, a: 1.000000}>",
+    "parent": "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood"
+  }
+]

@@ -1,0 +1,3051 @@
+[
+  {
+    "map": "Lvl_KL_School3_Art",
+    "actors": [
+      {
+        "label": "ART_Floor_Corr",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05AA0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_600_220.SM_KL_Floor_600_220",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05AA0) {x: -700.000000, y: 0.000000, z: -4.000000}>, <Struct 'Vector' (0x0000025FB3B04470) {x: 300.000000, y: 110.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Floor_Hall",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04470) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_2400_400.SM_KL_Floor_2400_400",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04470) {x: 800.000000, y: 0.000000, z: -4.000000}>, <Struct 'Vector' (0x0000025FB3B05FF0) {x: 1200.000000, y: 200.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Floor_Room",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05FF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_1000_700.SM_KL_Floor_1000_700",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05FF0) {x: 1050.000000, y: 550.000000, z: -4.000000}>, <Struct 'Vector' (0x0000025FB3B06BD0) {x: 500.000000, y: 350.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Ceil_Corr",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          320.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06BD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_600_220.SM_KL_Ceil_600_220",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06BD0) {x: -700.000000, y: 0.000000, z: 329.000000}>, <Struct 'Vector' (0x0000025FB3B05B40) {x: 300.000000, y: 110.000000, z: 9.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Ceil_Hall",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          320.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05B40) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_2400_400.SM_KL_Ceil_2400_400",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05B40) {x: 800.000000, y: 0.000000, z: 329.000000}>, <Struct 'Vector' (0x0000025FB3B06590) {x: 1200.000000, y: 200.000000, z: 9.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Ceil_Room",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          320.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06590) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_1000_700.SM_KL_Ceil_1000_700",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06590) {x: 1050.000000, y: 550.000000, z: 329.000000}>, <Struct 'Vector' (0x0000025FB3B04B50) {x: 500.000000, y: 350.000000, z: 9.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          -200.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04B50) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_2400.SM_KL_Wall_2400",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04B50) {x: 800.000000, y: -191.300000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B04240) {x: 1200.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallN_A",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04DD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1200.SM_KL_Wall_1200",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04DD0) {x: 200.000000, y: 208.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B04E20) {x: 600.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallN_Door",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04D80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallDoor_140.SM_KL_WallDoor_140",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04D80) {x: 870.000000, y: 208.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B04D30) {x: 70.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallN_B",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          200.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05280) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1060.SM_KL_Wall_1060",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05280) {x: 1470.000000, y: 208.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B058C0) {x: 530.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallW_N",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          155.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B057D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B057D0) {x: -400.000000, y: 163.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B05690) {x: 45.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallW_S",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          -155.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05500) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05500) {x: -400.000000, y: -146.300000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B052D0) {x: 45.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallW_Head",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05A50) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Header_220.SM_KL_Header_220",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05A50) {x: -400.000000, y: 10.000000, z: 270.000000}>, <Struct 'Vector' (0x0000025FB3B05C30) {x: 110.000000, y: 10.000000, z: 50.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_HallE",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05C30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_400.SM_KL_Wall_400",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05C30) {x: 2000.000000, y: 8.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B05C80) {x: 200.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_CorrN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          110.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05C80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05C80) {x: -700.000000, y: 118.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B05DC0) {x: 300.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_CorrS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -110.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05DC0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05DC0) {x: -700.000000, y: -101.300000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B07210) {x: 300.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_CorrW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -1000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07210) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_220.SM_KL_Wall_220",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07210) {x: -1000.000000, y: 8.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B07030) {x: 110.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          550.0,
+          550.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07030) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_700.SM_KL_Wall_700",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07030) {x: 550.000000, y: 558.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B06E50) {x: 350.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          900.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06E50) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1000.SM_KL_Wall_1000",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06E50) {x: 1050.000000, y: 908.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B06CC0) {x: 500.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomE_S0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          240.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06B30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_80.SM_KL_Wall_80",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06B30) {x: 1550.000000, y: 248.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B066D0) {x: 40.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomE_W0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          350.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06360) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06360) {x: 1550.000000, y: 358.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B076C0) {x: 70.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomE_S1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          495.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07670) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_150.SM_KL_Wall_150",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07670) {x: 1550.000000, y: 503.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B075D0) {x: 75.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomE_W1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          640.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07440) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07440) {x: 1550.000000, y: 648.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B073A0) {x: 70.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Wall_RoomE_SN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          805.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07760) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_190.SM_KL_Wall_190",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07760) {x: 1550.000000, y: 813.700000, z: 160.000000}>, <Struct 'Vector' (0x0000025FB3B07A80) {x: 95.000000, y: 11.300000, z: 160.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Door3_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07A80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07A80) {x: 870.000000, y: 210.000000, z: 116.000000}>, <Struct 'Vector' (0x0000025FB3B07C10) {x: 82.000000, y: 12.000000, z: 116.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Door3_Leaf",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          804.0,
+          218.0,
+          1.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07C10) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07C10) {x: 872.000000, y: 224.250000, z: 109.000000}>, <Struct 'Vector' (0x0000025FB3B07E90) {x: 68.000000, y: 6.250000, z: 108.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_DoorEntry_FrameW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          62.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07170) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07170) {x: -400.000000, y: 72.000000, z: 116.000000}>, <Struct 'Vector' (0x0000025FB3B054B0) {x: 82.000000, y: 12.000000, z: 116.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_DoorEntry_FrameE",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          -62.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07EE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07EE0) {x: -400.000000, y: -52.000000, z: 116.000000}>, <Struct 'Vector' (0x0000025FB3B069A0) {x: 82.000000, y: 12.000000, z: 116.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_DoorEntry_LeafN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -394.0,
+          8.0,
+          1.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05320) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05320) {x: -326.000000, y: 14.250000, z: 109.000000}>, <Struct 'Vector' (0x0000025FB3B04060) {x: 68.000000, y: 6.250000, z: 108.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_DoorEntry_LeafS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -394.0,
+          -8.0,
+          1.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04830) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04830) {x: -326.000000, y: -1.750000, z: 109.000000}>, <Struct 'Vector' (0x0000025FB3B04150) {x: 68.000000, y: 6.250000, z: 108.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win0_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04150) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04150) {x: 1570.000000, y: 356.000000, z: 165.500000}>, <Struct 'Vector' (0x0000025FB3B05E10) {x: 84.000000, y: 14.000000, z: 83.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win0_Glass",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05E10) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05E10) {x: 1570.000000, y: 354.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05F00) {x: 68.000000, y: 0.000000, z: 73.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win0_ShutN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          424.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05F00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05F00) {x: 1605.000000, y: 427.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05FA0) {x: 35.000000, y: 3.000000, z: 75.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win0_ShutS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          276.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05FA0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05FA0) {x: 1605.000000, y: 279.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05D20) {x: 35.000000, y: 3.000000, z: 75.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win1_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05D20) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05D20) {x: 1570.000000, y: 646.000000, z: 165.500000}>, <Struct 'Vector' (0x0000025FB3B05BE0) {x: 84.000000, y: 14.000000, z: 83.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win1_Glass",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05BE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05BE0) {x: 1570.000000, y: 644.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05A00) {x: 68.000000, y: 0.000000, z: 73.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win1_ShutN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          714.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05A00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05A00) {x: 1605.000000, y: 717.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05870) {x: 35.000000, y: 3.000000, z: 75.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Win1_ShutS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          566.0,
+          90.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05870) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05870) {x: 1605.000000, y: 569.000000, z: 165.000000}>, <Struct 'Vector' (0x0000025FB3B05780) {x: 35.000000, y: 3.000000, z: 75.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr0_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B056E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B056E0) {x: -900.000000, y: -106.000000, z: 246.810000}>, <Struct 'Vector' (0x0000025FB3B06310) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr0_Glass",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07580) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07580) {x: -900.000000, y: -108.000000, z: 246.500000}>, <Struct 'Vector' (0x0000025FB3B07620) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr1_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07300) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07300) {x: -700.000000, y: -106.000000, z: 246.810000}>, <Struct 'Vector' (0x0000025FB3B073F0) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr1_Glass",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B071C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B071C0) {x: -700.000000, y: -108.000000, z: 246.500000}>, <Struct 'Vector' (0x0000025FB3B06FE0) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr2_Frame",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06E00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06E00) {x: -500.000000, y: -106.000000, z: 246.810000}>, <Struct 'Vector' (0x0000025FB3B06C70) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WinCorr2_Glass",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06AE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06AE0) {x: -500.000000, y: -108.000000, z: 246.500000}>, <Struct 'Vector' (0x0000025FB3B06630) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Room_Platform",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07FD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Platform.SM_KL_Platform",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07FD0) {x: 1050.000000, y: 800.000000, z: 8.000000}>, <Struct 'Vector' (0x0000025FB3B07E40) {x: 130.000000, y: 60.000000, z: 8.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Teacher_Desk",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          14.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07BC0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Teacher.SM_KL_Desk_Teacher",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07BC0) {x: 1056.599998, y: 800.000000, z: 53.000000}>, <Struct 'Vector' (0x0000025FB3B07A30) {x: 61.599998, y: 30.000000, z: 63.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Teacher_Chair",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          720.0,
+          14.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07850) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Teacher.SM_KL_Chair_Teacher",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07850) {x: 1050.000000, y: 720.000000, z: 60.000000}>, <Struct 'Vector' (0x0000025FB3B07800) {x: 22.000000, y: 22.000000, z: 46.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Podium",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          830.0,
+          14.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07800) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Podium.SM_KL_Podium",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07800) {x: 800.000000, y: 829.000000, z: 68.000000}>, <Struct 'Vector' (0x0000025FB3B078A0) {x: 28.000000, y: 21.000000, z: 54.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Chalkboard",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1080.0,
+          896.0,
+          175.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B078A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chalkboard.SM_KL_Chalkboard",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B078A0) {x: 1080.000000, y: 904.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B077B0) {x: 180.000000, y: 8.000000, z: 83.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_WallMap",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          896.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B077B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Wall_Map.SM_KL_Wall_Map",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B077B0) {x: 700.000000, y: 898.500000, z: 190.000000}>, <Struct 'Vector' (0x0000025FB3B07940) {x: 64.000000, y: 2.500000, z: 48.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk0_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          600.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07940) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07940) {x: 700.000000, y: 600.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B07990) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench0_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          554.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07990) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07990) {x: 700.000000, y: 554.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B07B20) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk1_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          600.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07B20) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07B20) {x: 880.000000, y: 600.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B07CB0) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench1_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          554.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07CB0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07CB0) {x: 880.000000, y: 554.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B07D00) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk2_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          600.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07D00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07D00) {x: 1060.000000, y: 600.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B07F30) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench2_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          554.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07F30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07F30) {x: 1060.000000, y: 554.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B07F80) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk3_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          600.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07F80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07F80) {x: 1240.000000, y: 600.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B07710) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench3_0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          554.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07710) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07710) {x: 1240.000000, y: 554.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B063B0) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk0_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          460.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B063B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B063B0) {x: 700.000000, y: 460.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B06400) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench0_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          414.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06400) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06400) {x: 700.000000, y: 414.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B06450) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk1_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          460.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06450) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06450) {x: 880.000000, y: 460.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B064A0) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench1_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          414.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B064A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B064A0) {x: 880.000000, y: 414.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B06680) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk2_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          460.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06680) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06680) {x: 1060.000000, y: 460.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B06950) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench2_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          414.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06950) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06950) {x: 1060.000000, y: 414.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B06B80) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk3_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          460.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06B80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06B80) {x: 1240.000000, y: 460.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B06DB0) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench3_1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          414.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B06DB0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B06DB0) {x: 1240.000000, y: 414.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B070D0) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk0_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          320.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B070D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B070D0) {x: 700.000000, y: 320.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B07350) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench0_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          274.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07350) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07350) {x: 700.000000, y: 274.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B07490) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk1_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          320.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B07490) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B07490) {x: 880.000000, y: 320.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B05910) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench1_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          274.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05910) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05910) {x: 880.000000, y: 274.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B059B0) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk2_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          320.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B059B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B059B0) {x: 1060.000000, y: 320.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B05960) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench2_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          274.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05960) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05960) {x: 1060.000000, y: 274.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B05AF0) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Desk3_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          320.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05AF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05AF0) {x: 1240.000000, y: 320.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B05B90) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench3_2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          274.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05B90) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05B90) {x: 1240.000000, y: 274.000000, z: 20.000000}>, <Struct 'Vector' (0x0000025FB3B05CD0) {x: 50.000000, y: 14.000000, z: 20.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Chair_700",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          300.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05CD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05CD0) {x: 700.000000, y: 300.000000, z: 41.000000}>, <Struct 'Vector' (0x0000025FB3B05D70) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Chair_1060",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          440.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05D70) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05D70) {x: 1060.000000, y: 440.000000, z: 41.000000}>, <Struct 'Vector' (0x0000025FB3B05370) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Chair_1240",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          300.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05370) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05370) {x: 1240.000000, y: 300.000000, z: 41.000000}>, <Struct 'Vector' (0x0000025FB3B053C0) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Chair_Fallen",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          940.0,
+          250.0,
+          20.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05460) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05460) {x: 940.000000, y: 250.000000, z: 61.000000}>, <Struct 'Vector' (0x0000025FB3B05410) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bookcase",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          570.0,
+          640.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B05410) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bookcase.SM_KL_Bookcase",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B05410) {x: 570.000000, y: 649.000000, z: 85.000000}>, <Struct 'Vector' (0x0000025FB3B040B0) {x: 80.000000, y: 9.000000, z: 85.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_CoatHook",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          554.0,
+          350.0,
+          160.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B040B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B040B0) {x: 554.000000, y: 352.807000, z: 142.000000}>, <Struct 'Vector' (0x0000025FB3B04100) {x: 45.000000, y: 4.193000, z: 28.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bin",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1510.0,
+          260.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04100) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Waste_Bin.SM_KL_Waste_Bin",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04100) {x: 1510.000000, y: 260.000000, z: 24.000000}>, <Struct 'Vector' (0x0000025FB3B041A0) {x: 20.000000, y: 20.000000, z: 24.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Fan",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          500.0,
+          318.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B041A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Ceiling_Fan.SM_KL_Ceiling_Fan",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B041A0) {x: 1050.000000, y: 500.000000, z: 291.000000}>, <Struct 'Vector' (0x0000025FB3B043D0) {x: 52.569000, y: 52.569000, z: 27.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_CornerStack0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04560) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04560) {x: 596.000000, y: 856.000000, z: 36.500000}>, <Struct 'Vector' (0x0000025FB3B045B0) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_CornerStack1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          44.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04600) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04600) {x: 596.000000, y: 856.000000, z: 80.500000}>, <Struct 'Vector' (0x0000025FB3B04650) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_CornerStack2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          88.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04510) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04510) {x: 596.000000, y: 856.000000, z: 124.500000}>, <Struct 'Vector' (0x0000025FB3B046A0) {x: 60.000000, y: 30.000000, z: 36.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B046A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B046A0) {x: -200.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x0000025FB3B04740) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04740) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04740) {x: 200.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x0000025FB3B04790) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B04790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B04790) {x: 600.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x0000025FB3B047E0) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam3",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B047E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B047E0) {x: 1000.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x0000025FB3B046F0) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam4",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B046F0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B046F0) {x: 1400.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x000002607F17B6C0) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Beam5",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          286.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B6C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B6C0) {x: 1800.000000, y: 0.000000, z: 303.000000}>, <Struct 'Vector' (0x000002607F17B800) {x: 200.000000, y: 26.000000, z: 17.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B800) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B800) {x: -200.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002607F17B170) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B170) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B170) {x: 200.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002607F17AFE0) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17AFE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17AFE0) {x: 600.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002607F17B350) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube3",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B350) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B350) {x: 1000.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002607F17B990) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube4",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B990) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B990) {x: 1400.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002607F17B2B0) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Tube5",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F17B2B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x000002607F17B2B0) {x: 1800.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x0000025FB3B31DC0) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_TubeCorr0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31DC0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31DC0) {x: -800.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x0000025FB3B33E40) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_TubeCorr1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B33E40) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B33E40) {x: -600.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x0000025FB3B31D70) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_TubeCorr2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -450.0,
+          0.0,
+          308.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31D70) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31D70) {x: -450.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x0000025FB3B313C0) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_NoticeBoard",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          350.0,
+          -196.0,
+          180.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B313C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Notice_Board.SM_KL_Notice_Board",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B313C0) {x: 350.000000, y: -194.000000, z: 181.000000}>, <Struct 'Vector' (0x0000025FB3B301F0) {x: 90.000000, y: 4.000000, z: 46.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          100.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B301F0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B301F0) {x: 100.000000, y: -158.000000, z: 23.000000}>, <Struct 'Vector' (0x0000025FB3B30510) {x: 90.000000, y: 26.000000, z: 23.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30510) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30510) {x: 700.000000, y: -158.000000, z: 23.000000}>, <Struct 'Vector' (0x0000025FB3B30380) {x: 90.000000, y: 26.000000, z: 23.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Bench2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1500.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30380) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30380) {x: 1500.000000, y: -158.000000, z: 23.000000}>, <Struct 'Vector' (0x0000025FB3B32B80) {x: 90.000000, y: 26.000000, z: 23.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_PA",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1975.0,
+          0.0,
+          250.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32B80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_PA_Speaker.SM_KL_PA_Speaker",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32B80) {x: 1987.000000, y: 0.000000, z: 231.000000}>, <Struct 'Vector' (0x0000025FB3B312D0) {x: 34.000000, y: 34.000000, z: 65.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_CoatHook_Hall",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1150.0,
+          -196.0,
+          160.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B309C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B309C0) {x: 1150.000000, y: -193.193000, z: 142.000000}>, <Struct 'Vector' (0x0000025FB3B300B0) {x: 45.000000, y: 4.193000, z: 28.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_ChairStack0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B300B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B300B0) {x: 1900.000000, y: 150.000000, z: 41.000000}>, <Struct 'Vector' (0x0000025FB3B311E0) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_ChairStack1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          26.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B311E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B311E0) {x: 1900.000000, y: 150.000000, z: 67.000000}>, <Struct 'Vector' (0x0000025FB3B30060) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_ChairStack2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          52.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30060) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30060) {x: 1900.000000, y: 150.000000, z: 93.000000}>, <Struct 'Vector' (0x0000025FB3B31C80) {x: 19.000000, y: 19.000000, z: 41.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "ART_Moon",
+        "class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          1200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31C80) {pitch: 6.223673, yaw: -43.514063, roll: 43.514063}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31C80) {x: 61.332606, y: -59.256460, z: 1205.225443}>, <Struct 'Vector' (0x0000025FB3B32450) {x: 189.332606, y: 187.256460, z: 133.225443}>)",
+        "components": [
+          "/Script/Engine.DirectionalLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Corr",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          -560.0,
+          0.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30E20) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30E20) {x: -560.000000, y: 0.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B30790) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Hall0",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30790) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30790) {x: -150.000000, y: 0.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B31500) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Hall1",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          700.0,
+          0.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31500) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31500) {x: 700.000000, y: 0.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B319B0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Hall2",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1550.0,
+          0.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B319B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B319B0) {x: 1550.000000, y: 0.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B30880) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Door",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          870.0,
+          240.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30880) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30880) {x: 870.000000, y: 240.000000, z: 190.000000}>, <Struct 'Vector' (0x0000025FB3B31BE0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Room0",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          420.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31BE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31BE0) {x: 1050.000000, y: 420.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B32CC0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Room1",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          740.0,
+          296.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32CC0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32CC0) {x: 1050.000000, y: 740.000000, z: 296.000000}>, <Struct 'Vector' (0x0000025FB3B30330) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Shaft0",
+        "class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          350.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30330) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30330) {x: 1826.000000, y: 350.000000, z: 190.000000}>, <Struct 'Vector' (0x0000025FB3B32DB0) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SpotLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_Shaft1",
+        "class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          640.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B308D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B308D0) {x: 1826.000000, y: 640.000000, z: 190.000000}>, <Struct 'Vector' (0x0000025FB3B33BC0) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SpotLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_ShaftCorr",
+        "class": "/Script/Engine.SpotLight",
+        "location": [
+          -940.0,
+          0.0,
+          200.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B33E90) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B33E90) {x: -884.000000, y: 0.000000, z: 200.000000}>, <Struct 'Vector' (0x0000025FB3B30470) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SpotLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_L_CornerHint",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          760.0,
+          60.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B314B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B314B0) {x: 1400.000000, y: 760.000000, z: 60.000000}>, <Struct 'Vector' (0x0000025FB3B32F90) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "ART_Fog",
+        "class": "/Script/Engine.ExponentialHeightFog",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30470) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30470) {x: 0.000000, y: 0.000000, z: 150.000000}>, <Struct 'Vector' (0x0000025FB3B32F90) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.ExponentialHeightFogComponent"
+        ]
+      },
+      {
+        "label": "ART_Grade",
+        "class": "/Script/Engine.PostProcessVolume",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B314B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B314B0) {x: 0.000000, y: 0.000000, z: 150.000000}>, <Struct 'Vector' (0x0000025FB3B32F90) {x: 100.000000, y: 100.000000, z: 100.000000}>)",
+        "components": [
+          "/Script/Engine.BrushComponent"
+        ]
+      },
+      {
+        "label": "ART_AttBook",
+        "class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30470) {pitch: 12.000000, yaw: 0.000000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30470) {x: 1050.000000, y: 830.000000, z: 82.000000}>, <Struct 'Vector' (0x0000025FB3B33FD0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "ART_Roster",
+        "class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster_C",
+        "location": [
+          1050.0,
+          884.0,
+          178.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32F90) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Roster.SM_KL_Prop_Roster",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32F90) {x: 1050.000000, y: 884.000000, z: 178.000000}>, <Struct 'Vector' (0x0000025FB3B31F50) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "ART_TapeDeck",
+        "class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B33FD0) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_TapeDeck.SM_KL_Prop_TapeDeck",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B33FD0) {x: 1930.000000, y: 0.000000, z: 120.000000}>, <Struct 'Vector' (0x0000025FB3B31D20) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Script/Engine.AudioComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "ART_Corner",
+        "class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner_C",
+        "location": [
+          1450.0,
+          790.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31F50) {pitch: -28.000001, yaw: 0.000000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Figure.SM_KL_Prop_Figure",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31F50) {x: 1450.000000, y: 790.000000, z: 0.000000}>, <Struct 'Vector' (0x0000025FB3B33030) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "ART_PlayerStart",
+        "class": "/Script/Engine.PlayerStart",
+        "location": [
+          -960.0,
+          0.0,
+          0.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31CD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x00000260476ACB00) {x: -904.000000, y: 0.000000, z: 0.000000}>, <Struct 'Vector' (0x0000025FB3B31CD0) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.CapsuleComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.ArrowComponent"
+        ]
+      }
+    ],
+    "game_mode": "<Object '/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C' (0x0000026080A7A800) Class 'BlueprintGeneratedClass'>"
+  },
+  {
+    "map": "Lvl_KL_School3_ArtTest",
+    "actors": [
+      {
+        "label": "KL_Ground",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30D80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31550) {x: 0.000000, y: 0.000000, z: -15.000000}>, <Struct 'Vector' (0x0000025FB3B325E0) {x: 3000.000000, y: 3000.000000, z: 15.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_Sky",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          1250.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B325E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31F00) {x: 0.000000, y: 0.000000, z: 1250.000000}>, <Struct 'Vector' (0x0000025FB3B32950) {x: 4000.000000, y: 4000.000000, z: 50.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrFloor",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          4.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32950) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B310F0) {x: -710.000000, y: 0.000000, z: 4.000000}>, <Struct 'Vector' (0x0000025FB3B32810) {x: 310.000000, y: 130.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrCeil",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          346.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32810) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30600) {x: -710.000000, y: 0.000000, z: 346.000000}>, <Struct 'Vector' (0x0000025FB3B30FB0) {x: 310.000000, y: 110.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrWallS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -120.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30FB0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31690) {x: -710.000000, y: -120.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B304C0) {x: 310.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrWallN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          120.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B304C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31730) {x: -710.000000, y: 120.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B32090) {x: 310.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrWainS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -108.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32090) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30E70) {x: -710.000000, y: -108.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B32040) {x: 310.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrWainN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          108.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32040) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B306F0) {x: -710.000000, y: 108.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B31960) {x: 310.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallFloor",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          4.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31960) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30AB0) {x: 800.000000, y: 0.000000, z: 4.000000}>, <Struct 'Vector' (0x0000025FB3B329F0) {x: 1200.000000, y: 200.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallCeil",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          346.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B329F0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30CE0) {x: 800.000000, y: 0.000000, z: 346.000000}>, <Struct 'Vector' (0x0000025FB3B301A0) {x: 1200.000000, y: 200.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWallN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          210.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B301A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32F40) {x: 800.000000, y: 210.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B32B30) {x: 1200.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWainN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          198.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32B30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B329A0) {x: 800.000000, y: 198.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B326D0) {x: 1200.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWallS1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B326D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30BA0) {x: 200.000000, y: -210.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B31410) {x: 600.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWallS2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31410) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B33DF0) {x: 1470.000000, y: -210.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B33D50) {x: 530.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWallSDoor",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          290.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32EA0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32D10) {x: 870.000000, y: -210.000000, z: 290.000000}>, <Struct 'Vector' (0x0000025FB3B32EF0) {x: 70.000000, y: 10.000000, z: 50.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWainS1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32EF0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32C70) {x: 200.000000, y: -198.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B32860) {x: 600.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallWainS2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32860) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32590) {x: 1470.000000, y: -198.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B307E0) {x: 530.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallEndW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2010.0,
+          0.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B307E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B322C0) {x: 2010.000000, y: 0.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B30970) {x: 10.000000, y: 200.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallJambW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          -180.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30970) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31B40) {x: 1990.000000, y: -180.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B31320) {x: 10.000000, y: 20.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallJambE",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          180.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31320) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32630) {x: 1990.000000, y: 180.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B32360) {x: 10.000000, y: 20.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_DoorJambW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          785.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32360) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32400) {x: 785.000000, y: -205.000000, z: 125.000000}>, <Struct 'Vector' (0x0000025FB3B32770) {x: 15.000000, y: 15.000000, z: 125.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_DoorJambE",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          955.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32770) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32A40) {x: 955.000000, y: -205.000000, z: 125.000000}>, <Struct 'Vector' (0x0000025FB3B30DD0) {x: 15.000000, y: 15.000000, z: 125.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_DoorLintel",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          265.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30DD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B32720) {x: 870.000000, y: -210.000000, z: 265.000000}>, <Struct 'Vector' (0x0000025FB3B31000) {x: 100.000000, y: 10.000000, z: 15.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomFloor",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          4.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B31000) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B324F0) {x: 1050.000000, y: 550.000000, z: 4.000000}>, <Struct 'Vector' (0x0000025FB3B32C20) {x: 500.000000, y: 350.000000, z: 4.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomCeil",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          346.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32C20) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B324A0) {x: 1050.000000, y: 550.000000, z: 346.000000}>, <Struct 'Vector' (0x0000025FB3B32310) {x: 500.000000, y: 350.000000, z: 6.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWallW",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          540.0,
+          550.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32310) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30560) {x: 540.000000, y: 550.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B302E0) {x: 10.000000, y: 350.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWallE",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          550.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B302E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B320E0) {x: 1560.000000, y: 550.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B32270) {x: 10.000000, y: 350.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWallS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          910.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B32270) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31FF0) {x: 1050.000000, y: 910.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B33C60) {x: 500.000000, y: 10.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWallSN",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          580.0,
+          550.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B33C60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B31E60) {x: 580.000000, y: 550.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B30F10) {x: 30.000000, y: 350.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWallSS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1520.0,
+          550.0,
+          170.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30F10) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30F60) {x: 1520.000000, y: 550.000000, z: 170.000000}>, <Struct 'Vector' (0x0000025FB3B30B00) {x: 30.000000, y: 350.000000, z: 170.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomWainS",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          898.0,
+          55.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B30B00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B33C10) {x: 1050.000000, y: 898.000000, z: 55.000000}>, <Struct 'Vector' (0x0000025FB3B315A0) {x: 500.000000, y: 2.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_ChalkBoard",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          890.0,
+          175.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B315A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x0000025FB3B30C40) {x: 1050.000000, y: 890.000000, z: 175.000000}>, <Struct 'Vector' (0x0000025FB3B305B0) {x: 250.000000, y: 2.000000, z: 65.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_ChalkTray",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          884.0,
+          105.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x0000025FB3B305B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F194E70) {x: 1050.000000, y: 884.000000, z: 105.000000}>, <Struct 'Vector' (0x000002607F196BD0) {x: 260.000000, y: 8.000000, z: 5.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_Window0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          385.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196BD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F1952D0) {x: 1560.000000, y: 385.000000, z: 190.000000}>, <Struct 'Vector' (0x000002607F195870) {x: 10.000000, y: 85.000000, z: 60.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_Window1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          685.0,
+          190.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195870) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F196360) {x: 1560.000000, y: 685.000000, z: 190.000000}>, <Struct 'Vector' (0x000002607F1970D0) {x: 10.000000, y: 85.000000, z: 60.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_TeacherDesk",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          830.0,
+          37.5
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F1970D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197670) {x: 1050.000000, y: 830.000000, z: 37.500000}>, <Struct 'Vector' (0x000002607F197120) {x: 150.000000, y: 50.000000, z: 37.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_ChairStack",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          30.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197120) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F195820) {x: 1480.000000, y: 800.000000, z: 30.000000}>, <Struct 'Vector' (0x000002607F196590) {x: 40.000000, y: 40.000000, z: 30.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_ChairStack2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          85.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196590) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F1963B0) {x: 1480.000000, y: 800.000000, z: 85.000000}>, <Struct 'Vector' (0x000002607F195B40) {x: 40.000000, y: 40.000000, z: 25.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallBench0",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -120.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195B40) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F196C70) {x: -120.000000, y: -150.000000, z: 22.500000}>, <Struct 'Vector' (0x000002607F197170) {x: 80.000000, y: 30.000000, z: 22.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallBench1",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          480.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197170) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197AD0) {x: 480.000000, y: -150.000000, z: 22.500000}>, <Struct 'Vector' (0x000002607F197C10) {x: 80.000000, y: 30.000000, z: 22.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallBench2",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1280.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197C10) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197C60) {x: 1280.000000, y: -150.000000, z: 22.500000}>, <Struct 'Vector' (0x000002607F197490) {x: 80.000000, y: 30.000000, z: 22.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallBench3",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1780.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197490) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F1978F0) {x: 1780.000000, y: -150.000000, z: 22.500000}>, <Struct 'Vector' (0x000002607F197B20) {x: 80.000000, y: 30.000000, z: 22.500000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_NoticeBoard",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          220.0,
+          -193.0,
+          175.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197B20) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197D00) {x: 220.000000, y: -193.000000, z: 175.000000}>, <Struct 'Vector' (0x000002607F197DA0) {x: 120.000000, y: 3.000000, z: 55.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "KL_HallLight0",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          300.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197DA0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F197DA0) {x: -150.000000, y: 0.000000, z: 300.000000}>, <Struct 'Vector' (0x000002607F1979E0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_HallLight1",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          600.0,
+          0.0,
+          300.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F1979E0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F1979E0) {x: 600.000000, y: 0.000000, z: 300.000000}>, <Struct 'Vector' (0x000002607F1977B0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_HallLight2",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          0.0,
+          300.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F1977B0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F1977B0) {x: 1400.000000, y: 0.000000, z: 300.000000}>, <Struct 'Vector' (0x000002607F194D30) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_HallLight3",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1900.0,
+          0.0,
+          300.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F194D30) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F194D30) {x: 1900.000000, y: 0.000000, z: 300.000000}>, <Struct 'Vector' (0x000002607F196F40) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_CorrLight",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          -700.0,
+          0.0,
+          290.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196F40) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F196F40) {x: -700.000000, y: 0.000000, z: 290.000000}>, <Struct 'Vector' (0x000002607F197210) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_RoomLight",
+        "class": "/Script/Engine.PointLight",
+        "location": [
+          1000.0,
+          520.0,
+          300.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197210) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F197210) {x: 1000.000000, y: 520.000000, z: 300.000000}>, <Struct 'Vector' (0x000002607F197440) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_WindowShaft0",
+        "class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          385.0,
+          250.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197440) {pitch: -18.982569, yaw: -173.582742, roll: 160.926031}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F197440) {x: 1437.556080, y: 385.000000, z: 226.857630}>, <Struct 'Vector' (0x000002607F195A50) {x: 190.443920, y: 128.000000, z: 151.142370}>)",
+        "components": [
+          "/Script/Engine.SpotLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_WindowShaft1",
+        "class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          685.0,
+          250.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195370) {pitch: -18.982569, yaw: -173.582742, roll: 160.926031}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F195370) {x: 1437.556080, y: 685.000000, z: 226.857630}>, <Struct 'Vector' (0x000002607F195410) {x: 190.443920, y: 128.000000, z: 151.142370}>)",
+        "components": [
+          "/Script/Engine.SpotLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_Moon",
+        "class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          900.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196D10) {pitch: -17.057276, yaw: 19.923350, roll: 38.982476}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F196D10) {x: 61.390132, y: 28.575381, z: 875.018478}>, <Struct 'Vector' (0x000002607F197A80) {x: 189.390132, y: 156.575381, z: 152.981522}>)",
+        "components": [
+          "/Script/Engine.DirectionalLightComponent",
+          "/Script/Engine.ArrowComponent",
+          "/Script/Engine.BillboardComponent"
+        ]
+      },
+      {
+        "label": "KL_AttBook",
+        "class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195410) {pitch: 12.000000, yaw: 0.000000, roll: -0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197F80) {x: 1050.000000, y: 830.000000, z: 82.000000}>, <Struct 'Vector' (0x000002607F1974E0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "KL_Roster",
+        "class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Roster.BP_KL_Prop_Roster_C",
+        "location": [
+          1050.0,
+          880.0,
+          178.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197A80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F196950) {x: 1050.000000, y: 880.000000, z: 178.000000}>, <Struct 'Vector' (0x000002607F197CB0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "KL_TapeDeck",
+        "class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_TapeDeck.BP_KL_Prop_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F1974E0) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "bounds": "(<Struct 'Vector' (0x000002607F197A30) {x: 1930.000000, y: 0.000000, z: 120.000000}>, <Struct 'Vector' (0x000002607F1953C0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Script/Engine.AudioComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "KL_Corner",
+        "class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Corner.BP_KL_Prop_Corner_C",
+        "location": [
+          1470.0,
+          800.0,
+          150.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197CB0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+        "bounds": "(<Struct 'Vector' (0x000002607F197CB0) {x: 1470.000000, y: 800.000000, z: 150.000000}>, <Struct 'Vector' (0x000002607F197FD0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.SceneComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.StaticMeshComponent",
+          "/Script/Engine.PointLightComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent.BP_KL_InteractComponent_C"
+        ]
+      },
+      {
+        "label": "KL_PlayerStart",
+        "class": "/Script/Engine.PlayerStart",
+        "location": [
+          -1000.0,
+          0.0,
+          120.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195F50) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "mesh": null,
+        "bounds": "(<Struct 'Vector' (0x000002607F195F50) {x: -944.000000, y: 0.000000, z: 120.000000}>, <Struct 'Vector' (0x000002607F196A40) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+        "components": [
+          "/Script/Engine.CapsuleComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.BillboardComponent",
+          "/Script/Engine.ArrowComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_A",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          555.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197850) {pitch: 0.000000, yaw: -2.500000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197850) {x: 780.000597, y: 555.013671, z: 42.099998}>, <Struct 'Vector' (0x000002607F197F30) {x: 56.037540, y: 27.361601, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_A",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          503.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197F30) {pitch: 0.000000, yaw: -2.500000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197F30) {x: 780.000283, y: 503.006475, z: 27.000000}>, <Struct 'Vector' (0x000002607F196720) {x: 55.601083, y: 17.365095, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_B",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          555.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196720) {pitch: 0.000000, yaw: 1.500000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F196720) {x: 1009.999642, y: 555.013680, z: 42.099998}>, <Struct 'Vector' (0x000002607F197EE0) {x: 55.635218, y: 26.417486, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_B",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          503.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197EE0) {pitch: 0.000000, yaw: 1.500000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197EE0) {x: 1009.999830, y: 503.006479, z: 27.000000}>, <Struct 'Vector' (0x000002607F197E40) {x: 55.373291, y: 16.414886, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_C",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          555.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197E40) {pitch: 0.000000, yaw: -1.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197E40) {x: 1240.000239, y: 555.013682, z: 42.099998}>, <Struct 'Vector' (0x000002607F197800) {x: 55.427695, y: 25.942393, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_C",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          503.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197800) {pitch: 0.000000, yaw: -1.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197800) {x: 1240.000113, y: 503.006481, z: 27.000000}>, <Struct 'Vector' (0x000002607F197D50) {x: 55.253065, y: 15.937888, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_D",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          695.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197D50) {pitch: 0.000000, yaw: 3.500000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197D50) {x: 785.999165, y: 695.013659, z: 42.099998}>, <Struct 'Vector' (0x000002607F197BC0) {x: 56.422792, y: 28.297381, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_D",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          643.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197BC0) {pitch: 0.000000, yaw: 9.000001, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197BC0) {x: 785.998986, y: 643.006402, z: 27.000000}>, <Struct 'Vector' (0x000002607F196CC0) {x: 56.666292, y: 23.399751, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_E",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          695.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196CC0) {pitch: 0.000000, yaw: -2.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F196CC0) {x: 1007.000478, y: 695.013676, z: 42.099998}>, <Struct 'Vector' (0x000002607F196AE0) {x: 55.838505, y: 26.890567, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_E",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          647.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F196AE0) {pitch: 0.000000, yaw: -6.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F196AE0) {x: 1007.000678, y: 647.006446, z: 27.000000}>, <Struct 'Vector' (0x000002607F197940) {x: 56.264571, y: 20.647289, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_F",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1248.0,
+          692.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F197940) {pitch: 0.000000, yaw: 5.000000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F197940) {x: 1247.998807, y: 692.013632, z: 42.099998}>, <Struct 'Vector' (0x000002607F1958C0) {x: 56.968409, y: 29.684801, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Desk_G",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          330.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F1958C0) {pitch: 0.000000, yaw: -6.000000, roll: 0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F1958C0) {x: 770.001430, y: 330.013609, z: 42.099998}>, <Struct 'Vector' (0x000002607F195640) {x: 57.310485, y: 30.598504, z: 34.099998}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      },
+      {
+        "label": "SF_Bench_G",
+        "class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          278.0,
+          8.0
+        ],
+        "rotation": "<Struct 'Rotator' (0x000002607F195640) {pitch: 0.000000, yaw: 2.000000, roll: -0.000000}>",
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "bounds": "(<Struct 'Vector' (0x000002607F195640) {x: 769.999774, y: 278.006478, z: 27.000000}>, <Struct 'Vector' (0x000002607F195C30) {x: 55.489300, y: 16.890634, z: 19.000000}>)",
+        "components": [
+          "/Script/Engine.StaticMeshComponent"
+        ]
+      }
+    ],
+    "game_mode": "<Object '/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C' (0x0000026080A7A800) Class 'BlueprintGeneratedClass'>"
+  }
+]

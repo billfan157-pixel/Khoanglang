@@ -1,0 +1,72 @@
+[
+  {
+    "z": 25,
+    "result": null
+  },
+  {
+    "z": 70,
+    "result": null
+  },
+  {
+    "z": 110,
+    "result": null
+  },
+  {
+    "z": 180,
+    "result": null
+  },
+  {
+    "z": 215,
+    "result": null
+  },
+  {
+    "capsule": null
+  },
+  {
+    "room_z": 25,
+    "result": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4FB40) {}>"
+    }
+  },
+  {
+    "room_z": 70,
+    "result": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4EB00) {}>"
+    }
+  },
+  {
+    "room_z": 110,
+    "result": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4F780) {}>"
+    }
+  },
+  {
+    "room_z": 180,
+    "result": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4DAC0) {}>"
+    }
+  },
+  {
+    "room_z": 215,
+    "result": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4F640) {}>"
+    }
+  },
+  {
+    "room_capsule": {
+      "actor": "ART_Wall_HallN_Door",
+      "component": "StaticMeshComponent0",
+      "hit": "<Struct 'HitResult' (0x0000027478B4F280) {}>"
+    }
+  }
+]

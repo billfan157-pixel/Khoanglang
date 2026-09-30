@@ -1,0 +1,102 @@
+
+=== blueprint integrity
+  OK   /Game/KhoangLang/Data/BP_KL_EvidenceDef                    BS_UP_TO_DATE: 3>  graphs=10
+  OK   /Game/KhoangLang/Blueprints/Core/BP_KL_InvestigationComponent BS_UP_TO_DATE: 3>  graphs=55
+  OK   /Game/KhoangLang/Blueprints/Core/BP_KL_ListeningComponent  BS_UP_TO_DATE: 3>  graphs=5
+  OK   /Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent   BS_UP_TO_DATE: 3>  graphs=14
+  OK   /Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_AttBook  BS_UP_TO_DATE: 3>  graphs=2
+  OK   /Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_TapeDeck BS_UP_TO_DATE: 3>  graphs=2
+  OK   /Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Roster   BS_UP_TO_DATE: 3>  graphs=2
+  OK   /Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Corner   BS_UP_TO_DATE: 3>  graphs=2
+  FAIL /Game/KhoangLang/Blueprints/UI/BP_KL_HUD  status=<BlueprintStatus.BS_ERROR: 2>  []
+  OK   /Game/KhoangLang/Blueprints/Player/BP_KL_GameMode          BS_UP_TO_DATE: 3>  graphs=2
+  OK   /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter       BS_UP_TO_DATE: 3>  graphs=9
+  OK   /Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController BS_UP_TO_DATE: 3>  graphs=3
+  OK   blueprints checked: 12, problems: 1
+
+=== asset references
+  OK   EVD_SoDiemDanh class=BP_KL_EvidenceDef_C
+  OK   EVD_Bang021634 class=BP_KL_EvidenceDef_C
+  OK   audio: 12 expected, checked
+  OK   materials: 11 expected, checked
+
+=== prop defaults
+  OK   BP_KL_Prop_AttBook         prompt='Đọc sổ điểm danh' tape=False corner=False note=False hidden0=False mesh=Cube
+  OK   BP_KL_Prop_TapeDeck        prompt='Nghe băng nối loa' tape=True corner=False note=False hidden0=False mesh=Cube
+  OK   BP_KL_Prop_Roster          prompt='Đọc bảng danh sách lớp 3' tape=False corner=False note=True hidden0=False mesh=Cube
+  OK   BP_KL_Prop_Corner          prompt='Có ai ngồi ở đây' tape=False corner=True note=False hidden0=True mesh=Sphere
+
+=== level inventory
+  OK   world = Lvl_KL_School3
+  OK   actor count = 75
+  OK     AbstractNavData                    1
+  OK     BP_KL_Prop_AttBook_C               1
+  OK     BP_KL_Prop_Corner_C                1
+  OK     BP_KL_Prop_Roster_C                1
+  OK     BP_KL_Prop_TapeDeck_C              1
+  OK     Brush                              1
+  OK     BuoyancyManager                    1
+  OK     DefaultPhysicsVolume               1
+  OK     DirectionalLight                   1
+  OK     GameplayDebuggerPlayerManager      1
+  OK     PlayerStart                        1
+  OK     PointLight                         6
+  OK     SpotLight                          2
+  OK     StaticMeshActor                    55
+  OK     WorldSettings                      1
+  OK   PlayerStart: 1
+  OK     PlayerStart at -1000 0 120
+  OK     BP_KL_Prop_AttBook_C     at 1050 830 82
+  OK     BP_KL_Prop_TapeDeck_C    at 1930 0 120
+  OK     BP_KL_Prop_Roster_C      at 1050 880 178
+  OK     BP_KL_Prop_Corner_C      at 1470 800 150
+  OK   lights = 9
+  OK   default_game_mode = BP_KL_GameMode_C
+  OK     BP_KL_Prop_AttBook_C components: SceneComponent, BillboardComponent, StaticMeshComponent, BP_KL_InteractComponent_C
+  OK     BP_KL_Prop_TapeDeck_C components: SceneComponent, BillboardComponent, StaticMeshComponent, AudioComponent, BillboardComponent, BP_KL_InteractComponent_C
+  OK     BP_KL_Prop_Roster_C components: SceneComponent, BillboardComponent, StaticMeshComponent, BP_KL_InteractComponent_C
+  OK     BP_KL_Prop_Corner_C components: SceneComponent, BillboardComponent, StaticMeshComponent, PointLightComponent, BillboardComponent, BP_KL_InteractComponent_C
+
+=== graph wiring census
+  OK   BP_KL_InvestigationComponent     InitRun              nodes=12 (floor 8)
+  OK   BP_KL_InvestigationComponent     RefreshObjective     nodes=24 (floor 8)
+  OK   BP_KL_InvestigationComponent     CollectDoc           nodes=15 (floor 6)
+  OK   BP_KL_InvestigationComponent     CollectTape          nodes=15 (floor 6)
+  OK   BP_KL_InvestigationComponent     ToggleJournal        nodes=18 (floor 8)
+  OK   BP_KL_InvestigationComponent     BeginBeat            nodes=8 (floor 5)
+  OK   BP_KL_InvestigationComponent     SetTapeHeard         nodes=8 (floor 5)
+  OK   BP_KL_InvestigationComponent     NoteRevealed         nodes=8 (floor 5)
+  OK   BP_KL_InvestigationComponent     GetObjectiveStr      nodes=4 (floor 3)
+  OK   BP_KL_InvestigationComponent     GetDocTitleStr       nodes=4 (floor 3)
+  OK   BP_KL_InvestigationComponent     GetCorrob1Str        nodes=4 (floor 3)
+  OK   BP_KL_InvestigationComponent     SetPromptFromString  nodes=4 (floor 3)
+  OK   BP_KL_InvestigationComponent     SetSubtitleFromString nodes=4 (floor 3)
+  OK   BP_KL_InvestigationComponent     ClearPrompt          nodes=3 (floor 2)
+  OK   BP_KL_ListeningComponent         StartBeds            nodes=32 (floor 22)
+  OK   BP_KL_ListeningComponent         SetFilter            nodes=37 (floor 20)
+  OK   BP_KL_ListeningComponent         GetModeStr           nodes=4 (floor 3)
+  OK   BP_KL_InteractComponent          SetFocused           nodes=25 (floor 24)
+  OK   BP_KL_InteractComponent          GetPromptStr         nodes=10 (floor 7)
+  OK   BP_KL_InteractComponent          IsAvailable          nodes=4 (floor 2)
+  OK   BP_KL_InteractComponent          IsFocused            nodes=3 (floor 2)
+  OK   BP_KL_InteractComponent          DoDocument           nodes=13 (floor 8)
+  OK   BP_KL_InteractComponent          DoTape               nodes=22 (floor 10)
+  OK   BP_KL_InteractComponent          DoNote               nodes=9 (floor 5)
+  OK   BP_KL_InteractComponent          DoCorner             nodes=30 (floor 20)
+  OK   BP_KL_InteractComponent          SetFilterMode        nodes=17 (floor 5)
+  OK   BP_KL_InteractComponent          DoInteract           nodes=12 (floor 7)
+  OK   BP_KL_InteractComponent          EventGraph           nodes=12 (floor 6)
+  OK   BP_FirstPersonCharacter          InitKL               nodes=8 (floor 6)
+  OK   BP_FirstPersonCharacter          UpdateFocus          nodes=31 (floor 25)
+  OK   BP_FirstPersonCharacter          PollKeys             nodes=60 (floor 25)
+  FAIL BP_FirstPersonCharacter          CheckHeard           nodes=2 (floor 6)
+  OK   BP_FirstPersonCharacter          TickKL               nodes=4 (floor 3)
+  OK   BP_FirstPersonCharacter          EventGraph           nodes=12 (floor 3)
+  OK   BP_KL_HUD                        EventGraph           nodes=132 (floor 60)
+
+=== engine asset validation (level + project assets)
+  WARN validate_loaded_assets raised: AttributeError("'EditorValidatorSubsystem' object has no attribute 'validate_loaded_assets'") / AttributeError("'EditorValidatorSubsystem' object has no attribute 'validate_loaded_assets'")
+
+FAILURES: 2
+   - /Game/KhoangLang/Blueprints/UI/BP_KL_HUD  status=<BlueprintStatus.BS_ERROR: 2>  []
+   - BP_FirstPersonCharacter          CheckHeard           nodes=2 (floor 6)

@@ -1,0 +1,7268 @@
+[
+  {
+    "map": "/Game/KhoangLang/Maps/Lvl_KL_School3",
+    "game_mode": "/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+    "actors": [
+      {
+        "label": "KL_Ground",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Sky",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          1250.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallSDoor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallEndW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2010.0,
+          0.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          -180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          785.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          955.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorLintel",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          265.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          540.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          910.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          580.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1520.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          898.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          890.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkTray",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          884.0,
+          105.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          385.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          685.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TeacherDesk",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          830.0,
+          37.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk00",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench00",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk01",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench01",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk02",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench02",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk10",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench10",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk11",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench11",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk12",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench12",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          30.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          85.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -120.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          480.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1280.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1780.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_NoticeBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          220.0,
+          -193.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallLight0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027443B175B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 240.0
+      },
+      {
+        "label": "KL_HallLight1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          600.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027443B1B1B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight2",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027443B161B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight3",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1900.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027443B1DEB8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_CorrLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -700.0,
+          0.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027415F534B8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 120.0
+      },
+      {
+        "label": "KL_RoomLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1000.0,
+          520.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027443B1E3B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_WindowShaft0",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          385.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740CFB9DB8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_WindowShaft1",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          685.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740CFBD4B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_Moon",
+        "actor_class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          900.0
+        ],
+        "rotation": [
+          -17.057276482762635,
+          19.923350228476718,
+          38.982476408089404
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027466A9DAB8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 0.2199999988079071
+      },
+      {
+        "label": "KL_AttBook",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": [
+          11.999999880335062,
+          0.0,
+          -0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Roster",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Roster.BP_KL_Prop_Roster_C",
+        "location": [
+          1050.0,
+          880.0,
+          178.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TapeDeck",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_TapeDeck.BP_KL_Prop_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Corner",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Corner.BP_KL_Prop_Corner_C",
+        "location": [
+          1470.0,
+          800.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "color": "<Struct 'Color' (0x000002740CF1CAB8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 0.0
+      },
+      {
+        "label": "KL_PlayerStart",
+        "actor_class": "/Script/Engine.PlayerStart",
+        "location": [
+          -1000.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "map": "/Game/KhoangLang/Maps/Lvl_KL_School3_Art",
+    "game_mode": "/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+    "actors": [
+      {
+        "label": "ART_Floor_Corr",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_600_220.SM_KL_Floor_600_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Floor_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_2400_400.SM_KL_Floor_2400_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Floor_Room",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_1000_700.SM_KL_Floor_1000_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Corr",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_600_220.SM_KL_Ceil_600_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_2400_400.SM_KL_Ceil_2400_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Room",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_1000_700.SM_KL_Ceil_1000_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          -200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_2400.SM_KL_Wall_2400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1200.SM_KL_Wall_1200",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_Door",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallDoor_140.SM_KL_WallDoor_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1060.SM_KL_Wall_1060",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_N",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          155.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_S",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          -155.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_Head",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Header_220.SM_KL_Header_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_400.SM_KL_Wall_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          110.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -110.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -1000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_220.SM_KL_Wall_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          550.0,
+          550.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_700.SM_KL_Wall_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          900.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_1000.SM_KL_Wall_1000",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_S0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          240.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_80.SM_KL_Wall_80",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_W0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          350.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_S1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          495.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_150.SM_KL_Wall_150",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_W1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          640.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_SN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          805.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_190.SM_KL_Wall_190",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Door3_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Door3_Leaf",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          804.0,
+          218.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_FrameW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          62.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_FrameE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          -62.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_LeafN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -394.0,
+          8.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_LeafS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -394.0,
+          -8.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_ShutN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          424.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_ShutS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          276.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_ShutN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          714.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_ShutS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          566.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr0_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr0_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr1_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr1_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr2_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr2_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Room_Platform",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Platform.SM_KL_Platform",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Teacher_Desk",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Teacher.SM_KL_Desk_Teacher",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Teacher_Chair",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          720.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Teacher.SM_KL_Chair_Teacher",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Podium",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          830.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Podium.SM_KL_Podium",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chalkboard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1080.0,
+          896.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chalkboard.SM_KL_Chalkboard",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WallMap",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          896.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Wall_Map.SM_KL_Wall_Map",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk0_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          600.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench0_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          554.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk1_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          600.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench1_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          554.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk2_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          600.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench2_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          554.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk3_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          600.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench3_0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          554.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk0_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          460.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench0_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          414.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk1_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          460.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench1_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          414.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk2_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          460.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench2_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          414.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk3_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          460.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench3_1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          414.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk0_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          320.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench0_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          274.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk1_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          320.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench1_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          880.0,
+          274.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk2_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          320.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench2_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          274.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Desk3_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          320.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench3_2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          274.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bench_Pupil.SM_KL_Bench_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chair_700",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          300.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chair_1060",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1060.0,
+          440.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chair_1240",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          300.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chair_Fallen",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          940.0,
+          250.0,
+          20.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bookcase",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          570.0,
+          640.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Bookcase.SM_KL_Bookcase",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CoatHook",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          554.0,
+          350.0,
+          160.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bin",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1510.0,
+          260.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Waste_Bin.SM_KL_Waste_Bin",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Fan",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          500.0,
+          318.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Ceiling_Fan.SM_KL_Ceiling_Fan",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          44.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          88.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam4",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam5",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube4",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube5",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -450.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_NoticeBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          350.0,
+          -196.0,
+          180.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Notice_Board.SM_KL_Notice_Board",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          100.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1500.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_PA",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1975.0,
+          0.0,
+          250.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_PA_Speaker.SM_KL_PA_Speaker",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CoatHook_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1150.0,
+          -196.0,
+          160.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          26.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          52.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Moon",
+        "actor_class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          1200.0
+        ],
+        "rotation": [
+          6.223672584435826,
+          -43.51406317982508,
+          43.51406317982508
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741B09ECB8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 0.2199999988079071
+      },
+      {
+        "label": "ART_L_Corr",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -560.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDB6B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 2600.0
+      },
+      {
+        "label": "ART_L_Hall0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDBBB8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 4200.0
+      },
+      {
+        "label": "ART_L_Hall1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          700.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDCAB8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 3400.0
+      },
+      {
+        "label": "ART_L_Hall2",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1550.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741523C0B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 2600.0
+      },
+      {
+        "label": "ART_L_Door",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          870.0,
+          240.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741523D4B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 1400.0
+      },
+      {
+        "label": "ART_L_Room0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          420.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741523F7B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 4600.0
+      },
+      {
+        "label": "ART_L_Room1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          740.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741523CFB8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 3800.0
+      },
+      {
+        "label": "ART_L_Shaft0",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          350.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDC0B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 9000.0
+      },
+      {
+        "label": "ART_L_Shaft1",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          640.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDC5B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 9000.0
+      },
+      {
+        "label": "ART_L_ShaftCorr",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          -940.0,
+          0.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDA7B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 2200.0
+      },
+      {
+        "label": "ART_L_CornerHint",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          760.0,
+          60.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741523ACB8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 260.0
+      },
+      {
+        "label": "ART_Fog",
+        "actor_class": "/Script/Engine.ExponentialHeightFog",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "ART_Grade",
+        "actor_class": "/Script/Engine.PostProcessVolume",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "ART_AttBook",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": [
+          11.999999880335062,
+          0.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Roster",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster_C",
+        "location": [
+          1050.0,
+          884.0,
+          178.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Roster.SM_KL_Prop_Roster",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TapeDeck",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_TapeDeck.SM_KL_Prop_TapeDeck",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Corner",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner_C",
+        "location": [
+          1450.0,
+          790.0,
+          0.0
+        ],
+        "rotation": [
+          -28.000000651518643,
+          0.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Figure.SM_KL_Prop_Figure",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "color": "<Struct 'Color' (0x000002740CA743B8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 0.0
+      },
+      {
+        "label": "ART_PlayerStart",
+        "actor_class": "/Script/Engine.PlayerStart",
+        "location": [
+          -960.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "map": "/Game/KhoangLang/Maps/Lvl_KL_School3_ArtTest",
+    "game_mode": "/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+    "actors": [
+      {
+        "label": "KL_Ground",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Sky",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          1250.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallSDoor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallEndW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2010.0,
+          0.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          -180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          785.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          955.0,
+          -205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorLintel",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          -210.0,
+          265.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          540.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          910.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          580.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1520.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          898.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          890.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkTray",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          884.0,
+          105.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          385.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          685.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TeacherDesk",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          830.0,
+          37.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          30.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          85.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -120.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          480.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1280.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1780.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_NoticeBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          220.0,
+          -193.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallLight0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274151870B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 240.0
+      },
+      {
+        "label": "KL_HallLight1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          600.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741518A2B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight2",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274151825B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight3",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1900.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741518A7B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_CorrLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -700.0,
+          0.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741518D4B8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 120.0
+      },
+      {
+        "label": "KL_RoomLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1000.0,
+          520.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274151848B8) {b: 1, g: 0, r: 0, a: 0}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_WindowShaft0",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          385.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741518DEB8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_WindowShaft1",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          685.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274151852B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_Moon",
+        "actor_class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          900.0
+        ],
+        "rotation": [
+          -17.057276482762635,
+          19.923350228476718,
+          38.982476408089404
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027418E78CB8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 0.2199999988079071
+      },
+      {
+        "label": "KL_AttBook",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": [
+          11.999999880335062,
+          0.0,
+          -0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Roster",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Roster.BP_KL_Prop_Roster_C",
+        "location": [
+          1050.0,
+          880.0,
+          178.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TapeDeck",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_TapeDeck.BP_KL_Prop_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Corner",
+        "actor_class": "/Game/KhoangLang/Blueprints/Core/Props/BP_KL_Prop_Corner.BP_KL_Prop_Corner_C",
+        "location": [
+          1470.0,
+          800.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "color": "<Struct 'Color' (0x000002741D4602B8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 0.0
+      },
+      {
+        "label": "KL_PlayerStart",
+        "actor_class": "/Script/Engine.PlayerStart",
+        "location": [
+          -1000.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "SF_Desk_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          555.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -2.500000023328937,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          503.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -2.500000023328937,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          555.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          1.4999999452489945,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          503.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          1.4999999452489945,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_C",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          555.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -0.999999995147448,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_C",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          503.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -0.999999995147448,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_D",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          695.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          3.4999998966768096,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_D",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          643.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          9.000000603357135,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_E",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          695.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -1.9999998930975957,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_E",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          647.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -6.000000026991018,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_F",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1248.0,
+          692.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          4.9999998839740165,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_G",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          330.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          -6.000000026991018,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_G",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          278.0,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          1.9999998930976022,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      }
+    ]
+  },
+  {
+    "map": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_G1",
+    "game_mode": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+    "actors": [
+      {
+        "label": "KL_Ground",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Sky",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          1250.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          120.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          -108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_CorrWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -710.0,
+          108.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          -210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          -198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          210.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWallSDoor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          210.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallWainS2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          198.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallEndW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2010.0,
+          0.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          -180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1990.0,
+          180.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          785.0,
+          205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorJambE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          955.0,
+          205.0,
+          125.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_DoorLintel",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          210.0,
+          265.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomFloor",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          4.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomCeil",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          346.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          540.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          910.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          580.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWallSS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1520.0,
+          550.0,
+          170.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_RoomWainS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          898.0,
+          55.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          890.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChalkTray",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          884.0,
+          105.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          385.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Window1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1560.0,
+          685.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TeacherDesk",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          830.0,
+          37.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk00",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench00",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk01",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench01",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk02",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          555.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench02",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          485.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk10",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench10",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk11",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench11",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Desk12",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          695.0,
+          36.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Bench12",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          625.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          30.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_ChairStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1480.0,
+          800.0,
+          85.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -120.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          480.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1280.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallBench3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1780.0,
+          -150.0,
+          22.5
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_NoticeBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          220.0,
+          -193.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_HallLight0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741A612AB8) {b: 178, g: 224, r: 255, a: 255}>",
+        "intensity": 240.0
+      },
+      {
+        "label": "KL_HallLight1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          600.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002741A611BB8) {b: 173, g: 219, r: 255, a: 255}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight2",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274413611B8) {b: 173, g: 219, r: 255, a: 255}>",
+        "intensity": 190.0
+      },
+      {
+        "label": "KL_HallLight3",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1900.0,
+          0.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x00000274413639B8) {b: 168, g: 214, r: 255, a: 255}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_CorrLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -700.0,
+          0.0,
+          290.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027418B6BBB8) {b: 219, g: 235, r: 242, a: 255}>",
+        "intensity": 120.0
+      },
+      {
+        "label": "KL_RoomLight",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1000.0,
+          520.0,
+          300.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027418B6A7B8) {b: 189, g: 230, r: 255, a: 255}>",
+        "intensity": 150.0
+      },
+      {
+        "label": "KL_WindowShaft0",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          385.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027418B661B8) {b: 255, g: 189, r: 158, a: 255}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_WindowShaft1",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1500.0,
+          685.0,
+          250.0
+        ],
+        "rotation": [
+          -18.982568921355377,
+          -173.58274157700316,
+          160.92603096752998
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027418B6D4B8) {b: 255, g: 189, r: 158, a: 255}>",
+        "intensity": 900.0
+      },
+      {
+        "label": "KL_Moon",
+        "actor_class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          900.0
+        ],
+        "rotation": [
+          -17.057276482762635,
+          19.923350228476718,
+          38.982476408089404
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027466A9AAB8) {b: 242, g: 168, r: 140, a: 255}>",
+        "intensity": 0.2199999988079071
+      },
+      {
+        "label": "KL_PlayerStart",
+        "actor_class": "/Script/Engine.PlayerStart",
+        "location": [
+          -1000.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "KL_AttBook",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_AttBook.BP_KL_Prop_AttBook_C",
+        "location": [
+          1050.0,
+          830.0,
+          82.0
+        ],
+        "rotation": [
+          11.999999880335066,
+          0.0,
+          -0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Roster",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_Roster.BP_KL_Prop_Roster_C",
+        "location": [
+          1050.0,
+          880.0,
+          178.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_TapeDeck",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_TapeDeck.BP_KL_Prop_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "KL_Corner",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/Props/BP_KL_Prop_Corner.BP_KL_Prop_Corner_C",
+        "location": [
+          1470.0,
+          800.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "color": "<Struct 'Color' (0x000002740CC02FB8) {b: 0, g: 0, r: 1, a: 0}>",
+        "intensity": 0.0
+      }
+    ]
+  },
+  {
+    "map": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Primary",
+    "game_mode": "/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+    "actors": [
+      {
+        "label": "ART_Floor_Corr",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_600_220.SM_KL_Floor_600_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Floor_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_2400_400.SM_KL_Floor_2400_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Floor_Room",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Floor_1000_700.SM_KL_Floor_1000_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Corr",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          0.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_600_220.SM_KL_Ceil_600_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          0.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_2400_400.SM_KL_Ceil_2400_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Ceil_Room",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          550.0,
+          320.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceil_1000_700.SM_KL_Ceil_1000_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          -200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_2400.SM_KL_Wall_2400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1200.SM_KL_Wall_1200",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_Door",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallDoor_140.SM_KL_WallDoor_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallN_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1470.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1060.SM_KL_Wall_1060",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_N",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          155.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_90.SM_KL_Wall_90",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_S",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          -155.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_90.SM_KL_Wall_90",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallW_Head",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Header_220.SM_KL_Header_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_HallE",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          2000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_400.SM_KL_Wall_400",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          110.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_600.SM_KL_Wall_600",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -110.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_600.SM_KL_Wall_600",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_CorrW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -1000.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_220.SM_KL_Wall_220",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          550.0,
+          550.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_700.SM_KL_Wall_700",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          900.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_1000.SM_KL_Wall_1000",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_S0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          240.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -90.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_80.SM_KL_Wall_80",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_W0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          350.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -90.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_S1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          495.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -90.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_150.SM_KL_Wall_150",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_W1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          640.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -90.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_WallWin_140.SM_KL_WallWin_140",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Wall_RoomE_SN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1550.0,
+          805.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -90.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_190.SM_KL_Wall_190",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Door3_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          870.0,
+          200.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Door3_Leaf",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          220.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_FrameW",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -400.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Frame.SM_KL_Door_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_LeafN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -350.0,
+          115.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_DoorEntry_LeafS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -350.0,
+          -115.0,
+          1.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          350.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_ShutN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          424.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          118.00000000000001,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win0_ShutS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          276.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          -118.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          640.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_ShutN",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          714.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          118.00000000000001,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Win1_ShutS",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1570.0,
+          566.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          -118.00000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Shutter_Leaf.SM_KL_Shutter_Leaf",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr0_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr0_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -900.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr1_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr1_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -700.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr2_Frame",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Frame.SM_KL_Window_Frame",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WinCorr2_Glass",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -500.0,
+          -112.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Window_Glass.SM_KL_Window_Glass",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Room_Platform",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Platform.SM_KL_Platform",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Teacher_Desk",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          800.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Teacher.SM_KL_Desk_Teacher",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Teacher_Chair",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          720.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Teacher.SM_KL_Chair_Teacher",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Podium",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          800.0,
+          830.0,
+          14.0
+        ],
+        "rotation": [
+          0.0,
+          12.000000000000004,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Podium.SM_KL_Podium",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Chalkboard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1080.0,
+          896.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chalkboard.SM_KL_Chalkboard",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_WallMap",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          896.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Wall_Map.SM_KL_Wall_Map",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bookcase",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          570.0,
+          640.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bookcase.SM_KL_Bookcase",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CoatHook",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          554.0,
+          350.0,
+          160.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bin",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1510.0,
+          260.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Waste_Bin.SM_KL_Waste_Bin",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Fan",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1050.0,
+          500.0,
+          318.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Ceiling_Fan.SM_KL_Ceiling_Fan",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          84.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          44.0
+        ],
+        "rotation": [
+          0.0,
+          88.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CornerStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          596.0,
+          856.0,
+          88.0
+        ],
+        "rotation": [
+          0.0,
+          92.00000000000003,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Desk_Pupil.SM_KL_Desk_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam4",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Beam5",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          286.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Corridor_Beam.SM_KL_Corridor_Beam",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          200.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube3",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1000.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube4",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1400.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Tube5",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -800.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -600.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TubeCorr2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          -450.0,
+          0.0,
+          308.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Fluorescent.SM_KL_Fluorescent",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_NoticeBoard",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          350.0,
+          -196.0,
+          180.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Notice_Board.SM_KL_Notice_Board",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          100.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          700.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Bench2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1500.0,
+          -160.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Bench_Hall.SM_KL_Bench_Hall",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_PA",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1975.0,
+          0.0,
+          250.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_PA_Speaker.SM_KL_PA_Speaker",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_CoatHook_Hall",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1150.0,
+          -196.0,
+          160.0
+        ],
+        "rotation": [
+          0.0,
+          180.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Coat_Hook.SM_KL_Coat_Hook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack0",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack1",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          26.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_ChairStack2",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1900.0,
+          150.0,
+          52.0
+        ],
+        "rotation": [
+          0.0,
+          89.99999999999999,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Chair_Pupil.SM_KL_Chair_Pupil",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Moon",
+        "actor_class": "/Script/Engine.DirectionalLight",
+        "location": [
+          0.0,
+          0.0,
+          1200.0
+        ],
+        "rotation": [
+          -45.999999999999986,
+          27.999999999999993,
+          2.2892941456690122e-15
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027466A97AB8) {b: 255, g: 163, r: 133, a: 255}>",
+        "intensity": 0.2199999988079071
+      },
+      {
+        "label": "ART_L_Corr",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -560.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDA7B8) {b: 255, g: 230, r: 214, a: 255}>",
+        "intensity": 312.0
+      },
+      {
+        "label": "ART_L_Hall0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          -150.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDFCB8) {b: 189, g: 230, r: 255, a: 255}>",
+        "intensity": 504.0
+      },
+      {
+        "label": "ART_L_Hall1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          700.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002742D1C07B8) {b: 189, g: 230, r: 255, a: 255}>",
+        "intensity": 408.0
+      },
+      {
+        "label": "ART_L_Hall2",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1550.0,
+          0.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002742D1C34B8) {b: 189, g: 230, r: 255, a: 255}>",
+        "intensity": 312.0
+      },
+      {
+        "label": "ART_L_Door",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          870.0,
+          240.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740D47E3B8) {b: 194, g: 230, r: 255, a: 255}>",
+        "intensity": 168.0
+      },
+      {
+        "label": "ART_L_Room0",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          420.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740D4793B8) {b: 199, g: 232, r: 255, a: 255}>",
+        "intensity": 552.0
+      },
+      {
+        "label": "ART_L_Room1",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1050.0,
+          740.0,
+          296.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740D4766B8) {b: 199, g: 232, r: 255, a: 255}>",
+        "intensity": 456.0
+      },
+      {
+        "label": "ART_L_Shaft0",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          350.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          118.00000000000001,
+          -0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FD93B8) {b: 255, g: 168, r: 138, a: 255}>",
+        "intensity": 720.0
+      },
+      {
+        "label": "ART_L_Shaft1",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          1770.0,
+          640.0,
+          190.0
+        ],
+        "rotation": [
+          0.0,
+          118.00000000000001,
+          -0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDACB8) {b: 255, g: 168, r: 138, a: 255}>",
+        "intensity": 720.0
+      },
+      {
+        "label": "ART_L_ShaftCorr",
+        "actor_class": "/Script/Engine.SpotLight",
+        "location": [
+          -940.0,
+          0.0,
+          200.0
+        ],
+        "rotation": [
+          0.0,
+          62.000000000000014,
+          -0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x0000027414FDA2B8) {b: 255, g: 163, r: 133, a: 255}>",
+        "intensity": 176.0
+      },
+      {
+        "label": "ART_L_CornerHint",
+        "actor_class": "/Script/Engine.PointLight",
+        "location": [
+          1400.0,
+          760.0,
+          60.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null,
+        "color": "<Struct 'Color' (0x000002740D47A7B8) {b: 235, g: 158, r: 128, a: 255}>",
+        "intensity": 31.200000762939453
+      },
+      {
+        "label": "ART_Fog",
+        "actor_class": "/Script/Engine.ExponentialHeightFog",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "ART_Grade",
+        "actor_class": "/Script/Engine.PostProcessVolume",
+        "location": [
+          0.0,
+          0.0,
+          150.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "ART_PlayerStart",
+        "actor_class": "/Script/Engine.PlayerStart",
+        "location": [
+          -880.0,
+          0.0,
+          110.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": null
+      },
+      {
+        "label": "SF_Desk_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          555.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -2.5000000000000004,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_A",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          780.0,
+          503.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -2.5000000000000004,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          555.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          1.5000000000000002,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_B",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1010.0,
+          503.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          1.5000000000000002,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_C",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          555.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -1.0000000000000002,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_C",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1240.0,
+          503.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -1.0000000000000002,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_D",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          695.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          3.5000000000000013,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_D",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          786.0,
+          643.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          9.0,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_E",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          695.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -2.0000000000000004,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_E",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1007.0,
+          647.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -6.000000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_F",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1248.0,
+          692.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          5.000000000000001,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Desk_G",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          330.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -6.000000000000001,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolDesk_A.SM_KL_SchoolDesk_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "SF_Bench_G",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          770.0,
+          278.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          2.000000000000001,
+          -0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/SchoolFurniture/SM_KL_SchoolBench_A.SM_KL_SchoolBench_A",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_AttBook",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+        "location": [
+          1050.0,
+          810.0,
+          90.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Roster",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster_C",
+        "location": [
+          1050.0,
+          884.0,
+          178.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Roster.SM_KL_Prop_Roster",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_TapeDeck",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck_C",
+        "location": [
+          1930.0,
+          0.0,
+          120.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_TapeDeck.SM_KL_Prop_TapeDeck",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      },
+      {
+        "label": "ART_Corner",
+        "actor_class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner_C",
+        "location": [
+          1450.0,
+          790.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Game/KhoangLang/Meshes/Props/SM_KL_Prop_Figure.SM_KL_Prop_Figure",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+        "color": "<Struct 'Color' (0x000002741518B1B8) {b: 0, g: 0, r: 0, a: 0}>",
+        "intensity": 0.0
+      },
+      {
+        "label": "PRIMARY_ChalkboardSlate",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": [
+          1080.0,
+          888.0,
+          175.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+      }
+    ]
+  }
+]

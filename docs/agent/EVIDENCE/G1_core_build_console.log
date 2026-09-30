@@ -1,0 +1,383 @@
+{
+  "success": false,
+  "command": "C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py",
+  "result": "Traceback (most recent call last):\n\n  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py\", line 36, in <module>\n    raise RuntimeError('Production core build errors: ' + str(K.FAILS))\n\nRuntimeError: Production core build errors: [\"compile errors in BP_KL_ListeningComponent SetFilter: ['Blueprint status is BS_ERROR']\", \"compile errors in BP_KL_ListeningComponent IsFilterOn: ['Blueprint status is BS_ERROR']\", \"compile errors in BP_KL_ListeningComponent GetModeStr: ['Blueprint status is BS_ERROR']\"]\n",
+  "output": [
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   created /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   DocDef=EVD_SoDiemDanh  TapeDef=EVD_Bang021634"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetObjectiveStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetPromptStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetSubtitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHasDoc"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHasTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeHeard"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorroborated"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetBeatDone"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEnded"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetJournalOpen"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocSourceStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeSourceStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob5Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob6Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHintEndStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent InitRun"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent RefreshObjective"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent CollectDoc"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent CollectTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetTapeHeard"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent NoteRevealed"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent BeginBeat"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent FinishRun"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent ToggleJournal"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetPromptFromString"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetSubtitleFromString"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetSubtitleText"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetObjectiveText"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent ClearPrompt"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   created /Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   beds: S_KL_Ambience_Hall, S_KL_NoiseMask, S_KL_ClarityTone, S_KL_SpeakerHum"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_ListeningComponent StartBeds"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   FAIL compile errors in BP_KL_ListeningComponent SetFilter: ['Blueprint status is BS_ERROR']"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   FAIL compile errors in BP_KL_ListeningComponent IsFilterOn: ['Blueprint status is BS_ERROR']"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   FAIL compile errors in BP_KL_ListeningComponent GetModeStr: ['Blueprint status is BS_ERROR']"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_InteractComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   created /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InteractComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   interact component ready"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent (event graph)"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent GetPromptStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent IsAvailable"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent IsFocused"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent SetFocused"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DisarmClearTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent ArmClearTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent CompleteClearTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DoDocument"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DoTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DoNote"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent FinishBeat"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent ReplyBeat"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DoCorner"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent SetFilterMode"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent DoInteract"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   component-method self pins all connected"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InteractComponent"
+    },
+    {
+      "type": "Error",
+      "output": "Traceback (most recent call last):"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py\", line 36, in <module>"
+    },
+    {
+      "type": "Error",
+      "output": "    raise RuntimeError('Production core build errors: ' + str(K.FAILS))"
+    },
+    {
+      "type": "Error",
+      "output": "RuntimeError: Production core build errors: [\"compile errors in BP_KL_ListeningComponent SetFilter: ['Blueprint status is BS_ERROR']\", \"compile errors in BP_KL_ListeningComponent IsFilterOn: ['Blueprint status is BS_ERROR']\", \"compile errors in BP_KL_ListeningComponent GetModeStr: ['Blueprint status is BS_ERROR']\"]"
+    }
+  ]
+}

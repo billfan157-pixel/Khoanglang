@@ -1,0 +1,379 @@
+{
+  "success": false,
+  "command": "C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py",
+  "result": "Traceback (most recent call last):\n\n  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py\", line 34, in <module>\n    build.build_interact()\n\n  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 744, in build_interact\n    s = selb(b, 'true', 'false', bv(b, 'bConsumed'))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 187, in selb\n    _wire(b, s, idx, 'bPickA')\n\n  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 174, in _wire\n    BPT.connect_pins(ref[0].pin_id, b.inp(selnode, pin_name).pin_id)\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^\n\n  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\kl_core.py\", line 527, in inp\n    for x in self.info(node).input_pins:\n             ^^^^^^^^^^^^^^^\n\n  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\kl_core.py\", line 510, in info\n    return BPT.get_node_infos([node])[0]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\n\nIndexError: Array: Index 0 is out-of-bounds (len: 0) for property 'TransientPythonProperty' (ArrayProperty)\n",
+  "output": [
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   reuse /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   DocDef=EVD_SoDiemDanh  TapeDef=EVD_Bang021634"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetObjectiveStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetPromptStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetSubtitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHasDoc"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHasTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeHeard"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorroborated"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetBeatDone"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEnded"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetJournalOpen"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocSourceStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocBody4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetDocClue3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeSourceStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeBody4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetTapeClue3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob5Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetCorrob6Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndTitleStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine1Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine2Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine3Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetEndLine4Str"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent GetHintEndStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent InitRun"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent RefreshObjective"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent CollectDoc"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent CollectTape"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetTapeHeard"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent NoteRevealed"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent BeginBeat"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent FinishRun"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent ToggleJournal"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetPromptFromString"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetSubtitleFromString"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetSubtitleText"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent SetObjectiveText"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InvestigationComponent ClearPrompt"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   reuse /Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   beds: S_KL_Ambience_Hall, S_KL_NoiseMask, S_KL_ClarityTone, S_KL_SpeakerHum"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_ListeningComponent StartBeds"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_ListeningComponent SetFilter"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_ListeningComponent IsFilterOn"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_ListeningComponent GetModeStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_InteractComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   reuse /Game/KhoangLang/Production/Blueprints/Core/BP_KL_InteractComponent"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   interact component ready"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent (event graph)"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_InteractComponent GetPromptStr"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   FAIL IsAvailable: function not found: /Script/Engine.KismetMathLibrary:SelectBool"
+    },
+    {
+      "type": "Error",
+      "output": "Traceback (most recent call last):"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_runtime.py\", line 34, in <module>"
+    },
+    {
+      "type": "Error",
+      "output": "    build.build_interact()"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 744, in build_interact"
+    },
+    {
+      "type": "Error",
+      "output": "    s = selb(b, 'true', 'false', bv(b, 'bConsumed'))"
+    },
+    {
+      "type": "Error",
+      "output": "        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 187, in selb"
+    },
+    {
+      "type": "Error",
+      "output": "    _wire(b, s, idx, 'bPickA')"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\build_20_blueprints.py\", line 174, in _wire"
+    },
+    {
+      "type": "Error",
+      "output": "    BPT.connect_pins(ref[0].pin_id, b.inp(selnode, pin_name).pin_id)"
+    },
+    {
+      "type": "Error",
+      "output": "                                    ^^^^^^^^^^^^^^^^^^^^^^^^"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\kl_core.py\", line 527, in inp"
+    },
+    {
+      "type": "Error",
+      "output": "    for x in self.info(node).input_pins:"
+    },
+    {
+      "type": "Error",
+      "output": "             ^^^^^^^^^^^^^^^"
+    },
+    {
+      "type": "Error",
+      "output": "  File \"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\..\\..\\..\\..\\..\\..\\Users\\phanb\\Documents\\Unreal Projects\\KhoangLang0217\\Content\\Python\\KhoangLang\\kl_core.py\", line 510, in info"
+    },
+    {
+      "type": "Error",
+      "output": "    return BPT.get_node_infos([node])[0]"
+    },
+    {
+      "type": "Error",
+      "output": "           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^"
+    },
+    {
+      "type": "Error",
+      "output": "IndexError: Array: Index 0 is out-of-bounds (len: 0) for property 'TransientPythonProperty' (ArrayProperty)"
+    }
+  ]
+}

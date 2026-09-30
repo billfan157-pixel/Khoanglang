@@ -1,0 +1,311 @@
+{
+  "actors": [
+    {
+      "label": "ART_Floor_Corr",
+      "location": "<Struct 'Vector' (0x000002740FE66F90) {x: -700.000000, y: 0.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBEE0) {x: -700.000000, y: 0.000000, z: -4.000000}>, <Struct 'Vector' (0x000002740FEBBDF0) {x: 300.000000, y: 110.000000, z: 4.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Floor.MI_ART_Floor",
+        "/Game/KhoangLang/Production/Materials/MI_ART_Concrete.MI_ART_Concrete"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Floor_600_220.SM_KL_Floor_600_220",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Ceil_Corr",
+      "location": "<Struct 'Vector' (0x000002740FEBBEE0) {x: -700.000000, y: 0.000000, z: 320.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FE66F90) {x: -700.000000, y: 0.000000, z: 329.000000}>, <Struct 'Vector' (0x000002740FEBBDF0) {x: 300.000000, y: 110.000000, z: 9.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Ceiling.MI_ART_Ceiling"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Ceil_600_220.SM_KL_Ceil_600_220",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_HallN_Door",
+      "location": "<Struct 'Vector' (0x000002740FE66F90) {x: 870.000000, y: 200.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBDF0) {x: 870.000000, y: 208.700000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBBE90) {x: 70.000000, y: 11.300000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_WallDoor_140.SM_KL_WallDoor_140",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_HallW_N",
+      "location": "<Struct 'Vector' (0x000002740FE66F90) {x: -400.000000, y: 155.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBE90) {x: -408.700000, y: 155.000000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBBB70) {x: 11.300000, y: 45.000000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallExt.MI_ART_WallExt"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_HallW_S",
+      "location": "<Struct 'Vector' (0x000002740FEBBE90) {x: -400.000000, y: -155.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBB70) {x: -408.700000, y: -155.000000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBB300) {x: 11.300000, y: 45.000000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallExt.MI_ART_WallExt"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_90.SM_KL_Wall_90",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_HallW_Head",
+      "location": "<Struct 'Vector' (0x000002740FEBBB70) {x: -400.000000, y: 0.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBB300) {x: -410.000000, y: 0.000000, z: 270.000000}>, <Struct 'Vector' (0x000002740FEBBC10) {x: 10.000000, y: 110.000000, z: 50.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Header_220.SM_KL_Header_220",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_CorrN",
+      "location": "<Struct 'Vector' (0x000002740FEBBB70) {x: -700.000000, y: 110.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBB300) {x: -700.000000, y: 118.700000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBBC10) {x: 300.000000, y: 11.300000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallExt.MI_ART_WallExt"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_CorrS",
+      "location": "<Struct 'Vector' (0x000002740FEBB300) {x: -700.000000, y: -110.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBB70) {x: -700.000000, y: -118.700000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBBC10) {x: 300.000000, y: 11.300000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallExt.MI_ART_WallExt"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_600.SM_KL_Wall_600",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Wall_CorrW",
+      "location": "<Struct 'Vector' (0x000002740FEBBB70) {x: -1000.000000, y: 0.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBB300) {x: -1008.700000, y: 0.000000, z: 160.000000}>, <Struct 'Vector' (0x000002740FEBBC10) {x: 11.300000, y: 110.000000, z: 160.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre.MI_ART_WallOchre",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WallExt.MI_ART_WallExt"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Wall_220.SM_KL_Wall_220",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Door3_Frame",
+      "location": "<Struct 'Vector' (0x000002740FEBBB70) {x: 870.000000, y: 200.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBB300) {x: 870.000000, y: 210.000000, z: 116.000000}>, <Struct 'Vector' (0x000002740FEBBC10) {x: 82.000000, y: 12.000000, z: 116.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_Stone.MI_ART_Stone"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_DoorEntry_FrameW",
+      "location": "<Struct 'Vector' (0x000002740FEBBB70) {x: -400.000000, y: 62.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBBC10) {x: -390.000000, y: 62.000000, z: 116.000000}>, <Struct 'Vector' (0x000002740FF295A0) {x: 12.000000, y: 82.000000, z: 116.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_Stone.MI_ART_Stone"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_DoorEntry_FrameE",
+      "location": "<Struct 'Vector' (0x000002740FEBBC10) {x: -400.000000, y: -62.000000, z: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF295A0) {x: -410.000000, y: -62.000000, z: 116.000000}>, <Struct 'Vector' (0x000002740FF29500) {x: 12.000000, y: 82.000000, z: 116.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_Stone.MI_ART_Stone"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Frame.SM_KL_Door_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_DoorEntry_LeafN",
+      "location": "<Struct 'Vector' (0x000002740FF295A0) {x: -394.000000, y: 8.000000, z: 1.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF29500) {x: -381.264545, y: 75.088529, z: 109.000000}>, <Struct 'Vector' (0x000002740FF28240) {x: 24.751226, y: 67.088529, z: 108.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_DoorEntry_LeafS",
+      "location": "<Struct 'Vector' (0x000002740FF29500) {x: -394.000000, y: -8.000000, z: 1.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF28240) {x: -369.248774, y: -71.643062, z: 109.000000}>, <Struct 'Vector' (0x000002740FF292D0) {x: 24.751226, y: 67.088529, z: 108.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_WinCorr0_Frame",
+      "location": "<Struct 'Vector' (0x000002740FF28240) {x: -900.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF292D0) {x: -900.000000, y: -118.000000, z: 246.810000}>, <Struct 'Vector' (0x000002740FF28330) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_WinCorr0_Glass",
+      "location": "<Struct 'Vector' (0x000002740FF292D0) {x: -900.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF28330) {x: -900.000000, y: -116.000000, z: 246.500000}>, <Struct 'Vector' (0x000002740FF28420) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Metal.MI_ART_Metal"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_WinCorr1_Frame",
+      "location": "<Struct 'Vector' (0x000002740FF28330) {x: -700.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF28420) {x: -700.000000, y: -118.000000, z: 246.810000}>, <Struct 'Vector' (0x000002740FF28470) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_WinCorr1_Glass",
+      "location": "<Struct 'Vector' (0x000002740FF28420) {x: -700.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF28470) {x: -700.000000, y: -116.000000, z: 246.500000}>, <Struct 'Vector' (0x000002740FF284C0) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Metal.MI_ART_Metal"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_WinCorr2_Frame",
+      "location": "<Struct 'Vector' (0x000002740FF28470) {x: -500.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF284C0) {x: -500.000000, y: -118.000000, z: 246.810000}>, <Struct 'Vector' (0x000002740FF287E0) {x: 52.080000, y: 14.000000, z: 51.770000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Frame.SM_KL_Window_Frame",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_WinCorr2_Glass",
+      "location": "<Struct 'Vector' (0x000002740FF284C0) {x: -500.000000, y: -112.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF287E0) {x: -500.000000, y: -116.000000, z: 246.500000}>, <Struct 'Vector' (0x000002740FF288D0) {x: 42.160000, y: 0.000000, z: 45.260000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Metal.MI_ART_Metal"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Window_Glass.SM_KL_Window_Glass",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_Teacher_Desk",
+      "location": "<Struct 'Vector' (0x000002740FF284C0) {x: 1050.000000, y: 800.000000, z: 14.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF288D0) {x: 1043.400002, y: 800.000000, z: 53.000000}>, <Struct 'Vector' (0x000002740FF28790) {x: 61.599998, y: 30.000000, z: 63.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Desk_Teacher.SM_KL_Desk_Teacher",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_Chalkboard",
+      "location": "<Struct 'Vector' (0x000002740FF288D0) {x: 1080.000000, y: 896.000000, z: 175.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF284C0) {x: 1080.000000, y: 888.000000, z: 170.000000}>, <Struct 'Vector' (0x000002740FF28790) {x: 180.000000, y: 8.000000, z: 83.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/Production/Materials/MI_ART_Wood.MI_ART_Wood",
+        "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark.MI_ART_WoodDark",
+        "/Game/KhoangLang/Production/Materials/MI_ART_Chalk.MI_ART_Chalk",
+        "/Game/KhoangLang/Production/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Furniture/SM_KL_Chalkboard.SM_KL_Chalkboard",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>"
+    },
+    {
+      "label": "ART_TubeCorr0",
+      "location": "<Struct 'Vector' (0x000002740FF284C0) {x: -800.000000, y: 0.000000, z: 308.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF288D0) {x: -800.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002740FF28790) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeDead.MI_ART_TubeDead",
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeDead.MI_ART_TubeDead"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_TubeCorr1",
+      "location": "<Struct 'Vector' (0x000002740FF288D0) {x: -600.000000, y: 0.000000, z: 308.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF284C0) {x: -600.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002740FF28790) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeCold.MI_ART_TubeCold",
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeCold.MI_ART_TubeCold"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_TubeCorr2",
+      "location": "<Struct 'Vector' (0x000002740FF284C0) {x: -450.000000, y: 0.000000, z: 308.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF288D0) {x: -450.000000, y: 0.000000, z: 302.000000}>, <Struct 'Vector' (0x000002740FF28790) {x: 61.000000, y: 9.000000, z: 6.000000}>)",
+      "materials": [
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeDead.MI_ART_TubeDead",
+        "/Game/KhoangLang/MaterialsArt/MI_ART_TubeDead.MI_ART_TubeDead"
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Fluorescent.SM_KL_Fluorescent",
+      "collision_trace": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+    },
+    {
+      "label": "ART_L_Corr",
+      "location": "<Struct 'Vector' (0x000002740FF288D0) {x: -560.000000, y: 0.000000, z: 296.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FEBB7B0) {x: -560.000000, y: 0.000000, z: 296.000000}>, <Struct 'Vector' (0x000002740FF284C0) {x: 128.000000, y: 128.000000, z: 128.000000}>)",
+      "materials": []
+    },
+    {
+      "label": "ART_L_ShaftCorr",
+      "location": "<Struct 'Vector' (0x000002740FEBB7B0) {x: -940.000000, y: 0.000000, z: 200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF288D0) {x: -912.345509, y: 60.732574, z: 200.000000}>, <Struct 'Vector' (0x000002740FF284C0) {x: 155.654491, y: 188.732574, z: 128.000000}>)",
+      "materials": []
+    },
+    {
+      "label": "ART_PlayerStart",
+      "location": "<Struct 'Vector' (0x000002740FEBB7B0) {x: -880.000000, y: 0.000000, z: 110.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002740FF288D0) {x: -824.000000, y: 0.000000, z: 110.000000}>, <Struct 'Vector' (0x000002740FF284C0) {x: 184.000000, y: 128.000000, z: 128.000000}>)",
+      "materials": []
+    }
+  ]
+}

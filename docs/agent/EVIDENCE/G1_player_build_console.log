@@ -1,0 +1,111 @@
+{
+  "success": true,
+  "command": "C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_player.py",
+  "result": "None",
+  "output": [
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_FirstPersonCharacter (extended in place)"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   components added: investigate=True listening=True torch=True camera=True"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character InitKL"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character UpdateFocus"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character PollKeys"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character CheckHeard"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character TickKL"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character (event graph)"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Player/BP_KL_Character"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_Character view-directed UpdateFocus"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Player/BP_KL_Character"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_HUD"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   created /Game/KhoangLang/Production/Blueprints/UI/BP_KL_HUD"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   HUD draw event: pins IN [] OUT ['OutputDelegate', 'then', 'SizeX', 'SizeY']"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   compiled BP_KL_HUD (event graph)"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/UI/BP_KL_HUD"
+    },
+    {
+      "type": "Info",
+      "output": "KL: "
+    },
+    {
+      "type": "Info",
+      "output": "KL: === BP_KL_GameMode"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   created /Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   GameMode hud_class = BP_KL_HUD"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   GameMode default_pawn_class = BP_KL_Character_C"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   GameMode player_controller_class = BP_FirstPersonPlayerController_C"
+    },
+    {
+      "type": "Info",
+      "output": "KL:   OK   saved /Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode"
+    },
+    {
+      "type": "Info",
+      "output": "{\"/Game/KhoangLang/Production/Blueprints/Player/BP_KL_Character\": \"<BlueprintStatus.BS_UP_TO_DATE: 3>\", \"/Game/KhoangLang/Production/Blueprints/UI/BP_KL_HUD\": \"<BlueprintStatus.BS_UP_TO_DATE: 3>\", \"/Game/KhoangLang/Production/Blueprints/Player/BP_KL_GameMode\": \"<BlueprintStatus.BS_UP_TO_DATE: 3>\"}\r\n"
+    }
+  ]
+}

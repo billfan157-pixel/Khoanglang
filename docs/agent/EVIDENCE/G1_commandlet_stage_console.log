@@ -1,0 +1,701 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/KhoangLang0217.uproject" -log="C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\Users\phanb\Documents\Unreal Projects\KhoangLang0217\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 INVALID 10.0.22621.0
+##PlatformValidate: Mac VALID 26.1.1
+##PlatformValidate: IOS VALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS VALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\phanb\AppData\Local\UnrealBuildTool\Trace.uba with size 368b
+[2026.09.30-09.19.33:944][  0]LogInit: Display: Running engine for game: KhoangLang0217
+[2026.09.30-09.19.33:944][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.30-09.19.33:944][  0]LogTrace: Display: Control listening on port 38461
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9550] "
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) Ultra 7 155H"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\phanb\Documents\Unreal Projects\KhoangLang0217\KhoangLang0217.uproject" -run=pythonscript -script="C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_commandlet.py" -unattended -nullrhi -nosplash -nop4 -abslog="C:\Users\phanb\Documents\Unreal Projects\KhoangLang0217\docs\agent\EVIDENCE\G1_commandlet_stage_20260930.log"""
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : loginid="892e1d0ac5de454faf82b46ae7a4db0f"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.30-09.19.33:944][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading VulkanPC ini files took 0.18 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading Android ini files took 0.18 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading IOS ini files took 0.18 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading Mac ini files took 0.18 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading Unix ini files took 0.22 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading TVOS ini files took 0.22 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading VisionOS ini files took 0.23 seconds
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading Windows ini files took 0.23 seconds
+[2026.09.30-09.19.33:944][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.30-09.19.33:944][  0]LogConfig: Display: Loading Linux ini files took 0.27 seconds
+[2026.09.30-09.19.33:944][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.30-09.19.33:944][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=344MiB, MaxMemoryAvailable=33091MiB
+[2026.09.30-09.19.33:944][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.30-09.19.33:944][  0]LogConsoleManager: Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0.7'
+[2026.09.30-09.19.33:944][  0]LogConsoleManager: Warning: Setting the console variable 'r.Shadow.CSM.MaxCascades' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '2'
+[2026.09.30-09.19.33:945][  0]LogConsoleManager: Warning: Setting the console variable 'r.Shadow.MaxResolution' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1024'
+[2026.09.30-09.19.33:945][  0]LogConsoleManager: Warning: Setting the console variable 'r.Shadow.MaxCSMResolution' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1024'
+[2026.09.30-09.19.33:945][  0]LogConsoleManager: Warning: Setting the console variable 'r.SSR.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0'
+[2026.09.30-09.19.33:945][  0]LogConsoleManager: Warning: Setting the console variable 'r.SSR.HalfResSceneColor' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0'
+[2026.09.30-09.19.33:945][  0]LogHAL: Display: Platform has ~ 16 GB [16639741952 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.30-09.19.33:945][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.30-09.19.33:945][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-09.19.35:574][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.30-09.19.36:983][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.09.30-09.19.36:983][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.09.30-09.19.36:983][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.09.30-09.19.36:983][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.09.30-09.19.36:983][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.09.30-09.19.36:984][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.09.30-09.19.37:059][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.30-09.19.37:059][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.30-09.19.37:059][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.30-09.19.37:059][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.30-09.19.37:059][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.30-09.19.37:059][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.30-09.19.37:060][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.30-09.19.37:063][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.30-09.19.37:064][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.30-09.19.37:310][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.30-09.19.37:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.09.30-09.19.37:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.09.30-09.19.37:547][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.30-09.19.37:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.09.30-09.19.37:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.09.30-09.19.37:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.09.30-09.19.37:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.09.30-09.19.37:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.09.30-09.19.37:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.09.30-09.19.37:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.30-09.19.37:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.30-09.19.37:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.30-09.19.37:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.30-09.19.37:961][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.30-09.19.37:993][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.30-09.19.39:403][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.09.30-09.19.39:422][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.09.30-09.19.40:192][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/phanb/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.30-09.19.40:201][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/phanb/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.30-09.19.40:203][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/phanb/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.30-09.19.40:203][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/phanb/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.09.30-09.19.40:665][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.30-09.19.40:695][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.09.30-09.19.40:763][  0]LogDerivedDataCache: Display: C:/Users/phanb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.74ms. RandomReadSpeed=59.65MBs, RandomWriteSpeed=24.32MBs. Assigned SpeedClass 'Local'
+[2026.09.30-09.19.40:791][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.30-09.19.40:792][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.30-09.19.40:792][  0]LogShaderCompilers: Display: Using 19 local workers for shader compilation
+[2026.09.30-09.19.40:801][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/phanb/Documents/Unreal Projects/KhoangLang0217/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.09.30-09.19.40:803][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-09.19.43:135][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.30-09.19.44:510][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.30-09.19.44:510][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.30-09.19.44:682][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.30-09.19.44:744][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.30-09.19.44:905][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.30-09.19.44:905][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.30-09.19.44:905][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.30-09.19.45:112][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.30-09.19.45:112][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.30-09.19.45:112][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.30-09.19.45:112][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.30-09.19.46:384][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/phanb/Documents/Unreal Projects/KhoangLang0217/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.30-09.19.46:386][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.30-09.19.46:386][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.30-09.19.46:386][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.30-09.19.46:996][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.30-09.19.47:030][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 34.650 ms
+[2026.09.30-09.19.50:579][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.30-09.19.50:597][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.30-09.19.53:801][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2026.09.30-09.19.54:919][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-09.19.54:919][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.30-09.19.56:498][  0]LogToolsetRegistry: Display: Registering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.30-09.19.56:784][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.09.30-09.19.56:785][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-09.19.56:787][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.09.30-09.19.56:787][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.09.30-09.19.57:171][  0]LogAssetRegistry: Display: Asset registry cache read as 123.1 MiB from ../../../../../../Users/phanb/Documents/Unreal Projects/KhoangLang0217/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_FDBBC3314B65F3833A3B2A9A83309786.bin (memory-mapped=yes)
+[2026.09.30-09.19.57:172][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.389s loading caches from ../../../../../../Users/phanb/Documents/Unreal Projects/KhoangLang0217/Intermediate/CachedAssetRegistry.
+[2026.09.30-09.19.57:483][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.30-09.19.57:913][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.30-09.19.58:913][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.30-09.19.59:763][  0]LogToolsetRegistry: Display: Registering Toolset EditorToolset.EditorAppToolset
+[2026.09.30-09.19.59:764][  0]LogToolsetRegistry: Display: Registering Toolset EditorToolset.LogsToolset
+[2026.09.30-09.19.59:934][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/EditorToolset/Content/Python/init_unreal.py... started...
+[2026.09.30-09.20.00:630][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.actor.ActorTools
+[2026.09.30-09.20.00:635][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.asset.AssetTools
+[2026.09.30-09.20.00:658][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.blueprint.BlueprintTools
+[2026.09.30-09.20.00:660][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.curve_table.CurveTableTools
+[2026.09.30-09.20.00:660][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.data_asset.DataAssetTools
+[2026.09.30-09.20.00:662][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.data_table.DataTableTools
+[2026.09.30-09.20.00:668][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.material.MaterialTools
+[2026.09.30-09.20.00:672][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.material_instance.MaterialInstanceTools
+[2026.09.30-09.20.00:674][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.object.ObjectTools
+[2026.09.30-09.20.00:679][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.primitive.PrimitiveTools
+[2026.09.30-09.20.00:686][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.scene.SceneTools
+[2026.09.30-09.20.00:689][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.skeletal_mesh.SkeletalMeshTools
+[2026.09.30-09.20.00:692][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.static_mesh.StaticMeshTools
+[2026.09.30-09.20.00:694][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.string_table.StringTableTools
+[2026.09.30-09.20.00:695][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.programmatic.ProgrammaticToolset
+[2026.09.30-09.20.00:695][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.texture.TextureTools
+[2026.09.30-09.20.00:696][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/EditorToolset/Content/Python/init_unreal.py... took 762.369 ms
+[2026.09.30-09.20.00:697][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.30-09.20.00:714][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 16.788 ms (total: 779.157 ms)
+[2026.09.30-09.20.00:716][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.30-09.20.00:819][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 101.903 ms (total: 881.061 ms)
+[2026.09.30-09.20.00:819][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... started...
+[2026.09.30-09.20.00:906][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... took 86.471 ms (total: 967.532 ms)
+[2026.09.30-09.20.00:907][  0]LogPythonScriptCommandlet: Display: Running Python script: C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_build_commandlet.py
+[2026.09.30-09.20.01:949][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.01:950][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.02:158][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.02:158][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.02:336][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.02:336][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.02:521][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.02:521][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.02:693][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.02:693][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.02:907][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.02:908][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:068][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:068][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:230][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:230][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:407][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:407][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:596][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:596][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:775][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:775][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.03:961][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.03:961][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.04:129][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.04:129][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.04:329][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.04:329][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.04:531][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.04:531][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.04:726][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.04:726][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.04:896][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.04:896][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.05:096][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.05:096][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.05:311][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.05:311][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.05:505][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.05:505][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.05:694][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.05:694][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.05:873][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.05:873][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:067][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:068][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:236][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:237][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:412][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:412][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:603][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:603][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:800][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:800][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.06:973][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.06:973][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.07:182][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.07:182][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.07:384][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.07:384][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.07:580][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.07:580][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.07:813][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.07:813][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:018][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:019][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:211][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:211][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:427][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:427][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:608][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:608][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:781][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:781][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.08:954][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.08:954][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.09:162][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.09:162][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.09:337][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.09:337][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.28:739][  0]LogScript: Warning: Param InS already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.28:739][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.28:977][  0]LogScript: Warning: Param InS already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.28:977][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.29:206][  0]LogScript: Warning: Param InT already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.29:206][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.29:465][  0]LogScript: Warning: Param InT already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.29:465][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.30:335][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/phanb/Documents/Unreal Projects/KhoangLang0217/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.30-09.20.33:235][  0]LogScript: Warning: Param bOn already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.33:235][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.35:540][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.35:540][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.35:701][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.35:702][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.37:853][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.37:853][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:353][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:353][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:554][  0]LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:554][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:781][  0]LogScript: Warning: Param bFocused already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:781][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:785][  0]LogScript: Warning: Param bFilter already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:786][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:789][  0]LogScript: Warning: Param bHasDoc already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:789][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:793][  0]LogScript: Warning: Param bHasTape already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:793][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.38:797][  0]LogScript: Warning: Param bTapeHeard already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.38:797][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.20.56:244][  0]LogScript: Warning: Param bOn already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.20.56:244][  0]LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.21.05:399][  0]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [SkinnedAsset] anyway! RequiredMemory = 0.000 MiB + 4608.000 MiB, MemoryLimit = 954.257812 MiB 
+[2026.09.30-09.21.05:399][  0]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [SkinnedAsset] anyway! RequiredMemory = 0.000 MiB + 4608.000 MiB, MemoryLimit = 954.335938 MiB 
+[2026.09.30-09.21.07:248][  0]LogEnum: Warning: EnumRedirect for enum ETraceTypeQuery maps 'ETraceTypeQuery::Visibility' to invalid value 'Visibility'!
+[2026.09.30-09.21.20:131][  0]LogEnum: Warning: EnumRedirect for enum ETraceTypeQuery maps 'ETraceTypeQuery::Visibility' to invalid value 'Visibility'!
+[2026.09.30-09.22.21:160][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.30-09.22.21:160][  0]LogInit: Display: 
+[2026.09.30-09.22.21:160][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.30-09.22.21:160][  0]LogInit: Display: -----------------------------------
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.ViewDistanceScale' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0.7'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.Shadow.CSM.MaxCascades' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '2'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.Shadow.MaxResolution' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1024'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.Shadow.MaxCSMResolution' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '1024'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.SSR.Quality' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogConsoleManager: Warning: Setting the console variable 'r.SSR.HalfResSceneColor' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByProjectSetting'. Value remains '0'
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param ReturnValue already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Script call stack:
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError
+
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param InS already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param InT already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bOn already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bFocused already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bFilter already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bHasDoc already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bHasTape already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogScript: Warning: Param bTapeHeard already exists!
+
+	KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+
+	Function /Script/Engine.KismetSystemLibrary:RaiseScriptError:64X
+[2026.09.30-09.22.21:160][  0]LogInit: Display: LogEnum: Warning: EnumRedirect for enum ETraceTypeQuery maps 'ETraceTypeQuery::Visibility' to invalid value 'Visibility'!
+[2026.09.30-09.22.21:160][  0]LogInit: Display: 
+[2026.09.30-09.22.21:162][  0]LogInit: Display: Success - 0 error(s), 120 warning(s)
+[2026.09.30-09.22.21:162][  0]LogInit: Display: 
+
+Execution of commandlet took:  2m 21s (141.23 seconds), PeakPhysMemoryMB=1973 MB, PeakVirtMemoryMB=1815 MB
+[2026.09.30-09.22.21:212][  0]LogToolsetRegistry: Display: Unregistering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/blueprint_node_PY.PinID' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/blueprint_node_PY.PinInfo' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/blueprint_node_PY.NodeInfo' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/material_PY.MaterialInputSource' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/material_instance_PY.MaterialParameter' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/programmatic_PY.ProgrammaticApiSupportedModule' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/programmatic_PY.ProgrammaticApiExecutionEnvironmentInfo' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/blueprint_PY.ContainerType' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/EditorToolset/Python/editor_toolset/toolsets/material_instance_PY.MaterialParameterType' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:696][  0]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.30-09.22.21:721][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.09.30-09.22.21:722][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.30-09.22.23:106][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

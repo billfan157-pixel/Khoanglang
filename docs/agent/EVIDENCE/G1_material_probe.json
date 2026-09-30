@@ -1,0 +1,43 @@
+{
+  "material_api": [
+    "connect_material_expressions",
+    "create_material_expression",
+    "create_material_expression_in_function",
+    "delete_all_material_expressions",
+    "delete_all_material_expressions_in_function",
+    "delete_material_expression",
+    "delete_material_expression_in_function",
+    "delete_unused_expressions",
+    "disconnect_material_expressions",
+    "duplicate_material_expression",
+    "get_input_node_output_name_for_material_expression",
+    "get_inputs_for_material_expression",
+    "get_inputs_for_material_function_expression",
+    "get_material_expression_input_names",
+    "get_material_expression_input_types",
+    "get_material_expression_node_position",
+    "get_material_expression_output_names",
+    "get_material_expressions",
+    "get_material_function_expressions",
+    "get_material_property_input_node",
+    "get_material_property_input_node_output_name",
+    "get_num_material_expressions",
+    "get_num_material_expressions_in_function",
+    "get_statistics",
+    "layout_material_expressions",
+    "layout_material_function_expressions"
+  ],
+  "mesh_api": [
+    "build_from_static_mesh_descriptions",
+    "create_static_mesh_description",
+    "get_bounding_box",
+    "get_bounds",
+    "get_static_mesh_description"
+  ],
+  "globals_api": [
+    "find_object"
+  ],
+  "SM_KL_Wall_700": "<Struct 'BoxSphereBounds' (0x000002741A47E300) {origin: {x: 0.000000, y: 8.700000, z: 160.000000}, box_extent: {x: 350.000000, y: 11.300000, z: 160.000000}, sphere_radius: 385.003493}>",
+  "SM_KL_Notice_Board": "<Struct 'BoxSphereBounds' (0x000002741A479D40) {origin: {x: 0.000000, y: 2.000000, z: 1.000000}, box_extent: {x: 90.000000, y: 4.000000, z: 46.000000}, sphere_radius: 101.153349}>",
+  "SM_KL_WallDoor_140": "<Struct 'BoxSphereBounds' (0x000002741A470CC0) {origin: {x: 0.000000, y: 8.700000, z: 160.000000}, box_extent: {x: 70.000000, y: 11.300000, z: 160.000000}, sphere_radius: 175.007686}>"
+}

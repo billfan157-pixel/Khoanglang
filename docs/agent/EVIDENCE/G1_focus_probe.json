@@ -1,0 +1,1646 @@
+{
+  "start": [
+    1258.5775155284255,
+    818.1306884365531,
+    167.51898308012494
+  ],
+  "end": [
+    1013.8393278652754,
+    806.8886286100566,
+    80.47396260098296
+  ],
+  "control_rotation": "<Struct 'Rotator' (0x000002740FEE6DB0) {pitch: -19.559675, yaw: -177.369965, roll: -0.000000}>",
+  "camera_rotation": "<Struct 'Rotator' (0x000002740FF1FAD0) {pitch: -19.559680, yaw: -177.369965, roll: -0.000000}>",
+  "hit": "<Struct 'HitResult' (0x000002741DBF7440) {}>",
+  "focus": "None",
+  "props": [
+    {
+      "position": [
+        1050.0,
+        810.0,
+        90.0
+      ],
+      "mesh_position": [
+        1050.0,
+        810.0,
+        90.0
+      ],
+      "bounds": "(<Struct 'Vector' (0x000002740FEE7760) {x: 1050.463525, y: 808.573415, z: 93.500000}>, <Struct 'Vector' (0x000002740FEE6C70) {x: 19.234125, y: 17.308007, z: 3.500000}>)",
+      "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "visibility_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+      "meshes": [
+        {
+          "name": "PropMesh",
+          "mesh": "<Object '/Game/KhoangLang/Meshes/Props/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook' (0x000002740A1FC000) Class 'StaticMesh'>",
+          "local_bounds": "(<Struct 'Vector' (0x000002740FEE7760) {x: -16.000000, y: -14.500000, z: 0.000000}>, <Struct 'Vector' (0x000002740FEE6C70) {x: 16.000000, y: 11.500000, z: 7.000000}>)",
+          "world_location": [
+            1050.0,
+            810.0,
+            90.0
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "visible": true,
+          "relative_scale": "<Struct 'Vector' (0x00000274656EDDB0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+          "response": "<CollisionResponseType.ECR_BLOCK: 2>"
+        }
+      ]
+    }
+  ],
+  "hit_fields": [
+    "True",
+    "False",
+    "0.8905619978904724",
+    "231.54611206054688",
+    "<Struct 'Vector' (0x000002740FEE6DB0) {x: 1040.622986, y: 808.118937, z: 89.999996}>",
+    "<Struct 'Vector' (0x000002740FEE7940) {x: 1040.622998, y: 808.118938, z: 90.000000}>",
+    "<Struct 'Vector' (0x000002740FEE6EA0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+    "<Struct 'Vector' (0x000002740FEE6450) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+    "<Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x00000273920A9840) Class 'PhysicalMaterial'>",
+    "<Object '/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary:PersistentLevel.StaticMeshActor_45' (0x000002741B657800) Class 'StaticMeshActor'>",
+    "<Object '/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0' (0x0000027442815000) Class 'StaticMeshComponent'>",
+    "None",
+    "None",
+    "-1",
+    "0",
+    "8",
+    "<Struct 'Vector' (0x000002740FEE69F0) {x: 1258.577516, y: 818.130688, z: 167.518983}>",
+    "<Struct 'Vector' (0x000002740FEE5500) {x: 1013.839328, y: 806.888629, z: 80.473963}>"
+  ],
+  "hit_actor_components": [
+    "/Script/Engine.StaticMeshComponent"
+  ],
+  "focus_after_direct_update": "None",
+  "graphs": [
+    {
+      "graph": "UpdateFocus",
+      "node": "UpdateFocus",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Return Node",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Get FocusCand",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "FocusCand",
+          "links": 2
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Sequence",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then_0",
+          "links": 1
+        },
+        {
+          "name": "then_1",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Branch",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Condition",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "else",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "IsValid",
+      "inputs": [
+        {
+          "name": "Object",
+          "type": "Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "SetFocused",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "BP KL Interact Component Object Reference",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "bFocused",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bFilter",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bHasDoc",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bHasTape",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bTapeHeard",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Set FocusCand",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "FocusCand",
+          "type": "BP KL Interact Component Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "Output_Get",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 2
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "ClearPrompt",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "BP KL Investigation Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetPlayerCameraManager",
+      "inputs": [
+        {
+          "name": "PlayerIndex",
+          "type": "Integer",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 2
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetCameraLocation",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Player Camera Manager Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 2
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetCameraRotation",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Player Camera Manager Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetForwardVector",
+      "inputs": [
+        {
+          "name": "InRot",
+          "type": "Rotator",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "vector * vector",
+      "inputs": [
+        {
+          "name": "A",
+          "type": "Vector",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "B",
+          "type": "Float (double-precision)",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Make Literal Float",
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "Float (double-precision)",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "vector + vector",
+      "inputs": [
+        {
+          "name": "A",
+          "type": "Vector",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "B",
+          "type": "Vector",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Line Trace By Channel",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Start",
+          "type": "Vector",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "End",
+          "type": "Vector",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "TraceChannel",
+          "type": "ETraceTypeQuery Enum",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bTraceComplex",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ActorsToIgnore",
+          "type": "Array of Actor Object References",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "DrawDebugType",
+          "type": "EDrawDebugTrace Enum",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bIgnoreSelf",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "TraceColor",
+          "type": "Linear Color Structure",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "TraceHitColor",
+          "type": "Linear Color Structure",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "DrawTime",
+          "type": "Float (single-precision)",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "OutHit",
+          "links": 1
+        },
+        {
+          "name": "ReturnValue",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "BreakHitResult",
+      "inputs": [
+        {
+          "name": "Hit",
+          "type": "Hit Result Structure (by ref)",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "bBlockingHit",
+          "links": 0
+        },
+        {
+          "name": "bInitialOverlap",
+          "links": 0
+        },
+        {
+          "name": "Time",
+          "links": 0
+        },
+        {
+          "name": "Distance",
+          "links": 0
+        },
+        {
+          "name": "Location",
+          "links": 0
+        },
+        {
+          "name": "ImpactPoint",
+          "links": 0
+        },
+        {
+          "name": "Normal",
+          "links": 0
+        },
+        {
+          "name": "ImpactNormal",
+          "links": 0
+        },
+        {
+          "name": "PhysMat",
+          "links": 0
+        },
+        {
+          "name": "HitActor",
+          "links": 2
+        },
+        {
+          "name": "HitComponent",
+          "links": 0
+        },
+        {
+          "name": "HitBoneName",
+          "links": 0
+        },
+        {
+          "name": "BoneName",
+          "links": 0
+        },
+        {
+          "name": "HitItem",
+          "links": 0
+        },
+        {
+          "name": "ElementIndex",
+          "links": 0
+        },
+        {
+          "name": "FaceIndex",
+          "links": 0
+        },
+        {
+          "name": "TraceStart",
+          "links": 0
+        },
+        {
+          "name": "TraceEnd",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 4
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Sequence",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then_0",
+          "links": 1
+        },
+        {
+          "name": "then_1",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Branch",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Condition",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "else",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "IsValid",
+      "inputs": [
+        {
+          "name": "Object",
+          "type": "Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Sequence",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then_0",
+          "links": 1
+        },
+        {
+          "name": "then_1",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Branch",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Condition",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "else",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "IsValid",
+      "inputs": [
+        {
+          "name": "Object",
+          "type": "Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "Set FocusCand",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "FocusCand",
+          "type": "BP KL Interact Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "Output_Get",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "SetFocused",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "BP KL Interact Component Object Reference",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "bFocused",
+          "type": "Boolean",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "bFilter",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "bHasDoc",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "bHasTape",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "bTapeHeard",
+          "type": "Boolean",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "IsFilterOn",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "BP KL Listening Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetHasDoc",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "BP KL Investigation Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetHasTape",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "BP KL Investigation Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetComponentByClass",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "Actor Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "ComponentClass",
+          "type": "Actor Component Class Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetTapeHeard",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "BP KL Investigation Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "GetPromptStr",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "BP KL Interact Component Object Reference",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ReturnValue",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "UpdateFocus",
+      "node": "SetPromptFromString",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "BP KL Investigation Component Object Reference",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "InS",
+          "type": "String",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "TickKL",
+      "node": "TickKL",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "TickKL",
+      "node": "Return Node",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "graph": "TickKL",
+      "node": "UpdateFocus",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "TickKL",
+      "node": "PollKeys",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "EnhancedInputAction IA_Look",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Triggered",
+          "links": 1
+        },
+        {
+          "name": "Started",
+          "links": 0
+        },
+        {
+          "name": "Ongoing",
+          "links": 0
+        },
+        {
+          "name": "Canceled",
+          "links": 0
+        },
+        {
+          "name": "Completed",
+          "links": 0
+        },
+        {
+          "name": "ActionValue_X",
+          "links": 1
+        },
+        {
+          "name": "ActionValue_Y",
+          "links": 1
+        },
+        {
+          "name": "ElapsedSeconds",
+          "links": 0
+        },
+        {
+          "name": "TriggeredSeconds",
+          "links": 0
+        },
+        {
+          "name": "InputAction",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "EnhancedInputAction IA_Move",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Triggered",
+          "links": 1
+        },
+        {
+          "name": "Started",
+          "links": 0
+        },
+        {
+          "name": "Ongoing",
+          "links": 0
+        },
+        {
+          "name": "Canceled",
+          "links": 0
+        },
+        {
+          "name": "Completed",
+          "links": 0
+        },
+        {
+          "name": "ActionValue_X",
+          "links": 1
+        },
+        {
+          "name": "ActionValue_Y",
+          "links": 1
+        },
+        {
+          "name": "ElapsedSeconds",
+          "links": 0
+        },
+        {
+          "name": "TriggeredSeconds",
+          "links": 0
+        },
+        {
+          "name": "InputAction",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "EnhancedInputAction IA_Jump",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Triggered",
+          "links": 0
+        },
+        {
+          "name": "Started",
+          "links": 1
+        },
+        {
+          "name": "Ongoing",
+          "links": 0
+        },
+        {
+          "name": "Canceled",
+          "links": 0
+        },
+        {
+          "name": "Completed",
+          "links": 1
+        },
+        {
+          "name": "ActionValue",
+          "links": 0
+        },
+        {
+          "name": "ElapsedSeconds",
+          "links": 0
+        },
+        {
+          "name": "TriggeredSeconds",
+          "links": 0
+        },
+        {
+          "name": "InputAction",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "EnhancedInputAction IA_MouseLook",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Triggered",
+          "links": 1
+        },
+        {
+          "name": "Started",
+          "links": 0
+        },
+        {
+          "name": "Ongoing",
+          "links": 0
+        },
+        {
+          "name": "Canceled",
+          "links": 0
+        },
+        {
+          "name": "Completed",
+          "links": 0
+        },
+        {
+          "name": "ActionValue_X",
+          "links": 1
+        },
+        {
+          "name": "ActionValue_Y",
+          "links": 1
+        },
+        {
+          "name": "ElapsedSeconds",
+          "links": 0
+        },
+        {
+          "name": "TriggeredSeconds",
+          "links": 0
+        },
+        {
+          "name": "InputAction",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event Primary Thumbstick",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 0
+        },
+        {
+          "name": "Axis_X",
+          "links": 0
+        },
+        {
+          "name": "Axis_Y",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event Secondary Thumbstick",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 0
+        },
+        {
+          "name": "Axis_X",
+          "links": 0
+        },
+        {
+          "name": "Axis_Y",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event Touch Jump Start",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event Touch Jump End",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event BeginPlay",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 1
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Event Tick",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OutputDelegate",
+          "links": 0
+        },
+        {
+          "name": "then",
+          "links": 1
+        },
+        {
+          "name": "DeltaSeconds",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "InitKL",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "TickKL",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Aim",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "Yaw",
+          "type": "Float (single-precision)",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Pitch",
+          "type": "Float (double-precision)",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Move",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "Left / Right",
+          "type": "Float (double-precision)",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Forward / Backward",
+          "type": "Float (double-precision)",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Jump",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Character Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "StopJumping",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Character Object Reference",
+          "links": 0,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    },
+    {
+      "graph": "EventGraph",
+      "node": "Aim",
+      "inputs": [
+        {
+          "name": "execute",
+          "type": "Exec",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "type": "Self Object Reference",
+          "links": 0,
+          "default": ""
+        },
+        {
+          "name": "Yaw",
+          "type": "Float (single-precision)",
+          "links": 1,
+          "default": ""
+        },
+        {
+          "name": "Pitch",
+          "type": "Float (double-precision)",
+          "links": 1,
+          "default": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "then",
+          "links": 0
+        }
+      ]
+    }
+  ]
+}
