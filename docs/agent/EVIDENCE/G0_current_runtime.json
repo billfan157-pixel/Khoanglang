@@ -1,0 +1,64 @@
+{
+  "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary",
+  "game_time": 100.85480974242091,
+  "paused": false,
+  "pawn": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary:PersistentLevel.BP_KL_Character_C_0",
+  "controller": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary:PersistentLevel.BP_FirstPersonPlayerController_C_0",
+  "pawn_location": [
+    1248.1390514245236,
+    822.3105828321465,
+    98.14999686795608
+  ],
+  "components": [
+    "/Script/Engine.CapsuleComponent",
+    "/Script/Engine.ArrowComponent",
+    "/Script/Engine.CharacterMovementComponent",
+    "/Script/Engine.SkeletalMeshComponent",
+    "/Script/Engine.SkeletalMeshComponent",
+    "/Script/Engine.CameraComponent",
+    "/Script/Engine.CameraProxyMeshComponent",
+    "/Script/Engine.DrawFrustumComponent",
+    "/Script/Engine.SpotLightComponent",
+    "/Game/KhoangLang/Production/Blueprints/Core/BP_KL_InvestigationComponent.BP_KL_InvestigationComponent_C",
+    "/Game/KhoangLang/Production/Blueprints/Core/BP_KL_ListeningComponent.BP_KL_ListeningComponent_C",
+    "/Script/EnhancedInput.EnhancedInputComponent",
+    "/Script/Engine.AudioComponent",
+    "/Script/Engine.AudioComponent",
+    "/Script/Engine.AudioComponent",
+    "/Script/Engine.AudioComponent"
+  ],
+  "props": [
+    {
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+      "location": [
+        1050.0,
+        810.0,
+        90.0
+      ]
+    },
+    {
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner.BP_KL_Prop_ART_Corner_C",
+      "location": [
+        1450.0,
+        790.0,
+        0.0
+      ]
+    },
+    {
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster.BP_KL_Prop_ART_Roster_C",
+      "location": [
+        1050.0,
+        884.0,
+        178.0
+      ]
+    },
+    {
+      "class": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck.BP_KL_Prop_ART_TapeDeck_C",
+      "location": [
+        1930.0,
+        0.0,
+        120.0
+      ]
+    }
+  ]
+}
