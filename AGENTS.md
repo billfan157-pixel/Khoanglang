@@ -1,7 +1,7 @@
 # AGENTS.md — Khoảng Lặng 02:17
 
 ## Project intent
-Build a first-person 3D psychological horror game in Unreal Engine. The narrative reference is `docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md` (V3, dated 2026-09-29).
+Build a first-person 3D psychological horror game in Unreal Engine. The narrative reference is `docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md` (V3, originally dated 2026-09-29, updated 2026-09-30).
 
 ## Narrative and scope
 - Treat V3 as source material. Do not silently rewrite or contradict its facts, timeline, character motives, rules, or endings.

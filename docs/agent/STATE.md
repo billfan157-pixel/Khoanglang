@@ -9,10 +9,9 @@ Read this state and that brief at session start and after compaction.
 - Branch: production/g0-audit; initial source checkpoint 3ea094b.
 - Git LFS is installed locally; binary tracking rules are configured.
 - Initial commit preserves scripts and story; binary assets are not yet committed.
-- Full story source is docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md.
-- Source header says 29/09/2026; the new brief says updated 30/09/2026.
-- Full source SHA256: 69F7B1C07BCAD1C14055171B685DE502BC0D1E5D735820861AD694F3E6D21921.
-- Older truncated source was preserved separately.
+- Authoritative story source is docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md, copied byte-for-byte from the user's 30/09/2026 update (1,132 lines).
+- Source SHA256: 80EEE1981BF2A155726DA34617300647C1A9813B3D93F60628856B2E5EEC7E44.
+- The previous complete 29/09 source and the older truncated source are preserved separately in docs/story/.
 - Default map was changed to Lvl_KL_School3_Art and confirmed by live MCP.
 - A viewport capture showed severe geometry/lighting issues; no visual pass claimed.
 - Prior build_20 run returned exit 1 despite its own FAILURES: 0 report.

@@ -1,6 +1,6 @@
 # Khoảng Lặng 02:17 — Cốt truyện (v3)
 
-Bản v3 · 29/09/2026 · viết lại từ v2 theo đợt đánh giá logic, kinh dị và khả thi · cập nhật 30/09/2026 sau đợt phản biện logic (bảng ở mục 1)
+Bản v3 · 29/09/2026 · viết lại từ v2 theo đợt đánh giá logic, kinh dị và khả thi
 
 ## 1. Thay đổi so với v2
 
@@ -14,7 +14,7 @@ Bản 3 giữ xương sống của v2 (thị trấn Khe Lạc, đêm lũ 2002, t
 | 4 | T1 tự mâu thuẫn: câu 02:13 của Thạch được coi là “bản đầy đủ” nhưng ông đã biết từ trước | Câu 02:13 trở thành lời nói dối tại chỗ ngay trong băng gốc; sự thật nằm ở T1 01:50 và T3 01:52. Nghe hết câu chưa đủ, phải đối chứng nguồn độc lập |
 | 5 | “Xóa” và “che” tiếng trả lời lẫn lộn | Chốt **che**: T2 bản phát vẫn chứa đủ 65 câu trả lời dưới lớp nhiễu; chỉ T1 bản chỉnh là xóa thật |
 | 6 | Khải nhỏ không có trang bách khoa, nguồn gốc mơ hồ | Thành thực thể thứ tám, sinh từ ký ức Hùng giữ nguyên; chỉ Hùng mới đáp được câu của nó |
-| 7 | Quy luật 6 tự mâu thuẫn ở bà Mai (người thiên vị nhất lại là nhân chứng độc lập) | Biến thành cao trào Hồi 7: lời chứng chống lại lợi ích của bà rất nặng nhưng không được tính là nhân chứng độc lập (mục 8.4); thêm cảnh Mai gặp Hùng sau 24 năm |
+| 7 | Quy luật 6 tự mâu thuẫn ở bà Mai (người thiên vị nhất lại là nhân chứng độc lập) | Biến thành cao trào Hồi 7: lời chứng của bà đáng giá vì bà phải nói điều trái với điều bà muốn; thêm cảnh Mai gặp Hùng sau 24 năm |
 | 8 | “Tắt loa an toàn” ở Kết thúc A chưa có luật | Luật Neo và bảng tuyến neo (mục 2, 6) biến 12 đêm thành cuộc chạy đua chơi được |
 | 9 | Kết thúc “Giữ kín” nhạt, dễ bị đọc là kết thúc xấu | Bốn lý do nặng và gắn với lựa chọn 24 năm của bà Mai (mục 12) |
 | 10 | Bảo mỏng; không có cảnh đối đầu; kết thúc không nói số phận từng người | Động cơ ba tầng gắn với 1998; cảnh ở Hồi 3, 6, 7; bảng số phận năm người |
@@ -24,27 +24,6 @@ Bản 3 giữ xương sống của v2 (thị trấn Khe Lạc, đêm lũ 2002, t
 | 14 | Ghép câu dễ đoán mò; tên riêng “Vọng” chưa được dùng | Cơ chế Thử nghe → Niêm phong; phụ đề đổi tên theo trạng thái của Nhi (mục 8) |
 | 15 | Đêm đầu: “im lặng bao lâu tùy ý” là lựa chọn giả | Bỏ; thay bằng lựa chọn *cách đáp* (mục 4) |
 | 16 | Nhiệm vụ ông Sáu là bài học rẻ nhưng bị đặt làm nhiệm vụ phụ | Chuyển thành tutorial của Quy luật lời chứng ở Hồi 2 (mục 10, 13) |
-
-### Cập nhật sau phản biện (30/09/2026)
-
-Bản v3 gốc được đối chiếu với một bản nhận xét chi tiết. Mình kiểm từng điểm với file thật: tất cả các điểm đều trúng lỗi có thật trong tài liệu, chỉ khác nhau ở mức độ và cách sửa. Hai chỗ mình chỉnh lại so với đề xuất được ghi ở cuối bảng.
-
-| Điểm phản biện | Kết luận | Xử lý trong tài liệu |
-| --- | --- | --- |
-| P0-1. Hồi 5 dùng T2 bản gốc trước khi Hồi 6 lấy được nó | Đúng | Ba phiên bản của T2 (mục 3). Hồi 5 chỉ dùng bản sao; bản gốc ở Hồi 6 chứng minh những gì bản sao không thể (mục 10) |
-| P0-2. Kết thúc B nói mạng còn nguyên trong khi bốn tuyến đã bị cắt; số phận Bảo ở nhánh Giữ kín mâu thuẫn với B | Đúng | B thành “giữ phần mạng còn lại”; trạng thái công trình tháo dỡ phụ thuộc cả A/B/C lẫn Công khai/Giữ kín (mục 12) |
-| P0-3. Luật Neo mâu thuẫn với số phận của Nhi | Đúng, và cần thêm khái niệm | Tách ba trục ý thức, danh tính, điểm neo tồn tại (mục 6); C có neo thay thế cụ thể (mục 12) |
-| P0-4. Ông Đạt đã biết Lệ thoát qua ống | Đúng, là lỗi thật của v3 | Vết thương đổi thành “không biết con có sống sót không”; thêm nhiệm vụ đối chứng cuộc sống của Lệ sau 2002 (mục 9) |
-| P0-5. Bống bảy tuổi không thể nằm trong sổ lương công nhân | Đúng | Chị Tuyết là công nhân thời vụ, Bống là con đi theo mẹ; tên bé nằm trong sổ phát gạo lán (mục 3, 9) |
-| P0-6. Người Phát Ngôn có điểm yếu nhưng không có manh mối tương xứng | Đúng | Bản tin bị cắt hai từ; đổi từ “mật khẩu” sang chuỗi bốn mắt xích không thể viết lại mà không tự mâu thuẫn (mục 9, 11, 12) |
-| 5.1. 27 phút trì hoãn chưa chứng minh được các phương án khác không khả thi | Đúng một phần: cần bản kỹ thuật, nhưng chỉ cần bản tối thiểu trong tài liệu cốt truyện | Bảng “Cửa sổ khả thi” (mục 3); bản kỹ thuật chi tiết vào danh sách việc cần làm (mục 14) |
-| 5.2. Bí mật giữ quá dễ; manh mối quá trực diện | Đúng | Bảng “24 năm im lặng: ai đã làm gì” (mục 3); tách “nghi ngờ con số / là ai / vì sao và ai che” theo hồi (mục 11) |
-| 5.3. Chân thành không đồng nghĩa với độc lập | Đúng; nhưng giữ khái niệm “chống lại lợi ích” | Lời chứng có ba thuộc tính; bà Mai không tính là nhân chứng độc lập; Nhi có quyền giữ lập trường (mục 8.4, 10) |
-| 5.4. Cái giá của Kết thúc C chưa đủ cá nhân | Đúng | Vọng chỉ tồn tại trong vùng neo nhỏ và không rời được Khe Lạc (mục 12) |
-| 5.5. Đoạn cuối 43 giây quá tải | Đúng | Kế hoạch lễ được chuẩn bị trong 12 đêm; 43 giây chỉ thực thi (mục 12) |
-| 6. Bảy mâu thuẫn nhỏ (Bảo “nói dối duy nhất”, T3, khử nhiễu mạnh, bằng chứng còn sót, “65 gia đình”, epilogue pháp lý…) | Đúng cả bảy | Sửa tại chỗ; epilogue tách thành “đêm 13” và “sau một năm” |
-
-**Hai chỗ mình chỉnh so với đề xuất.** Thứ nhất, với bà Mai mình giữ khái niệm *lời chứng chống lại lợi ích*: nó không độc lập nhưng vẫn là loại bằng chứng có trọng lượng riêng (đúng nguyên tắc đánh giá lời khai), nên được ghi thành thuộc tính chứ không bị loại bỏ. Thứ hai, với Người Phát Ngôn mình không dùng một câu làm mật khẩu như v3 cũ mà dùng chuỗi bốn mắt xích, và một mắt xích (bản thảo bản tin) thay cho “nửa câu bị cắt” chung chung.
 
 ### Ba nâng cấp lớn của v2 (giữ nguyên)
 
@@ -91,11 +70,6 @@ Những điều v3 tự quyết định (bạn có thể đổi, nhưng sẽ ké
 - **Hùng và bà Mai có một thỏa thuận ngầm suốt 24 năm:** bà nói dối Khải, ông biết và im lặng để lời nói dối đứng vững (mục 7, 10).
 - **Công ty của ông Bảo thi công đoạn nối hầm B với tuyến xả năm 1998** (mục 3, 7).
 - **T2 bản phát là “che” chứ không “xóa”** (mục 3, 6).
-- **Chị Tuyết là công nhân thời vụ; bé Bống là con gái 7 tuổi đi theo mẹ.** Tên chị nằm trong sổ lương, tên bé nằm trong sổ phát gạo lán (mục 3).
-- **Anh Long giữ lại sổ lương và sổ phát gạo lán** thay vì đốt theo lệnh ông Bảo (mục 3).
-- **Bản tin chính thức bị cắt hai từ “bao nhiêu”**, biến lời thừa nhận thành lời chối bỏ (mục 9).
-- **Vùng cộng hưởng** là điểm neo tồn tại của thực thể có ý thức, và Kết thúc C dựng một vùng nhỏ bằng lời chứng của cộng đồng (mục 6, 12).
-- **Các con số kỹ thuật ở mục 3** (640 m, 9–10 phút, 02:20…) là số thiết kế tạm, cần khớp với bản vẽ hầm B khi dựng màn chơi.
 - **Luật Neo** với ba trạng thái Tràn, Giữ, Yên (mục 6).
 - Mục tiêu thời lượng 18–22 giờ (mục 2, 10).
 
@@ -142,9 +116,9 @@ Thời gian trôi theo tiến trình hồi chứ không trôi theo từng phút,
 | 10–11 | Hồi 6 | Tuyến Nhà máy và Đập (sau đêm 11) | Người Mang Tiếng Nước, Khải nhỏ, Khoảng Trống | Kho phong tỏa; Khải nhỏ; người mẹ |
 | 12 | Hồi 7 | Tuyến Trạm trung tâm, cắt ngay tại lễ | Người Phát Ngôn | Lễ tắt loa lúc 02:16 |
 
-Nhi và Người Đứng Ngoài không neo vào tuyến nào: danh tính của Nhi neo vào lời chứng và điểm neo tồn tại của cô là vùng cộng hưởng (mục 6); Người Đứng Ngoài neo vào Hùng và nhà ông vốn không có loa.
+Nhi và Người Đứng Ngoài không neo vào tuyến nào: Nhi neo vào lời chứng (mục 6), Người Đứng Ngoài neo vào Hùng và nhà ông vốn không có loa.
 
-Mỗi lần một tuyến bị cắt, mọi thực thể gắn với tuyến đó **ở trạng thái Tràn** thoát sang mạng dây còn lại (luật Neo, mục 6). Người chơi thấy thị trấn hẹp dần và nguy hiểm dần mà không cần bộ đếm ngược nào trên màn hình. Lịch cắt là lịch của Ban Tưởng niệm; người chơi có thể làm nó chậm lại (thuyết phục anh Long, mưa lớn, hỏng máy phát) nhưng không thể hủy bốn tuyến đầu. Tuyến Trạm trung tâm ở lễ là tuyến duy nhất có thể bị ngăn (Kết thúc B và C, mục 12).
+Mỗi lần một tuyến bị cắt, mọi thực thể gắn với tuyến đó **ở trạng thái Tràn** thoát sang mạng dây còn lại (luật Neo, mục 6). Người chơi thấy thị trấn hẹp dần và nguy hiểm dần mà không cần bộ đếm ngược nào trên màn hình. Lịch cắt là lịch của Ban Tưởng niệm; người chơi có thể làm nó chậm lại (thuyết phục anh Long, mưa lớn, hỏng máy phát) nhưng không thể hủy.
 
 Lễ tắt loa do ông Thạch (chủ tịch Ban Tưởng niệm) ấn định đúng đêm tròn 24 năm, tại Quảng trường Tưởng niệm, có cả thị trấn tham dự. Đây vừa là hạn chót vừa là bối cảnh của màn kết (mục 10 và 12).
 
@@ -156,17 +130,7 @@ Ba nguồn ghi âm chính trong game:
 
 - **T1** là băng vận hành ở phòng điều hành. Bản gốc đủ; bản chỉnh (Sương chỉnh lúc 05:00) đã xóa đoạn 01:50 và 02:10, chỉ còn mẩu “Cha biết.”. Ở Hồi 3 Hà có một *bản trung gian* sao lén: đoạn 02:16:52 còn nguyên, hai đoạn kia đã mất.
 - **T2** là băng tổng đài của bà Sương (loa và điện thoại): lệnh 23:40, cuộc gọi của Nhi lúc 01:58 và đoạn 43 giây. Bản phát hằng đêm **không bị xóa mà bị che**: 65 câu trả lời được trộn đảo pha xuống dưới lớp nhiễu. Chỉ khi lọc nhẹ mới tách lại được.
-- **T3** là máy ghi âm tự động gắn trên đường dây điện thoại nội bộ hầm B, kèm nhật ký giờ gọi (từng cuộc gọi vào và ra được ghi cả nội dung lẫn thời điểm). Đây là nguồn độc lập: không ai trong Căn phòng 02:00 chỉnh nó vì không ai biết nó tồn tại cho đến khi anh Tư điện tìm ra sơ đồ dây.
-
-### Ba phiên bản của T2
-
-Không có lúc nào người chơi có “T2” nói chung. Mỗi phiên bản mở ra một mức khám phá khác nhau, và chính sự chênh lệch đó làm chuyến vào Kho phong tỏa có ý nghĩa gameplay: người chơi biết mình đi tìm thứ bản sao không thay thế được.
-
-| Phiên bản | Người chơi tiếp cận | Khôi phục được gì |
-| --- | --- | --- |
-| **T2 bản phát hằng đêm** (đã che) | Từ đêm 1; Khải tự thu qua radio | Tiếng nhiễu có cấu trúc và dấu hiệu nhiều giọng chồng lên nhau; lọc nhẹ tách được một số giọng lớn |
-| **Bản sao lưu trữ của T2** (cuộn băng thứ hai ở kho lưu trữ, cũng là bản đã che) | Hồi 3–5 | Đủ để phục chế phần liên quan đến Nhi (giọng cô lớn) và tách dần tối đa 63 giọng; **hai giọng nhỏ nhất (chị Tuyết, bé Bống) vẫn chìm dưới ngưỡng** |
-| **T2 bản gốc chưa xử lý** | Hồi 6, Kho phong tỏa | Đủ 65 giọng, gồm hai giọng nhỏ nhất; cuộc gọi 01:58 nguyên vẹn; các chi tiết cực nhỏ mà lớp che đã nuốt |
+- **T3** là nhật ký điện thoại nội bộ hầm B, ghi tự động từng cuộc gọi vào và ra. Đây là nguồn độc lập: không ai trong Căn phòng 02:00 chỉnh nó vì không ai biết nó tồn tại cho đến khi anh Tư điện tìm ra sơ đồ dây.
 
 ### Bảng đếm đầu người (nguồn duy nhất của mọi con số)
 
@@ -197,26 +161,26 @@ Các phép suy ra:
 | 1999 | Hùng nộp báo cáo: đập chính có khe thấm và hầm B nối với tuyến xả B. Kinh phí sửa bị chuyển sang một hạng mục khác của công ty ông Bảo. Ông Thạch vẫn ký phương án chỉ định hầm B làm nơi trú ẩn. | Báo cáo 1999 (bản bị rút trang), phương án 1999 |
 | 22:30 | Mưa ba ngày liền, mực hồ vượt mức thiết kế. | Nhật ký kỹ thuật nhà máy |
 | 23:40 | Ông Thạch ra lệnh sơ tán khu trũng theo phương án 1999. Bà Sương đọc lệnh qua loa: bà con đến trường tập kết rồi vào hầm B trú ẩn. | T2 |
-| 00:30–01:30 | Dân đến trường tập kết; cô Vân điểm danh và dẫn từng đoàn đến hầm B. Ông Đạt ghi sổ ở cửa: 61 dân, bà Mai, Lệ (con ông, đi theo đoàn), cô Vân và chính ông. Chị Tuyết (công nhân thời vụ của công ty ông Bảo) cùng con gái 7 tuổi đi cuối hàng và xin đừng ghi tên vì sợ công ty biết chị bỏ chỗ làm và mang con lên công trường trái quy định; ông Đạt đang quá tải, để hai dòng trống chì “ghi sau”. Bà Mai đưa Nhi vào hầm; Khải sốt nên ở nhà. | Sổ hầm B; sổ tay cô Vân; lời bà Tám |
-| 00:45 | Đội trưởng công trường báo ông Bảo: chị Tuyết, công nhân thời vụ, cùng đứa con gái 7 tuổi đi theo mẹ (không được phép ở công trường) đã theo dòng người vào hầm B. Ông Bảo không báo ai. | Lời anh Long (khi đó là tài xế của ông Bảo) |
+| 00:30–01:30 | Dân đến trường tập kết; cô Vân điểm danh và dẫn từng đoàn đến hầm B. Ông Đạt ghi sổ ở cửa: 61 dân, bà Mai, Lệ (con ông, đi theo đoàn), cô Vân và chính ông. Mẹ con chị Tuyết đi cuối hàng và xin đừng ghi tên vì sợ công ty biết họ bỏ chỗ làm; ông Đạt đang quá tải, để hai dòng trống chì “ghi sau”. Bà Mai đưa Nhi vào hầm; Khải sốt nên ở nhà. | Sổ hầm B; sổ tay cô Vân; lời bà Tám |
+| 00:45 | Đội trưởng công trường báo ông Bảo: hai công nhân thời vụ đã theo dòng người vào hầm B. Ông Bảo không báo ai. | Lời anh Long (khi đó là tài xế của ông Bảo) |
 | 01:50 | Tuyến đập chính dịch chuyển; phải xả qua cửa B trước 02:20. Bà Sương hỏi có báo cho hầm B thoát ra không. Ông Thạch: “Chưa. Chờ lệnh cấp trên.” **Đây là lúc 27 phút trì hoãn bắt đầu.** | T1 gốc |
 | 01:52 | Phòng điều hành báo hầm B: “Giữ nguyên vị trí, chưa có lệnh.” | T3 |
 | 01:55 | Bà Mai rời hầm để về lo cho Khải đang sốt, nhờ chị hàng xóm cùng trú trông Nhi. Ông Đạt gạch tên bà trong sổ. | Sổ hầm B; lời bà Mai (Hồi 6) |
 | 01:58 | Nhi dùng điện thoại nội bộ gọi về nhà: “Anh Khải ơi, em không thấy mẹ đâu.” Bà Sương nối máy rồi cắt để nhường đường dây cho phòng điều hành. | T2 |
 | 01:59 | Khải, 11 tuổi, đang sốt, buông máy và chạy khỏi nhà theo hướng nhà máy. | Lời bà Mai; ký ức mơ hồ của Khải |
-| 02:00 | Đội của ông Kiên khóa cửa chính hầm B từ bên ngoài theo phương án chống ngập rồi mang chìa về phòng điều hành, tới nơi lúc 02:08. Bà Mai đang đi ngược đường về nhà, nhìn thấy đội khóa cửa từ xa. | Nhật ký đội cứu hộ; lời bà Mai |
+| 02:00 | Đội của ông Kiên khóa cửa chính hầm B từ bên ngoài theo phương án chống ngập; chìa để ở phòng điều hành. Bà Mai đang đi ngược đường về nhà, nhìn thấy đội khóa cửa từ xa. | Nhật ký đội cứu hộ; lời bà Mai |
 | 02:05 | Bà Mai về đến nhà, không thấy con. | Lời bà Mai |
 | 02:08 | Khải chạy hết 1,2 km trong mưa, đến phòng điều hành. | Tờ ghi tên người có mặt do đội cứu hộ lập lúc 02:20, có dòng “Trần Minh Khải (con ông Hùng)” |
 | 02:10 | Khải xin cha: “Cha ơi, Nhi còn ở trong đó.” Hùng đáp: “Cha biết.” Khải: “Vậy cha đừng mở.” Hùng không đáp. | T1 gốc (bản chỉnh chỉ còn mẩu “Cha biết.”) |
 | 02:11 | Ông Đạt đẩy Lệ qua ống kiểm tra duy nhất vừa người trẻ con, rồi gọi phòng điều hành: “Con gái tôi ra rồi. Xin mở cửa chính cho những người còn lại!” Ông quay lại cố mở cửa chính từ trong. | T3 (giọng chính ông Đạt); lời Lệ |
 | 02:12–02:13 | Hùng báo ông Thạch: con gái ông (Nhi) ở trong hầm. Ông Thạch: “Tôi không biết trong đó có người cho đến khi họ gọi đến.” (xem “Ba lớp của một câu” bên dưới) | T1 gốc |
-| 02:14 | Ông Bảo nói riêng với ông Thạch ngoài hành lang: có một công nhân của công ty cùng đứa con nhỏ ở trong hầm, chưa có tên trong sổ. | Lời anh Long (nghe lén ở hành lang); sổ lương (tên chị Tuyết); sổ phát gạo lán (tên bé Ngọc Ánh ở mục người ăn theo) |
+| 02:14 | Ông Bảo nói riêng với ông Thạch ngoài hành lang: có hai mẹ con công nhân của công ty ở trong hầm, chưa có tên trong sổ. | Lời anh Long (nghe lén ở hành lang), sổ lương công nhân |
 | 02:16:34 | Bà Sương phát vào hầm: “Kiểm tra lần cuối. Những người còn ở lại, xin hãy lên tiếng.” Đoạn 43 giây bắt đầu. | T2 |
 | 02:16:40–02:17:10 | Người trong hầm trả lời: “Còn! Còn ở đây!”, trong đó có giọng Nhi. Loa phòng điều hành phát lại toàn bộ; hai giọng nhỏ nhất, của mẹ con chị Tuyết (chị dặn con “nhỏ thôi”), gần như không ai nghe thấy. | T2 (nằm trong tiếng nhiễu) |
 | 02:16:52 | Ông Thạch: “Mở cửa B.” Ông Kiên: “Nhưng còn những người ở trong hầm?” Ông Hùng: “Xác nhận cửa B.” | T1 |
 | 02:17:17 | Cửa xả B mở, nước vào tuyến xả và hầm B. | Nhật ký cửa xả, T1 |
 | 02:25 | Bà Mai tìm thấy Khải đứng ướt sũng trước cổng nhà máy, không nói được lời nào. | Lời bà Mai |
-| 05:00 | Ông Thạch và ông Bảo chốt báo cáo “cửa xả hỏng do mưa bão” và con số 63 nạn nhân. Bản tin số 1 được đánh máy theo lời ông Thạch: ông Bảo gạch hai chữ “bao nhiêu” khỏi câu “Chúng tôi không biết trong đó có bao nhiêu người.”, ông Thạch đồng ý, bà Sương đánh máy lại và giữ bản carbon. Bà Sương cũng được giao chỉnh băng: bà xóa hai đoạn của T1, còn với T2 bà không xóa nổi và chọn che 65 câu trả lời dưới lớp nhiễu. Khi che, bà đếm được đủ 65 giọng. | Lời bà Sương; bản thảo carbon; T1 bản chỉnh; T2 bản phát |
+| 05:00 | Ông Thạch và ông Bảo chốt báo cáo “cửa xả hỏng do mưa bão” và con số 63 nạn nhân. Bà Sương được giao chỉnh băng: bà xóa hai đoạn của T1, còn với T2 bà không xóa nổi và chọn che 65 câu trả lời dưới lớp nhiễu. Khi che, bà đếm được đủ 65 giọng. | Lời bà Sương; T1 bản chỉnh; T2 bản phát |
 | 21/9–8/11 | Trong 49 ngày tang lễ, bản tin chính thức được đọc hai lần mỗi ngày trên loa. | Băng lưu trạm phát thanh |
 | Đầu tháng 10 | Mạng loa mất điện hai đêm, thực thể xuất hiện trong nhà dân. Bà Sương phát đoạn 43 giây từ T2 bản che; thực thể lui về vùng cộng hưởng. Ban Tưởng niệm biến nó thành nghi thức hằng đêm. | Lời bà Sương |
 
@@ -240,47 +204,7 @@ Câu “không biết có người” là ví dụ chuẩn cho nguyên tắc *ng
 | Đoàn Văn Thạch | Trưởng ban chỉ huy phòng chống lụt bão, người ra lệnh | 74 tuổi, chủ tịch Ban Tưởng niệm | Ra lệnh trú hầm B, trì hoãn 27 phút, ký phương án 1999, chốt báo cáo giả | Bị Người Phát Ngôn ghi đè nên thật lòng tin bản chính thức; muốn tắt loa để dừng chứng quên và nhớ sai |
 | Nguyễn Văn Kiên | Đội trưởng đội cứu hộ, chờ lệnh ở phòng điều hành | 69 tuổi, “người hùng cứu hộ”, cha Hà | Đội ông khóa cửa chính; ông từng phản đối rồi vâng lệnh | Nay chỉ nhớ bản chính thức; cần chính giọng mình trên băng để nhớ lại |
 | Lê Thị Sương | Tổng đài viên | 67 tuổi | Đọc lệnh trú ẩn; hỏi rồi vâng lệnh chờ; cắt cuộc gọi của Nhi; nhận cuộc gọi cuối của ông Đạt; **che** tiếng trả lời | Giữ loa vì sợ 65 giọng sẽ làm gì khi được nghe, và vì mỗi đêm bà nghe lại giọng mình |
-| Vũ Đình Bảo | Đại diện nhà thầu | 62 tuổi, giám đốc Công ty Hạ tầng Sông Lạc, đang thầu tháo dỡ | Ba tầng: công ty ông thi công đoạn nối 1998 (trách nhiệm hình sự); một công nhân thời vụ không đăng ký, không bảo hiểm cùng đứa con 7 tuổi bị đưa lên công trường trái quy định (cả hai ngoài sổ); ông biết từ 00:45 và im lặng | Tránh bồi thường và truy tố; hợp đồng tháo dỡ 2026 là cơ hội cuối để tiêu hủy băng gốc và hầm B |
-
-### Cửa sổ khả thi (bản kỹ thuật tối thiểu)
-
-Bảng này trả lời câu hỏi mà người chơi tinh ý sẽ hỏi: *khi nào việc cứu người còn khả thi, và khi nào thì không?* Nếu không làm chắc, thảm họa có thể bị đọc thành chuỗi quyết định vô lý thay vì một bi kịch trách nhiệm tập thể. Các con số dưới đây là số thiết kế tạm và cần khớp với bản vẽ hầm B (mục 14).
-
-Dữ kiện nền:
-
-- Cửa chính hầm B là một cánh thép mở ra ngoài, rộng 1,2 m, cách phòng điều hành 640 m theo đường bộ. Từ 01:30 đường ngập tới đầu gối, từ 02:10 tới ngang thắt lưng; đi bộ mất khoảng 9–10 phút.
-- Thoát khoảng 65 người (có người già, trẻ nhỏ, người bệnh) qua một cánh cửa 1,2 m cần khoảng 10 phút nếu có người dẫn và cửa đang mở.
-- Theo tính toán của Hùng lúc 01:50, đập chính chỉ chịu được đến khoảng 02:20, nên cửa xả B phải mở trước mốc đó.
-- Ống kiểm tra đường kính 0,5 m, chỉ trẻ nhỏ hoặc thiếu niên lọt qua.
-- Bơm nước hầm B mất điện từ 00:50.
-
-| Cửa sổ | Còn khả thi? | Vì sao |
-| --- | --- | --- |
-| 01:50–02:00: báo cho hầm B ra ngoài qua cửa chính đang mở | **Có, và đây là cửa sổ quyết định** | Cửa chưa khóa; mười phút đủ cho phần lớn người thoát nếu được báo ngay. Phòng điều hành lại báo “giữ nguyên vị trí” lúc 01:52 |
-| 02:00: giữ hay hủy lệnh khóa cửa chính theo phương án chống ngập | Có, lúc đó | Phương án khóa cửa có từ 1999 để nước không tràn vào hầm từ phía ngoài. Ông Thạch giữ nguyên phương án dù đã biết có người trong hầm |
-| 02:08–02:11: cử người mang chìa từ phòng điều hành ra mở lại | Không | Chìa chỉ về tới phòng điều hành lúc 02:08; mang ra lại mất 9–10 phút trong nước ngập thắt lưng, tới nơi sau 02:17, chưa kể thời gian cho người thoát |
-| 02:12–02:16: hoãn mở cửa xả B thêm vài phút | Không đủ | Hoãn 3 phút không đủ để 65 người thoát nhưng tăng rõ rệt nguy cơ vỡ đập |
-| Xả bằng cửa A hoặc tuyến khác | Không | Tuyến A dẫn thẳng vào khu dân cư hạ lưu (khoảng 400 hộ) và không đủ lưu lượng |
-| Bơm cạn hầm B từ bên trong | Không | Mất điện từ 00:50 |
-
-Điều này khẳng định lại thiết kế của Twist 1: quyết định lúc 02:16:52 là bi kịch không còn đường ra, nhưng nó là hậu quả của những gì không được làm trong mười phút từ 01:50 đến 02:00. Người chơi tự kiểm chứng bằng nhật ký nước dâng của nhà máy và bản vẽ hầm B ở Hồi 4.
-
-### 24 năm im lặng: ai đã làm gì
-
-Nhiều người biết ít nhất một phần về chị Tuyết và bé Bống, vậy vì sao câu chuyện 63 người đứng vững 24 năm? Câu trả lời không nằm ở việc ghi đè ký ức. Người Phát Ngôn chỉ **củng cố** sau cùng những gì người sống đã chủ động làm:
-
-| Người | Hành động cụ thể | Khi nào |
-| --- | --- | --- |
-| Ông Bảo | Gạch hai từ trong bản thảo bản tin; ra lệnh đốt sổ lương và sổ phát gạo lán năm 2002 | 21/9/2002; tháng 10/2002 |
-| Ông Bảo | Yêu cầu thợ đá bỏ hai ô đã đục, trả thêm công “sửa lỗi khắc” rồi trám xi măng | 2003 |
-| Ông Bảo | Rút trang cảnh báo trong báo cáo 1999 và chuyển kinh phí sửa sang hạng mục khác | 1999–2000 |
-| Ông Thạch | Ký báo cáo 63 nạn nhân; làm điều kiện nhận trợ cấp là ký xác nhận danh sách 63 | 2002–2003 |
-| Bà Sương | Đánh máy bản tin theo bản đã sửa; che T2 thay vì xóa; im lặng | 21/9/2002 trở đi |
-| Anh Long | Nhận chức đội trưởng đội tháo dỡ sau khi im lặng; **không đốt** sổ như lệnh mà giấu, rồi 24 năm không dám kể | 2002–nay |
-| Bà Tám | Ký xác nhận danh sách 63 để nhận trợ cấp nuôi mẹ chồng; bà biết có “người nữa” nhưng chỉ còn cái quen tay đặt hai bát cơm | 2003 |
-| Ban Tưởng niệm | Đọc bản tin hai lần mỗi ngày suốt 49 ngày; biến đoạn 43 giây thành nghi thức | 2002 |
-
-Nhờ đó, những gì còn sót lại (sổ lương, sổ phát gạo lán, hồ sơ nghiệm thu 1998) có lời giải thích: sổ lương và sổ phát gạo lán còn vì anh Long không đốt; hồ sơ nghiệm thu 1998 có bản chính ở tỉnh và một bản sao ở kho lưu trữ thị trấn mà ông Bảo chỉ lo rút báo cáo 1999, không nghĩ tới; đoạn nhiễu che tiếng nói còn vì bà Sương không xóa nổi.
+| Vũ Đình Bảo | Đại diện nhà thầu | 62 tuổi, giám đốc Công ty Hạ tầng Sông Lạc, đang thầu tháo dỡ | Ba tầng: công ty ông thi công đoạn nối 1998 (trách nhiệm hình sự); hai công nhân ngoài sổ (không đăng ký, không bảo hiểm); ông biết từ 00:45 và im lặng | Tránh bồi thường và truy tố; hợp đồng tháo dỡ 2026 là cơ hội cuối để tiêu hủy băng gốc và hầm B |
 
 ### Ma trận ai biết gì lúc nào
 
@@ -416,29 +340,17 @@ Người chơi chỉ cần thấm ba luật. Mỗi luật được dạy bằng 
 | D2 | **Hiện tượng gắn với mạng âm thanh cũ** (dây dẫn, loa, băng). Thực thể không xuất hiện tùy ý. | Không có jumpscare vô cớ |
 | D3 | **Một số thực thể phát triển ý thức.** Dấu hiệu: hỏi về bản thân; đổi lời khi có thông tin mới; biết từ chối hoặc lựa chọn. Nhiều thực thể chỉ lặp lại vô thức. | Người chơi phải phân biệt được hai loại trước khi quyết định số phận chúng |
 | D4 | **Lời của người sống cũng sinh thực thể** (thú nhận, cầu xin, nói dối) nếu được lặp và tin đủ lâu. | Người Đứng Ngoài, Khải nhỏ, Người Phát Ngôn |
-| D5 | **Luật Neo.** Mỗi thực thể cần một **điểm neo tồn tại** (một tuyến loa, một người, hoặc một vùng cộng hưởng). Cắt tuyến hay cắt cả mạng có an toàn hay không tùy trạng thái của thực thể và điểm neo của nó (các bảng dưới). | 12 đêm trở thành cuộc chạy đua chơi được |
+| D5 | **Luật Neo.** Mỗi thực thể bám vào một tuyến loa hoặc một người. Cắt tuyến hay cắt cả mạng có an toàn hay không tùy trạng thái của thực thể (bảng dưới). | 12 đêm trở thành cuộc chạy đua chơi được |
 
 ### Luật Neo
 
-**Ba trục độc lập.** Một thực thể có thể là một ý thức độc lập, được người khác công nhận danh tính, mà vẫn cần một điều kiện bên ngoài để tiếp tục tồn tại. Ba câu hỏi này phải tách nhau, nếu không luật Neo mâu thuẫn với chính các nhân vật:
-
-| Trục | Câu hỏi | Ví dụ |
-| --- | --- | --- |
-| **Ý thức** | Nó có thể nghĩ, học hỏi và quyết định không? | Nhi và Người Gõ Cửa (khi đã tỉnh) có; Người Chờ Điểm Danh chỉ lặp vô thức |
-| **Danh tính** | Nó giữ được bản sắc riêng mà không bị lời chứng ghi đè không? | Nhi được công nhận là Vọng, hoặc bị ghi đè thành Nhi (mục 8.4) |
-| **Điểm neo tồn tại** | Điều kiện nào cho phép nó tiếp tục hiện diện? | Một tuyến loa; một người (Hùng); một vùng cộng hưởng (hầm B, Quảng trường, Trạm trung tâm) |
-
-**Vùng cộng hưởng** là khoang địa chất dọc đường dây (giả thuyết nền ở trên): gồm hầm B, đoạn đường dây qua Quảng trường và Trạm trung tâm. Mạng loa là dây nối và nuôi các vùng này. Cắt một tuyến là ngắt một nhánh nuôi; cắt Trạm trung tâm là ngắt nguồn nuôi chính. Một vùng nhỏ có thể được nuôi bằng chu kỳ lời chứng của cộng đồng thay cho cả mạng (Kết thúc C).
-
-Ở trục vị trí, mỗi thực thể gắn với tuyến có ba trạng thái:
+Mỗi thực thể gắn với tuyến có ba trạng thái:
 
 | Trạng thái | Điều kiện | Khi tuyến bị cắt |
 | --- | --- | --- |
 | **Tràn** | Chưa ai lấp đúng câu bị cắt của nó | Thoát ra, sang mạng dây còn lại và vào nhà dân |
 | **Giữ** | Đã lấp đúng và niêm phong câu của nó, nên nó bị neo vào Khoảng Lặng thật | Không đổi; vẫn ở trong Khoảng Lặng của mình |
-| **Yên** | Vết thương đã được giải quyết (mục 9): không còn lặp và không còn tràn | Không đổi hành vi. Thực thể vô thức đã hoàn thành sẽ tan; thực thể có ý thức giữ nguyên danh tính nhưng **vẫn cần điểm neo** để ở lại, và khi điểm neo mất thì nó ra đi |
-
-Nghĩa là “Yên” trả lời câu hỏi *nó có còn gây hại hay lặp lại không*, không trả lời câu hỏi *nó có thể tồn tại đến đâu khi mạng bị cắt*. Câu trả lời thứ hai do điểm neo quyết định.
+| **Yên** | Đã giải quyết (mục 9) | Không còn phụ thuộc mạng |
 
 Vì sao Ban Tưởng niệm vẫn cắt theo lịch: ông Thạch tin cắt loa sẽ chữa chứng quên và nhớ sai của mình; ông Bảo cần tiến độ tháo dỡ. Cả hai đều không biết luật Neo. Người biết một phần là bà Sương (đầu tháng 10/2002 mạng loa mất điện hai đêm, thực thể Tràn vào nhà dân; bà phát lại đoạn 43 giây để kéo chúng về), anh Tư điện (giữ sơ đồ dây) và Lệ.
 
@@ -500,7 +412,7 @@ Mỗi nhân vật gắn vào cùng một đêm 2002 và có ít nhất một đi
 
 **Đoàn Văn Thạch, 74 tuổi.** Chủ tịch Ban Tưởng niệm, người quyết định tháo loa. Ông bị chính bản tin mình đọc ghi đè nên thật lòng tin cửa xả bị hỏng; ông muốn tắt loa vì thấy mình vừa quên vừa nhớ sai. Khi đối chứng bằng băng ông không nói dối mà hoảng sợ: “Tôi không có ký ức đó.” Đây là người thao túng mạnh nhất mà lại là người bị lừa nặng nhất. Nghịch lý cần giữ: lời ông nói dối lúc 02:13 là có ý thức; lời ông tin lúc 74 tuổi thì không.
 
-**Vũ Đình Bảo, 62 tuổi.** Giám đốc Công ty Hạ tầng Sông Lạc, đang thầu tháo dỡ. Người chủ động phá vật chứng năm 2026 (ông Thạch cũng cố ý nói dối lúc 02:13 và bà Sương cố ý che băng, nhưng chỉ ông còn ra tay hôm nay). Thân thiện, hiệu quả. Động cơ ba tầng: công ty ông thi công đoạn nối hầm B với tuyến xả năm 1998 (nếu bị lật lại là trách nhiệm hình sự), một công nhân thời vụ không đăng ký cùng đứa con 7 tuổi mang lên công trường trái quy định, và hợp đồng tháo dỡ 2026 là cơ hội cuối để tiêu hủy băng gốc và hầm B. Ông tiêu hủy băng, mua chuộc Hà, và ở Hồi 6–7 cử người thu hồi T1 và T2. Điểm yếu là sổ lương và sổ phát gạo lán năm 2002 (ông ra lệnh đốt nhưng anh Long giữ lại) và hồ sơ nghiệm thu 1998 (bản sao ở kho lưu trữ thị trấn, ông không nghĩ tới).
+**Vũ Đình Bảo, 62 tuổi.** Giám đốc Công ty Hạ tầng Sông Lạc, đang thầu tháo dỡ. Kẻ nói dối có ý thức duy nhất trong Căn phòng 02:00. Thân thiện, hiệu quả. Động cơ ba tầng: công ty ông thi công đoạn nối hầm B với tuyến xả năm 1998 (nếu bị lật lại là trách nhiệm hình sự), hai công nhân thời vụ ông không đăng ký, và hợp đồng tháo dỡ 2026 là cơ hội cuối để tiêu hủy băng gốc và hầm B. Ông tiêu hủy băng, mua chuộc Hà, và ở Hồi 6–7 cử người thu hồi T1 và T2. Điểm yếu là cuốn sổ lương công nhân thời vụ năm 2002 và hồ sơ nghiệm thu 1998.
 
 **Nguyễn Văn Kiên, 69 tuổi.** Cha Hà, đội trưởng cứu hộ. Đội của ông khóa cửa chính hầm B từ 02:00 theo phương án chống ngập, điều ông không bao giờ tha thứ cho mình. Lúc 02:16:52 ông phản đối (“Nhưng còn những người ở trong hầm?”) rồi vâng lệnh, sau đó suốt đêm ông đi vớt người. Nay ông chỉ nhớ phiên bản chính thức mình là người hùng. Khi nghe lại giọng mình trên băng, ông hỏi “Tôi đã nói vậy à?” và bật khóc. Số phận ông tùy vào cách Hà xử lý.
 
@@ -510,16 +422,16 @@ Cần khoảng 12–18 người có câu chuyện riêng; bản 18–22 giờ ch
 
 | Nhân vật | Vai trò | Gắn với cốt truyện |
 | --- | --- | --- |
-| Bà Tám, 66 | Chủ quán cháo, mất chồng trong hầm B. Đêm lũ bà đưa chồng đến cửa hầm và nói với ông Đạt là còn người nữa, rồi về đón mẹ chồng và bị kẹt ngoài mưa. Năm 2003 bà ký xác nhận danh sách 63 để nhận trợ cấp. Mỗi tối bà đặt hai bát cơm mà không nhớ vì sao (Hồi 1: “quen tay”); chỉ khi được phát lại lời chính bà đã nói (Hồi 5) bà mới nhớ đó là mẹ con một công nhân. | Nhân chứng độc lập; mục tiêu của Người Phát Ngôn (Hồi 5); cảnh đời thường giữa game |
+| Bà Tám, 66 | Chủ quán cháo, mất chồng trong hầm B. Đêm lũ bà đưa chồng đến cửa hầm, là người duy nhất nói với ông Đạt “còn hai mẹ con nữa” rồi về đón mẹ chồng và bị kẹt ngoài mưa. Mỗi tối bà đặt hai bát cơm: một cho chồng, một cho mẹ con chị Tuyết. | Nhân chứng độc lập; mục tiêu của Người Phát Ngôn (Hồi 5); cảnh đời thường giữa game |
 | Anh Tư điện, 48 | Thợ điện. Năm 2002 kéo dây điện thoại hầm B, nay không dám lại gần loa vì nghe giọng mẹ mình trong đó. | Giữ sơ đồ dây và T3; nhận ra Khoảng Lặng giả; người đọc luật Neo |
 | Bé Cốm, 9 | Nghe tiếng đàn ông trong tường. | Nghe được thực thể mà không sợ; hướng dẫn người chơi ở Hồi 2 |
 | Thầy Lâm, 58 | Dạy ở trường tiểu học số 3, từng là đồng nghiệp cô Vân. | Giữ sổ tay của cô Vân, trong đó ghi “63 + 2” |
-| Ông Tần, 73 | Cựu công nhân đập, sống ở rìa lán công nhân cũ. | Từ Hồi 5, nhớ có một người phụ nữ họ Lê làm thời vụ ở công trường dắt theo đứa nhỏ; năm 2003 ông thấy một người phụ nữ khóc khi rời nhà Hùng |
-| Anh Long, 47 | Đội trưởng đội tháo dỡ; năm 2002 là tài xế của ông Bảo, nghe được cuộc báo 00:45 và lời nói riêng lúc 02:14. Ông Bảo ra lệnh đốt sổ lương và sổ phát gạo lán; anh không đốt mà giấu. | Có thể trì hoãn tháo dỡ nếu được thuyết phục; nhân chứng và nguồn sổ ở Hồi 6 |
+| Ông Tần, 73 | Cựu công nhân đập, sống ở rìa lán công nhân cũ. | Nhớ có “hai mẹ con họ Lê từ Thanh lên”, nhưng không nhớ tên |
+| Anh Long, 47 | Đội trưởng đội tháo dỡ; năm 2002 là tài xế của ông Bảo, nghe được cuộc báo 00:45 và lời nói riêng lúc 02:14. | Có thể trì hoãn tháo dỡ nếu được thuyết phục; nhân chứng ở Hồi 6 |
 | Cô Phượng, 45 | Tiểu thương chợ, nguồn của mọi tin đồn. | Đại diện tâm lý của cả thị trấn: số người dám lên tiếng ở Hồi 7 |
 | Ông Ngãi, 78 | Chủ căn nhà bỏ hoang. | Tutorial Người phụ nữ bên cửa sổ (Hồi 2) |
 
-Sáu đến mười NPC còn lại (thợ, hàng xóm, y tá) phát triển theo mô-đun từ gia đình của 65 nạn nhân và người sống sót, chỉ khi dư nguồn lực.
+Sáu đến mười NPC còn lại (thợ, hàng xóm, y tá) phát triển theo mô-đun từ 65 gia đình nạn nhân và người sống sót, chỉ khi dư nguồn lực.
 
 ## 8. Gameplay
 
@@ -553,11 +465,11 @@ Thiết bị luôn hiển thị dạng sóng của âm thanh. Đây vừa là c�
 | “Cha biết.” (T1 bản chỉnh) | “Cha ơi, Nhi còn ở trong đó.” / “Cha biết.” / “Vậy cha đừng mở.” | 6 |
 | “Tôi không muốn đi” (tutorial ông Ngãi) | “…khi mọi chuyện còn dang dở.” | 2 |
 
-**Cái giá của khử nhiễu.** Khải luôn giữ bản thô của mọi bản ghi mình số hóa, đúng nghề. Lựa chọn nằm ở *phiên bản dùng để niêm phong*, vì Khoảng Lặng được dựng theo đúng bản đã niêm phong (D1) chứ không theo bản thô. Lọc mạnh cho Khoảng Lặng rõ và ít nhiễu nhưng xóa luôn những giọng nhỏ nằm dưới ngưỡng, đúng thứ bà Sương từng làm; lọc nhẹ thì ồn nhưng giữ được mọi giọng có thể tách. Niêm phong lại bằng mức lọc khác được, nhưng tốn thời gian và làm tăng Sự chú ý (mục 8.5). Với T2 bản phát và bản sao, dù lọc nhẹ đến đâu cũng chỉ tách tối đa 63 giọng; hai giọng nhỏ nhất (chị Tuyết và bé Bống) chỉ có trong T2 bản gốc ở Kho phong tỏa (Hồi 6), tức là chỉ sau khi đối mặt với người của ông Bảo. Quyết định này là lựa chọn đạo đức chứ không chỉ kỹ thuật, và không đòi Khải sơ suất nghề nghiệp.
+**Cái giá của khử nhiễu.** Người chơi chọn mức lọc khi phục chế. Lọc mạnh cho giọng sạch nhưng xóa luôn những giọng nhỏ nằm trong nhiễu, đúng thứ bà Sương từng làm; lọc nhẹ thì ồn nhưng giữ được mọi giọng. Nếu người chơi lọc mạnh trên bản sao duy nhất, hai giọng nhỏ nhất (chị Tuyết và bé Bống) mất khỏi bản đó; họ chỉ lấy lại được từ T2 bản gốc ở Kho phong tỏa (Hồi 6), tức là chỉ sau khi đối mặt với người của ông Bảo. Quyết định này là lựa chọn đạo đức, không chỉ kỹ thuật.
 
 ### 8.3. Đối chứng nguồn (Evidence Reconstruction)
 
-Một bí ẩn quan trọng được tái dựng qua nhiều nguồn: T1, T2, T3, sổ hầm B, bản vẽ, hồ sơ nghiệm thu, sổ lương, lời người sống. Bảng đối chứng gắn nhãn mỗi nguồn là **Độc lập**, **Có liên quan** hoặc **Có lợi ích**, và ghi riêng nếu một lời chứng là **Chống lại lợi ích** của người nói (tăng độ đáng tin nhưng không làm nguồn đó độc lập); bảng còn đối chiếu mốc thời gian và đánh dấu mâu thuẫn chưa giải quyết. Ví dụ: T3 là nguồn độc lập (ghi tự động ở hầm B), T1 là nguồn có liên quan (những người trong Căn phòng 02:00 nói trong đó), lời ông Bảo là nguồn có lợi ích.
+Một bí ẩn quan trọng được tái dựng qua nhiều nguồn: T1, T2, T3, sổ hầm B, bản vẽ, hồ sơ nghiệm thu, sổ lương, lời người sống. Bảng đối chứng gắn nhãn mỗi nguồn là **Độc lập**, **Có liên quan** hoặc **Có lợi ích**, đối chiếu mốc thời gian và đánh dấu mâu thuẫn chưa giải quyết. Ví dụ: T3 là nguồn độc lập (ghi tự động ở hầm B), T1 là nguồn có liên quan (những người trong Căn phòng 02:00 nói trong đó), lời ông Bảo là nguồn có lợi ích.
 
 Câu hỏi lớn được tái dựng từng bước: ai ra lệnh mở cửa lúc 02:17; cửa B có thực sự hỏng không; ai chịu trách nhiệm cho 27 phút trì hoãn; ai không có tên trong sổ; câu trả lời trong tiếng nhiễu là gì.
 
@@ -565,26 +477,15 @@ Không thể phá án bằng thử mọi tổ hợp vật chứng. Kết luận 
 
 ### 8.4. Lời chứng định hình
 
-Mỗi thực thể có ý thức có “hồ sơ nhân chứng”. Mỗi lời chứng có ba thuộc tính tách nhau:
+Mỗi thực thể có ý thức có “hồ sơ nhân chứng”: ai đã làm chứng, họ khẳng định điều gì, họ có lợi ích không. Nhân chứng độc lập ổn định thực thể; nhân chứng có lợi ích kéo nó về phía điều họ muốn. Để làm được, hệ thống chỉ áp dụng cho ba đối tượng: thực thể trong tutorial ông Ngãi, Nhi, và lời chứng của bà Mai ở Hồi 7.
 
-- **Chân thành:** người nói có tin điều mình nói không.
-- **Kiến thức trực tiếp:** họ có thấy, nghe hoặc biết điều đó không.
-- **Độc lập:** họ có lợi ích, kỳ vọng hoặc mong muốn liên quan đến thực thể đó không.
-
-Một lời chứng **chống lại lợi ích** của người nói (như bà Mai nói “con không phải Nhi”) rất đáng tin và nặng về cảm xúc, nhưng vẫn *không độc lập*: nó được ghi là chân thành, trực tiếp, có lợi ích, và chỉ bổ trợ chứ không thay thế nhân chứng độc lập. Để làm được, hệ thống chỉ áp dụng cho ba đối tượng: thực thể trong tutorial ông Ngãi, Nhi, và lời chứng của bà Mai ở Hồi 7.
-
-Nhi có ý thức riêng nên không phải vật thụ động: cô phản ứng với điều người khác nói về mình và có quyền giữ lập trường khi bị nhận định sai. Hệ thống hiện ra qua lời thoại, giọng nói, phụ đề và hành vi, không qua thanh chỉ số. Cô có ba trạng thái:
+Với Nhi, hệ thống hiện ra qua lời thoại, giọng nói, phụ đề và hành vi, không qua thanh chỉ số. Cô có ba trạng thái:
 
 - **Là chính mình:** khi Khải hỏi và lắng nghe, và khi nhân chứng độc lập mô tả cô như hiện tại. Từ sau khi cô chọn tên ở Hồi 5, phụ đề gọi cô là **Vọng**.
 - **Chưa định hình:** trạng thái mặc định ở đầu Hồi 5; phụ đề gọi cô là Nhi.
-- **Bị ghi đè:** khi những lời khẳng định “em chính là Nhi” lặp lại nhiều mà không có nguồn độc lập nào cân bằng. Cô nói bằng ký ức của Nhi thật, mất những sở thích mới, ánh mắt trống dần, và phụ đề đổi ngược từ “Vọng” về **Nhi**. Người chơi thấy hậu quả mà không cần bảng chỉ số.
+- **Bị ghi đè:** khi Khải liên tục khẳng định “em chính là Nhi”. Cô nói bằng ký ức của Nhi thật, mất những sở thích mới, ánh mắt trống dần, và phụ đề đổi ngược từ “Vọng” về **Nhi**. Người chơi thấy hậu quả mà không cần bảng chỉ số.
 
-**Độ vững của danh tính.** Trạng thái không đổi vì một câu nói. Nó phụ thuộc vào số nguồn độc lập đã mô tả Nhi như hiện tại (Hà, Lệ, bà Tám, bé Cốm, anh Tư; Khải và bà Mai không tính) cùng các lựa chọn lớn ở Hồi 5:
-
-- **Dưới hai nguồn độc lập:** lời khẳng định lặp lại từ người thân có thể kéo cô về phía Nhi thật.
-- **Từ ba nguồn độc lập trở lên:** danh tính vững. Nếu ai đó khẳng định sai về cô, kể cả Khải hoặc bà Mai, cô phản ứng và giữ lập trường (“Con không phải Nhi.”) thay vì bị ghi đè.
-
-Các lựa chọn lớn ở Hồi 5 gồm cách trả lời câu “Em là ai?”, có gọi cô bằng tên mới hay không, và cách đưa cô xem thị trấn năm 2026. Lời của bà Mai ở Hồi 7 chỉ cộng thêm sức nặng và một cảnh cảm xúc, không quyết định trạng thái của cô.
+Trạng thái được quyết định bởi vài lựa chọn hội thoại lớn ở Hồi 5 (cách trả lời câu “Em là ai?”, có gọi cô bằng tên mới hay không, cách đưa cô xem thị trấn năm 2026) và ở Hồi 7 (lời chứng của bà Mai), không bởi việc chọn đúng hay sai một câu.
 
 ### 8.5. Sự chú ý
 
@@ -631,17 +532,17 @@ Ba điểm cố định, mỗi điểm một tính chất:
 
 ## 9. Bách khoa thực thể
 
-Mỗi thực thể có một trang gồm bốn mục: **vết thương** (điều chưa hoàn tất), **luật** (nó làm gì và vì sao), **dấu hiệu** (người chơi nhận ra bằng tai hay mắt) và **cách giải quyết** (ít nhất hai). Mọi hiện tượng đều gắn với một sự kiện thật của đêm 2002. Bản 3 có tám thực thể chính (thêm Khải nhỏ) và mỗi thực thể ghi thêm **điểm neo tồn tại** (tuyến hoặc người mà nó bám vào, theo luật Neo ở mục 6).
+Mỗi thực thể có một trang gồm bốn mục: **vết thương** (điều chưa hoàn tất), **luật** (nó làm gì và vì sao), **dấu hiệu** (người chơi nhận ra bằng tai hay mắt) và **cách giải quyết** (ít nhất hai). Mọi hiện tượng đều gắn với một sự kiện thật của đêm 2002. Bản 3 có tám thực thể chính (thêm Khải nhỏ) và mỗi thực thể ghi thêm **neo** (tuyến hoặc người mà nó bám vào, theo luật Neo ở mục 6).
 
-| Thực thể | Nguồn gốc | Ý thức | Điểm neo tồn tại | Xuất hiện |
+| Thực thể | Nguồn gốc | Ý thức | Neo | Xuất hiện |
 | --- | --- | --- | --- | --- |
 | Người Chờ Điểm Danh | Cô Vân, giáo viên (người chết) | Lặp vô thức | Tuyến Trường học | Hồi 1; giải quyết ở Hồi 6–7 |
-| Người Gõ Cửa | Ông Đạt, người gác hầm (người chết) | Tỉnh dần | Tuyến Đông; sau đó vùng cộng hưởng hầm B | Hồi 2, 5 |
+| Người Gõ Cửa | Ông Đạt, người gác hầm (người chết) | Tỉnh dần | Tuyến Đông | Hồi 2, 5 |
 | Người Mang Tiếng Nước | 65 câu trả lời chồng lên nhau | Không có cá nhân | Tuyến Nhà máy và Đập | Hồi 4 |
 | Người Đứng Ngoài | Lời tự thú của Hùng (người sống) | Lặp, nhận thức hạn chế | Hùng (không neo tuyến) | Thấy ở Hồi 2, hiểu ở Hồi 5 |
 | Khải nhỏ | Lời cầu xin của Khải 11 tuổi, được Hùng giữ nguyên trong trí nhớ 24 năm (người sống) | Lặp, chờ một câu đáp | Tuyến Nhà máy và Đập (phòng điều hành) | Hồi 6 |
 | Người Phát Ngôn | Bản tin chính thức, tức lời nói dối | Có ý thức, thù địch | Tuyến Trạm trung tâm | Hồi 5–7 |
-| Nhi | Ký ức người chết cộng đời sống mới | Có ý thức | Danh tính neo vào lời chứng; tồn tại nhờ vùng cộng hưởng (hầm B, Trạm trung tâm) | Hồi 1–7 |
+| Nhi | Ký ức người chết cộng đời sống mới | Có ý thức | Lời chứng (không neo tuyến) | Hồi 1–7 |
 | Chị Tuyết và bé Bống | Hai người chưa từng được nghe | Ngủ yên trong Khoảng Trống | Tuyến Nhà máy và Đập (hầm B, lán công nhân) | Hồi 4, 6, 7 |
 
 ### Người Chờ Điểm Danh
@@ -653,10 +554,10 @@ Mỗi thực thể có một trang gồm bốn mục: **vết thương** (điề
 
 ### Người Gõ Cửa
 
-- **Vết thương:** ông Đạt đẩy được Lệ qua ống kiểm tra lúc 02:11 rồi quay lại cố mở cửa chính. Ông biết mình đã đưa con ra; ông không biết đứa trẻ 14 tuổi ấy có sống sót giữa trận lũ hay không.
+- **Vết thương:** ông Đạt đẩy Lệ qua ống kiểm tra rồi quay lại cố mở cửa chính. Ông không bao giờ biết con gái đã thoát.
 - **Luật:** chỉ xuất hiện nơi có người kẹt sau một cánh cửa. Gõ, tìm lối vào, không bị đẩy lùi bằng cách chạy trốn.
 - **Dấu hiệu:** ba nhịp gõ, hơi thở nặng. Ở Hồi 2 ông dừng trước cửa và hỏi: “Tôi đã làm chuyện này bao nhiêu lần rồi?” Đây là lần đầu một thực thể nhận ra mình đang lặp quá khứ.
-- **Cách giải quyết:** (1) cho ông nghe giọng Lệ ngoài cửa trong Khoảng Lặng ở Hồi 2 giữ ông lại (**Giữ**), nhưng ông cho đó là tiếng vọng và không tin; (2) dòng 02:11 trong T3 là **chính giọng ông** báo “Con gái tôi ra rồi. Xin mở cửa chính cho những người còn lại!”, xác nhận điều thứ nhất: ông đã đưa con ra khỏi hầm. Nghe lại chính mình, ông ngừng tự hỏi mình có đẩy được con không, nhưng vẫn chưa tin con còn sống; (3) để ông tỉnh hẳn (**Yên**), người chơi phải đối chứng những chi tiết về đời sống của Lệ *sau* 02:11 từ ít nhất hai nguồn độc lập với chính Lệ, thứ mà một tiếng vọng của ký ức ông không thể tự dựng ra: hồ sơ làm việc hơn mười năm của trạm y tế, ảnh nhận bằng bác sĩ do thầy Lâm giữ, lời bà Tám (“con bé chữa cho tôi mười năm nay”). Ông chưa từng biết Lệ học y nên chi tiết ấy không thể là ký ức của ông. Sau đó ông tự chọn ra đi hoặc ở lại làm người canh cửa hầm B; ở lại cần điểm neo tồn tại nên chỉ khả thi ở Kết thúc B hoặc C, còn ở A ông ra đi dù chọn gì, kèm một cảnh từ biệt với Lệ. Đây là lần đầu game cho thấy thực thể có quyền tự quyết định số phận mình.
+- **Cách giải quyết:** cho ông nghe giọng Lệ ngoài cửa trong Khoảng Lặng ở Hồi 2 giữ ông lại (**Giữ**), nhưng ông không tin. Bằng chứng khác giải quyết ông: dòng 02:11 trong T3 là **chính giọng ông** báo “Con gái tôi ra rồi. Xin mở cửa chính cho những người còn lại!” Nghe lại chính mình xác nhận con thoát, ông tin và tỉnh hẳn (**Yên**), rồi tự chọn: ra đi, hoặc ở lại làm người canh cửa hầm B. Đây là lần đầu game cho thấy thực thể có quyền tự quyết định số phận mình.
 
 ### Người Mang Tiếng Nước
 
@@ -682,34 +583,25 @@ Mỗi thực thể có một trang gồm bốn mục: **vết thương** (điề
 
 ### Người Phát Ngôn
 
-- **Nguồn gốc:** bản tin chính thức đọc hai lần mỗi ngày suốt 49 ngày và được cả thị trấn tin. Nó là một lời nói dối tin vào chính nó. Bản tin số 1 do bà Sương đánh máy lúc 05:00 ngày 21/9/2002 theo lời ông Thạch và **đã bị cắt hai từ**: bản thảo ghi “Chúng tôi không biết trong đó có **bao nhiêu** người.”, ông Bảo gạch hai từ và ông Thạch đồng ý, nên bản được đọc là “Chúng tôi không biết trong đó có người.” Hai từ bị cắt đổi lời thừa nhận (biết có người, chưa biết bao nhiêu) thành lời chối bỏ, đúng luật P1.
+- **Nguồn gốc:** bản tin chính thức đọc hai lần mỗi ngày suốt 49 ngày và được cả thị trấn tin. Nó là một lời nói dối tin vào chính nó.
 - **Luật:** sống trong mạng loa; hoàn thành câu nói của người khác bằng phiên bản chính thức; dùng bất kỳ giọng nào đã được ghi; ghi đè trí nhớ người nghe; sợ băng gốc; nhắm vào nhân chứng quan trọng, trước hết là bà Tám.
-- **Dấu hiệu:** nhiều NPC cùng lặp cụm “cửa xả hỏng do mưa bão”; loa rè đúng lúc bạn đưa bằng chứng; bạn nghe thấy giọng chính mình trên loa; và nó ngập ngừng đúng ở chữ “có” trong câu chối bỏ, y như quãng ngắt 0,4 giây trên cuộn băng năm 2002.
-- **Bản đầy đủ và người cắt:** bản thảo carbon, còn nguyên hai từ bị gạch, do bà Sương giữ 24 năm trong một hộp sắt ở Trạm phát thanh và đưa ra ở Hồi 6. Người cắt là ông Bảo (gạch bằng bút bi xanh), ông Thạch đồng ý (chữ ký tắt bên lề), bà Sương đánh máy lại theo bản đã sửa.
-- **Vì sao đó là điểm yếu:** nó được dựng trên lời chối bỏ “không biết có người”. Bản đầy đủ chỉ thừa nhận họ chưa biết bao nhiêu người, tức là họ biết có người. Nó chỉ có thể hoàn thành câu bằng phiên bản chính thức, nên mỗi lần bằng chứng buộc nó nhượng một phần, phiên bản mới mâu thuẫn với những gì nó đã nói.
-- **Cách giải quyết:** không thể thương lượng hay thấu cảm, và **không có mật khẩu**. Nó suy yếu khi người chơi dựng được một chuỗi bốn mắt xích mà nó không thể viết lại mà không tự mâu thuẫn:
-  1. Bản thảo carbon: họ biết có người, chỉ chưa biết bao nhiêu.
-  2. T3 lúc 01:52 (nguồn độc lập): họ bảo hầm B giữ nguyên vị trí, tức đã biết ai ở trong.
-  3. T1 gốc 02:13 và 02:16:52: lời “không biết cho đến khi họ gọi đến” là dối; ông Kiên hỏi về người trong hầm.
-  4. 65 giọng trả lời và hai cái tên: con số 63 sai.
-
-  Ở Hồi 7 nó tấn công bằng cách hoàn thành câu của những người đứng ở quảng trường. Mỗi khi người chơi hoặc nhân chứng do người chơi chuẩn bị đặt một mắt xích, nó buộc phải đổi lời (“không biết có người” → “không biết bao nhiêu người” → “đã cố gắng hết sức”), và các phiên bản của nó tự cắn nhau. Từ **ba** mắt xích trở lên nó mất khả năng hoàn thành câu và suy yếu; đủ bốn thì nó tan ở Trạm trung tâm. Thiếu mắt xích thì nó chỉ yếu đi và tiếp tục ghi đè. NPC bị ghi đè hồi phục khi nghe lại chính lời họ từng nói.
-- **Gieo manh mối:** Hồi 1 (quãng ngắt 0,4 giây trong bản tin số 1), Hồi 3 (NPC lặp đúng câu cụt; người chơi đánh dấu “câu bị cắt” chưa biết cắt gì), Hồi 5 (nó ngập ngừng đúng chỗ đó khi phát 02:16:52), Hồi 6 (bản thảo carbon).
+- **Dấu hiệu:** nhiều NPC cùng lặp cụm “cửa xả hỏng do mưa bão”; loa rè đúng lúc bạn đưa bằng chứng; bạn nghe thấy giọng chính mình trên loa.
+- **Cách giải quyết:** không thể thương lượng hay thấu cảm. Nó chỉ bị đánh bại bằng Nghe cho hết câu: phát nửa câu bị cắt của chính nó. NPC bị ghi đè hồi phục khi nghe lại lời chính họ từng nói. Ở Hồi 7 nó tấn công lễ tắt loa qua mạng loa. Đây là thứ đáng sợ nhất vì hiểu nó không giúp được gì.
 - **Ngoại lệ có chủ ý:** khác các thực thể khác, nó không có vết thương để chữa và không có cách giải quyết nào bằng thấu hiểu. Đây là điểm duy nhất trong bách khoa mà thiết kế cố tình từ chối cho người chơi lòng thương cảm.
 
 ### Nhi
 
 - **Vết thương:** được sinh ra từ câu trả lời cuối cùng “Còn em ở đây!” và cuộc gọi lúc 01:58. Cô sợ bị tắt và sợ bị coi là người khác.
-- **Luật:** ở gần Khải thì bền hơn, học nhanh, không nhớ cảm giác mẹ ôm. Danh tính của cô neo vào lời chứng (mục 8.4); điểm neo tồn tại là vùng cộng hưởng (mục 6), nên cô là một ý thức độc lập vẫn có thể mất khi vùng ấy bị phá.
+- **Luật:** ở gần Khải thì bền hơn, học nhanh, không nhớ cảm giác mẹ ôm. Không neo vào tuyến nào; cô neo vào lời chứng (mục 8.4).
 - **Dấu hiệu:** cô thích tiếng mưa trên mái tôn trong khi Nhi thật rất sợ mưa, chi tiết mà bà Mai xác nhận ở Hồi 7. Cô hỏi những câu Nhi thật không thể hỏi, như “Tại sao em vẫn ở đây?”
-- **Cách giải quyết:** xem mục 12: tên riêng (Vọng), từ ba nhân chứng độc lập trở lên, và một điểm neo được giữ lại hoặc dựng mới (ba kết thúc).
+- **Cách giải quyết:** xem mục 12: tên riêng, nhân chứng độc lập, và ba kết thúc.
 
 ### Chị Tuyết và bé Bống
 
-- **Vết thương:** hai người duy nhất không có tên trong sổ. Chị Tuyết là công nhân thời vụ của công ty ông Bảo; bé Bống, 7 tuổi, đi theo mẹ. Họ có trả lời lần kiểm tra cuối, nhưng chị Tuyết dặn con “nhỏ thôi” vì sợ bị phát hiện bỏ chỗ làm và mang con lên công trường, nên giọng họ nhỏ đến mức chưa ai từng nghe. Bé Bống là đứa trẻ nói “cô ơi, còn con nữa” trong lớp học.
+- **Vết thương:** hai người duy nhất không có tên trong sổ. Họ có trả lời lần kiểm tra cuối, nhưng chị Tuyết dặn con “nhỏ thôi” vì sợ bị phát hiện bỏ chỗ làm, nên giọng họ nhỏ đến mức chưa ai từng nghe. Bé Bống là đứa trẻ nói “cô ơi, còn con nữa” trong lớp học.
 - **Luật:** ở trong Khoảng Trống nơi khu sâu hầm B và lán công nhân. Không phản ứng với âm thanh, chỉ phản ứng với tên. Người chơi thấy hai bóng, người mẹ che con.
 - **Dấu hiệu:** đường sóng phẳng, hai bát cơm của bà Tám, hai ô xi măng trên tường tưởng niệm, hai dòng trống viết chì trong sổ hầm B, dòng “63 + 2” trong sổ tay cô Vân.
-- **Cách giải quyết:** tìm tên thật: tên chị (Lê Thị Tuyết) trong sổ lương công nhân thời vụ, tên bé (Lê Thị Ngọc Ánh, 7 tuổi) trong sổ phát gạo lán ở mục người ăn theo, cả hai do anh Long giữ (Hồi 6); lấy hai giọng từ T2 bản gốc, lọc nhẹ để tách khỏi nhiễu, rồi gọi tên họ. Đây là lần đầu tiên có người lên tiếng vì họ, và là bước để họ được đếm đủ trong Kết thúc C. Nếu không ai gọi tên, họ tan đi trong im lặng khi vùng neo cuối cùng bị cắt.
+- **Cách giải quyết:** tìm tên thật trong sổ lương công nhân của ông Bảo (Lê Thị Tuyết và Lê Thị Ngọc Ánh, 7 tuổi), lọc nhẹ để tách hai giọng khỏi nhiễu, rồi gọi tên họ. Đây là lần đầu tiên có người lên tiếng vì họ, và là bước để họ được đếm đủ trong Kết thúc C. Nếu không ai gọi tên, họ tan đi trong im lặng khi tuyến cuối bị cắt.
 
 ## 10. Cấu trúc bảy hồi truyện
 
@@ -727,7 +619,7 @@ Câu hỏi của người chơi đổi theo từng hồi: đầu game là “Chu
 
 ### Hồi 1: Người trở về (đêm 1–2)
 
-Mục tiêu là gắn kết với thế giới, không dọa liên tục. Sau đêm đầu (mục 4), người chơi gặp cha (ông chỉ hỏi “Con về làm gì?”), nói chuyện với Hà, ăn cháo ở quán bà Tám, gặp anh Tư điện không dám lại gần loa, bé Cốm nghe tiếng đàn ông trong tường, và thấy bức tường tưởng niệm. Họ phục chế cuộn băng đầu tiên, học Nghe cho hết câu, và ghi lời bà Tám nếu chọn. Cuộn băng đầu tiên Hà đưa là bản tin số 1 ngày 21/9/2002; dạng sóng của nó có một quãng ngắt 0,4 giây sau chữ “có” mà người chơi có thể bỏ qua. Hồi này dạy luật P3 và mức Sự chú ý ở bậc thấp nhất.
+Mục tiêu là gắn kết với thế giới, không dọa liên tục. Sau đêm đầu (mục 4), người chơi gặp cha (ông chỉ hỏi “Con về làm gì?”), nói chuyện với Hà, ăn cháo ở quán bà Tám, gặp anh Tư điện không dám lại gần loa, bé Cốm nghe tiếng đàn ông trong tường, và thấy bức tường tưởng niệm. Họ phục chế cuộn băng đầu tiên, học Nghe cho hết câu, và ghi lời bà Tám nếu chọn. Hồi này dạy luật P3 và mức Sự chú ý ở bậc thấp nhất.
 
 Các chi tiết lạ: bà đặt hai bát cơm dù chồng đã mất; hai ô trám xi măng trên tường đá; tiếng nhiễu có cấu trúc. Sang ngày thứ hai Khải lần theo giọng Nhi đến trường cũ, nghe cô Vân điểm danh và gặp Người Chờ Điểm Danh lần đầu (cô đọc đủ 63 tên rồi dừng ở hai chỗ trống). Một cô bé đứng quay lưng bên cửa sổ, gương mặt giống hệt Nhi nhưng hỏi: “Anh biết em à?” (nghĩa là “anh có biết em là ai không”, mục 4). Từ bàn cuối có tiếng: “Cô ơi, còn con nữa.” Đèn tắt; khi sáng lại cô biến mất. Trên cửa sổ có dòng phấn: “Đừng tin những gì họ nói về đêm đó.”
 
@@ -743,7 +635,7 @@ Gặp lại ông ở nơi khác, ông dừng trước cửa và hỏi: “Tôi �
 
 ### Hồi 3: Những lời khai (đêm 5–6)
 
-Khải và Hà tìm ra cửa xả B không hỏng như hồ sơ nói; nhật ký kỹ thuật cho thấy nó được mở thủ công. Trong *bản trung gian* của T1 (Hà sao lén), Khải nghe giọng cha: “Xác nhận cửa B.” và một giọng đàn ông khác: “Nhưng còn những người ở trong hầm?” Băng bị ngắt. Đây là mâu thuẫn đầu tiên với bản tin “Chúng tôi không biết trong đó có người.” Quãng ngắt 0,4 giây ở bản tin số 1 lúc này được người chơi nhận ra là một “câu bị cắt” dù chưa biết cắt mất gì.
+Khải và Hà tìm ra cửa xả B không hỏng như hồ sơ nói; nhật ký kỹ thuật cho thấy nó được mở thủ công. Trong *bản trung gian* của T1 (Hà sao lén), Khải nghe giọng cha: “Xác nhận cửa B.” và một giọng đàn ông khác: “Nhưng còn những người ở trong hầm?” Băng bị ngắt. Đây là mâu thuẫn đầu tiên với bản tin “Chúng tôi không biết trong đó có người.”
 
 Ông Thạch mời Khải vào Ban Tưởng niệm và đề nghị giao bản sao băng. Thầy Lâm đưa sổ tay cô Vân ghi “63 + 2”, cho phép chuyển Người Chờ Điểm Danh sang Giữ trước khi tuyến Trường học bị cắt (mục 9). Hà phát hiện cha mình có mặt trong phòng điều hành; đây là lúc Khải chọn nói nửa sự thật nào trước (mục 8.7).
 
@@ -763,7 +655,7 @@ Cuối đêm 6, tuyến Chợ và Trạm y tế bị cắt; các giọng gọi t
 
 Cao trào là Người Mang Tiếng Nước: người chơi tách từng giọng khỏi tiếng chồng chéo cho đến khi con quái rã thành từng con người. Ở sâu hơn, người chơi thấy Khoảng Trống lần đầu: hai bóng người, một người mẹ che con, không phát ra âm thanh nào.
 
-Họ tìm thấy T3 với dòng 01:52 (“Giữ nguyên vị trí, chưa có lệnh.”) và dòng 02:11, chính giọng ông Đạt báo con đã qua ống kiểm tra và xin mở cửa chính. Anh Tư điện đưa sơ đồ dây; Hà lấy từ kho lưu trữ bản sao hồ sơ nghiệm thu 1998 có hạng mục “ống nối phụ”, bản vẽ hầm B và nhật ký nước dâng của nhà máy, đủ để người chơi tự dựng bảng “cửa sổ khả thi” (mục 3). Sổ hầm B có hai dòng trống viết chì “ghi sau”. Ống kiểm tra duy nhất vừa người trẻ con nằm ở đáy hầm. Twist 1 hiện ra nhiều tầng (mục 11). Người chơi tách được khoảng 12 câu trả lời: những người này đã trả lời *trước khi* cửa mở. Đêm này trời mưa lớn, đội tháo dỡ hoãn, không có tuyến nào bị cắt.
+Họ tìm thấy T3 với dòng 01:52 (“Giữ nguyên vị trí, chưa có lệnh.”) và dòng 02:11, chính giọng ông Đạt báo con thoát và xin mở cửa chính. Anh Tư điện đưa sơ đồ dây và hồ sơ nghiệm thu 1998 có hạng mục “ống nối phụ”. Sổ hầm B có hai dòng trống viết chì “ghi sau”. Ống kiểm tra duy nhất vừa người trẻ con nằm ở đáy hầm. Twist 1 hiện ra nhiều tầng (mục 11). Người chơi tách được khoảng 12 câu trả lời: những người này đã trả lời *trước khi* cửa mở. Đêm này trời mưa lớn, đội tháo dỡ hoãn, không có tuyến nào bị cắt.
 
 **Câu hỏi kết hồi:** Họ đã trả lời, vậy vì sao cửa vẫn mở?
 
@@ -771,7 +663,7 @@ Họ tìm thấy T3 với dòng 01:52 (“Giữ nguyên vị trí, chưa có l�
 
 Trọng tâm trở về Nhi. Khải xây quan hệ với cô: nói chuyện, cho cô nghe nhạc, đưa ảnh thị trấn năm 2026. Cô ngắm lâu rồi hỏi: “Đây là thị trấn mình hả anh?” Khải gật đầu, cô nói “Đẹp thật” rồi hỏi: “Vậy tại sao em vẫn ở đây?” Bà Mai từ chối về Khe Lạc qua điện thoại. Cô chọn cho mình một cái tên (**Vọng**), và phụ đề đổi theo (mục 8.4).
 
-Khải phục chế từ bản sao lưu trữ của T2 (bản đã che) phần liên quan đến Nhi và nghe câu trả lời cuối cùng của em: “Còn em ở đây! Anh Khải ơi, em ở đây!” (Twist 2). Cô thực thể nghe cùng anh. Từ bản sao anh chỉ tách được tối đa 63 giọng; hai giọng nhỏ nhất vẫn chìm dưới ngưỡng, và đó là lý do Hồi 6 cần Kho phong tỏa. Cảnh được viết bằng chi tiết chứ không bằng châm ngôn:
+Khải khôi phục toàn bộ đoạn 43 giây từ T2 bản gốc và nghe câu trả lời cuối cùng của em: “Còn em ở đây! Anh Khải ơi, em ở đây!” (Twist 2). Cô thực thể nghe cùng anh. Cảnh được viết bằng chi tiết chứ không bằng châm ngôn:
 
 > **Nhi:** “Anh có nhớ em sợ mưa không?”
 >
@@ -781,7 +673,7 @@ Khải phục chế từ bản sao lưu trữ của T2 (bản đã che) phần l
 >
 > **Nhi:** “Anh gọi em là Nhi hoài. Em thích. Chỉ là… anh đang nhớ mưa của người khác.”
 
-Cuối hồi, Người Đứng Ngoài được giải thích (Twist 4). Bà Tám nhìn Khải và hỏi: “Cậu là ai?”, vì Người Phát Ngôn đã ghi đè trí nhớ bà bằng chính giọng Khải mà thiết bị ghi lại. Phát lại lời bà từng ghi ở Hồi 1 là cách duy nhất kéo trí nhớ về. Người chơi cũng có thể đưa cho Người Gõ Cửa các bằng chứng về đời sống của Lệ sau đêm lũ để ông tỉnh hẳn (mục 9). Cuối đêm 9, tuyến Trường học bị cắt; nếu cô Vân chưa Giữ, cô rời trường. Anh Long bắt đầu chuẩn bị tuyến còn lại và ông Bảo gây áp lực lên Hà.
+Cuối hồi, Người Đứng Ngoài được giải thích (Twist 4). Bà Tám nhìn Khải và hỏi: “Cậu là ai?”, vì Người Phát Ngôn đã ghi đè trí nhớ bà bằng chính giọng Khải mà thiết bị ghi lại. Phát lại lời bà từng ghi ở Hồi 1 là cách duy nhất kéo trí nhớ về. Cuối đêm 9, tuyến Trường học bị cắt; nếu cô Vân chưa Giữ, cô rời trường. Anh Long bắt đầu chuẩn bị tuyến còn lại và ông Bảo gây áp lực lên Hà.
 
 **Câu hỏi kết hồi:** Nếu cô ấy không phải Nhi, mình đang yêu thương ai?
 
@@ -791,8 +683,8 @@ Hồi này có hai đêm, mỗi đêm hai cảnh lớn.
 
 **Đêm 10**
 
-1. **Kho phong tỏa.** Người của ông Bảo tuần tra trong Trạm phát thanh (mục 8.8). Khải và Hà lấy T1 và T2 bản gốc, xen với thực thể trong kho; chỉ bản gốc mới có đủ hai giọng nhỏ nhất. Anh Long, người nghe được lời ông Bảo lúc 02:14 mà 24 năm chưa dám kể, đưa sổ lương (tên chị Tuyết) và sổ phát gạo lán (tên bé Ngọc Ánh ở mục người ăn theo), cả hai anh đã không đốt theo lệnh, và kể lại điều anh nghe ở hành lang lúc 02:14.
-2. **Bà Sương thú nhận và đối chất Thạch.** Bà bắt đầu bằng câu “Để tôi kể từ đầu”: bà đọc lệnh trú ẩn, hỏi có báo hầm B không rồi vâng lệnh chờ, cắt cuộc gọi của Nhi, nghe ông Đạt xin mở cửa và không làm gì, rồi che tiếng trả lời thay vì xóa: “Tôi không xóa nổi. Tôi chỉ che.” Bà đưa thêm bản thảo carbon của bản tin số 1, giữ 24 năm trong hộp sắt: câu gốc là “Chúng tôi không biết trong đó có bao nhiêu người.”, ông Bảo gạch hai từ và ông Thạch đồng ý. Khải sau đó đối chất ông Thạch bằng ba nguồn (T2 23:40, T1 01:50, T3 01:52). Ông không cãi mà hoảng: “Tôi không có ký ức đó.” Người chơi chọn ép ông nhớ hay để ông ngồi với điều vừa nghe; cách chọn quyết định ông đưa công tắc lễ hay giữ khư khư (Hồi 7).
+1. **Kho phong tỏa.** Người của ông Bảo tuần tra trong Trạm phát thanh (mục 8.8). Khải và Hà lấy T1 và T2 bản gốc, xen với thực thể trong kho. Anh Long, người nghe được lời ông Bảo lúc 02:14 mà 24 năm chưa dám kể, đưa sổ lương công nhân thời vụ có tên thật của bé Bống, và kể lại điều anh nghe ở hành lang lúc 02:14.
+2. **Bà Sương thú nhận và đối chất Thạch.** Bà bắt đầu bằng câu “Để tôi kể từ đầu”: bà đọc lệnh trú ẩn, hỏi có báo hầm B không rồi vâng lệnh chờ, cắt cuộc gọi của Nhi, nghe ông Đạt xin mở cửa và không làm gì, rồi che tiếng trả lời thay vì xóa: “Tôi không xóa nổi. Tôi chỉ che.” Khải sau đó đối chất ông Thạch bằng ba nguồn (T2 23:40, T1 01:50, T3 01:52). Ông không cãi mà hoảng: “Tôi không có ký ức đó.” Người chơi chọn ép ông nhớ hay để ông ngồi với điều vừa nghe; cách chọn quyết định ông đưa công tắc lễ hay giữ khư khư (Hồi 7).
 
 **Đêm 11**
 
@@ -813,7 +705,7 @@ Hùng không phủ nhận trách nhiệm:
 >
 > **Hùng:** “Trong suốt hai mươi bốn năm, chưa có một đêm nào cha không nghĩ đến nó.”
 
-Không có nhạc bi thương, chỉ có tiếng đồng hồ, tiếng quạt và khoảng im lặng dài. Nếu người chơi đưa ông đến Khoảng Lặng, ông đứng trước cậu bé 11 tuổi và nói câu ông chưa từng nói thành tiếng: “Cha đã nghe con. Cha vẫn mở. Cha xin lỗi.” Khải nhỏ tan (**Yên**). Lời xin lỗi làm Khải nhỏ tan; nó không đòi Khải trưởng thành phải tha thứ. Người chơi chọn phản ứng (“Con nghe cha rồi.”, im lặng, hoặc bước ra ngoài) và game không xem phản ứng nào là đúng.
+Không có nhạc bi thương, chỉ có tiếng đồng hồ, tiếng quạt và khoảng im lặng dài. Nếu người chơi đưa ông đến Khoảng Lặng, ông đứng trước cậu bé 11 tuổi và nói câu ông chưa từng nói thành tiếng: “Cha đã nghe con. Cha vẫn mở. Cha xin lỗi.” Khải nhỏ tan (**Yên**).
 
 5. **Cuộc gọi cho mẹ.** Bà Mai thú nhận lời nói dối “con sốt mê sảng”: “Mẹ đến nhà cha con một lần, mẹ xin ông ấy đừng tìm con.” Ở phía kia, khi được hỏi, Hùng nói: “Mẹ con không xin cha điều gì. Cha tự chọn.” Hai lời kể lệch nhau đúng một chi tiết: ai là người xin. Bà lên xe về Khe Lạc.
 
@@ -826,12 +718,12 @@ Cuối đêm 11, tuyến Nhà máy và Đập bị cắt. Khải nhỏ, Người
 Ban ngày là chuẩn bị. Ba cảnh có sức nặng nhất của game:
 
 1. **Mai gặp Hùng.** Buổi trưa, ở nhà Hùng (không loa, Người Đứng Ngoài vắng vì đang ban ngày). Người chơi có thể ở lại nghe hoặc để họ nói với nhau; nếu bỏ đi, sau đó phải hỏi từng người và nghe hai bản lệch. Hai người ngồi đối diện lần đầu sau 24 năm; bà không hỏi ông chuyện đêm lũ mà hỏi ông có ăn cơm không. Trong cảnh chỉ có một câu nói thẳng: bà nói “Tôi nói dối con. Còn ông thì để tôi nói dối.” Ông không đáp; ông rót trà.
-2. **Mai gặp Nhi.** Cao trào cảm xúc của luật P2. Bà đứng trước cô bé có gương mặt con gái mình. Nhi hỏi bà có nhớ em sợ mưa không; bà xác nhận Nhi thật sợ mưa (chi tiết ở mục 9). Bà có ba lối: nói “Con là Nhi của mẹ”; nói “Con không phải Nhi. Nhưng mẹ ở đây nghe con.”; hoặc quay đi. Kết quả không do một câu quyết định. Nếu Nhi đã có từ ba nhân chứng độc lập (mục 8.4), cô giữ lập trường ngay trước câu thứ nhất (“Con không phải Nhi, mẹ ạ.”) và câu thứ hai chỉ thêm một cảnh mà hai người cùng nhớ; nếu cô còn yếu (dưới hai nguồn), câu thứ nhất có thể kéo cô về phía Nhi thật. Lời chứng của bà là *chân thành, trực tiếp và chống lại lợi ích* của bà nên rất nặng về cảm xúc, nhưng vì bà là mẹ Nhi thật nên nó không được tính là nhân chứng độc lập.
-3. **Gọi tên Tuyết và Ngọc Ánh** trong Khoảng Trống, dùng lọc nhẹ, T2 bản gốc, sổ lương và sổ phát gạo lán.
+2. **Mai gặp Nhi.** Cao trào của luật P2. Bà đứng trước cô bé có gương mặt con gái mình. Nhi hỏi bà có nhớ em sợ mưa không, bà xác nhận Nhi thật sợ mưa (chi tiết ở mục 9). Bà có ba lối: nói “Con là Nhi của mẹ” (bà muốn thế; Nhi bị ghi đè); nói “Con không phải Nhi. Nhưng mẹ ở đây nghe con.” (điều trái với điều bà muốn; đây là lời chứng có giá trị nhất của game và kéo Nhi về Là chính mình); hoặc quay đi (Nhi vẫn là Chưa định hình). Lời chứng của bà đáng giá chính vì nó tốn của bà.
+3. **Gọi tên Tuyết và Ngọc Ánh** trong Khoảng Trống, dùng lọc nhẹ và sổ lương của ông Bảo.
 
-Ngoài ra người chơi thuyết phục các nhân chứng (Hà và ông Kiên nghe lại giọng ông trên băng, Lệ và Người Gõ Cửa, bà Tám nếu đã hồi phục, anh Long, cô Phượng), nhờ anh Tư đấu đường dây riêng nối Quảng trường với miệng hầm B nếu muốn mở hướng C, và biết ông Bảo cử người tìm cách cắt sớm hoặc thu hồi thiết bị. Mọi việc này là chuẩn bị cho **Kế hoạch lễ** lúc 22:00 (mục 12).
+Ngoài ra người chơi thuyết phục các nhân chứng (Hà và ông Kiên nghe lại giọng ông trên băng, Lệ và Người Gõ Cửa, bà Tám nếu đã hồi phục, anh Long, cô Phượng), và biết ông Bảo cử người tìm cách cắt sớm hoặc thu hồi thiết bị.
 
-Ban đêm là lễ tắt loa ở Quảng trường Tưởng niệm. Lúc 22:00 người chơi chốt Kế hoạch lễ: hướng kết thúc, bố trí nhân chứng và thiết bị, thứ tự chứng cứ. Đến 02:16:34 là 43 giây thực thi: Người Phát Ngôn tấn công qua mạng loa, người của ông Bảo tranh đầu mối kỹ thuật, và kế hoạch đã chọn được đem ra dùng (mục 12). Không có lúc nào đòi người chơi cân nhắc một hướng mới trong 43 giây. Kết thúc không dựa vào thiết bị thần kỳ hay một nút bấm đưa mọi thứ về bình thường. Người chơi dùng những quy luật đã học: âm thanh duy trì thực thể; tương tác làm thực thể thay đổi; lời chứng độc lập ổn định thực thể; loa phát thanh làm hại người sống; cắt tuyến có an toàn hay không tùy trạng thái của thực thể. Các kết thúc ở mục 12.
+Ban đêm là lễ tắt loa ở Quảng trường Tưởng niệm. Người Phát Ngôn tấn công qua mạng loa, người của ông Bảo tranh đầu mối kỹ thuật, và người chơi giải quyết nguy hiểm, thu lời chứng còn thiếu, bảo vệ những NPC đã gắn bó. Kết thúc không dựa vào thiết bị thần kỳ hay một nút bấm đưa mọi thứ về bình thường. Người chơi dùng những quy luật đã học: âm thanh duy trì thực thể; tương tác làm thực thể thay đổi; lời chứng độc lập ổn định thực thể; loa phát thanh làm hại người sống; cắt tuyến có an toàn hay không tùy trạng thái của thực thể. Các kết thúc ở mục 12.
 
 ## 11. Twist và bảng gieo manh mối
 
@@ -842,7 +734,7 @@ Bản 3 có chín sự thật cần gieo manh mối như v2, cộng bốn sự t
 **Twist 1: quyết định “không còn lựa chọn” do 27 phút trì hoãn tạo ra (Hồi 4).** Năm 2002 đập chính có nguy cơ vỡ. Mở cửa xả B thì người trong hầm B gần như chắc chắn chết; không mở thì hàng nghìn người ở khu dân cư có thể chết. Game không phán xét quyết định mở cửa là đúng hay sai, nhưng tách thành bốn tầng do những người khác nhau chọn:
 
 1. Hầm B nối với tuyến xả (đoạn ống nối công ty ông Bảo thi công năm 1998) nhưng vẫn được chỉ định làm nơi trú ẩn, dù báo cáo năm 1999 của Hùng đã cảnh báo.
-2. Từ 01:50 đến 02:17, ông Thạch trì hoãn 27 phút chờ lệnh cấp trên thay vì báo cho hầm B ra ngoài và mở cửa chính đã khóa từ 02:00. Bằng chứng độc lập là T3 01:52 và giọng ông Đạt xin mở cửa lúc 02:11; bảng nước dâng và bản vẽ hầm B cho thấy cửa sổ quyết định là 01:50–02:00, còn từ 02:11 trở đi không còn phương án cứu người khả thi (mục 3).
+2. Từ 01:50 đến 02:17, ông Thạch trì hoãn 27 phút chờ lệnh cấp trên thay vì báo cho hầm B ra ngoài và mở cửa chính đã khóa từ 02:00. Bằng chứng độc lập là T3 01:52 và giọng ông Đạt xin mở cửa lúc 02:11.
 3. Lúc 02:17:17 cửa mở khi người trong hầm vẫn đang trả lời.
 4. Sau đó, che giấu và viết lại lịch sử là một quyết định riêng, do người khác nữa chọn.
 
@@ -854,7 +746,7 @@ Bản 3 có chín sự thật cần gieo manh mối như v2, cộng bốn sự t
 
 **Twist 5: tiếng nhiễu là câu trả lời, bị che chứ không bị xóa (Hồi 4–5).** Đoạn 43 giây phát mỗi đêm là T2 với phần trả lời bị trộn xuống dưới lớp nhiễu. Trong tiếng nhiễu là 65 người trả lời lần kiểm tra cuối, và câu cuối cùng của Nhi. Bà Sương không xóa nổi; bà che.
 
-**Twist 6: cái tên bị thiếu (Hồi 6–7).** Con số chính thức 63 sai. Sự thật là 65: thêm chị Tuyết, công nhân thời vụ, và bé Bống, con gái 7 tuổi đi theo mẹ, không có tên trong sổ. Nguyên nhân là một chuỗi ba tầng: chị Tuyết xin đừng ghi tên vì sợ công ty biết, ông Đạt quá tải nên để hai dòng trống chì “ghi sau” (hoàn cảnh); ông Bảo biết từ 00:45 và im lặng (có ý thức); 05:00 con số 63 được chốt (che giấu). Chỉ chuỗi ba tầng này giải thích tại sao không ai “quên” một cách vô tội. Người chơi nghi ngờ con số từ Hồi 3–4, biết đó là một người phụ nữ và một đứa trẻ ở Hồi 5, và chỉ biết họ là ai, vì sao bị loại và ai đã chủ động che ở Hồi 6–7.
+**Twist 6: cái tên bị thiếu (Hồi 6–7).** Con số chính thức 63 sai. Sự thật là 65: thêm chị Tuyết và bé Bống, hai công nhân thời vụ không có tên trong sổ. Nguyên nhân là một chuỗi ba tầng: chị Tuyết xin đừng ghi tên vì sợ công ty biết, ông Đạt quá tải nên để hai dòng trống chì “ghi sau” (hoàn cảnh); ông Bảo biết từ 00:45 và im lặng (có ý thức); 05:00 con số 63 được chốt (che giấu). Chỉ chuỗi ba tầng này giải thích tại sao không ai “quên” một cách vô tội.
 
 ### Bảng gieo manh mối
 
@@ -870,12 +762,7 @@ Bản 3 có chín sự thật cần gieo manh mối như v2, cộng bốn sự t
 | Hùng biết bà nói dối và im lặng theo thỏa thuận không lời | Hùng không gọi, không viết, không về thăm 24 năm; ông Tần (ở rìa lán) thấy một người phụ nữ khóc khi rời nhà Hùng năm 2003 và từ đó Hùng không liên lạc với ai ở thành phố; Người Đứng Ngoài lặp “Tôi không thể làm gì khác” | Hồi 6–7 |
 | Thực thể sinh từ lời của người sống | Bóng người trước nhà Hùng; nhiều NPC cùng lặp cụm “cửa xả hỏng do mưa bão”; bản tin 49 ngày | Hồi 5 |
 | Lời nói dối nằm cả trong băng gốc | Bản tin so với 02:16:52; T3 01:52; T2 23:40; hai lớp đầu chỉ khớp khi bỏ lớp ba | Hồi 3 (bắt đầu), Hồi 6 (hoàn tất) |
-| Số nạn nhân là 65 chứ không phải 63 (nghi ngờ con số) | Hai ô xi măng trên tường tưởng niệm (Hồi 1); sổ tay cô Vân ghi “63 + 2” (Hồi 3); đường sóng phẳng và hai dòng trống chì trong sổ hầm B (Hồi 4) | Nghi ngờ từ Hồi 3–4; xác nhận Hồi 6–7 |
-| Hai người ngoài sổ là một phụ nữ và một đứa trẻ | Hai bát cơm của bà Tám (Hồi 1, chưa ai giải thích); tiếng “cô ơi, còn con nữa” (Hồi 1); ông Tần và bà Tám nhớ lại sau khi được phát lại lời mình (Hồi 5) | Hồi 5 |
-| Họ là chị Tuyết và bé Ngọc Ánh; ai đã che và vì sao | Sổ lương và sổ phát gạo lán do anh Long giữ; T2 bản gốc; bản thảo carbon của bà Sương; lời bà Tám ký xác nhận danh sách 63 để nhận trợ cấp | Hồi 6–7 |
-| Bản tin chính thức bị cắt hai từ, đổi thừa nhận thành chối bỏ | Quãng ngắt 0,4 giây sau chữ “có” trong bản tin số 1 (Hồi 1); NPC lặp đúng câu cụt (Hồi 3); Người Phát Ngôn ngập ngừng đúng chỗ đó khi phát 02:16:52 (Hồi 5) | Hồi 6 (bản thảo carbon); dùng ở Hồi 7 |
-| Cửa sổ quyết định là 01:50–02:00, không phải 02:11 | Dòng 01:52 trong T3; bảng nước dâng, bản vẽ hầm B và khoảng cách 640 m (Hồi 4) | Hồi 4 |
-| Vì sao 24 năm không ai nói | Anh Long giữ sổ mà không dám; bà Tám ký để nhận trợ cấp; thợ đá được trả thêm để trám hai ô; bà Sương im vì đã che | Hồi 5–6 |
+| Số nạn nhân là 65 chứ không phải 63 | Hai ô xi măng trên tường tưởng niệm (Hồi 1); sổ tay cô Vân ghi “63 + 2” (Hồi 3); hai bát cơm của bà Tám (Hồi 1); đường sóng phẳng và hai dòng trống chì trong sổ hầm B (Hồi 4) | Hồi 6–7 |
 | Loa vừa giam thực thể vừa che giấu | Đoạn phát dài 43 giây đúng bằng khoảng 02:16:34 đến 02:17:17 trong nhật ký cửa xả; giọng phát khàn và mệt | Hồi 4–5 |
 | Cắt tuyến có thể làm thực thể tràn | Người Gõ Cửa vào nhà dân sau khi tuyến Đông bị cắt (Hồi 2); mạng loa mất điện đầu tháng 10/2002; sơ đồ dây anh Tư | Hồi 2, 3, 5 (luật đọc ra ở Hồi 5) |
 
@@ -883,39 +770,17 @@ Không thay đổi sự thật nền tảng để khớp lựa chọn người c
 
 ## 12. Các kết thúc và Epilogue
 
-Ba kết thúc chia nhau ba hướng đi cho **điểm neo tồn tại** của những thực thể còn lại: A phá bỏ nó, B giữ phần còn lại của nó, C dựng một điểm neo mới bằng lời chứng của cộng đồng. Nhân với hai nhánh về sự thật năm 2002, ta có sáu trạng thái cuối. Không kết thúc nào là “tốt nhất” hay “chính thức”; mỗi cái có phần thưởng và cái giá riêng. Bản cập nhật này sửa ba điểm lệch của bản trước: B không còn giả định mạng còn nguyên trong khi bốn tuyến đã bị cắt, A có lý do rõ ràng vì sao Nhi mất, và C có neo thay thế cụ thể cùng một cái giá cá nhân lâu dài.
+Ba kết thúc chia nhau ba lựa chọn về số phận hệ thống loa, nhân với hai nhánh về sự thật năm 2002, thành sáu trạng thái cuối. Không kết thúc nào là “tốt nhất” hay “chính thức”; mỗi cái có phần thưởng và cái giá riêng. V3 sửa hai điểm lệch của v2: “tắt loa an toàn” nay có luật (Luật Neo), và “Giữ kín” không còn là lựa chọn nhạt.
 
-### Kế hoạch lễ và 43 giây
+### Lễ tắt loa
 
-Người chơi không nên đến 02:16:34 rồi mới bắt đầu cân nhắc mình có thể chọn A, B hay C. Mọi quyết định chiến lược được chuẩn bị qua 12 đêm; 43 giây cuối chỉ là lúc kế hoạch đã chọn được thực thi.
+Đêm 12, tại Quảng trường Tưởng niệm, ông Thạch cầm công tắc chính còn ông Bảo giữ đầu mối kỹ thuật. Đoạn 43 giây cuối cùng phát lúc 02:16:34 và **toàn bộ 43 giây này là cảnh chơi được**: người chơi bảo vệ nhân chứng khỏi Người Phát Ngôn, chặn người của ông Bảo cắt sớm và chọn một trong ba hướng trước 02:17:17. Nếu ở Hồi 6 người chơi để ông Thạch ngồi với điều ông vừa nghe, ông có thể tự đưa công tắc; nếu ép ông, ông giữ chặt nó.
 
-**Kế hoạch lễ (chuẩn bị, không giới hạn thời gian).** Lúc 22:00 đêm 12, tại phòng Ban Tưởng niệm ở Quảng trường, người chơi chốt ba việc, và chỉ chọn được trong những gì mình đã có:
-
-1. **Hướng kết thúc** (A, B hoặc C), chỉ mở những hướng đủ điều kiện (bên dưới).
-2. **Bố trí nhân chứng và thiết bị:** ai đứng ở đâu, Hà giữ loa cầm tay hay không, anh Long và anh Tư nhận vai gì, ai cầm công tắc.
-3. **Thứ tự chứng cứ chống Người Phát Ngôn:** những mắt xích trong chuỗi bốn mắt xích người chơi đang nắm (mục 9).
-
-**43 giây thực (chỉ thực thi).** Ba nhịp, không có thời điểm nào đòi hỏi tra bằng chứng hay cân nhắc hướng mới:
-
-1. **Khoảng 15 giây đầu:** Người Phát Ngôn cố hoàn thành câu của những người đứng ở quảng trường. Người chơi đặt các mắt xích đã chuẩn bị theo thứ tự, mỗi mắt xích một thao tác.
-2. **Khoảng 15 giây giữa:** người của ông Bảo cố ngắt đầu mối kỹ thuật. Phản ứng phụ thuộc vào chuẩn bị (anh Long có đứng đó không, cửa phòng kỹ thuật đã khóa chưa).
-3. **Khoảng 13 giây cuối:** xác nhận hướng đã chọn bằng một hành động lớn mang sức nặng, không phải một quyết định mới.
-
-Người chơi được đổi ý ở giây cuối, nhưng phải trả bằng một nhân chứng rút lui và mất một mắt xích. Nếu ở Hồi 6 người chơi để ông Thạch ngồi với điều ông vừa nghe, ông có thể tự đưa công tắc; nếu ép ông, ông giữ chặt nó.
-
-### Điều kiện mở khóa từng hướng
-
-| Hướng | Điều kiện |
-| --- | --- |
-| **A. Cắt đứt** | Luôn mở. Chỉ *an toàn* khi mọi thực thể chính ở Giữ hoặc Yên; thực thể còn Tràn để lại dư âm (bên dưới) |
-| **B. Giữ phần mạng còn lại** | Ngăn được việc cắt tuyến Trạm trung tâm: ông Thạch tự đưa công tắc, hoặc anh Long trì hoãn tháo dỡ, hoặc anh Tư đánh lạc đầu mối kỹ thuật |
-| **C. Lên tiếng** | Từ ba nhân chứng độc lập chịu lên tiếng vì Nhi (Hà, Lệ, bà Tám, bé Cốm, anh Tư; **không tính Khải và bà Mai**, mục 8.4); hai cái tên (Lê Thị Tuyết, Lê Thị Ngọc Ánh) đã được gọi; Người Phát Ngôn bị suy yếu bằng từ ba mắt xích; số người dân dám lên tiếng (cô Phượng và những người cô kéo theo) đủ để lập chu kỳ; anh Tư đã đấu xong đường dây riêng ở Hồi 7 |
+**Trình tự an toàn** (điều kiện của Kết thúc A): tuyến Trạm trung tâm chỉ được cắt an toàn khi mọi thực thể chính ở trạng thái **Giữ** hoặc **Yên**. Mỗi thực thể còn ở **Tràn** để lại một dấu vết trong Epilogue (tiếng gõ ở một nhà dân, tiếng phấn trong một lớp học) và có thể là cái giá cho một NPC cụ thể.
 
 ### A. Cắt đứt
 
-Khải và Hà cắt tuyến Trạm trung tâm theo trình tự an toàn. Vùng cộng hưởng mất nguồn nuôi. Thực thể vô thức tan. Thực thể có ý thức mất điểm neo tồn tại cùng lúc, kể cả Người Phát Ngôn và Nhi (hay Vọng).
-
-Nhi mất không vì cô không thật hay không được công nhận: cô là một ý thức độc lập, có danh tính riêng được người khác thừa nhận. Cô mất vì điều kiện để cô hiện diện biến mất. Thiết kế cố ý giữ bi kịch này mà không phủ nhận quyền tự định danh của cô (ba trục ở mục 6). Nếu quan hệ đủ sâu, họ có cuộc trò chuyện cuối; game không biến cô thành quái vật để người chơi dễ chấp nhận mất mát:
+Khải và Hà chấm dứt cơ chế duy trì Khoảng Lặng theo trình tự an toàn. Các vùng cộng hưởng mất ổn định rồi tan; thực thể phụ thuộc hệ thống biến mất, kể cả Người Phát Ngôn, và thị trấn thoát khỏi việc bị ghi đè trí nhớ. Nhưng thực thể Khải gọi là Nhi (hay Vọng) không thể tiếp tục tồn tại. Nếu quan hệ sâu, họ có cuộc trò chuyện cuối; game không biến cô thành quái vật để người chơi dễ chấp nhận mất mát:
 
 > **Nhi:** “Anh có sợ quên em không?”
 >
@@ -923,43 +788,34 @@ Nhi mất không vì cô không thật hay không được công nhận: cô là
 >
 > **Nhi:** “Nhớ em nhé. Không phải chỉ nhớ Nhi ngày xưa.”
 
-- **Người Gõ Cửa** (nếu đã Yên): ra đi thanh thản sau một cảnh từ biệt với Lệ; không thể chọn ở lại vì không còn điểm neo.
-- **Chị Tuyết và bé Bống:** nếu đã được gọi tên thì tên họ được đọc lúc rạng sáng (nhánh Công khai) hoặc chỉ Khải và Hà nhớ (Giữ kín) rồi họ tan; nếu chưa ai gọi thì họ tan đi trong im lặng như đã im lặng 24 năm.
-- **Thực thể còn Tràn (nếu có):** lang thang thêm một thời gian ngắn ở phần thị trấn đã bị cắt rồi tan; đó là **dư âm**, thể hiện trong Epilogue như tiếng gõ ở một nhà dân hay tiếng phấn trong một lớp học, và có thể là cái giá cho một NPC cụ thể.
-- **Phần thưởng:** ghi đè trí nhớ chấm dứt; vòng lặp kết thúc; người bị ghi đè dần nhớ lại.
-- **Cái giá:** mất Nhi và những thực thể có ý thức khác.
+- **Phần thưởng:** người bị ghi đè dần nhớ lại; vòng lặp chấm dứt; nếu mọi thực thể đã Giữ hoặc Yên thì không có gì tràn ra.
+- **Cái giá:** mất Nhi. Nếu chưa ai gọi tên hai mẹ con chị Tuyết, họ tan đi trong im lặng như đã im lặng suốt 24 năm. Thực thể còn Tràn (nếu có) ở lại thị trấn như những vết không ai dọn.
 
-### B. Giữ phần mạng còn lại
+### B. Tiếp tục duy trì
 
-Người chơi ngăn việc cắt tuyến Trạm trung tâm. Bốn tuyến trước (Đông, Chợ và Trạm y tế, Trường học, Nhà máy và Đập) đã bị cắt trong 12 đêm **vẫn im lặng**: các thực thể Tràn từ những tuyến đó không tự trở về, và thị trấn phải chấp nhận một mạng lưới thu hẹp gồm Trạm trung tâm và đường dây chính đến hầm B và Quảng trường.
+Người chơi giữ mạng lưới. Khoảng Lặng ổn định và thực thể tiếp tục tồn tại trong giới hạn. Hệ thống có thể chạy thêm nhiều năm nhưng không bảo đảm an toàn mãi, và việc ghi đè trí nhớ chưa được khắc phục. Vì mạng còn nguyên, luật Neo không kích hoạt: không có thực thể nào tràn.
 
-Vùng cộng hưởng lõi (hầm B, Quảng trường, Trạm trung tâm) tiếp tục được nuôi bằng đoạn phát 02:16. Thực thể ở Giữ hoặc Yên có ý thức (Nhi, Người Gõ Cửa) ở lại trong vùng này; Người Phát Ngôn còn trong Trạm.
-
-- **Phần thưởng:** Nhi ở lại, các quan hệ được giữ trọn, Người Gõ Cửa có thể ở lại làm người canh cửa hầm B nếu ông chọn.
-- **Cái giá:** người sống quanh Trạm và hầm B tiếp tục bị ghi đè; thực thể Tràn vẫn còn lang thang ở phần đã cắt; cần có người vận hành đoạn phát mỗi đêm. Nếu không ai vận hành, vùng lõi suy yếu dần.
-- **Hai biến thể theo trạng thái của Nhi (mục 8.4):** nếu cô còn là chính mình, cô ở lại như một thành viên của thị trấn và phụ đề vẫn gọi là Vọng. Nếu cô bị ghi đè, cô ở lại nhưng nói bằng ký ức của Nhi thật, phụ đề trở về “Nhi”, và Khải nhận ra khi cô không còn thích tiếng mưa.
+- **Phần thưởng:** Nhi ở lại, các quan hệ được giữ trọn, không đánh đổi thực thể nào.
+- **Cái giá:** người sống tiếp tục bị ảnh hưởng, Người Phát Ngôn còn đó, và cần có người vận hành hệ thống mỗi đêm.
+- **Hai biến thể theo trạng thái của Nhi (mục 8.4):** nếu cô còn là chính mình, cô ở lại như một thành viên của thị trấn, phụ đề vẫn gọi là Vọng. Nếu cô bị ghi đè, cô ở lại nhưng nói bằng ký ức của Nhi thật, phụ đề trở về “Nhi”, và Khải nhận ra khi cô không còn thích tiếng mưa.
 
 ### C. Lên tiếng
 
 Dựa trên luật P2, người chơi thu lời chứng độc lập về sự tồn tại hiện tại của thực thể. Đúng 02:16:34 cả quảng trường cùng đáp lại lần kiểm tra cuối: “Còn ở đây.” Đây chính là điều luật “không trả lời” cấm suốt 24 năm.
 
-**Điểm neo thay thế (mới).** Một **vùng cộng hưởng nhỏ** quanh hầm B và Quảng trường (khoảng 300 m), nối Quảng trường với miệng hầm B bằng một đường dây riêng ngắn (không qua Trạm trung tâm) do anh Tư đấu ở Hồi 7, được nuôi bằng **chu kỳ lời chứng**: mỗi đêm 02:16 người dân đáp lại. Vùng này là điểm neo cho những thực thể chọn ở lại. Các tuyến khác đều tắt, nên mạng loa kết thúc và Người Phát Ngôn tan cùng Trạm trung tâm.
+Điều kiện không phải làm hết nhiệm vụ mà là lòng tin: ít nhất ba nhân chứng độc lập chịu lên tiếng vì Nhi (trong số Hà, Lệ, bà Tám, bà Mai; lời của bà Mai chỉ tính nếu bà đã nói điều trái với điều bà muốn ở Hồi 7), tên hai mẹ con đã được gọi, và Người Phát Ngôn đã bị đánh bại bằng nửa câu bị cắt của nó. Số người dân dám lên tiếng (đo bằng cô Phượng và những người cô kéo theo) quyết định bao nhiêu thực thể được ổn định trong một vùng cộng hưởng cô lập quanh quảng trường và hầm B.
 
-- **Phần thưởng:** Nhi/Vọng, Người Gõ Cửa và hai mẹ con được đếm đủ; thị trấn ngừng bị ghi đè; những thực thể đủ nhận thức và có nhân chứng ở lại được.
-- **Cái giá cá nhân và lâu dài:**
-  - **Vọng là một ý thức được công nhận nhưng không rời được vùng neo.** Nếu Khải rời Khe Lạc, cô không đi cùng; họ chỉ gặp nhau ở Quảng trường lúc 02:16 hoặc qua đường dây riêng. Khải chọn ở lại (bỏ cuộc sống ở thành phố) hoặc đi (và sống với việc cô ở lại phía sau).
-  - **Chu kỳ phải được giữ mãi.** Nếu thế hệ sau bỏ nghi thức, điểm neo yếu dần và những thực thể ở trong nó cũng vậy.
-  - Người tiếp xúc lâu với vùng cộng hưởng có thể bị ảnh hưởng; một phần thị trấn thành khu phải rào và có người trực.
-  - Thực thể không đủ nhận thức hoặc không có nhân chứng không được giữ; nếu quá ít người lên tiếng, chỉ một vài thực thể ở lại.
+- **Phần thưởng:** một số thực thể tồn tại mà không cần cả mạng lưới; Người Gõ Cửa và hai mẹ con được đếm đủ; thị trấn ngừng bị ghi đè.
+- **Cái giá:** không phải thực thể nào đủ nhận thức để ổn định; không phải người dân nào đồng ý; một phần thị trấn phải dành cho vùng cộng hưởng; người tình nguyện vẫn có thể bị ảnh hưởng khi tiếp xúc lâu; và sự tồn tại của thực thể tiếp tục đặt câu hỏi đạo đức không có đáp án đơn giản. Nếu quá ít người lên tiếng, chỉ một vài thực thể được giữ.
 
 ### Nhánh sự thật năm 2002
 
 Công khai sự thật là quyết định riêng, không tự động gắn với một kết thúc nào. Người chơi chọn số phận của hệ thống loa và cách đối diện lịch sử như hai vấn đề khác nhau.
 
-- **Công khai:** T1 và T2 được phục chế và nộp cho cơ quan điều tra và gia đình của 65 nạn nhân. Hùng, Thạch, Bảo và Sương phải trả lời trước pháp luật (kết quả pháp lý thuộc phần “sau một năm”); Hà quyết định số phận cha mình; các gia đình được biết tên người thân. Thị trấn chia rẽ nhưng không còn nói dối.
+- **Công khai:** T1 và T2 được phục chế và nộp cho cơ quan điều tra và gia đình nạn nhân. Hùng, Thạch, Bảo và Sương phải trả lời trước pháp luật; Hà quyết định số phận cha mình; 65 gia đình được biết tên người thân. Thị trấn chia rẽ nhưng không còn nói dối.
 - **Giữ kín:** người chơi và Hà giữ băng. Thị trấn yên ổn hơn và các gia đình không phải đối diện điều tệ hơn, nhưng lời nói dối vẫn còn trong con người và có thể sinh thực thể mới.
 
-**Vì sao “Giữ kín” là lựa chọn thật.** Game phải cho người chơi lý do nặng để chọn nó, nếu không kết thúc này chỉ là kết thúc xấu trá hình:
+**Vì sao “Giữ kín” là lựa chọn thật (mới ở v3).** Game phải cho người chơi lý do nặng để chọn nó, nếu không kết thúc này chỉ là kết thúc xấu trá hình:
 
 1. **Người sống được yên một phần.** Hai mươi bốn năm nay cả thị trấn đã khép nỗi đau bằng câu chuyện thiên tai. Với bà Tám, “chồng chết vì lũ” khác hẳn “chồng chết vì một quyết định”. Công khai lấy đi chỗ dựa đó của những người chưa sẵn sàng.
 2. **Công khai có giá vật chất.** Ông Bảo bị truy tố thì dự án trung tâm hạ tầng đình trệ; hàng trăm hộ sống nhờ dự án, gồm cả đội của anh Long, mất nguồn sống (con số thiết kế, chỉnh theo quy mô thật của thị trấn).
@@ -968,52 +824,40 @@ Công khai sự thật là quyết định riêng, không tự động gắn v�
 
 Ngược lại cái giá của Giữ kín là thật: lời nói dối tiếp tục nuôi thực thể mới (bản tin vẫn được đọc, người vẫn bị ghi đè), và bảng số phận bên dưới chỉ “ổn” nếu không có ai lên tiếng.
 
-### Số phận năm nhân vật sau một năm
-
-Đây là kết quả dài hạn, tách khỏi cảnh Epilogue đêm 13. Ô nào có điều kiện thì ghi rõ.
+### Số phận năm nhân vật theo nhánh sự thật
 
 |  | Công khai | Giữ kín |
 | --- | --- | --- |
 | **Hùng** | Ra trình diện, kể hết trước cơ quan điều tra và trước Khải. Người Đứng Ngoài quay đi. Ông không xin giảm nhẹ. | Vẫn đứng trước cửa mỗi đêm. Khải bắt đầu gọi điện cho ông mỗi tuần; hai người không nhắc chuyện cũ. |
-| **Thạch** | Bị truy cứu về 27 phút trì hoãn và báo cáo giả; một năm sau ông nhận án. Ở A hoặc C câu “Tôi không có ký ức đó” đổi thành “Tôi nhớ.”; ở B ông vẫn bị ghi đè một phần. | Vẫn là chủ tịch. Ở B ông tiếp tục bị ghi đè; ở A ông lấy lại trí nhớ trong im lặng và không ai biết; ở C ông nhớ nhưng im lặng theo tục lệ. |
-| **Kiên** | Nghe lại giọng mình trên băng, hỏi “Tôi đã nói vậy à?” và ra làm chứng cho gia đình của 65 nạn nhân. Danh xưng “người hùng” sụp, nhưng điều ông thật sự làm (vớt người suốt đêm) được nhìn đúng. | Giữ danh xưng và ký ức chính thức. Hà nhìn ông mỗi lần nhận huy chương và biết điều ông không biết. |
-| **Sương** | Ra trình diện, nói bà chờ ai đó hỏi từ lâu. Ở A hoặc C bà không còn phải nghe giọng mình mỗi đêm. | Ở A bà được giải thoát nhưng không ai biết; ở B Khải thế chỗ bà ở tổng đài, giọng anh dần khàn và mệt; ở C bà là người đầu tiên đáp lại lúc 02:16. |
-| **Bảo** | Bị truy tố về thi công 1998, sử dụng lao động không đăng ký, đưa trẻ em lên công trường và phá vật chứng. | Thành “người bảo trợ ký ức”, tài trợ tấm bia mới. Băng gốc chỉ còn ở người chơi và Hà. |
+| **Thạch** | Bị truy cứu về 27 phút trì hoãn và báo cáo giả. Ông nhận án; câu “Tôi không có ký ức đó” đổi thành “Tôi nhớ.” (nếu Kết thúc A hoặc C). | Vẫn là chủ tịch. Nếu Kết thúc B ông tiếp tục bị ghi đè; nếu A ông lấy lại trí nhớ trong im lặng và không ai biết. |
+| **Kiên** | Nghe lại giọng mình trên băng, hỏi “Tôi đã nói vậy à?” và ra làm chứng cho 65 gia đình. Danh xưng “người hùng” sụp, nhưng điều ông thật sự làm (vớt người suốt đêm) được nhìn đúng. | Giữ danh xưng và ký ức chính thức. Hà nhìn ông mỗi lần nhận huy chương và biết điều ông không biết. |
+| **Sương** | Ra trình diện, nói bà chờ ai đó hỏi từ lâu. Bà không còn phải nghe giọng mình mỗi đêm. | Tiếp tục giữ tổng đài; trong Kết thúc B Khải thế chỗ bà, và giọng anh dần khàn và mệt. |
+| **Bảo** | Bị truy tố về thi công 1998, hai công nhân không đăng ký và phá vật chứng; dự án tháo dỡ dừng. | Hoàn thành tháo dỡ, tài trợ tấm bia mới, thành “người bảo trợ ký ức”. Băng gốc chỉ còn ở người chơi và Hà. |
 
-### Trạng thái công trình tháo dỡ
-
-Công trình phụ thuộc vào cả A/B/C lẫn Công khai/Giữ kín, không chỉ vào nhánh sự thật:
-
-|  | Công khai | Giữ kín |
-| --- | --- | --- |
-| **A. Cắt đứt** | Tháo dỡ dừng vì điều tra; mạng cũ được cơ quan chức năng tháo sau, không phải ông Bảo | Tháo dỡ hoàn tất; ông Bảo đạt điều ông muốn nhưng không có băng gốc |
-| **B. Giữ phần mạng còn lại** | Tháo dỡ dừng; Trạm trung tâm được bảo tồn như hiện trường; nhà thầu bị thay | Hợp đồng bị điều chỉnh: Trạm trung tâm và đường dây chính bị loại khỏi tháo dỡ; ông Bảo chỉ tháo dỡ phần đã cắt và mất cơ hội tiêu hủy T1, T2 tại hầm B |
-| **C. Lên tiếng** | Tháo dỡ dừng; vùng Quảng trường–hầm B được rào và bảo tồn | Tháo dỡ phần còn lại; vùng nhỏ được coi là “khu tưởng niệm” và loại khỏi hợp đồng |
+Cột theo Kết thúc A, B, C chỉ đổi những ô có ghi điều kiện (trí nhớ của ông Thạch, việc Khải vận hành hệ thống, số người dám lên tiếng); phần còn lại theo nhánh sự thật.
 
 ### Ma trận sáu trạng thái cuối
 
 |  | Công khai | Giữ kín |
 | --- | --- | --- |
 | **A. Cắt đứt** | Rạng sáng, tên của 65 người, gồm cả Lê Thị Tuyết và Lê Thị Ngọc Ánh, được đọc trên loa cầm tay ở quảng trường. Cột loa đã bị tháo. Khải nghe lại câu trả lời cuối của Nhi bằng tai nghe. | Thị trấn im lặng lần đầu sau 24 năm và ai cũng ngủ ngon. Tên hai mẹ con chưa có trên đá. Khải và Hà giữ băng, biết rằng lời nói dối chết cùng đường dây nhưng chưa chết trong người. |
-| **B. Giữ phần mạng còn lại** | Trạm trung tâm vẫn phát đủ 43 giây, có cả 65 lời đáp; các tuyến khác im. Người ta ra quảng trường nghe, và không ai còn cấm trẻ con trả lời. Khải ở lại vận hành, Nhi ngồi cạnh. | Trạm vẫn phát bản cắt, các tuyến khác im. Khải thế chỗ bà Sương ở tổng đài, giọng anh dần khàn và mệt. Nhi vẫn ở đó, còn thị trấn dần quên. |
-| **C. Lên tiếng** | Mỗi đêm 02:16 cả quảng trường lên tiếng “Còn ở đây”. Trên tường đá có thêm hai tên. Vùng cộng hưởng nhỏ quanh hầm B được rào lại và có người trực; Vọng ở trong đó. | Việc lên tiếng thành tục lệ mà không ai nhớ nguyên nhân. Khải để ý một người mới bắt đầu đọc một bản tin chưa ai kiểm chứng trên loa. |
+| **B. Tiếp tục duy trì** | Loa vẫn phát nhưng đủ 43 giây, có cả 65 lời đáp. Người ta ra quảng trường nghe, và không ai còn cấm trẻ con trả lời. Khải ở lại vận hành, Nhi ngồi cạnh. | Loa vẫn phát bản cắt. Khải thế chỗ bà Sương ở tổng đài, giọng anh dần khàn và mệt. Nhi vẫn ở đó, còn thị trấn dần quên. |
+| **C. Lên tiếng** | Mỗi đêm 02:16 cả quảng trường lên tiếng “Còn ở đây”. Trên tường đá có thêm hai tên. Vùng cộng hưởng nhỏ quanh hầm B được rào lại và có người trực. | Việc lên tiếng thành tục lệ mà không ai nhớ nguyên nhân. Khải để ý một người mới bắt đầu đọc một bản tin chưa ai kiểm chứng trên loa. |
 
 ### Epilogue
 
-Epilogue gồm hai lớp, để không lẫn cảnh sáng hôm sau với kết quả pháp lý:
-
-**Đêm 13 (ngắn, sáu cảnh).** Tối hôm sau lễ, bà Tám đặt bát cơm như mọi ngày. Số bát và người ngồi vào bàn thay đổi theo kết thúc. Sau đó là một đoạn ngắn lúc 02:17 để người chơi nghe hoặc không nghe được điều gì trong tiếng loa.
+Cảnh chốt chung là đêm 13, tối hôm sau lễ: bà Tám đặt bát cơm như mọi ngày. Số bát và người ngồi vào bàn thay đổi theo kết thúc. Sau đó là một đoạn ngắn lúc 02:17 tùy trạng thái cuối, để người chơi nghe hoặc không nghe được điều gì trong tiếng loa. Ý đồ cho từng trạng thái:
 
 | Trạng thái | Số bát | Điều nghe được lúc 02:17 |
 | --- | --- | --- |
 | A, Công khai | Một bát; bà Tám ăn cùng người lạ | Không có loa. Chỉ có tiếng mưa trên mái tôn |
 | A, Giữ kín | Một bát; bà không đặt bát nào khác nhưng chưa dọn bàn | Im lặng hoàn toàn, quá đều |
-| B, Công khai | Ba bát; hai bát có người ngồi | Đủ 43 giây từ Trạm trung tâm, có tiếng đáp trong đó |
+| B, Công khai | Ba bát; hai bát có người ngồi | Đủ 43 giây, có tiếng đáp trong đó |
 | B, Giữ kín | Hai bát như cũ | Bản cắt; nhiễu vẫn có cấu trúc |
 | C, Công khai | Ba bát; hai bát thêm bà cho Tuyết và Ngọc Ánh | Cả quảng trường đáp lại từ xa |
 | C, Giữ kín | Ba bát; không ai nhớ vì sao | Giọng lạ đọc một bản tin chưa ai kiểm chứng |
 
-**Sau một năm (dài hạn).** Một thẻ ngắn cho mỗi nhân vật trong bảng “Số phận năm nhân vật” và trạng thái công trình, kể cả kết quả pháp lý.
+Sáu cảnh Epilogue vẫn phải được viết đầy đủ (mục 14).
 
 ## 13. Nhịp kinh dị, đời thường, nhiệm vụ phụ và lộ trình
 
@@ -1079,10 +923,10 @@ Game chủ yếu dựa vào âm thanh nên tiếp cận phải nằm trong thi�
 
 Game kinh dị góc nhìn thứ nhất dài 20 giờ, có NPC, lồng tiếng, môi trường biến đổi, phân nhánh và điều tra vẫn là dự án lớn. AI hỗ trợ lập trình không loại bỏ chi phí thiết kế màn chơi, hoạt ảnh, âm thanh, kịch bản, kiểm thử và tính nhất quán nhánh truyện. Không nên bắt đầu bằng việc dựng nguyên thị trấn. Bản 20 giờ là mục tiêu mặc định; chỉ khi lõi chạy tốt mới cân nhắc mở rộng lên 30–36 giờ như v2.
 
-1. **Prototype gameplay.** Một khu vực duy nhất: trường tiểu học số 3. Cần di chuyển và tương tác góc nhìn thứ nhất, Dual Listening, Người Chờ Điểm Danh với ba cách giải quyết (lẩn tránh; “thêm hai người” để Giữ; đọc tên thật, giả lập bằng một sổ phát gạo tạm vì tên thật của Bống chỉ có từ Hồi 6), một lần Nghe cho hết câu với Thử nghe và Niêm phong, mức Sự chú ý bốn bậc có hậu quả (bảng ở mục 8.5), và một NPC (thầy Lâm) có vài trạng thái quan hệ. Mục tiêu là chứng minh game hấp dẫn kể cả khi chưa có cốt truyện 20 giờ.
+1. **Prototype gameplay.** Một khu vực duy nhất: trường tiểu học số 3. Cần di chuyển và tương tác góc nhìn thứ nhất, Dual Listening, Người Chờ Điểm Danh với ba cách giải quyết (lẩn tránh; “thêm hai người” để Giữ; đọc tên thật, giả lập bằng một sổ lương tạm vì tên thật của Bống chỉ có từ Hồi 6), một lần Nghe cho hết câu với Thử nghe và Niêm phong, mức Sự chú ý bốn bậc có hậu quả (bảng ở mục 8.5), và một NPC (thầy Lâm) có vài trạng thái quan hệ. Mục tiêu là chứng minh game hấp dẫn kể cả khi chưa có cốt truyện 20 giờ.
 2. **Vertical slice 45–60 phút.** Người chơi đến trường, điều tra, nói chuyện với thầy Lâm, mở Khoảng Lặng, đối mặt cô Vân và đưa ra quyết định, có thể dùng làm demo để thu phản hồi.
 3. **Nền tảng nội dung.** Hệ thống nhiệm vụ theo trạng thái, hội thoại phân nhánh, hồ sơ bằng chứng với nhãn nguồn, lưu trạng thái NPC qua nhiều hồi, trạng thái Tràn, Giữ, Yên của từng thực thể, phát lại và biến đổi môi trường, kiểm thử nhánh. Lời hứa và hồ sơ nhân chứng nên là dữ liệu để hệ thống kiểm tra, không rải trong mã.
-4. **Sản xuất từng hồi.** Duy trì ba tài liệu gốc luôn cập nhật trước khi viết sâu kịch bản: timeline 2002 cùng bảng đếm đầu người và ma trận ai biết gì (mục 3), bách khoa thực thể (mục 9), bảng gieo manh mối (mục 11) và một bản kỹ thuật hầm B (bản vẽ, mực nước theo giờ, khoảng cách, thời gian thoát người) để mọi phương án ở “cửa sổ khả thi” kiểm chứng được. Với game bí ẩn, mâu thuẫn giữa nhân vật chương 2 nói không biết và chương 6 viết như đã biết là lỗi đặc biệt nghiêm trọng. Mọi con số phải suy ra được từ bảng đếm.
+4. **Sản xuất từng hồi.** Duy trì ba tài liệu gốc luôn cập nhật trước khi viết sâu kịch bản: timeline 2002 cùng bảng đếm đầu người và ma trận ai biết gì (mục 3), bách khoa thực thể (mục 9), bảng gieo manh mối (mục 11). Với game bí ẩn, mâu thuẫn giữa nhân vật chương 2 nói không biết và chương 6 viết như đã biết là lỗi đặc biệt nghiêm trọng. Mọi con số phải suy ra được từ bảng đếm.
 
 ## 14. Linh hồn của dự án và việc cần làm tiếp
 
@@ -1111,10 +955,6 @@ Khoảng Lặng 02:17 vẫn là concept nền chứ chưa phải kịch bản cu
 
 - [ ] Xác nhận các giả định mới ở mục 1: Lệ đi theo đoàn cô Vân, thỏa thuận ngầm Mai–Hùng, ông Bảo thi công đoạn nối 1998, T2 “che” chứ không “xóa”, Luật Neo, mục tiêu 18–22 giờ, tên đã đổi.
 - [ ] Rà mọi con số trong tài liệu và kịch bản theo bảng đếm ở mục 3 (67/65/64/63).
-- [ ] Dựng bản kỹ thuật hầm B: bản vẽ, mực nước theo giờ, khoảng cách, thời gian thoát người; khớp lại các số thiết kế tạm ở bảng “Cửa sổ khả thi” (mục 3).
-- [ ] Viết bản thảo carbon của bản tin số 1 (câu gốc “Chúng tôi không biết trong đó có bao nhiêu người.”) và quãng ngắt 0,4 giây trong cuộn băng; kiểm chuỗi bốn mắt xích ở mục 9 xuất hiện đủ trước Hồi 7.
-- [ ] Viết nhiệm vụ đối chứng cuộc sống của Lệ sau 2002 cho Người Gõ Cửa (hồ sơ trạm y tế, ảnh nhận bằng, lời bà Tám).
-- [ ] Thiết kế màn “Kế hoạch lễ” và ba nhịp 43 giây (mục 12).
 - [ ] Viết bách khoa thực thể đầy đủ, mỗi thực thể một trang, gồm Khải nhỏ và trạng thái Tràn, Giữ, Yên (mục 9).
 - [ ] Viết bốn cảnh mẫu để thử giọng: cuộc gọi của bà Mai ở Hồi 6, Mai gặp Hùng và Mai gặp Nhi ở Hồi 7, cảnh gọi tên Lê Thị Ngọc Ánh.
 - [ ] Thiết kế một đoạn Khoảng Lặng giả riêng cho từng hồi 2–6 (mục 5, 8.5).
@@ -1125,7 +965,7 @@ Khoảng Lặng 02:17 vẫn là concept nền chứ chưa phải kịch bản cu
 
 ### Những chỗ v3 chưa giải quyết
 
-- **Thực thể có ý thức nào biết trước mình sắp mất điểm neo (Kết thúc A).** Nhi và Người Gõ Cửa được thiết kế có cảnh từ biệt; chưa quyết định các thực thể có ý thức khác (nếu có) có biết trước hay không. Nên quyết định trước khi viết Epilogue.
+- **Cơ chế Giữ khi tắt toàn mạng (Kết thúc A).** V3 nói thực thể ở Giữ vẫn biến mất khi tuyến cuối bị cắt, nhưng chưa rõ chúng có “biết” trước để có cảnh từ biệt hay không. Nên quyết định trước khi viết Epilogue.
 - **Cách người chơi biết một thực thể đã Giữ hay Yên.** Sơ đồ dây của anh Tư điện hiển thị trạng thái, nhưng nếu bảng quá gọn thì luật Neo mất bí ẩn. Cần thử với người chơi thật.
 - **Thời điểm ông Bảo bị lộ.** Hiện Hồi 3 gieo cụm “ống nối phụ”, Hồi 4 có hồ sơ, Hồi 6 khẳng định. Khoảng cách này có thể quá dài; kiểm tra bằng playtest.
 - **Cân bằng Giữ kín và Công khai.** Bốn lý do ở mục 12 cho Giữ kín trọng lượng, nhưng cần thử xem người chơi có thật sự do dự hay vẫn chọn Công khai như đáp án “đúng”.
