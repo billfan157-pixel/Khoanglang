@@ -642,7 +642,7 @@ class B(object):
         return br
 
     def ret(self, value_node=None, value_pin='ReturnValue'):
-        """Wire the graph's function-entry exec through a Return node."""
+        """Attach a return value without replacing an authored execution body."""
         r = None
         for n in self.ed.list_all_nodes():
             if n.get_class().get_name() == 'K2Node_FunctionResult':
@@ -658,7 +658,9 @@ class B(object):
         val_in = [x for x in ri.input_pins if x.type_id != 'Exec']
         ent = self.entry(self.graph)
         if exec_in and ent is not None:
-            self.plink(self.out(ent, 'then'), exec_in[0])
+            entry_pin = self.out(ent, 'then')
+            if not entry_pin.connected_pins:
+                self.plink(entry_pin, exec_in[0])
         if value_node is not None and val_in:
             self.plink(self.out(value_node, value_pin), val_in[0])
         return r

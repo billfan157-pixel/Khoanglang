@@ -16,7 +16,7 @@ import sys
 
 import unreal
 
-HERE = r'C:\Users\phanb\Documents\Unreal Projects\KhoangLang0217\Content\Python\KhoangLang'
+HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
     sys.path.insert(0, HERE)
 
@@ -99,15 +99,17 @@ MIX = {
 
 
 def iff(b, entry, cond_fn, then_fn=None, else_fn=None):
+    sequence = b.n('Utilities|FlowControl|Sequence')
+    b.link(entry[0], entry[1], sequence, 'execute')
     br = b.branch()
-    b.link(entry[0], entry[1], br, 'execute')
+    b.link(sequence, 'then_0', br, 'execute')
     c = cond_fn()
     b.link(c[0], c[1], br, 'Condition')
     if then_fn:
         then_fn((br, 'then'))
     if else_fn:
         else_fn((br, 'else'))
-    return (br, 'then')
+    return (sequence, 'then_1')
 
 
 def bv(b, var):
@@ -175,23 +177,46 @@ def _wire(b, selnode, val, pin_name):
 def selb(b, zero, one, idx, zero_pin='Option 0', one_pin='Option 1',
          idx_pin='Index'):
     """wildcard Select with up to three connected options (None = skip)."""
+    if isinstance(zero, str) and isinstance(one, str):
+        # A literal does not establish a wildcard pin's type. Use an explicitly
+        # typed select when neither option supplies a connected value.
+        if zero == 'true' and one == 'false':
+            return notb(b, idx)
+        s = b.c('/Script/Engine.KismetMathLibrary:SelectString')
+        _wire(b, s, zero, 'B')
+        _wire(b, s, one, 'A')
+        _wire(b, s, idx, 'bPickA')
+        return (s, 'ReturnValue')
     s = b.sel()
-    _wire(b, s, zero, zero_pin)
-    _wire(b, s, one, one_pin)
+    # Establish a value type before setting a literal on the other option.
+    for value, pin in ((zero, zero_pin), (one, one_pin)):
+        if not isinstance(value, str):
+            _wire(b, s, value, pin)
     _wire(b, s, idx, idx_pin)
+    for value, pin in ((zero, zero_pin), (one, one_pin)):
+        if isinstance(value, str):
+            _wire(b, s, value, pin)
     return (s, 'ReturnValue')
 
 
 def andb(b, a, c):
-    return selb(b, 'false', c, a)
+    n = b.c('/Script/Engine.KismetMathLibrary:BooleanAND')
+    _wire(b, n, a, 'A')
+    _wire(b, n, c, 'B')
+    return (n, 'ReturnValue')
 
 
 def orb(b, a, c):
-    return selb(b, 'true', c, a)
+    n = b.c('/Script/Engine.KismetMathLibrary:BooleanOR')
+    _wire(b, n, a, 'A')
+    _wire(b, n, c, 'B')
+    return (n, 'ReturnValue')
 
 
 def notb(b, a):
-    return selb(b, 'true', 'false', a)
+    n = b.c('/Script/Engine.KismetMathLibrary:Not_PreBool')
+    _wire(b, n, a, 'A')
+    return (n, 'ReturnValue')
 
 
 def text_getter(bp, name, var):
@@ -224,6 +249,12 @@ def newfn(bp, name, params=(), out=None):
     if out:
         b.ed.set_is_pure_function(True)
     b.clear()
+    # Old generated graphs retain Entry -> Return even after body nodes clear.
+    entry = b.entry(g)
+    for pin in b.info(entry).output_pins:
+        if pin.type_id == 'Exec':
+            for linked in list(pin.connected_pins):
+                BPT.break_pins(pin.pin_id, linked)
     if out:
         # a previous run may have declared the return value as an input pin
         for pn in ('ReturnValue',):
@@ -318,17 +349,18 @@ INV_STATE_GETTERS = [('GetHasDoc', 'bHasDoc'), ('GetHasTape', 'bHasTape'),
                      ('GetJournalOpen', 'JournalOpen')]
 
 
-def build_investigation():
+def build_investigation(repair_definition=True):
     step('BP_KL_InvestigationComponent')
     # The evidence asset's getters are read by other pure getters and the HUD.
     # Older builds created them as impure functions, causing Unreal to prune
     # every unwired Exec call and return empty default values at runtime.
     definition = K.load(DEF)
-    for graph in BPT.list_graphs(definition):
-        if graph.get_name() in {name for _, name in DEF_FIELDS}:
-            K.B(graph, graph.get_name()).ed.set_is_pure_function(True)
-    BPT.compile_blueprint(definition)
-    K.save(DEF)
+    if repair_definition:
+        for graph in BPT.list_graphs(definition):
+            if graph.get_name() in {name for _, name in DEF_FIELDS}:
+                K.B(graph, graph.get_name()).ed.set_is_pure_function(True)
+        BPT.compile_blueprint(definition)
+        K.save(DEF)
     bp, path = K.new_bp(K.F_CORE, 'BP_KL_InvestigationComponent', 'ActorComponent')
     for v in INV_TEXT:
         K.var(bp, v, 'text')
@@ -580,7 +612,7 @@ def build_listening():
     def beds(en):
         for compvar, wavevar, _, volvar in BEDS:
             en = spawn_bed(en, compvar, wavevar, volvar)
-        return en
+        return cont(b, en, sb(b, 'bStarted', True))
 
     iff(b, e, lambda: bv(b, 'bStarted'), else_fn=beds)
     b.ret()
@@ -596,15 +628,15 @@ def build_listening():
         return (gv, b.out_any(gv).name)
 
     volsel = selb(b, vref('VolAmbNormal'), vref('VolAmbFiltered'), P)
-    n = b.n(K.F_AC_VOL)
-    b.link(volsel[0], volsel[1], n, 'VolumeMultiplier')
+    n = b.c('/Script/Engine.AudioComponent:SetVolumeMultiplier')
+    b.link(volsel[0], volsel[1], n, 'NewVolumeMultiplier')
     b.link(vref('Amb')[0], vref('Amb')[1], n, 'self')
     e = cont(b, e, n)
-    n = b.n(K.F_AC_LP_ON)
+    n = b.c('/Script/Engine.AudioComponent:SetLowPassFilterEnabled')
     BPT.connect_pins(pon.pin_id, b.inp(n, 'InLowPassFilterEnabled').pin_id)
     b.link(vref('Amb')[0], vref('Amb')[1], n, 'self')
     e = cont(b, e, n)
-    n = b.n(K.F_AC_LP_FREQ)
+    n = b.c('/Script/Engine.AudioComponent:SetLowPassFilterFrequency')
     b.link(vref('Amb')[0], vref('Amb')[1], n, 'self')
     b.link(vref('LowPassCutoff')[0], vref('LowPassCutoff')[1],
            n, 'InLowPassFilterFrequency')
@@ -612,7 +644,7 @@ def build_listening():
 
     for compvar, zv, ov, dur in ADJUST:
         s = selb(b, vref(zv), vref(ov), P)
-        n = b.n('Audio|Components|Audio|AdjustVolume')
+        n = b.c('/Script/Engine.AudioComponent:AdjustVolume')
         b.setv(n, 'AdjustVolumeDuration', dur)
         b.link(s[0], s[1], n, 'AdjustVolumeLevel')
         b.link(vref(compvar)[0], vref(compvar)[1], n, 'self')
@@ -685,7 +717,7 @@ def build_interact():
     beg = b.ev('BeginPlay')
     mesh, _own = own_comp(b, 'StaticMeshComponent')
     light, _own2 = own_comp(b, 'PointLightComponent')
-    hide = notb(b, bv(b, 'bHiddenAtStart'))
+    hide = bv(b, 'bHiddenAtStart')
 
     def start_hidden(en):
         h = b.n(K.F_SET_HIDDEN)
@@ -729,6 +761,11 @@ def build_interact():
     e = setp_param(b, g, e, 'bFocus', 'bFocused')
     e = setp_param(b, g, e, 'bFilter', 'bFilter')
     e = setp(b, e, 'bReady', ready[0], ready[1])
+    corner_only = b.branch()
+    b.link(e[0], e[1], corner_only, 'execute')
+    corner_flag = b.g('bCornerMode')
+    b.link(corner_flag, b.out_any(corner_flag).name, corner_only, 'Condition')
+    e = (corner_only, 'then')
     mesh, own = own_comp(b, 'StaticMeshComponent')
     hide = notb(b, show)
     n = b.n(K.F_SET_HIDDEN)
@@ -849,7 +886,7 @@ def build_interact():
             return cont(b, en, callbp(b, INT, timer_fn))
         return fn
 
-    iff(b, e, lambda: filt, then_fn=play('ClearWave'), else_fn=play('MaskedWave'))
+    e = iff(b, e, lambda: filt, then_fn=play('ClearWave'), else_fn=play('MaskedWave'))
     e = cont(b, e, sb(b, 'bTapeStarted', True))
     b.ret()
     b.compile(bp, 'DoTape')
@@ -867,6 +904,38 @@ def build_interact():
     e = cont(b, e, call)
     b.ret()
     b.compile(bp, 'DoNote')
+
+    # Function graphs cannot own latent Delay nodes. Timers retain the actor
+    # component as their owner and let the game world advance between beats.
+    def schedule(b, en, function, seconds):
+        node = b.n('Utilities|Time|SetTimerbyFunctionName')
+        ref = b.n('Variables|Getareferencetoself')
+        b.link(ref, 'self', node, 'Object')
+        b.setv(node, 'FunctionName', function)
+        b.setv(node, 'Time', str(seconds))
+        b.setv(node, 'bLooping', 'false')
+        return cont(b, en, node)
+
+    g, b, e = newfn(bp, 'FinishBeat')
+    inv = player_comp(b, INV)
+    call = callbp(b, INV, 'FinishRun')
+    b.link(inv[0], inv[1], call, 'self')
+    cont(b, e, call)
+    b.ret()
+    b.compile(bp, 'FinishBeat')
+
+    g, b, e = newfn(bp, 'ReplyBeat')
+    owner = b.c(K.F_GET_OWNER)
+    loc = b.n(K.F_GET_ACTOR_LOC)
+    b.link(owner, 'ReturnValue', loc, 'self')
+    sound = b.c(K.F_PLAYATLOC)
+    wave = b.g('SfxReply')
+    b.link(wave, b.out_any(wave).name, sound, 'Sound')
+    b.link(loc, 'ReturnValue', sound, 'Location')
+    e = cont(b, e, sound)
+    schedule(b, e, 'FinishBeat', 3.2)
+    b.ret()
+    b.compile(bp, 'ReplyBeat')
 
     # ---- DoCorner: the scripted supernatural beat ------------------------- #
     g, b, e = newfn(bp, 'DoCorner')
@@ -907,16 +976,7 @@ def build_interact():
         call = callbp(b, INV, 'BeginBeat')
         b.link(inv[0], inv[1], call, 'self')
         en = cont(b, en, call)
-        d = b.c(K.F_DELAY)
-        b.setv(d, 'Duration', '8.0')
-        en = cont(b, en, d)
-        en = play_at('SfxReply')(en)
-        d = b.c(K.F_DELAY)
-        b.setv(d, 'Duration', '2.5')
-        en = cont(b, en, d)
-        call = callbp(b, INV, 'FinishRun')
-        b.link(inv[0], inv[1], call, 'self')
-        return cont(b, en, call)
+        return schedule(b, en, 'ReplyBeat', 13.0)
 
     def need_more(en):
         call = callbp(b, INV, 'SetSubtitleText')
@@ -1022,6 +1082,7 @@ def build_character():
     for v in CHAR_STR:
         K.var(bp, v, 'string')
     K.var(bp, 'TorchOn', 'bool')
+    K.var(bp, 'NextFilterOn', 'bool')
     K.var_obj(bp, 'FocusCand', INT)
     K.var_obj(bp, 'FocusPrev', INT)
     BPT.compile_blueprint(bp)
@@ -1137,7 +1198,7 @@ def build_character():
     prev = vref(kb, 'FocusCand')
     pvalid = kb.c(K.F_ISVALID)
     kb.link(prev[0], prev[1], pvalid, 'Object')
-    iff(kb, e, lambda: (pvalid, 'ReturnValue'),
+    e = iff(kb, e, lambda: (pvalid, 'ReturnValue'),
         then_fn=lambda x: unfocus(x, prev),
         else_fn=lambda x: cont(kb, x, trace))
 
@@ -1169,12 +1230,14 @@ def build_character():
     focusref = vref(kb, 'FocusCand')
     fvalid = kb.c(K.F_ISVALID)
     kb.link(focusref[0], focusref[1], fvalid, 'Object')
-    isfoc = callbp(kb, INT, 'IsFocused')
-    kb.link(focusref[0], focusref[1], isfoc, 'self')
-    fcond = andb(kb, (fvalid, 'ReturnValue'), (isfoc, 'ReturnValue'))
+    fcond = (fvalid, 'ReturnValue')
 
     def toggle_filter(en):
         nf = notb(kb, filt)
+        store = kb.s('NextFilterOn')
+        kb.link(nf[0], nf[1], store, 'NextFilterOn')
+        en = cont(kb, en, store)
+        nf = vref(kb, 'NextFilterOn')
         n = callbp(kb, LIS, 'SetFilter')
         c = self_comp(kb, LIS)
         kb.link(c[0], c[1], n, 'self')
@@ -1191,6 +1254,8 @@ def build_character():
         # interaction component, so check both rather than using FocusCand.
         for tape_path in (K.F_CORE + '/Props/BP_KL_Prop_TapeDeck',
                           K.F_CORE + '/PropsArt/BP_KL_Prop_ART_TapeDeck'):
+            if not unreal.EditorAssetLibrary.does_asset_exist(tape_path):
+                continue
             actor = kb.n('Actor|GetActorOfClass')
             kb.setv(actor, 'ActorClass', K.cls_path(tape_path))
             en = cont(kb, en, actor)
@@ -1205,7 +1270,7 @@ def build_character():
                                  kb.inp(tm, 'bOn').pin_id)
                 return cont(kb, en2, tm)
 
-            iff(kb, en, lambda v=tape_valid: (v, 'ReturnValue'),
+            en = iff(kb, en, lambda v=tape_valid: (v, 'ReturnValue'),
                 then_fn=sync_tape)
         return cont(kb, en, kb.print('KL: NGHE LOC toggled'))
 
@@ -1252,7 +1317,7 @@ def build_character():
         iff(kb, en, lambda: ended, then_fn=do_quit)
         return en
 
-    iff(kb, e, lambda: kq, then_fn=toggle_filter,
+    e = iff(kb, e, lambda: kq, then_fn=toggle_filter,
         else_fn=lambda x: iff(
             kb, x, lambda: ke, then_fn=do_interact,
             else_fn=lambda y: iff(
@@ -1281,6 +1346,27 @@ def build_character():
     tick = b.ev('Tick')
     b.link(beg, 'then', me(b, 'InitKL'), 'execute')
     b.link(tick, 'then', me(b, 'TickKL'), 'execute')
+    # clear() preserved EnhancedInput events but removed their handlers.
+    # Reconnect them to the template's still-present movement/aim functions.
+    for node in list(b.ed.list_all_nodes()):
+        title = node.get_node_title()
+        if not title.startswith('EnhancedInputAction '):
+            continue
+        if title.endswith('IA_Move'):
+            target = me(b, 'Move')
+            b.link(node, 'Triggered', target, 'execute')
+            b.link(node, 'ActionValue_X', target, 'Left / Right')
+            b.link(node, 'ActionValue_Y', target, 'Forward / Backward')
+        elif title.endswith(('IA_Look', 'IA_MouseLook')):
+            target = me(b, 'Aim')
+            b.link(node, 'Triggered', target, 'execute')
+            b.link(node, 'ActionValue_X', target, 'Yaw')
+            b.link(node, 'ActionValue_Y', target, 'Pitch')
+        elif title.endswith('IA_Jump'):
+            jump = b.c('/Script/Engine.Character:Jump')
+            stop = b.c('/Script/Engine.Character:StopJumping')
+            b.link(node, 'Started', jump, 'execute')
+            b.link(node, 'Completed', stop, 'execute')
     b.compile(bp, '(event graph)')
 
     K.save(CHAR)
@@ -1322,6 +1408,12 @@ def build_hud(asset_name='BP_KL_HUD'):
         [x.name for x in b.info(ev).input_pins],
         [x.name for x in b.info(ev).output_pins]))
 
+    def pixel(value, size_pin):
+        multiply = b.c('/Script/Engine.KismetMathLibrary:Multiply_DoubleDouble')
+        b.link(ev, size_pin, multiply, 'A')
+        b.setv(multiply, 'B', value)
+        return multiply
+
     def text(en, value, x, y, scale, rgb):
         n = b.n('HUD|DrawText')
         b.link(en[0], en[1], n, 'execute')
@@ -1329,10 +1421,10 @@ def build_hud(asset_name='BP_KL_HUD'):
             b.setv(n, 'Text', value)
         else:
             b.link(value[0], kb_out(b, value), n, 'Text')
-        b.setv(n, 'ScreenX', x)
-        b.setv(n, 'ScreenY', y)
+        b.link(pixel(x, 'SizeX'), 'ReturnValue', n, 'ScreenX')
+        b.link(pixel(y, 'SizeY'), 'ReturnValue', n, 'ScreenY')
         b.setv(n, 'Scale', scale)
-        b.setv(n, 'bScalePosition', 'true')
+        b.setv(n, 'bScalePosition', 'false')
         b.setv(n, 'Font', K.FONT + '.Roboto')
         col = color(b, *rgb)
         b.link(col[0], col[1], n, 'TextColor')
@@ -1341,10 +1433,9 @@ def build_hud(asset_name='BP_KL_HUD'):
     def rect(en, rgb, x, y, w, h):
         n = b.n('HUD|DrawRect')
         b.link(en[0], en[1], n, 'execute')
-        b.setv(n, 'ScreenX', x)
-        b.setv(n, 'ScreenY', y)
-        b.setv(n, 'ScreenW', w)
-        b.setv(n, 'ScreenH', h)
+        for pin, value, size in (('ScreenX', x, 'SizeX'), ('ScreenY', y, 'SizeY'),
+                                 ('ScreenW', w, 'SizeX'), ('ScreenH', h, 'SizeY')):
+            b.link(pixel(value, size), 'ReturnValue', n, pin)
         col = color(b, *rgb)
         b.link(col[0], col[1], n, 'RectColor')
         return (n, 'then')
@@ -1427,7 +1518,7 @@ def build_hud(asset_name='BP_KL_HUD'):
         en2 = iff(b, en2, lambda: inv_bool('GetCorroborated'), then_fn=corrob)
         return text(en2, JOURNAL_CLOSE, '0.07', '0.875', '0.8', DIM)
 
-    iff(b, e, lambda: jopen, then_fn=journal)
+    e = iff(b, e, lambda: jopen, then_fn=journal)
 
     # ---- ending ----------------------------------------------------------- #
     def ending(en):

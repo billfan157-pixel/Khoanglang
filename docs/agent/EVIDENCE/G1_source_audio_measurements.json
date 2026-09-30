@@ -1,0 +1,222 @@
+{
+  "method": "16-bit PCM; unweighted sample RMS/peak in dBFS (not LUFS); Welch power with 4096-sample Hann windows, 50% overlap; channel power averaged",
+  "scope": "Source files only, not the Unreal mix or perceived audio quality",
+  "files": [
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_Ambience_Hall.wav",
+      "sha256": "c2b09d786105d6e6596c31f0f1a946661e5afd997105d7b77f88355ddd11419b",
+      "duration_s": 8.7,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -3.099,
+      "sample_rms_dbfs": -17.534,
+      "clipped_samples": 0,
+      "dc_offset": 8.652e-05,
+      "spectral_centroid_hz": 4665.03,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.373028,
+        "200-1000Hz": 0.062295,
+        "1000-4000Hz": 0.135474,
+        "4000-16001Hz": 0.429203
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_ChildReply.wav",
+      "sha256": "774609eddd76341ada47518a2c08665c35c52f706246b84b331da6c640606905",
+      "duration_s": 3.2,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -5.193,
+      "sample_rms_dbfs": -34.144,
+      "clipped_samples": 0,
+      "dc_offset": -1.87e-06,
+      "spectral_centroid_hz": 1205.6,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.005416,
+        "200-1000Hz": 0.297453,
+        "1000-4000Hz": 0.696694,
+        "4000-16001Hz": 0.000436
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_ClarityTone.wav",
+      "sha256": "89ead635b15fe0ff5a2c9378519eb6e31a9b27d1bd57e011de214347dc2867ad",
+      "duration_s": 3.75,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -6.021,
+      "sample_rms_dbfs": -13.772,
+      "clipped_samples": 0,
+      "dc_offset": -3.08e-06,
+      "spectral_centroid_hz": 250.41,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.601447,
+        "200-1000Hz": 0.398553,
+        "1000-4000Hz": 0.0,
+        "4000-16001Hz": 0.0
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_NoiseMask.wav",
+      "sha256": "2f3bf0b1eac5160d567d79e0ced4119991f3ad7cbddc4bff8d8337cde24effd5",
+      "duration_s": 3.8,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -5.193,
+      "sample_rms_dbfs": -16.238,
+      "clipped_samples": 0,
+      "dc_offset": -0.00111456,
+      "spectral_centroid_hz": 4427.08,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.048514,
+        "200-1000Hz": 0.164715,
+        "1000-4000Hz": 0.406206,
+        "4000-16001Hz": 0.380565
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_RollCall.wav",
+      "sha256": "e386eb9007ac04b7e4e9bb806271e0844c7a1fe2e7a4111fba6769224380302d",
+      "duration_s": 13.0,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -1.939,
+      "sample_rms_dbfs": -9.108,
+      "clipped_samples": 0,
+      "dc_offset": -4.41e-06,
+      "spectral_centroid_hz": 68.73,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.999144,
+        "200-1000Hz": 0.00053,
+        "1000-4000Hz": 0.000326,
+        "4000-16001Hz": 0.0
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_SpeakerHum.wav",
+      "sha256": "dc578ed018c9e998ab5cf9e14582a86b12464f8ee2c35ad92d12557b09215c78",
+      "duration_s": 2.8,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -9.841,
+      "sample_rms_dbfs": -18.345,
+      "clipped_samples": 0,
+      "dc_offset": -1.489e-05,
+      "spectral_centroid_hz": 84.56,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.971046,
+        "200-1000Hz": 0.028583,
+        "1000-4000Hz": 7.4e-05,
+        "4000-16001Hz": 0.000297
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_T2_Clear.wav",
+      "sha256": "c467eaa70128db82bee12a6e958263cdc925f8bb51474c95086f066e269e108c",
+      "duration_s": 16.0,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -1.31,
+      "sample_rms_dbfs": -28.679,
+      "clipped_samples": 0,
+      "dc_offset": -3.82e-06,
+      "spectral_centroid_hz": 1982.83,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.001798,
+        "200-1000Hz": 0.134523,
+        "1000-4000Hz": 0.848545,
+        "4000-16001Hz": 0.015134
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_T2_Masked.wav",
+      "sha256": "1467167531be9c62eb3f7e220e7fa2230ac6e8ce85151752758e4e17367155ab",
+      "duration_s": 16.0,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -1.31,
+      "sample_rms_dbfs": -15.197,
+      "clipped_samples": 0,
+      "dc_offset": -0.00134825,
+      "spectral_centroid_hz": 335.89,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.384749,
+        "200-1000Hz": 0.584186,
+        "1000-4000Hz": 0.031062,
+        "4000-16001Hz": 4e-06
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_TapeDeck.wav",
+      "sha256": "16c5267398ad820205304fb7d8e4b6b018c07cac7b88b005cb9339308c2a8136",
+      "duration_s": 0.9,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -7.884,
+      "sample_rms_dbfs": -24.616,
+      "clipped_samples": 0,
+      "dc_offset": -0.00026515,
+      "spectral_centroid_hz": 1019.27,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.886212,
+        "200-1000Hz": 0.001059,
+        "1000-4000Hz": 0.021511,
+        "4000-16001Hz": 0.091218
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_UI_Evidence.wav",
+      "sha256": "c55a2495d6ecd5d557af5bb699c210fd8980924eee2851735bb2630599b02a84",
+      "duration_s": 0.55,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -6.021,
+      "sample_rms_dbfs": -24.971,
+      "clipped_samples": 0,
+      "dc_offset": 3e-06,
+      "spectral_centroid_hz": 6297.65,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.00012,
+        "200-1000Hz": 0.253452,
+        "1000-4000Hz": 0.16781,
+        "4000-16001Hz": 0.578619
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_UI_Interact.wav",
+      "sha256": "7dbed6bc975e62878f52249ab2c9a2395f66df136cf8fb37246b9b20a20b0778",
+      "duration_s": 0.16,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -5.455,
+      "sample_rms_dbfs": -19.277,
+      "clipped_samples": 0,
+      "dc_offset": 9.19e-06,
+      "spectral_centroid_hz": 991.64,
+      "power_fraction_by_band": {
+        "0-200Hz": 1e-06,
+        "200-1000Hz": 0.798249,
+        "1000-4000Hz": 0.199216,
+        "4000-16001Hz": 0.002535
+      }
+    },
+    {
+      "file": "Content/KhoangLang/SourceAudio/S_KL_UI_ModeShift.wav",
+      "sha256": "646ff19f07fbc12cb65f80ff1d4d46090fd3b1bfac69c83760c97f3bf77c26f0",
+      "duration_s": 0.34,
+      "sample_rate": 32000,
+      "channels": 1,
+      "sample_peak_dbfs": -4.987,
+      "sample_rms_dbfs": -18.371,
+      "clipped_samples": 0,
+      "dc_offset": 7.99e-06,
+      "spectral_centroid_hz": 620.83,
+      "power_fraction_by_band": {
+        "0-200Hz": 0.0,
+        "200-1000Hz": 0.918358,
+        "1000-4000Hz": 0.081642,
+        "4000-16001Hz": 0.0
+      }
+    }
+  ]
+}
