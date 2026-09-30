@@ -8,3 +8,4 @@ __pycache__/
 opencode.jsonc
 Config/DefaultEngine.ini
 *.report.txt
+*.blend1
