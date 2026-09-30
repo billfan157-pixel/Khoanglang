@@ -1,0 +1,10 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+__pycache__/
+*.pyc
+/_*
+opencode.jsonc
+Config/DefaultEngine.ini
+*.report.txt
