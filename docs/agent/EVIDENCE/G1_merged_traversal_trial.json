@@ -1,63 +1,63 @@
 {
   "method": "Move Blueprint debug calls and real CharacterMovement collision",
   "world": "/Game/KhoangLang/Production/Maps/UEDPIE_0_Lvl_KL_School3_Primary.Lvl_KL_School3_Primary",
-  "status": "failed",
+  "status": "passed",
   "waypoints": [
     {
       "index": 0,
       "location": [
-        -606.25181622192,
+        -610.835617030601,
         0.0,
         98.14999961853027
       ],
-      "game_time": 1.9556660130620003
+      "game_time": 2.06782890856266
     },
     {
       "index": 1,
       "location": [
-        855.4480181301238,
+        852.144356652274,
         0.0,
-        98.14999961853027
+        98.14999675750732
       ],
-      "game_time": 4.419044014066458
+      "game_time": 4.524262711405754
     },
     {
       "index": 2,
       "location": [
-        871.9641797243892,
-        395.1557217445557,
-        98.14999961853027
+        872.547088162086,
+        392.7623966391635,
+        98.1500015258789
       ],
-      "game_time": 5.2073761112987995
+      "game_time": 5.291273809969425
     },
     {
       "index": 3,
       "location": [
-        1384.03984287846,
-        411.1715232910952,
-        98.14999961853027
+        1385.2509789305823,
+        411.4421373959095,
+        98.1500015258789
       ],
-      "game_time": 6.211276412010193
+      "game_time": 6.274745110422373
     },
     {
       "index": 4,
       "location": [
-        1400.9134013909406,
-        804.3916181862481,
-        98.14999961853027
+        1383.9306013099117,
+        805.7906320877275,
+        98.1500015258789
       ],
-      "game_time": 6.989530812948942
+      "game_time": 7.091520711779594
     },
     {
       "index": 5,
       "location": [
-        1251.9569099998298,
-        820.8762649673023,
-        98.14999961853027
+        1254.7976200425655,
+        818.4534090872427,
+        98.1500015258789
       ],
-      "game_time": 7.336057413369417
+      "game_time": 7.441571209579706
     }
   ],
-  "focus_owner": null,
-  "error": "Traceback (most recent call last):\n  File \"C:/Users/phanb/Documents/Unreal Projects/KhoangLang0217/tools/g1_traversal_trial.py\", line 82, in tick\n    raise AssertionError('View trace did not focus reachable attendance book')\nAssertionError: View trace did not focus reachable attendance book\n"
+  "focus_owner": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook.BP_KL_Prop_ART_AttBook_C",
+  "scope_limit": "No physical keyboard proof; no canonical sentence or attention proof"
 }

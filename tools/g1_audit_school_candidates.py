@@ -18,6 +18,9 @@ def main():
     reports = []
     for path in maps:
         gc.collect()
+        if not unreal.EditorAssetLibrary.does_asset_exist(path):
+            reports.append(dict(map=path, status='retired'))
+            continue
         if not level.load_level(path):
             raise RuntimeError('Map load failed: ' + path)
         world = editor.get_editor_world()

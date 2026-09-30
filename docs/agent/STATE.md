@@ -6,6 +6,17 @@ Latest brief: user attachment goal-objective.md supplied on 2026-09-30.
 Read this state and that brief at session start and after compaction.
 
 ## Verified facts
+- Current checkpoint at session entry: fe9a830. Live editor PID 18228 responds
+  to remote Python; PIE stopped after today's focused traversal check.
+- Active classroom is Production/Maps/Lvl_KL_School3_Primary. Production Art
+  prop Blueprint templates now persist copied collision meshes across PIE.
+- Fresh G1_merged_traversal_trial.json passed six CharacterMovement waypoints
+  and focused the attendance book. This is debug-driven movement, not keyboard
+  or canonical-loop qualification.
+- User-authorized obsolete maps ArtTest, School3_G1 and School3_Merged removed
+  through Unreal after referencer checks. Recovery copies are in ignored
+  _g1_cleanup_20260930; original School3 and School3_Art remain references.
+  G1_retired_school_copies.json records the exact three removed packages.
 - Project KhoangLang0217.uproject, Unreal Engine 5.8.3, Blueprint-only.
 - Branch production/g0-audit; source 3ea094b, LFS snapshot ffc85df, G0 f271991.
 - Canonical story matches supplied 30/09 update exactly: 1,132 lines, SHA256
@@ -57,7 +68,7 @@ Read this state and that brief at session start and after compaction.
 - All G1-G5 gates remain incomplete. Full goal remains active.
 
 ## Next executable steps
-1. Check owned editor PID 4812. Do not restart solely on an observation timeout;
+1. Check current editor PID 18228. Do not restart solely on an observation timeout;
    enable remote Python ephemerally on loopback only after MCP responds.
 2. Implement the canonical school loop from revised V3 §§8, 9 and 13:
    dual listening, whole-sentence preview/seal, four consequential attention

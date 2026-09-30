@@ -1,0 +1,22 @@
+[
+  {
+    "blueprint": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_AttBook",
+    "component": "PropMesh_GEN_VARIABLE",
+    "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_AttBook"
+  },
+  {
+    "blueprint": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Roster",
+    "component": "PropMesh_GEN_VARIABLE",
+    "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_Roster"
+  },
+  {
+    "blueprint": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_TapeDeck",
+    "component": "PropMesh_GEN_VARIABLE",
+    "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_TapeDeck"
+  },
+  {
+    "blueprint": "/Game/KhoangLang/Production/Blueprints/Core/PropsArt/BP_KL_Prop_ART_Corner",
+    "component": "PropMesh_GEN_VARIABLE",
+    "mesh": "/Game/KhoangLang/Production/Meshes/School/SM_KL_Prop_Figure"
+  }
+]

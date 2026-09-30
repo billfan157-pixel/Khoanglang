@@ -1,0 +1,9 @@
+{
+  "removed": [
+    "/Game/KhoangLang/Maps/Lvl_KL_School3_ArtTest",
+    "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_G1",
+    "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Merged"
+  ],
+  "backup": "_g1_cleanup_20260930",
+  "primary": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Primary"
+}
