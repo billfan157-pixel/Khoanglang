@@ -211,9 +211,10 @@ def check_graphs():
         'BP_KL_InteractComponent': {
             'SetFocused': 24, 'GetPromptStr': 7, 'IsAvailable': 2, 'IsFocused': 2,
             'DoDocument': 8, 'DoTape': 10, 'DoNote': 5, 'DoCorner': 20,
-            'SetFilterMode': 5, 'DoInteract': 7, 'EventGraph': 6},
+            'SetFilterMode': 5, 'CompleteClearTape': 6,
+            'DoInteract': 7, 'EventGraph': 6},
         'BP_FirstPersonCharacter': {'InitKL': 6, 'UpdateFocus': 25, 'PollKeys': 25,
-                                    'CheckHeard': 6, 'TickKL': 3, 'EventGraph': 3},
+                                    'TickKL': 3, 'EventGraph': 3},
         'BP_KL_HUD': {'EventGraph': 60},
     }
     for bpname, want in floors.items():
@@ -235,6 +236,28 @@ def check_graphs():
             n = len(ed.list_all_nodes())
             (ok if n >= floor else fail)('%-32s %-20s nodes=%d (floor %d)' % (
                 bpname, gname, n, floor))
+
+    hud = unreal.load_asset(K.F_UI + '/BP_KL_HUD')
+    if hud is None:
+        fail('HUD component target audit: HUD missing')
+        return
+    targets = 0
+    missing = []
+    for graph in BPT.list_graphs(hud):
+        ed = unreal.BlueprintGraphEditor.get_graph_editor(graph)
+        for node in ed.list_all_nodes():
+            for pin in BPT.get_node_infos([node])[0].input_pins:
+                if (pin.name == 'self' and
+                        ('BP KL Investigation Component' in str(pin.type_id) or
+                         'BP KL Listening Component' in str(pin.type_id))):
+                    targets += 1
+                    if not pin.connected_pins:
+                        missing.append(node.get_node_title())
+    if targets < 10 or missing:
+        fail('HUD component targets: %d checked, %d disconnected: %s' % (
+            targets, len(missing), missing[:5]))
+    else:
+        ok('HUD component targets: %d connected' % targets)
 
 
 def main():

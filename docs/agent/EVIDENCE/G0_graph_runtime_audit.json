@@ -1,0 +1,1520 @@
+{
+  "graphs": [
+    {
+      "asset": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter",
+      "graph": "Move",
+      "nodes": [
+        {
+          "title": "Move",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "Left / Right",
+              "type": "Float (double-precision)",
+              "links": 1
+            },
+            {
+              "name": "Forward / Backward",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "AddMovementInput",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Pawn Object Reference",
+              "links": 0
+            },
+            {
+              "name": "WorldDirection",
+              "type": "Vector",
+              "links": 1
+            },
+            {
+              "name": "ScaleValue",
+              "type": "Float (single-precision)",
+              "links": 1
+            },
+            {
+              "name": "bForce",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "AddMovementInput",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Pawn Object Reference",
+              "links": 0
+            },
+            {
+              "name": "WorldDirection",
+              "type": "Vector",
+              "links": 1
+            },
+            {
+              "name": "ScaleValue",
+              "type": "Float (single-precision)",
+              "links": 1
+            },
+            {
+              "name": "bForce",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Reroute Node",
+          "inputs": [
+            {
+              "name": "InputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "OutputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Reroute Node",
+          "inputs": [
+            {
+              "name": "InputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "OutputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Reroute Node",
+          "inputs": [
+            {
+              "name": "InputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "OutputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Reroute Node",
+          "inputs": [
+            {
+              "name": "InputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "OutputPin",
+              "type": "Float (double-precision)",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetActorForwardVector",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Vector",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetActorRightVector",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Vector",
+              "links": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter",
+      "graph": "InitKL",
+      "nodes": [
+        {
+          "title": "InitKL",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Return Node",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            }
+          ],
+          "outputs": []
+        },
+        {
+          "title": "InitRun",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "self",
+              "type": "BP KL Investigation Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 0
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "StartBeds",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "BP KL Listening Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 0
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Set TorchOn",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "TorchOn",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "Output_Get",
+              "type": "Boolean",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "PrintString",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "InString",
+              "type": "String",
+              "links": 0
+            },
+            {
+              "name": "bPrintToScreen",
+              "type": "Boolean",
+              "links": 0
+            },
+            {
+              "name": "bPrintToLog",
+              "type": "Boolean",
+              "links": 0
+            },
+            {
+              "name": "TextColor",
+              "type": "Linear Color Structure",
+              "links": 0
+            },
+            {
+              "name": "Duration",
+              "type": "Float (single-precision)",
+              "links": 0
+            },
+            {
+              "name": "Key",
+              "type": "Name",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter",
+      "graph": "EventGraph",
+      "nodes": [
+        {
+          "title": "EnhancedInputAction IA_Look",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "Triggered",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Started",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Ongoing",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Canceled",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Completed",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_X",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_Y",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ElapsedSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "TriggeredSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "InputAction",
+              "type": "Input Action Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "EnhancedInputAction IA_Move",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "Triggered",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Started",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Ongoing",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Canceled",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Completed",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_X",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_Y",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ElapsedSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "TriggeredSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "InputAction",
+              "type": "Input Action Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "EnhancedInputAction IA_Jump",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "Triggered",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Started",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Ongoing",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Canceled",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Completed",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "ActionValue",
+              "type": "Boolean",
+              "links": 0
+            },
+            {
+              "name": "ElapsedSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "TriggeredSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "InputAction",
+              "type": "Input Action Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "EnhancedInputAction IA_MouseLook",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "Triggered",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Started",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Ongoing",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Canceled",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Completed",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_X",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ActionValue_Y",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "ElapsedSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "TriggeredSeconds",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "InputAction",
+              "type": "Input Action Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event Primary Thumbstick",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Axis_X",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "Axis_Y",
+              "type": "Float (double-precision)",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event Secondary Thumbstick",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Axis_X",
+              "type": "Float (double-precision)",
+              "links": 0
+            },
+            {
+              "name": "Axis_Y",
+              "type": "Float (double-precision)",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event Touch Jump Start",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event Touch Jump End",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event BeginPlay",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Event Tick",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "DeltaSeconds",
+              "type": "Float (single-precision)",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "InitKL",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Self Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "TickKL",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Self Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent",
+      "graph": "DoTape",
+      "nodes": [
+        {
+          "title": "DoTape",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Return Node",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            }
+          ],
+          "outputs": []
+        },
+        {
+          "title": "GetPlayerPawn",
+          "inputs": [
+            {
+              "name": "PlayerIndex",
+              "type": "Integer",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Pawn Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 1
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "CollectTape",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "self",
+              "type": "BP KL Investigation Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "PlaySound2D",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "Sound",
+              "type": "Sound Base Object Reference",
+              "links": 1
+            },
+            {
+              "name": "VolumeMultiplier",
+              "type": "Float (single-precision)",
+              "links": 0
+            },
+            {
+              "name": "PitchMultiplier",
+              "type": "Float (single-precision)",
+              "links": 0
+            },
+            {
+              "name": "StartTime",
+              "type": "Float (single-precision)",
+              "links": 0
+            },
+            {
+              "name": "ConcurrencySettings",
+              "type": "Sound Concurrency Object Reference",
+              "links": 0
+            },
+            {
+              "name": "OwningActor",
+              "type": "Actor Object Reference",
+              "links": 0
+            },
+            {
+              "name": "bIsUISound",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Get SfxTake",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "SfxTake",
+              "type": "Sound Wave Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetOwner",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 1
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Audio Component Object Reference",
+              "links": 4
+            }
+          ]
+        },
+        {
+          "title": "GetPlayerPawn",
+          "inputs": [
+            {
+              "name": "PlayerIndex",
+              "type": "Integer",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Pawn Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 1
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "IsFilterOn",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "BP KL Listening Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Boolean",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Branch",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Condition",
+              "type": "Boolean",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "else",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "SetSound",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Audio Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "NewSound",
+              "type": "Sound Base Object Reference",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Get ClearWave",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "ClearWave",
+              "type": "Sound Wave Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Play",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Audio Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "StartTime",
+              "type": "Float (single-precision)",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "ArmClearTape",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Self Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "SetSound",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Audio Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "NewSound",
+              "type": "Sound Base Object Reference",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Get MaskedWave",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "MaskedWave",
+              "type": "Sound Wave Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Play",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Audio Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "StartTime",
+              "type": "Float (single-precision)",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "DisarmClearTape",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Self Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Set bTapeStarted",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "bTapeStarted",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "Output_Get",
+              "type": "Boolean",
+              "links": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "/Game/KhoangLang/Blueprints/Core/BP_KL_InteractComponent",
+      "graph": "EventGraph",
+      "nodes": [
+        {
+          "title": "Event Tick",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            },
+            {
+              "name": "DeltaSeconds",
+              "type": "Float (single-precision)",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Event Begin Play",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "OutputDelegate",
+              "type": "Delegate",
+              "links": 0
+            },
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetOwner",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 1
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Static Mesh Component Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetOwner",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Component Object Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Actor Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "GetComponentByClass",
+          "inputs": [
+            {
+              "name": "self",
+              "type": "Actor Object Reference",
+              "links": 1
+            },
+            {
+              "name": "ComponentClass",
+              "type": "Actor Component Class Reference",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Point Light Component Object Reference",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Get bHiddenAtStart",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "bHiddenAtStart",
+              "type": "Boolean",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Select",
+          "inputs": [
+            {
+              "name": "Option 0",
+              "type": "Boolean",
+              "links": 0
+            },
+            {
+              "name": "Option 1",
+              "type": "Boolean",
+              "links": 0
+            },
+            {
+              "name": "Index",
+              "type": "Boolean",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "ReturnValue",
+              "type": "Boolean",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "Branch",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "Condition",
+              "type": "Boolean",
+              "links": 1
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "else",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        },
+        {
+          "title": "Get bHiddenAtStart",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "bHiddenAtStart",
+              "type": "Boolean",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "SetHiddenInGame",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Scene Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "NewHidden",
+              "type": "Boolean",
+              "links": 1
+            },
+            {
+              "name": "bPropagateToChildren",
+              "type": "Boolean",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 1
+            }
+          ]
+        },
+        {
+          "title": "SetIntensity",
+          "inputs": [
+            {
+              "name": "execute",
+              "type": "Exec",
+              "links": 1
+            },
+            {
+              "name": "self",
+              "type": "Light Component Object Reference",
+              "links": 1
+            },
+            {
+              "name": "NewIntensity",
+              "type": "Float (single-precision)",
+              "links": 0
+            }
+          ],
+          "outputs": [
+            {
+              "name": "then",
+              "type": "Exec",
+              "links": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "game_time": 572.4355339705944,
+  "paused": false
+}

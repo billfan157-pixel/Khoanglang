@@ -1,0 +1,74 @@
+{
+  "worlds": [
+    {
+      "kind": "editor",
+      "world": null
+    },
+    {
+      "kind": "game",
+      "world": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3",
+      "actors": 87,
+      "pawn": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.BP_FirstPersonCharacter_C_0",
+      "controller": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.BP_FirstPersonPlayerController_C_0",
+      "default_game_mode": "/Game/KhoangLang/Blueprints/Player/BP_KL_GameMode.BP_KL_GameMode_C",
+      "player_related_actors": [
+        {
+          "class": "PlayerStart",
+          "path": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.PlayerStart_0",
+          "location": [
+            -1000.0,
+            0.0,
+            120.0
+          ]
+        },
+        {
+          "class": "BP_FirstPersonPlayerController_C",
+          "path": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.BP_FirstPersonPlayerController_C_0",
+          "location": [
+            -1000.0,
+            0.0,
+            120.0
+          ]
+        },
+        {
+          "class": "BP_KL_HUD_C",
+          "path": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.BP_KL_HUD_C_0",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "class": "BP_FirstPersonCharacter_C",
+          "path": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3:PersistentLevel.BP_FirstPersonCharacter_C_0",
+          "location": [
+            -1000.0,
+            0.0,
+            106.14999771118164
+          ]
+        }
+      ],
+      "components": [
+        "CapsuleComponent",
+        "ArrowComponent",
+        "CharacterMovementComponent",
+        "SkeletalMeshComponent",
+        "SkeletalMeshComponent",
+        "CameraComponent",
+        "CameraProxyMeshComponent",
+        "DrawFrustumComponent",
+        "SpotLightComponent",
+        "BP_KL_InvestigationComponent_C",
+        "BP_KL_ListeningComponent_C",
+        "EnhancedInputComponent"
+      ]
+    }
+  ],
+  "game_mode_defaults": {
+    "default_pawn_class": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller_class": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "hud_class": "/Game/KhoangLang/Blueprints/UI/BP_KL_HUD.BP_KL_HUD_C",
+    "start_players_as_spectators": "False"
+  }
+}

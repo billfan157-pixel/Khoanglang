@@ -1,5 +1,12 @@
 # Decisions
 
+## 2026-09-30: Repair runtime on production copies
+
+G0 exposes bypassed function bodies, disconnected input handlers, HUD coordinate
+mismatch and art-map spawn failure. Use a production namespace and copied map.
+Alternative: overwrite baseline assets. Copies and ffc85df LFS snapshot preserve
+comparison and rollback. Do not claim the original slice works.
+
 ## 2026-09-30: Adopt the user's revised V3 story
 
 Copy the new Downloads file byte-for-byte to the canonical story path. Preserve

@@ -245,6 +245,8 @@ def newfn(bp, name, params=(), out=None):
 
 def comp_class_ref(spec):
     """A /Script/... class path usable on a ComponentClass pin."""
+    if spec.startswith('/Game/'):
+        return K.cls_path(spec)
     if spec.startswith('/'):
         return spec
     return '/Script/Engine.' + spec
@@ -1306,9 +1308,9 @@ JOURNAL_CLOSE = '[Tab] đóng sổ tay'
 CORROB_HEADER = 'ĐỐI CHỨNG HAI NGUỒN ĐỘC LẬP'
 
 
-def build_hud():
-    step('BP_KL_HUD')
-    bp, path = K.new_bp(K.F_UI, 'BP_KL_HUD', 'HUD')
+def build_hud(asset_name='BP_KL_HUD'):
+    step(asset_name)
+    bp, path = K.new_bp(K.F_UI, asset_name, 'HUD')
     g = unreal.BlueprintEditorLibrary.find_event_graph(bp)
     b = K.B(g, 'HUD.EventGraph')
     b.clear(keep_prefixes=())
@@ -1441,6 +1443,18 @@ def build_hud():
     iff(b, e, lambda: inv_bool('GetEnded'), then_fn=ending)
 
     b.compile(bp, '(event graph)')
+    missing_targets = []
+    for node in unreal.BlueprintGraphEditor.get_graph_editor(g).list_all_nodes():
+        for pin in BPT.get_node_infos([node])[0].input_pins:
+            if (pin.name == 'self' and
+                    ('BP KL Investigation Component' in str(pin.type_id) or
+                     'BP KL Listening Component' in str(pin.type_id)) and
+                    not pin.connected_pins):
+                missing_targets.append(node.get_node_title())
+    if missing_targets:
+        fail('%s has %d unconnected component targets: %s' % (
+            asset_name, len(missing_targets), missing_targets[:5]))
+        return None
     K.save(path)
     return path
 
@@ -1493,4 +1507,5 @@ def main():
     build_gamemode()
 
 
-K.run(main)
+if __name__ == '__main__':
+    K.run(main)

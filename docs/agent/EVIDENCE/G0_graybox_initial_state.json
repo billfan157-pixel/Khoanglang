@@ -1,0 +1,61 @@
+{
+  "world": "/Game/KhoangLang/Maps/UEDPIE_0_Lvl_KL_School3.Lvl_KL_School3",
+  "components": [
+    {
+      "class": "BP_KL_InvestigationComponent_C",
+      "state": {
+        "bHasDoc": "False",
+        "bHasTape": "False",
+        "bTapeHeard": "False",
+        "bCorroborated": "False",
+        "bRevealed": "False",
+        "bBeatDone": "False",
+        "bEnded": "False",
+        "JournalOpen": "False",
+        "ObjectiveText": "Mục tiêu: vào hành lang Trường tiểu học số 3, tìm sổ điểm danh trong lớp 3.",
+        "SubtitleText": ""
+      }
+    },
+    {
+      "class": "BP_KL_ListeningComponent_C",
+      "state": {
+        "bFilterOn": "False",
+        "bStarted": "False"
+      }
+    }
+  ],
+  "props": [
+    {
+      "class": "BP_KL_Prop_AttBook_C",
+      "location": [
+        1050.0,
+        830.0,
+        82.0
+      ]
+    },
+    {
+      "class": "BP_KL_Prop_Roster_C",
+      "location": [
+        1050.0,
+        880.0,
+        178.0
+      ]
+    },
+    {
+      "class": "BP_KL_Prop_TapeDeck_C",
+      "location": [
+        1930.0,
+        0.0,
+        120.0
+      ]
+    },
+    {
+      "class": "BP_KL_Prop_Corner_C",
+      "location": [
+        1470.0,
+        800.0,
+        150.0
+      ]
+    }
+  ]
+}
