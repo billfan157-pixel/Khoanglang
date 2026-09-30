@@ -37,7 +37,18 @@
 - **Still unverified on this machine: an actual Play-In-Editor or game session.** A commandlet has no tick loop, so PIE and slate-tick callbacks cannot run there; the full editor GUI reached 3.2 GB working set and did not finish starting with ~1.4-3.5 GB of free RAM; and `UnrealEditor-Cmd.exe <project> <map> -game` exits immediately with "Running engine without a game" on this build. `run_playtest.ps1` and `run_60_playtest.py` are ready for the first machine where the editor can stay up.
 - Shader compilation and first-load times on this integrated GPU are still unmeasured for the prototype level.
 
+### School furniture pass (2026-09-30)
+
+- A reusable desk and bench set was modelled in Blender 5.2.2 and carried through to Unreal. Source of truth is `ArtSource/Blender/SchoolFurniture/kl_school_furniture.py`; run it with `blender --background --python kl_school_furniture.py` and it rebuilds `KL_SchoolFurniture.blend` plus both FBX files deterministically.
+- `SM_KL_SchoolDesk_A` (110 x 50 x 68 cm, worktop at 65) and `SM_KL_SchoolBench_A` (110 x 30 x 38) are imported under `/Game/KhoangLang/Meshes/SchoolFurniture/` and use `MI_SF_Wood_AgedTop`, `MI_SF_Wood_AgedFrame` and `MI_SF_Metal_Hardware`, all parented on the existing `MI_ART_*` materials.
+- The FBX is written with Blender axes `forward -Y / up Z`. That is the identity mapping and it is deliberate: Blender's default export rewrites the scene Y-up, and UE 5.8.3's importer in this project was measured handing those axes straight through, which lays the desk on its side. Verify with `get_bounds()` after any change to the export options.
+- `add_simple_collisions` returns -1 on an FBX import because there are no UCX bodies to derive shapes from, so both meshes run `CTF_USE_COMPLEX_AS_SIMPLE`. Do not read the -1 as a failure; do not assume simple collision exists.
+- The furniture lives in `/Game/KhoangLang/Maps/Lvl_KL_School3_ArtTest`, a duplicate of `Lvl_KL_School3`. `Lvl_KL_School3` is byte-identical to the snapshot in `_furniture_recovery_20260930_114602`. Rebuild or re-stage with `run_ue_script.ps1 art_95_schoolfurn_stage.py`; verify with `art_97_schoolfurn_verify.py`, which reports 38 checks.
+- **Still unverified: anything visual.** Headless EEVEE renders only the world colour on this machine and Blender exits with an access violation inside `igxelpgicd64.dll`; both Unreal screenshot entry points (`take_high_res_screenshot` and `take_automation_high_res_screenshot`) recurse until `EXCEPTION_STACK_OVERFLOW`. Form previews under `ArtSource/Blender/SchoolFurniture/Preview/` came from a GUI session via `render.opengl`, which does work. In-engine look, collision behaviour and PIE remain unchecked here.
+- `BP_KL_HUD` reports `BS_ERROR` ("not a BP_KL_InvestigationComponent_C, therefore ' Target ' must have a connection"). That asset was modified by concurrent work at 13:55 on 2026-09-30 and is not touched by any furniture script.
+
 ## Machine notes
+
 
 CPU: Intel Core Ultra 7 155H (16 cores / 22 logical processors). RAM visible to Windows: 15.5 GB. Graphics: integrated Intel Arc, about 2 GB reported adapter memory. C: currently has about 31.7 GB free. Epic recommends 32 GB RAM and 8 GB or more graphics RAM for UE5, so keep the first levels small, use modest textures, and start with low scalability. Shader compilation took several minutes on first launch. Visual Studio/Build Tools were not found; they are not needed for this Blueprint-only project, but install Visual Studio 2022 with the Unreal workload before adding C++.
 
