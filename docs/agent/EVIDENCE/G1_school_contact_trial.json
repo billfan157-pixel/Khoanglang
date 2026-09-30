@@ -1,0 +1,204 @@
+{
+  "case": "contact",
+  "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+  "status": "passed",
+  "method": "Blueprint debug API calls; actual engine Tick/game time",
+  "scope_limit": "No physical-key, campaign-save or visual/audio-quality qualification",
+  "fixture_setup": [
+    {
+      "bNotebook": true,
+      "bLamWitness": true,
+      "bObserved": true,
+      "bWorkingAvailable": true,
+      "LamState": 2
+    },
+    {
+      "EntityState": 1
+    },
+    {
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": false,
+      "LamState": 2,
+      "EntityState": 1
+    },
+    {
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": false,
+      "LamState": 0,
+      "EntityState": 1
+    },
+    {
+      "ContactCooldown": 0.0,
+      "bWorkingAvailable": false,
+      "LamState": 0,
+      "EntityState": 0
+    },
+    {
+      "bWorkingAvailable": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Raw recordings retained at initialization",
+      "pass": true
+    },
+    {
+      "name": "LamActor resolved",
+      "pass": true
+    },
+    {
+      "name": "NotebookActor resolved",
+      "pass": true
+    },
+    {
+      "name": "LedgerActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ListenActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ExitActor resolved",
+      "pass": true
+    },
+    {
+      "name": "TeacherActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ChildActor resolved",
+      "pass": true
+    },
+    {
+      "name": "FalseGeometryActor resolved",
+      "pass": true
+    },
+    {
+      "name": "Contact applies exactly one loss",
+      "pass": true
+    },
+    {
+      "name": "Available unsealed working reconstruction lost",
+      "pass": true
+    },
+    {
+      "name": "Other two loss alternatives not applied",
+      "pass": true
+    },
+    {
+      "name": "Contact never deletes raw recordings",
+      "pass": true
+    },
+    {
+      "name": "Contact opens false silence",
+      "pass": true
+    },
+    {
+      "name": "Contact cooldown prevents duplicate loss",
+      "pass": true
+    },
+    {
+      "name": "Raw retention survives subsequent real ticks",
+      "pass": true
+    },
+    {
+      "name": "Cooldown persists across real ticks",
+      "pass": true
+    },
+    {
+      "name": "When work absent, exactly one trust loss applies",
+      "pass": true
+    },
+    {
+      "name": "Trust loss leaves anchored entity unchanged",
+      "pass": true
+    },
+    {
+      "name": "With work/trust absent, exactly one anchor loss applies",
+      "pass": true
+    },
+    {
+      "name": "Anchor loss changes Giữ to Tràn only",
+      "pass": true
+    },
+    {
+      "name": "Exhausted alternatives never fabricate a counted loss",
+      "pass": true
+    },
+    {
+      "name": "Exhausted contact is explicitly deferred",
+      "pass": true
+    },
+    {
+      "name": "Exhausted contact does not teleport without a consequence",
+      "pass": true
+    },
+    {
+      "name": "All three losses retain raw recordings",
+      "pass": true
+    },
+    {
+      "name": "Reacquired work permits a recovery seal",
+      "pass": true
+    },
+    {
+      "name": "Correct timed reconstruction restores trust and anchors entity",
+      "pass": true
+    },
+    {
+      "name": "Recovery re-arms applicable contact consequences",
+      "pass": true
+    },
+    {
+      "name": "Recovery preserves all three previous losses",
+      "pass": true
+    },
+    {
+      "name": "Recovery retains raw recordings",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "phase": 1,
+      "game_time": 3.0682174004614353,
+      "EntityState": 1,
+      "LamState": 2,
+      "Attention": 46.0,
+      "Candidate": 0,
+      "bSealing": false,
+      "bWorkingAvailable": false,
+      "LastLoss": 1,
+      "LossCount": 1,
+      "bRawRetained": true,
+      "bFalseSpace": true,
+      "RollTime": 0.0,
+      "RollCycles": 0
+    },
+    {
+      "phase": 2,
+      "game_time": 3.5698304027318954,
+      "EntityState": 0,
+      "LamState": 0,
+      "Attention": 49.0,
+      "Candidate": 3,
+      "bSealing": true,
+      "bWorkingAvailable": true,
+      "LastLoss": 3,
+      "LossCount": 3,
+      "bRawRetained": true,
+      "bFalseSpace": true,
+      "RollTime": 0.0,
+      "RollCycles": 0
+    }
+  ],
+  "binding": {
+    "source_revision": "a9e7f63a889467cd33e47a039f8e62dd0f4b3cca",
+    "started_utc": "2026-09-30T14:44:31.732230+00:00",
+    "loop_asset_sha256": "eba277002fa96aaa7cdbda1e8fb328bc0b05b4b324f09e0c99ff3410fb64984f",
+    "map_sha256": "dfeeb66abbabf4035806536955a32c5ceea691ca6a1508e9a4cda5738f62113e",
+    "scenario_sha256": "a2b06359454877af965fbae7d7b2699718cee3c28bc4cfab9d941844810eb670",
+    "pawn_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.BP_KL_SchoolPlayer_C"
+  }
+}

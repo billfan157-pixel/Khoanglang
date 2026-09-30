@@ -1,0 +1,175 @@
+{
+  "status": "captured",
+  "scope": "Runtime exposure fixtures, inspected images required; no assets changed",
+  "map_sha256": "dfeeb66abbabf4035806536955a32c5ceea691ca6a1508e9a4cda5738f62113e",
+  "captures": [
+    {
+      "bias_ev": -1.0,
+      "scene": "entry",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_entry_off.png",
+      "screenshot_source": "ScreenShot00017.png",
+      "sha256": "35207c4cf5acae52f51750d9eda62d25d09b6999ca56d018e49218bedd8cdc19"
+    },
+    {
+      "bias_ev": -1.0,
+      "scene": "entry",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_entry_on.png",
+      "screenshot_source": "ScreenShot00018.png",
+      "sha256": "163e72a6fea9aefea265579847603a3585bd79e8d046ebdd50cf508598747301"
+    },
+    {
+      "bias_ev": -1.0,
+      "scene": "hall",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_hall_off.png",
+      "screenshot_source": "ScreenShot00019.png",
+      "sha256": "fdf2550f7b0b7ecc133e88e8ffd37e5c523065f03e88764235944ddc950a1b2e"
+    },
+    {
+      "bias_ev": -1.0,
+      "scene": "hall",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_hall_on.png",
+      "screenshot_source": "ScreenShot00020.png",
+      "sha256": "cc08c6634e39150ceeccfac8fd5c5fb899c6ad8c03794f4cf0ebea3d314cba4b"
+    },
+    {
+      "bias_ev": -1.0,
+      "scene": "classroom",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_classroom_off.png",
+      "screenshot_source": "ScreenShot00021.png",
+      "sha256": "1f705032ee2385117ec106979e8c03fdf2800121df33540e6bbbdc164206254d"
+    },
+    {
+      "bias_ev": -1.0,
+      "scene": "classroom",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-1_classroom_on.png",
+      "screenshot_source": "ScreenShot00022.png",
+      "sha256": "1f705032ee2385117ec106979e8c03fdf2800121df33540e6bbbdc164206254d"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "entry",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_entry_off.png",
+      "screenshot_source": "ScreenShot00023.png",
+      "sha256": "bf8185b0a3d8beb5e160eebbce96ded4b918156c519a2abd86d1a3d4f368de79"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "entry",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        -880.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_entry_on.png",
+      "screenshot_source": "ScreenShot00024.png",
+      "sha256": "7d3eaf5a80ba233fc3e408dab908c6221a1592d23a629ad752ee4cf1ec4fe52d"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "hall",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_hall_off.png",
+      "screenshot_source": "ScreenShot00025.png",
+      "sha256": "78fb21c94a4b8ee313dd8989c8f5f986664dc8989817191841c9f90b25ab6759"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "hall",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        300.0,
+        0.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_hall_on.png",
+      "screenshot_source": "ScreenShot00026.png",
+      "sha256": "0e05b68aa2e89eb3e051616d804ca1cc275ebf20c066d7ccac26c4b11df54489"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "classroom",
+      "torch": false,
+      "torch_lumens": 90,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_classroom_off.png",
+      "screenshot_source": "ScreenShot00027.png",
+      "sha256": "7d80d776cad32ae697b0243e7758effe03a4a5847e7e0f1997be8847a7866f87"
+    },
+    {
+      "bias_ev": -3.0,
+      "scene": "classroom",
+      "torch": true,
+      "torch_lumens": 90,
+      "camera": [
+        870.0,
+        180.0,
+        154.15000009536743
+      ],
+      "path": "docs/agent/EVIDENCE/G1_ev-3_classroom_on.png",
+      "screenshot_source": "ScreenShot00028.png",
+      "sha256": "d4aabf7e7683fe9551410e7c2c6cf02f44c1d3a76385be443a057b96990c416e"
+    }
+  ]
+}

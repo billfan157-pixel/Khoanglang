@@ -1,0 +1,26 @@
+{
+  "status": "built",
+  "player": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer",
+  "game_mode": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolNativeGameMode",
+  "blueprint_status": {
+    "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+    "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolNativeGameMode": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+  },
+  "parents": {
+    "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer": "/Script/Engine.Character",
+    "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolNativeGameMode": "/Script/Engine.GameModeBase"
+  },
+  "controller": "/Script/Engine.PlayerController",
+  "hud": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolHUD",
+  "walk_speed_cm_s": 220,
+  "camera_eye_above_capsule_cm": 64,
+  "camera_fov_deg": 80,
+  "flashlight": {
+    "lumens": 600,
+    "radius_cm": 1200
+  },
+  "runtime": "Blueprint Tick; native CharacterMovement; no Python",
+  "input": "Provisional WASD/mouse/F polling; physical capture/remapping not qualified",
+  "scope": "New assets only; original/copied assets preserved",
+  "failures": []
+}

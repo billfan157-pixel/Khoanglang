@@ -1,5 +1,23 @@
 # Decisions
 
+## 2026-09-30: Build the canonical school as an isolated scenario
+
+The current Primary map's prototype reveals the 65 voices before campaign
+discovery. Its automatic source/journal progression does not qualify V3.
+Create a new G1Canon namespace and map from the verified Primary template,
+with a separate Blueprint loop actor and HUD. Reuse movement, architecture
+and furniture; preserve every existing asset. Alternative: extend the old
+flags. Rejected because automatic progression conflicts with preview/seal
+and attention consequences. Reversible by selecting Primary map/game mode.
+
+Lâm's G1 testimony describes direct present observation of two interrupted
+beats, not an invented 2002 eyewitness history. Vân's notebook is a related
+source. The rice ledger is an explicit Section 13 scenario fixture, not
+early campaign disclosure. Acknowledgment must be sealed before Giữ.
+Character silhouettes and inherited audio remain engineering placeholders;
+they do not satisfy the art/audio quality bar. Prove the playable loop and
+then qualify G1 presentation before later-gate work.
+
 ## 2026-09-30: Recover the unattended editor without restoring original assets
 
 Engine source shows that a pending autosave recovery dialog is offered before
@@ -53,3 +71,20 @@ Keep explicit directory saves supported. Reversible via Git.
 Exclude DefaultEngine.ini from the initial commit because it contains a local
 token. A sanitized distributable configuration remains required. Do not expose
 the token in evidence or change it without a concrete need.
+
+## 2026-09-30: Native player after cooked compiler failures
+
+The copied template Character passed a limited editor audit but actual Windows
+cook found null Enhanced Input events and orphaned pins; its template animation
+also lacked a skeleton. Create independent native Character/GameMode Blueprints
+in G1Canon, preserve template/source assets, and validate actual input separately.
+Installed Blueprint packaging avoids native compilation; this does not qualify
+SDK readiness. Packaging remains isolated and rejects missing runtime evidence.
+
+## 2026-09-30: Applicable loss and exhausted inventory
+
+Contact chooses one applicable loss: active unsealed draft, positive Lam trust,
+then Giữ anchor. With all exhausted, defer touch and approach outside touch range
+until a draft is reacquired; never increment a loss counter without a loss.
+This is a reversible composition default, not a new canon fact. Correct sealing
+consumes only the working draft; completed listening/raw material persists.

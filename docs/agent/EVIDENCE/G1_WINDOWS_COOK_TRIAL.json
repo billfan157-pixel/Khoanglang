@@ -1,0 +1,56 @@
+{
+  "schema": "kl.g1-packaging-trial.v1",
+  "gate": "g1",
+  "qualified": false,
+  "packaged_artifact": null,
+  "release_complete": false,
+  "source_revision": "a9e7f63a889467cd33e47a039f8e62dd0f4b3cca",
+  "source_sha256": "424f8325884de83d7303a47eae70ffe94182597dc2e27fbc0aa7d96de97e8ae6",
+  "source_snapshot": "_release_work/20260930_211515_19983cdc/source_manifest.json",
+  "uat_log": "_release_work/20260930_211515_19983cdc/uat.log",
+  "uat_log_sha256": "c4585d14182b46685549a34f9fc898271c454562ffc8265a0ed76f6abe2e2593",
+  "uat_exit_code": 25,
+  "cook_exit_code": 1,
+  "cook_error_count": 23,
+  "cook_warning_count": 20,
+  "cook_peak_physical_memory_mb": 2136,
+  "cook_runtime_seconds": 71.19,
+  "sdk_status": "Native Win64 SDK INVALID 10.0.22621.0; installed Blueprint content cook nonetheless executed",
+  "blueprint_fatal_errors": [
+    "FirstPerson\\Anims\\ABP_FP_Copy.uasset: [Compiler] ABP_FP_Copy  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!",
+    "KhoangLang\\Production\\G1Canon\\BP_KL_SchoolCharacter.uasset: [Compiler] In use pin  Action Value Y  no longer exists on node  EnhancedInputAction None . Please refresh node or break links to remove pin.",
+    "KhoangLang\\Production\\G1Canon\\BP_KL_SchoolCharacter.uasset: [Compiler] In use pin  Action Value X  no longer exists on node  EnhancedInputAction None . Please refresh node or break links to remove pin.",
+    "KhoangLang\\Production\\G1Canon\\BP_KL_SchoolCharacter.uasset: [Compiler] EnhancedInputActionEvent references invalid 'null' action for  EnhancedInputAction None",
+    "FirstPerson\\Blueprints\\BP_FirstPersonCharacter.uasset: [Compiler] EnhancedInputActionEvent references invalid 'null' action for  EnhancedInputAction None"
+  ],
+  "nevercook_failure": "Landmass startup BrushBounds and M_BrushSprite_01 reference Engine/EditorMaterials and Engine/EditorResources",
+  "material_warning": "M_KL_ART_Surface Normal sampler refers to DefaultTexture/Color; missing Saturate input; fallback material",
+  "mesh_nan_bounds_warnings": [
+    "SM_KL_Notice_Board",
+    "SM_KL_Wall_700",
+    "SM_KL_Door_Frame"
+  ],
+  "source_asset_sha256": {
+    "FirstPerson/Anims/ABP_FP_Copy.uasset": "a9d36cac5bb30f5a5ecdb175dc4fcbd50d8ae74405ad57802436fbedbab02455",
+    "FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset": "d33f10baa6f30544a873230876afc0532f00e29949fd36efedd54ef958bb5688",
+    "KhoangLang/Production/G1Canon/BP_KL_SchoolCharacter.uasset": "f33ef218333ddf5243f93e623ee21e6e70e2af040f9dfc2f34b26258cf6d527d",
+    "KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap": "3ffdebe52cf4e46d4f344acfd48f040df56261d36a87509a944e529653562727"
+  },
+  "earlier_attempts": [
+    {
+      "run": "_release_work/20260930_210945_85ca5d9d",
+      "failure": "Malformed Windows cmd /c quoting; fixed in coordinator"
+    },
+    {
+      "run": "_release_work/20260930_211144_5d3b0849",
+      "failure": "Sandbox denied AutomationTool AppData log writes; escalated execution subsequently authorized"
+    },
+    {
+      "run": "_release_work/20260930_211247_2f504a59",
+      "failure": "Enabled unused GameplayStateTree requests native project targets; guarded disable in isolated descriptor"
+    }
+  ],
+  "latest_pipeline_fix": "Guarded disable of unused Landmass in isolated descriptor; preflight only passed, next cook awaits canonical character asset repair",
+  "latest_preflight": "_release_work/20260930_211929_79a6233a/result.json",
+  "original_config_assets_modified": false
+}

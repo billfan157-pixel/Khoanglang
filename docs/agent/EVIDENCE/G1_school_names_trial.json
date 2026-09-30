@@ -1,0 +1,103 @@
+{
+  "case": "names",
+  "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+  "status": "passed",
+  "method": "Blueprint debug API calls; actual engine Tick/game time",
+  "scope_limit": "No physical-key, campaign-save or visual/audio-quality qualification",
+  "fixture_setup": [
+    {
+      "bNotebook": true,
+      "bLamWitness": true,
+      "bObserved": true,
+      "bWorkingAvailable": true,
+      "LamState": 2
+    },
+    {
+      "bLedger": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Raw recordings retained at initialization",
+      "pass": true
+    },
+    {
+      "name": "LamActor resolved",
+      "pass": true
+    },
+    {
+      "name": "NotebookActor resolved",
+      "pass": true
+    },
+    {
+      "name": "LedgerActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ListenActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ExitActor resolved",
+      "pass": true
+    },
+    {
+      "name": "TeacherActor resolved",
+      "pass": true
+    },
+    {
+      "name": "ChildActor resolved",
+      "pass": true
+    },
+    {
+      "name": "FalseGeometryActor resolved",
+      "pass": true
+    },
+    {
+      "name": "True names require ledger",
+      "pass": true
+    },
+    {
+      "name": "Fixture names seal starts after ledger",
+      "pass": true
+    },
+    {
+      "name": "Real world ticks finish timed seal",
+      "pass": true
+    },
+    {
+      "name": "Both ledger names complete roll call as Yên",
+      "pass": true
+    },
+    {
+      "name": "Completed seal is no longer exposed as unsealed work",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "phase": 1,
+      "game_time": 2.9622056894004345,
+      "EntityState": 0,
+      "LamState": 2,
+      "Attention": 3.0,
+      "Candidate": 4,
+      "bSealing": true,
+      "bWorkingAvailable": true,
+      "LastLoss": 0,
+      "LossCount": 0,
+      "bRawRetained": true,
+      "bFalseSpace": false,
+      "RollTime": 0.0,
+      "RollCycles": 0
+    }
+  ],
+  "binding": {
+    "source_revision": "a9e7f63a889467cd33e47a039f8e62dd0f4b3cca",
+    "started_utc": "2026-09-30T14:44:00.257046+00:00",
+    "loop_asset_sha256": "eba277002fa96aaa7cdbda1e8fb328bc0b05b4b324f09e0c99ff3410fb64984f",
+    "map_sha256": "dfeeb66abbabf4035806536955a32c5ceea691ca6a1508e9a4cda5738f62113e",
+    "scenario_sha256": "a2b06359454877af965fbae7d7b2699718cee3c28bc4cfab9d941844810eb670",
+    "pawn_class": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolPlayer.BP_KL_SchoolPlayer_C"
+  }
+}

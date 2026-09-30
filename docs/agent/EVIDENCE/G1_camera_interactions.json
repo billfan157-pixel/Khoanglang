@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "method": "Debug positioning; real camera trace and Interact Blueprint",
+  "scope_limit": "No physical input or walking-route qualification",
+  "targets": [
+    {
+      "target": "LamActor",
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_53",
+      "hit_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_53",
+      "camera": [
+        740.0,
+        -120.0,
+        162.0
+      ],
+      "ray_end": [
+        473.68393672111415,
+        -103.72512946629031,
+        24.84722741137361
+      ],
+      "hit_label": "G1_Lam",
+      "target_center": [
+        560.0,
+        -109.0,
+        69.30000000000001
+      ],
+      "acquired": true,
+      "message": "Thầy Lâm: «Tôi nghe cô dừng hai lần. Không chỉ một.»",
+      "pass": true
+    },
+    {
+      "target": "NotebookActor",
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_50",
+      "hit_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_50",
+      "camera": [
+        1200.0,
+        790.0,
+        162.0
+      ],
+      "ray_end": [
+        926.4830355515587,
+        787.2769675570466,
+        38.7885749890672
+      ],
+      "hit_label": "G1_VanNotebook",
+      "target_center": [
+        1050.1567926949015,
+        788.5082171569476,
+        94.5
+      ],
+      "acquired": true,
+      "message": "Sổ cô Vân: «63 + 2». Nguồn có liên quan, không độc lập.",
+      "pass": true
+    },
+    {
+      "target": "LedgerActor",
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_51",
+      "hit_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_51",
+      "camera": [
+        773.3403746241426,
+        594.6480985187084,
+        162.0
+      ],
+      "ray_end": [
+        479.28481816811086,
+        558.7389780615225,
+        114.65166544296578
+      ],
+      "hit_label": "G1_RiceLedger",
+      "target_center": [
+        571.5,
+        570.0,
+        129.5
+      ],
+      "acquired": true,
+      "message": "Sổ phát gạo lán: Lê Thị Tuyết; Lê Thị Ngọc Ánh.",
+      "pass": true
+    },
+    {
+      "target": "ListenActor",
+      "expected_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_52",
+      "hit_actor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_52",
+      "camera": [
+        1930.0,
+        -180.0,
+        162.0
+      ],
+      "ray_end": [
+        1930.0000000000002,
+        115.25879228320758,
+        108.87518866422509
+      ],
+      "hit_label": "G1_ListeningDeck",
+      "target_center": [
+        1930.0,
+        12.300999641418457,
+        127.39999961853027
+      ],
+      "acquired": true,
+      "message": "Đang thu đoạn ngắt. Nghe hết lượt điểm danh và tiếng đáp.",
+      "pass": true,
+      "heard_not_fabricated": true
+    }
+  ]
+}

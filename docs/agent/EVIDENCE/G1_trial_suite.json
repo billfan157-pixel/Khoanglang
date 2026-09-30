@@ -1,0 +1,46 @@
+{
+  "qualified_release": false,
+  "method": "Fresh PIE; engineering debug scenarios",
+  "cases": [
+    {
+      "case": "held",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_held_trial.json"
+    },
+    {
+      "case": "names",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_names_trial.json"
+    },
+    {
+      "case": "wrong",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_wrong_trial.json"
+    },
+    {
+      "case": "tier1",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_tier1_trial.json"
+    },
+    {
+      "case": "decay",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_decay_trial.json"
+    },
+    {
+      "case": "contact",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_contact_trial.json"
+    },
+    {
+      "case": "avoidance",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_school_avoidance_trial.json"
+    },
+    {
+      "case": "interactions",
+      "status": "passed",
+      "report": "docs/agent/EVIDENCE/G1_camera_interactions.json"
+    }
+  ]
+}

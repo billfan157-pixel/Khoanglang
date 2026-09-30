@@ -1,0 +1,88 @@
+{
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "source": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Primary",
+  "interaction_actors": [
+    {
+      "label": "G1_VanNotebook",
+      "tag": "KL_Notebook",
+      "position": [
+        1050,
+        790,
+        91
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook"
+    },
+    {
+      "label": "G1_RiceLedger",
+      "tag": "KL_Ledger",
+      "position": [
+        570,
+        570,
+        126
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_AttBook.SM_KL_Prop_AttBook"
+    },
+    {
+      "label": "G1_ListeningDeck",
+      "tag": "KL_Listen",
+      "position": [
+        1930,
+        0,
+        122
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_TapeDeck.SM_KL_Prop_TapeDeck"
+    },
+    {
+      "label": "G1_Lam",
+      "tag": "KL_Lam",
+      "position": [
+        560,
+        -120,
+        0
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure.SM_KL_Prop_Figure"
+    },
+    {
+      "label": "G1_Van",
+      "tag": "KL_Teacher",
+      "position": [
+        1180,
+        845,
+        14
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure.SM_KL_Prop_Figure"
+    },
+    {
+      "label": "G1_BackRowChild",
+      "tag": "KL_Child",
+      "position": [
+        680,
+        285,
+        0
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Prop_Figure.SM_KL_Prop_Figure"
+    },
+    {
+      "label": "G1_ImpossibleDoor",
+      "tag": "KL_FalseGeometry",
+      "position": [
+        1440,
+        202,
+        0
+      ],
+      "mesh": "/Game/KhoangLang/Meshes/Arch/SM_KL_Door_Leaf.SM_KL_Door_Leaf"
+    },
+    {
+      "label": "G1_Exit",
+      "tag": "KL_Exit",
+      "position": [
+        -975,
+        -70,
+        0
+      ],
+      "mesh": "/Game/KhoangLang/Production/G1Canon/Meshes/SM_KL_Door_Leaf.SM_KL_Door_Leaf"
+    }
+  ],
+  "scope": "Isolated G1 later-evidence fixture; character art not accepted",
+  "game_mode": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolNativeGameMode"
+}

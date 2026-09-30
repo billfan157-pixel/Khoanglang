@@ -1,0 +1,178 @@
+{
+  "world": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice",
+  "game_time": 29.536100190132856,
+  "pawn": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolCharacter.BP_KL_SchoolCharacter_C",
+  "state": {
+    "bInitialised": true,
+    "bEcho": false,
+    "bNotebook": false,
+    "bLamWitness": false,
+    "bLedger": false,
+    "bObserved": false,
+    "bWorkingAvailable": false,
+    "bRawRetained": true,
+    "bSealing": false,
+    "bDossier": false,
+    "bFalseSpace": false,
+    "Attention": 0.0,
+    "Tier": 0,
+    "EntityState": 0,
+    "LamState": 1,
+    "RollTime": 0.0,
+    "LossCount": 0,
+    "Caption": "[Mưa trên mái tôn · kênh hiện tại]",
+    "Message": "Tìm thầy Lâm, rồi nghe hai nhịp ngắt trong lớp.",
+    "Candidate": 0,
+    "SealProgress": 0.0
+  },
+  "refs": {
+    "LamActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_53",
+    "NotebookActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_50",
+    "LedgerActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_51",
+    "ListenActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_52",
+    "ExitActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_57",
+    "TeacherActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_54",
+    "ChildActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_55",
+    "FalseGeometryActor": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.StaticMeshActor_56",
+    "RollAudioRef": null,
+    "AmbienceAudioRef": "/Game/KhoangLang/Production/G1Canon/UEDPIE_0_Lvl_KL_SchoolSlice.Lvl_KL_SchoolSlice:PersistentLevel.BP_KL_SchoolLoop_C_0.AudioComponent_3"
+  },
+  "actors": [
+    {
+      "tags": [
+        "KL_Notebook"
+      ],
+      "position": [
+        1050.0,
+        790.0,
+        91.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Ledger"
+      ],
+      "position": [
+        570.0,
+        570.0,
+        126.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Listen"
+      ],
+      "position": [
+        1930.0,
+        0.0,
+        122.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Lam"
+      ],
+      "position": [
+        560.0,
+        -120.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.1
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Teacher"
+      ],
+      "position": [
+        1180.0,
+        845.0,
+        14.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Child"
+      ],
+      "position": [
+        680.0,
+        285.0,
+        0.0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.66
+      ],
+      "hidden": true,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_FalseGeometry"
+      ],
+      "position": [
+        1440.0,
+        202.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": true,
+      "class": "/Script/Engine.StaticMeshActor"
+    },
+    {
+      "tags": [
+        "KL_Exit"
+      ],
+      "position": [
+        -975.0,
+        -70.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hidden": false,
+      "class": "/Script/Engine.StaticMeshActor"
+    }
+  ]
+}

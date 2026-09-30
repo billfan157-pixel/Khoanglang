@@ -1,0 +1,44 @@
+{
+  "asset": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop",
+  "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+  "failures": [],
+  "runtime": "Blueprint Tick; no Python runtime",
+  "refs": {
+    "LamActor": "KL_Lam",
+    "NotebookActor": "KL_Notebook",
+    "LedgerActor": "KL_Ledger",
+    "ListenActor": "KL_Listen",
+    "ExitActor": "KL_Exit",
+    "TeacherActor": "KL_Teacher",
+    "ChildActor": "KL_Child",
+    "FalseGeometryActor": "KL_FalseGeometry"
+  },
+  "api": [
+    "InitSchool",
+    "ToggleEcho",
+    "SelectCandidate",
+    "Preview",
+    "BeginSeal",
+    "FinishSeal",
+    "CancelWorking",
+    "Interact",
+    "PollSchoolKeys",
+    "TickSchool",
+    "UpdatePresentation",
+    "AdvanceTeacher",
+    "HandleContact",
+    "StartRollAudio",
+    "StopRollAudio",
+    "SettleQuietly",
+    "StartAmbience",
+    "ApplyAudioPreference"
+  ],
+  "scene_composition": [
+    "Current Lam observation independently corroborates two pauses.",
+    "Interrupted roll-call gap reconstructed by rehearsed response.",
+    "bG1Fixture true-name ledger never claims early campaign access.",
+    "Wave phase is a timing aid, not measured PCM waveform evidence."
+  ],
+  "exhausted_loss_rule": "No counted contact without an applicable loss; teacher waits outside touch range until working reconstruction is reacquired.",
+  "requires_runtime_validation": true
+}

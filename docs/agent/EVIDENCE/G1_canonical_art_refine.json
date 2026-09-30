@@ -1,0 +1,2742 @@
+{
+  "map": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "materials": [
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Floor",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Concrete",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.06,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Ceiling",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.06,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {
+        "BaseTint": [
+          0.48,
+          0.46,
+          0.4,
+          1
+        ]
+      },
+      "vector_readbacks": {
+        "BaseTint": [
+          0.47999998927116394,
+          0.46000000834465027,
+          0.4000000059604645,
+          1.0
+        ]
+      }
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_WallOchre",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.3,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.30000001192092896,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {
+        "BaseTint": [
+          0.6,
+          0.55,
+          0.4,
+          1
+        ]
+      },
+      "vector_readbacks": {
+        "BaseTint": [
+          0.6000000238418579,
+          0.550000011920929,
+          0.4000000059604645,
+          1.0
+        ]
+      }
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_WallWainscot",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.3,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.30000001192092896,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_WoodDark",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_WallExt",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.3,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.30000001192092896,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_WallClassroom",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom",
+      "scalar_overrides": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0,
+        "DirtAmount": 0.3,
+        "DetailAmount": 0.45,
+        "GrungeAmount": 0.14,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72,
+        "DetailTiling": 1,
+        "GrungeTiling": 0.24,
+        "Roughness": 1
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 1.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.0,
+        "DirtAmount": 0.30000001192092896,
+        "DetailAmount": 0.44999998807907104,
+        "GrungeAmount": 0.14000000059604645,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295,
+        "DetailTiling": 1.0,
+        "GrungeTiling": 0.23999999463558197,
+        "Roughness": 1.0
+      },
+      "vector_overrides": {
+        "BaseTint": [
+          0.63,
+          0.6,
+          0.48,
+          1
+        ]
+      },
+      "vector_readbacks": {
+        "BaseTint": [
+          0.6299999952316284,
+          0.6000000238418579,
+          0.47999998927116394,
+          1.0
+        ]
+      }
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Wood",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Stone",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Stone",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_MetalRust",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Metal",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_ShutterBlue",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_DoorGreen",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Chalk",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_ART_Paper",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_Tube",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube",
+      "scalar_overrides": {
+        "EmissiveStrength": 1.25
+      },
+      "scalar_readbacks": {
+        "EmissiveStrength": 1.25
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_TubeDead",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead",
+      "scalar_overrides": {
+        "EmissiveStrength": 0.4000000059604645
+      },
+      "scalar_readbacks": {
+        "EmissiveStrength": 0.4000000059604645
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_TubeCold",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeCold",
+      "scalar_overrides": {
+        "EmissiveStrength": 1.25
+      },
+      "scalar_readbacks": {
+        "EmissiveStrength": 1.25
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_SF_Wood_AgedTop",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_SF_Wood_AgedFrame",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/Production/Materials/MI_SF_Metal_Hardware",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_Paper",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_WoodDark",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_Wood",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_Chalk",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_DoorGreen",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_Metal",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_MetalRust",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    },
+    {
+      "source": "/Game/KhoangLang/MaterialsArt/MI_ART_ShutterBlue",
+      "copy": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue",
+      "scalar_overrides": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160,
+        "NormalStrength": 0.16,
+        "DirtAmount": 0.06,
+        "DetailAmount": 1,
+        "GrungeAmount": 0.05,
+        "RoughnessVariation": 0.18,
+        "RoughnessFloor": 0.72
+      },
+      "scalar_readbacks": {
+        "UseWorldUV": 0.0,
+        "SurfaceSizeCm": 160.0,
+        "NormalStrength": 0.1599999964237213,
+        "DirtAmount": 0.05999999865889549,
+        "DetailAmount": 1.0,
+        "GrungeAmount": 0.05000000074505806,
+        "RoughnessVariation": 0.18000000715255737,
+        "RoughnessFloor": 0.7200000286102295
+      },
+      "vector_overrides": {},
+      "vector_readbacks": {}
+    }
+  ],
+  "overrides": [
+    {
+      "actor": "ART_Floor_Corr",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor"
+    },
+    {
+      "actor": "ART_Floor_Corr",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Floor_Hall",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor"
+    },
+    {
+      "actor": "ART_Floor_Hall",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Floor_Room",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Floor.MI_ART_Floor"
+    },
+    {
+      "actor": "ART_Floor_Room",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Ceil_Corr",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling"
+    },
+    {
+      "actor": "ART_Ceil_Hall",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling"
+    },
+    {
+      "actor": "ART_Ceil_Room",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Ceiling.MI_ART_Ceiling"
+    },
+    {
+      "actor": "ART_Wall_HallS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallS",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallS",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallS",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_HallN_A",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallN_A",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallN_A",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallN_A",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_HallN_Door",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallN_Door",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallN_Door",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallN_B",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallN_B",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallN_B",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallN_B",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_HallW_N",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallW_N",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallW_N",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallW_N",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_HallW_S",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallW_S",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallW_S",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallW_S",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_HallW_Head",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallE",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_HallE",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_HallE",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_HallE",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_CorrN",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_CorrN",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_CorrN",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_CorrN",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_CorrS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_CorrS",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_CorrS",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_CorrS",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_CorrW",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallOchre.MI_ART_WallOchre"
+    },
+    {
+      "actor": "ART_Wall_CorrW",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_CorrW",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_CorrW",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_RoomW",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomW",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomW",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomW",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_RoomS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomS",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomS",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomS",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S0",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S0",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W0",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S1",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomE_S1",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomE_W1",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomE_SN",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallClassroom.MI_ART_WallClassroom"
+    },
+    {
+      "actor": "ART_Wall_RoomE_SN",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallWainscot.MI_ART_WallWainscot"
+    },
+    {
+      "actor": "ART_Wall_RoomE_SN",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Wall_RoomE_SN",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WallExt.MI_ART_WallExt"
+    },
+    {
+      "actor": "ART_Door3_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Door3_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Door3_Frame",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Stone.MI_ART_Stone"
+    },
+    {
+      "actor": "ART_Door3_Leaf",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Door3_Leaf",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Door3_Leaf",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_DoorEntry_FrameW",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_DoorEntry_FrameW",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_DoorEntry_FrameW",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Stone.MI_ART_Stone"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafN",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafN",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafN",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafS",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_DoorEntry_LeafS",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_Win0_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Win0_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Win0_Glass",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Win0_ShutN",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "ART_Win0_ShutS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "ART_Win1_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Win1_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Win1_Glass",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Win1_ShutN",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "ART_Win1_ShutS",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "ART_WinCorr0_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_WinCorr0_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_WinCorr0_Glass",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_WinCorr1_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_WinCorr1_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_WinCorr1_Glass",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_WinCorr2_Frame",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_WinCorr2_Frame",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_WinCorr2_Glass",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Room_Platform",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Room_Platform",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Teacher_Desk",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Teacher_Desk",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Teacher_Desk",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_Teacher_Chair",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Teacher_Chair",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Teacher_Chair",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "ART_Podium",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Podium",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Chalkboard",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Chalkboard",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Chalkboard",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk"
+    },
+    {
+      "actor": "ART_Chalkboard",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_WallMap",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_WallMap",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "ART_Bookcase",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Bookcase",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Bookcase",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "ART_Bookcase",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "ART_CoatHook",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_CoatHook",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_CoatHook",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "ART_Bin",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Fan",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Fan",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_CornerStack0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_CornerStack0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_CornerStack0",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_CornerStack1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_CornerStack1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_CornerStack1",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_CornerStack2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_CornerStack2",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_CornerStack2",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_Beam0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Beam1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Beam2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Beam3",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Beam4",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Beam5",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Concrete.MI_ART_Concrete"
+    },
+    {
+      "actor": "ART_Tube0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_Tube1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_Tube2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube2",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube3",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_Tube3",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_Tube4",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube4",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Tube.MI_ART_Tube"
+    },
+    {
+      "actor": "ART_Tube5",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_Tube5",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_TubeCorr0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_TubeCorr0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_TubeCorr1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeCold.MI_ART_TubeCold"
+    },
+    {
+      "actor": "ART_TubeCorr1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeCold.MI_ART_TubeCold"
+    },
+    {
+      "actor": "ART_TubeCorr2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_TubeCorr2",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_TubeDead.MI_ART_TubeDead"
+    },
+    {
+      "actor": "ART_NoticeBoard",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_NoticeBoard",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "ART_Bench0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Bench0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Bench1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Bench1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_Bench2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_Bench2",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_PA",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_PA",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "ART_PA",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_CoatHook_Hall",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_CoatHook_Hall",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "ART_CoatHook_Hall",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "ART_ChairStack0",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_ChairStack0",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_ChairStack1",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_ChairStack1",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "ART_ChairStack2",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "ART_ChairStack2",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "SF_Desk_A",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_A",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_A",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_A",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_A",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_A",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_B",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_B",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_B",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_B",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_B",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_B",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_C",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_C",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_C",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_C",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_C",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_C",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_D",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_D",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_D",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_D",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_D",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_D",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_E",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_E",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_E",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_E",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_E",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_E",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_F",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_F",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_F",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Desk_G",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Desk_G",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Desk_G",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "SF_Bench_G",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedTop.MI_SF_Wood_AgedTop"
+    },
+    {
+      "actor": "SF_Bench_G",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Wood_AgedFrame.MI_SF_Wood_AgedFrame"
+    },
+    {
+      "actor": "SF_Bench_G",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_SF_Metal_Hardware.MI_SF_Metal_Hardware"
+    },
+    {
+      "actor": "PRIMARY_ChalkboardSlate",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk"
+    },
+    {
+      "actor": "G1_VanNotebook",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "G1_VanNotebook",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_VanNotebook",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_VanNotebook",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk"
+    },
+    {
+      "actor": "G1_VanNotebook",
+      "slot": 4,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "G1_RiceLedger",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "G1_RiceLedger",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_RiceLedger",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_RiceLedger",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Chalk.MI_ART_Chalk"
+    },
+    {
+      "actor": "G1_RiceLedger",
+      "slot": 4,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_DoorGreen.MI_ART_DoorGreen"
+    },
+    {
+      "actor": "G1_ListeningDeck",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Metal.MI_ART_Metal"
+    },
+    {
+      "actor": "G1_ListeningDeck",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "G1_ListeningDeck",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_Lam",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "G1_Lam",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "G1_Lam",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_Lam",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_Van",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "G1_Van",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "G1_Van",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_Van",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_BackRowChild",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Paper.MI_ART_Paper"
+    },
+    {
+      "actor": "G1_BackRowChild",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_ShutterBlue.MI_ART_ShutterBlue"
+    },
+    {
+      "actor": "G1_BackRowChild",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_BackRowChild",
+      "slot": 3,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_ImpossibleDoor",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_ImpossibleDoor",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_ImpossibleDoor",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    },
+    {
+      "actor": "G1_Exit",
+      "slot": 0,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_Wood.MI_ART_Wood"
+    },
+    {
+      "actor": "G1_Exit",
+      "slot": 1,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_WoodDark.MI_ART_WoodDark"
+    },
+    {
+      "actor": "G1_Exit",
+      "slot": 2,
+      "material": "/Game/KhoangLang/Production/G1Canon/Materials/MI_ART_MetalRust.MI_ART_MetalRust"
+    }
+  ],
+  "lights": [
+    {
+      "actor": "ART_L_Corr",
+      "previous_intensity": 312.0,
+      "lumens": 1050,
+      "radius_cm": 620,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Hall0",
+      "previous_intensity": 504.0,
+      "lumens": 1250,
+      "radius_cm": 680,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Hall1",
+      "previous_intensity": 408.0,
+      "lumens": 950,
+      "radius_cm": 650,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Hall2",
+      "previous_intensity": 312.0,
+      "lumens": 700,
+      "radius_cm": 580,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Door",
+      "previous_intensity": 168.0,
+      "lumens": 140,
+      "radius_cm": 360,
+      "shadows": false
+    },
+    {
+      "actor": "ART_L_Room0",
+      "previous_intensity": 552.0,
+      "lumens": 1450,
+      "radius_cm": 760,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Room1",
+      "previous_intensity": 456.0,
+      "lumens": 1150,
+      "radius_cm": 740,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Shaft0",
+      "previous_intensity": 720.0,
+      "lumens": 900,
+      "radius_cm": 1600,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_Shaft1",
+      "previous_intensity": 720.0,
+      "lumens": 900,
+      "radius_cm": 1600,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_ShaftCorr",
+      "previous_intensity": 176.0,
+      "lumens": 380,
+      "radius_cm": 900,
+      "shadows": true
+    },
+    {
+      "actor": "ART_L_CornerHint",
+      "previous_intensity": 31.200000762939453,
+      "lumens": 0,
+      "radius_cm": 300,
+      "shadows": false
+    },
+    {
+      "actor": "ART_Moon",
+      "lux": 0.12,
+      "shadows": true
+    }
+  ],
+  "provenance": "Project-authored art_tex.py and existing materials",
+  "visual_accepted": false,
+  "packaged_performance_qualified": false,
+  "source_script_sha256": "a1d11e5772b02dd4c1ed5692d02d5e3472e05e1e6ebc7b0614854371c6f64109",
+  "native_pin_bindings": [
+    {
+      "expression": "MaterialExpressionAbs",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionDivide",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionDivide",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionTextureSampleParameter2D",
+      "requested": "UVs",
+      "native": "UVs",
+      "declared": [
+        "UVs",
+        "Apply View MipBias"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionTextureSampleParameter2D",
+      "requested": "UVs",
+      "native": "UVs",
+      "declared": [
+        "UVs",
+        "Apply View MipBias"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionTextureSampleParameter2D",
+      "requested": "UVs",
+      "native": "UVs",
+      "declared": [
+        "UVs",
+        "Apply View MipBias"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionTextureSampleParameter2D",
+      "requested": "UVs",
+      "native": "UVs",
+      "declared": [
+        "UVs",
+        "Apply View MipBias"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionDivide",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionDivide",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionOneMinus",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionSaturate",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionComponentMask",
+      "requested": "Input",
+      "native": "",
+      "declared": [
+        "None"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionMultiply",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "A",
+      "native": "A",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "B",
+      "native": "B",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionLinearInterpolate",
+      "requested": "Alpha",
+      "native": "Alpha",
+      "declared": [
+        "A",
+        "B",
+        "Alpha"
+      ]
+    },
+    {
+      "expression": "MaterialExpressionNormalize",
+      "requested": "VectorInput",
+      "native": "VectorInput",
+      "declared": [
+        "VectorInput"
+      ]
+    }
+  ],
+  "postprocess": {
+    "manual_bias_ev": 1.0,
+    "physical_exposure": false,
+    "global_grade": "neutral",
+    "ao_intensity": 0.3,
+    "native_override_bindings": {
+      "auto_exposure_method": "override_auto_exposure_method",
+      "auto_exposure_apply_physical_camera_exposure": "override_auto_exposure_apply_physical_camera_exposure",
+      "auto_exposure_bias": "override_auto_exposure_bias",
+      "color_saturation": "override_color_saturation",
+      "color_contrast": "override_color_contrast",
+      "color_gamma": "override_color_gamma",
+      "color_gain": "override_color_gain",
+      "color_offset": "override_color_offset",
+      "vignette_intensity": "override_vignette_intensity",
+      "bloom_intensity": "override_bloom_intensity",
+      "bloom_threshold": "override_bloom_threshold",
+      "ambient_occlusion_intensity": "override_ambient_occlusion_intensity",
+      "ambient_occlusion_radius": "override_ambient_occlusion_radius",
+      "ambient_occlusion_power": "override_ambient_occlusion_power",
+      "ambient_occlusion_static_fraction": "override_ambient_occlusion_static_fraction",
+      "motion_blur_amount": "override_motion_blur_amount",
+      "lens_flare_intensity": "override_lens_flare_intensity",
+      "film_grain_intensity": "override_film_grain_intensity"
+    }
+  }
+}
