@@ -295,12 +295,16 @@ def save(path):
     try:
         asset = unreal.load_asset(path)
         if asset is not None:
-            unreal.EditorAssetLibrary.save_loaded_asset(asset, only_if_is_dirty=False)
-        folder = path if asset is None else path.rsplit('/', 1)[0]
-        eas().save_directory(folder, only_if_is_dirty=False, recursive=True)
+            saved = unreal.EditorAssetLibrary.save_loaded_asset(asset, only_if_is_dirty=False)
+        else:
+            saved = eas().save_directory(path, only_if_is_dirty=False, recursive=True)
+        if not saved:
+            raise RuntimeError('Unreal save API returned failure')
         ok('saved %s' % path)
+        return True
     except Exception as exc:
         fail('save %s: %r' % (path, exc))
+        return False
 
 
 # --------------------------------------------------------------------------- #
@@ -739,6 +743,9 @@ class B(object):
             fail('compile %s %s: %r' % (bp.get_name(), label, exc))
             return False
         errs = self.errors(bp)
+        status = bp.get_editor_property('status')
+        if status == unreal.BlueprintStatus.BS_ERROR:
+            errs.append('Blueprint status is BS_ERROR')
         if errs:
             fail('compile errors in %s %s: %s' % (bp.get_name(), label, errs))
             return False
