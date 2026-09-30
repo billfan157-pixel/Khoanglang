@@ -9,8 +9,8 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
 ## Verified facts (2026-10-01)
 
 - Project KhoangLang0217.uproject, Unreal 5.8.3, Blueprint-only.
-- Branch production/g1-canonical-loop; prior checkpoint df7ae85.
-  Current checkpoint is the scoped G1 repair/test commit following df7ae85.
+- Branch production/g1-canonical-loop; scoped repair checkpoint 8220edf.
+  Its follow-up makes the test client/options reproducible from tracked files.
   Preserve unrelated concurrent work listed in G1_CHECKPOINT_SCOPE.json.
 - V3 Bible: 1,132 lines, updated 30/09, SHA256
   80EEE1981BF2A155726DA34617300647C1A9813B3D93F60628856B2E5EEC7E44.
@@ -38,6 +38,10 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
   Four failed candidate routes preserved. Before/after disk hashes stable.
 - G1_trial_suite.json: all8 fresh-PIE cases passed after final map/player writes:
   held, names, wrong, tier1, decay, contact, avoidance, interactions.
+- Tracked MCP client/generated PIE options: fresh eight-case suite passed again;
+  actual native error propagates CLI exit1. Project-root discovery is scoped.
+  G1_runner_reproducibility.json pins helper/report hashes and records the prior
+  overlapped-RPC timeout without claiming an exclusive cause. Calls serialized.
 - G1_attention_trial.json: tier2 draft loss/false geometry, tier3 native pursuit
   and automatic contact, raw retention, cooldown, quiet recovery passed;
   before/after source/player/map hashes stable. Explicit fixtures recorded.
@@ -83,6 +87,8 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
   sanitized isolated config and excludes editor/MCP/Python runtime modules.
 - Remote Python is ephemeral/loopback only. Final test editor closed with no
   dirty packages. Read-only provenance editor also closed with no dirty packages.
+- Clean detached review checkout: sibling KhoangLang0217-g1-review-8220edf;
+  updated to the final scoped follow-up commit. Primary concurrent work retained.
 - No paid/third-party assets added; no Blender MCP simulated.
 
 ## Stop boundary

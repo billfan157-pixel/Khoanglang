@@ -14,9 +14,9 @@ def command(*args):
                             text=True, encoding='utf-8', errors='replace', timeout=45)
     if result.returncode:
         raise RuntimeError(result.stdout + result.stderr)
-    if args[:3] == ('_mcp_tool.py', 'call', 'EditorToolset.EditorAppToolset'):
+    if args[:3] == ('tools/ue_mcp.py', 'call', 'EditorToolset.EditorAppToolset'):
         payload = json.loads(result.stdout)
-        if payload.get('isError'):
+        if payload.get('result', payload).get('isError'):
             raise RuntimeError(result.stdout)
     return result.stdout
 
@@ -30,6 +30,9 @@ def main():
     if any(c not in allowed for c in args.cases):
         raise ValueError('Unknown case')
     results = []
+    options = ROOT / '_g1_trial_pie_options.json'
+    options.write_text(json.dumps({'options': {'bSimulate': False,
+        'playMode': 'PlayMode_InViewPort', 'warmupSeconds': 2}}), encoding='utf-8')
     revision = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT,
         capture_output=True, text=True, check=True).stdout.strip()
     for case in args.cases:
@@ -47,8 +50,8 @@ def main():
             encoding='utf-8')
         before = output.stat().st_mtime_ns if output.exists() else None
         try:
-            command('_mcp_tool.py', 'call', 'EditorToolset.EditorAppToolset',
-                    'StartPIE', '_g0_pie_options.json')
+            command('tools/ue_mcp.py', 'call', 'EditorToolset.EditorAppToolset',
+                    'StartPIE', str(options))
             print(command('tools/ue_live.py', str(adapter)), flush=True)
             deadline = time.monotonic() + 95
             while time.monotonic() < deadline:
@@ -67,7 +70,7 @@ def main():
                             'report': output.relative_to(ROOT).as_posix()})
             print(json.dumps(results[-1]), flush=True)
         finally:
-            command('_mcp_tool.py', 'call', 'EditorToolset.EditorAppToolset', 'StopPIE')
+            command('tools/ue_mcp.py', 'call', 'EditorToolset.EditorAppToolset', 'StopPIE')
     evidence = {'qualified_release': False, 'method': 'Fresh PIE; engineering debug scenarios',
                 'cases': results}
     (ROOT / 'docs/agent/EVIDENCE/G1_trial_suite.json').write_text(

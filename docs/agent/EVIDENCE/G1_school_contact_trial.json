@@ -162,7 +162,7 @@
   "states": [
     {
       "phase": 1,
-      "game_time": 2.8426697067916393,
+      "game_time": 2.9107259064912796,
       "EntityState": 1,
       "LamState": 2,
       "Attention": 46.0,
@@ -178,7 +178,7 @@
     },
     {
       "phase": 2,
-      "game_time": 3.3572023063898087,
+      "game_time": 3.413992304354906,
       "EntityState": 0,
       "LamState": 0,
       "Attention": 49.0,
@@ -194,8 +194,8 @@
     }
   ],
   "binding": {
-    "source_revision": "df7ae853cadab9806969a48bc9186f30770ab888",
-    "started_utc": "2026-09-30T16:51:08.259594+00:00",
+    "source_revision": "8220edfae83a5b43329ee66f44fd0abb19837d14",
+    "started_utc": "2026-09-30T17:41:07.488683+00:00",
     "loop_asset_sha256": "d613379773f6e3dfa9312edee5937cd6484a0831929ef6f877647ef6b943a5fb",
     "map_sha256": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e",
     "scenario_sha256": "a2b06359454877af965fbae7d7b2699718cee3c28bc4cfab9d941844810eb670",

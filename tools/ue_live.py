@@ -22,11 +22,16 @@ def main():
     client.start()
     try:
         root = Path(__file__).resolve().parents[1]
+        projects = list(root.glob('*.uproject'))
+        if len(projects) != 1:
+            raise RuntimeError('Expected exactly one project file')
         deadline = time.monotonic() + 12
         nodes = []
         while time.monotonic() < deadline:
             nodes = [n for n in client.remote_nodes
-                     if n.get("project_name") == root.name]
+                     if n.get("project_name") == projects[0].stem
+                     and os.path.normcase(os.path.normpath(n.get('project_root', '')))
+                         == os.path.normcase(os.path.normpath(str(root)))]
             if nodes:
                 break
             time.sleep(0.2)

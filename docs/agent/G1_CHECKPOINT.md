@@ -73,6 +73,8 @@ qualification remains withheld. No suppression or forced-exit workaround is used
   `g1_audit_input_pins.py`: actual persisted/native readbacks.
 - `tools/g1_navigation_trial.py`, `g1_attention_trial.py`, `g1_run_trials.py`,
   `g1_lighting_trial.py` and `g1_packaged_smoke.py`: bounded reproducible checks.
+- `tools/ue_mcp.py` and `ue_live.py`: tracked native MCP client and project-root
+  scoped Python discovery; the runner generates its own ignored PIE options.
 - `Content/KhoangLang/Production/G1Canon/`: map, native player/core assets,
   copied materials and only adopted new mesh packages (Git LFS).
 - `Content/Python/KhoangLang/kl_core.py`, `build_20_blueprints.py` and
@@ -86,3 +88,14 @@ Unused new mesh attempts were moved intact to
 `_release_work/g1_checkpoint_recovery/` with a moved-files manifest. No source
 asset was deleted. Unrelated original/legacy Character changes, diagnostics and
 preexisting runtime logs remain outside the scoped checkpoint; preserve them.
+
+To repeat the eight editor cases, open this project's G1 school map, keep PIE
+stopped, and enable Python remote execution on127.0.0.1 only for the test session.
+The project's native editor MCP must listen on127.0.0.1:8000/mcp (see SETUP.md).
+Run `python tools/ue_mcp.py init`, then `python tools/g1_run_trials.py`.
+Keep editor RPC calls serialized while a suite owns the editor; the client also
+uses distinct request IDs and propagates native tool errors as a nonzero exit.
+Close the editor/disable remote execution afterward. No untracked client or PIE
+options file is required. Source-default input/fixture/physical-audio limitations
+remain as described above. For packaged capture, pass an explicit build directory:
+`python tools/g1_packaged_smoke.py --build-run <verifier-run> --execute`.
