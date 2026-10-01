@@ -18,9 +18,12 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
 - G1 map: /Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.
   Native SchoolPlayer/GameMode/core Blueprints compiled and saved; no template
   FirstPerson/animation dependencies in the independent native player.
-- Saved lighting: 12 authored lights + 3 bounce points Movable, no precomputed
-  lighting, neutral -1.5 EV, saved torch90 lumens. Actual PIE readback passed
-  in G1_runtime_scene_audit.json; fixtures did not establish those defaults.
+- Saved rig: 12 authored lights + 3 bounce points Movable, no precomputed
+  lighting data, neutral -1.5 EV, saved torch90 lumens. [PIE-SIMULATED] Actual
+  PIE readback in G1_runtime_scene_audit.json; fixtures did not establish those
+  defaults.
+- How the lit rooms actually look remains [HUMAN-NEEDED]; deep unlit shadows and
+  pale-surface HUD contrast are already recorded as not accepted.
 - Mesh repairs: fresh regular builds, exact wall/door triangle corners and UVs;
   corrected cassette Y-cylinder cap centres and supported authored shelf.
   Mesh default materials bound to copied G1 master. Original meshes preserved.
@@ -33,17 +36,17 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
   tiny desk tangents. Collision structs/component modes retained.
 - 11 unused newly authored attempts preserved intact outside Content under
   _release_work/g1_checkpoint_recovery/, with moved_unused_meshes.json.
-- G1_navigation_trial.json passed26 native movement waypoints, real collision
-  and camera-ray Lam/deck/notebook/ledger/exit interactions, no teleport.
+- [PIE-SIMULATED] G1_navigation_trial.json passed26 native movement waypoints,
+  scripted collision and camera-ray Lam/deck/notebook/ledger/exit interactions, no teleport.
   Four failed candidate routes preserved. Before/after disk hashes stable.
-- G1_trial_suite.json: all8 fresh-PIE cases passed after final map/player writes:
-  held, names, wrong, tier1, decay, contact, avoidance, interactions.
-- Tracked MCP client/generated PIE options: fresh eight-case suite passed again;
+- [PIE-SIMULATED] G1_trial_suite.json: all8 fresh-PIE cases passed after final map/player writes:
+  held, names, wrong, tier1, decay, contact, avoidance,
+  interactions. Rule logic only, not real input.
+- [PIE-SIMULATED] Tracked MCP client/generated PIE options: fresh eight-case suite passed again;
   actual native error propagates CLI exit1. Project-root discovery is scoped.
   G1_runner_reproducibility.json pins helper/report hashes and records the prior
   overlapped-RPC timeout without claiming an exclusive cause. Calls serialized.
-- G1_attention_trial.json: tier2 draft loss/false geometry, tier3 native pursuit
-  and automatic contact, raw retention, cooldown, quiet recovery passed;
+- [PIE-SIMULATED] G1_attention_trial.json: tier2 draft loss/false geometry, tier3 native pursuit and automatic contact, raw retention, cooldown, quiet recovery passed;
   before/after source/player/map hashes stable. Explicit fixtures recorded.
 - G1_input_pin_audit.json: all16 declared keys read correctly from native saved
   graphs. Concurrent bare FKey source fixes integrated; no physical-input claim.
@@ -87,7 +90,8 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
   sanitized isolated config and excludes editor/MCP/Python runtime modules.
 - Remote Python is ephemeral/loopback only. Final test editor closed with no
   dirty packages. Read-only provenance editor also closed with no dirty packages.
-- Clean detached review checkout: sibling KhoangLang0217-g1-review-8220edf;
+- [SCRIPTED] Detached review checkout created clean: sibling
+  KhoangLang0217-g1-review-8220edf;
   updated to the final scoped follow-up commit. Primary concurrent work retained.
 - No paid/third-party assets added; no Blender MCP simulated.
 
