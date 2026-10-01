@@ -301,7 +301,7 @@ def build():
         # Device-off helps attention, but interruption still deforms this room.
         f.condition(f.both(f.lt(f.var('RollTime'), 16.2), f.eq('EntityState', 0)),
                     lambda: (f.set('bFalseSpace', True), f.set('FalseRemaining', 7.),
-                             f.message('Làm ngắt điểm danh: cửa vừa lùi xa hơn.')))
+                             f.message('Làm ngắt điểm danh: cửa vừa lùi xa hơn.')))
         f.call('StopRollAudio')
     def toggled_on():
         f.set('RollTime', 0.)
