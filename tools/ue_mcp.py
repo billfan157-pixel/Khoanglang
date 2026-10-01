@@ -1,6 +1,7 @@
 """Minimal MCP client for the live Unreal Editor endpoint on 127.0.0.1:8000.
 
 Usage:
+  python tools/ue_mcp.py status
   python tools/ue_mcp.py init
   python tools/ue_mcp.py toolsets
   python tools/ue_mcp.py describe <toolset_name>
@@ -90,11 +91,36 @@ def rpc(method, params=None, notify=False, timeout=45):
     return parse(body)
 
 
+def status():
+    try:
+        res = rpc('initialize', {
+            'protocolVersion': '2025-11-25',
+            'capabilities': {},
+            'clientInfo': {'name': 'ue_mcp_status', 'version': '1.0'},
+        })
+        rpc('notifications/initialized', notify=True)
+        tools = rpc('tools/list', {})
+        names = [t['name'] for t in tools.get('result', {}).get('tools', [])]
+    except Exception as exc:
+        print('%s/mcp unreachable: %s' % (BASE, exc))
+        print('The MCP server runs inside the Unreal Editor process. Open the')
+        print('project in the editor, or run tools/mcp_doctor.ps1 -Launch.')
+        return 1
+    protocol = res.get('result', {}).get('protocolVersion', '?')
+    print('ok  %s' % BASE)
+    print('protocol %s' % protocol)
+    print('tools   %s' % ', '.join(names))
+    return 0
+
+
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
         return 1
     cmd = sys.argv[1]
+
+    if cmd == 'status':
+        return status()
 
     if cmd == 'init':
         res = rpc('initialize', {

@@ -49,4 +49,5 @@ Prove each on a throwaway asset before relying on it.
 - `add_simple_collisions` returns -1 on an FBX import with no `UCX_` bodies. That is not a failure, but it also means no simple collision exists; meshes then use complex-as-simple.
 - `UnrealEditor-Cmd.exe <project> <map> -game` exits immediately with "Running engine without a game" on this build, and a commandlet has no tick loop, so PIE cannot be driven headlessly here.
 - Starting the full editor GUI can fail with 1.4-3.5 GB free RAM. Check free memory first.
+- 2026-10-01: `opencode mcp list` reported `unreal-mcp failed` with `SSE error: Unable to connect. Is the computer able to access the url?` while the editor was running without a `.uproject`, so the plugin was never loaded and port 8000 was closed. Not an MCP defect and not a config defect: opening the project in the editor made the same command report `connected`, and the handshake then returned the three meta-tools. Use `tools/mcp_doctor.ps1` for this before changing any setting.
 - Two unattributed `LogAutomationTest: Error: Condition failed` lines appear at editor startup; their source is unconfirmed and they did not block anything.

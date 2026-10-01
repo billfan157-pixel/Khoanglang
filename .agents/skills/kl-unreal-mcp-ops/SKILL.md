@@ -7,6 +7,21 @@ description: How to drive Epic's Unreal MCP (list_toolsets, describe_toolset, ca
 
 The MCP server runs inside the Unreal Editor process on `127.0.0.1:8000/mcp`. Tool calls run one at a time on the editor's game thread, so the editor freezes while a call runs and a careless call can cost the developer unsaved work. The rules below exist because of that.
 
+## Connectivity preflight: never call a missing tool "a broken MCP"
+
+The server runs inside the editor process, so it exists only while an editor holds the project. An editor started without a `.uproject` sits in the Project Browser and never loads the plugin, so port 8000 stays closed and every call fails. Before diagnosing anything, run:
+
+```
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/mcp_doctor.ps1
+```
+
+Exit 0 means the endpoint is usable. Exit 1 prints the cause: no editor with the project, an editor without the project, or a project editor whose server never started. `-Launch` starts the editor on the `.uproject` with `-ModelContextProtocolStartServer` and waits for the handshake; ask the developer before starting the editor, since this machine has limited RAM.
+
+Two consequences that look like failures but are not:
+
+- **The agent has no `unreal-mcp` tools.** OpenCode connects once at startup and never retries, so a server that came up later is invisible until OpenCode is restarted. Restarting OpenCode is the developer's action, not yours. Meanwhile `python tools/ue_mcp.py toolsets` and `... call <toolset> <tool> args.json` reach the same endpoint directly.
+- **A commandlet run has no server by design.** `LogModelContextProtocol: Auto-start skipped when running as a commandlet` is informational: the generator and verify scripts must not compete with a live editor for the port.
+
 ## Discovery: never guess a tool or parameter name
 
 The server exposes three meta-tools: `list_toolsets`, `describe_toolset`, `call_tool`.
