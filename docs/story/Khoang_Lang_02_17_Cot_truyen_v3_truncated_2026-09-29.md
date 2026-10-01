@@ -247,7 +247,7 @@ Ký ức cuối cùng của anh là một cuộc điện thoại giữa tiếng 
 
 Cuộc gọi bị ngắt. Mẹ anh kể rằng đêm ấy anh sốt cao, mê sảng chạy ra đường và không ai hiểu chuyện gì. Anh tin câu chuyện đó suốt 24 năm, qua nhiều năm điều trị tâm lý. Người chơi chưa biết rằng nó là một lời nói dối được nói vì yêu thương (Hồi 6).
 
-M��i khoảng trống trong trí nhớ của Khải phải tra ra được nguyên nhân: cơn sốt, lời mẹ, và việc anh chưa bao giờ nghe lại T1. Người chơi có thể tự ráp chúng từ Hồi 3.
+Mọi khoảng trống trong trí nhớ của Khải phải tra ra được nguyên nhân: cơn sốt, lời mẹ, và việc anh chưa bao giờ nghe lại T1. Người chơi có thể tự ráp chúng từ Hồi 3.
 
 ### Sự kiện bắt đầu game
 
@@ -310,11 +310,11 @@ Khe Lạc là thị trấn thiết kế thủ công với năm khu vực chính 
 | Khoảng Lặng giả | Không gian dựng theo một phiên bản sai | Niêm phong sai; hoặc Sự chú ý ở bậc Nhận ra trở lên | Hành lang dài hơn bản vẽ, có cửa không tồn tại; thực thể bên trong tin vào phiên bản sai và nguy hiểm hơn |
 | Biến thể: Khoảng Trống | Khoảng Lặng thật của những người chưa từng được nghe: giọng họ nằm trong bản ghi nhưng đã bị che hoặc chưa ai lắng nghe | Lọc nhẹ để tách giọng khỏi nhiễu rồi gọi tên họ bằng lời chứng của người sống (mục 6 và 9) | Đường sóng phẳng, tiếng bước chân của chính người chơi mất dần |
 
-M��i Khoảng Lặng có nguyên nhân, giới hạn và vai trò cụ thể trong cốt truyện; không cái nào tồn tại chỉ để hù dọa. **Khoảng Lặng giả là màn dọa chủ lực của game:** mỗi hồi từ 2 đến 6 có ít nhất một đoạn dựng riêng cho nó, và nó không thay đổi quá khứ mà chỉ thay đổi cách thực thể hiểu chính mình.
+Mỗi Khoảng Lặng có nguyên nhân, giới hạn và vai trò cụ thể trong cốt truyện; không cái nào tồn tại chỉ để hù dọa. **Khoảng Lặng giả là màn dọa chủ lực của game:** mỗi hồi từ 2 đến 6 có ít nhất một đoạn dựng riêng cho nó, và nó không thay đổi quá khứ mà chỉ thay đổi cách thực thể hiểu chính mình.
 
 ## 6. Bí mật siêu nhiên
 
-M��i hiện tượng ở Khe Lạc bắt đầu từ một giả thuyết hư cấu duy nhất: lời nói được lặp lại và được tin đủ lâu có thể sống độc lập với người nói.
+Mọi hiện tượng ở Khe Lạc bắt đầu từ một giả thuyết hư cấu duy nhất: lời nói được lặp lại và được tin đủ lâu có thể sống độc lập với người nói.
 
 ### Giả thuyết nền tảng
 
@@ -344,7 +344,7 @@ Người chơi chỉ cần thấm ba luật. Mỗi luật được dạy bằng 
 
 ### Luật Neo
 
-M��i thực thể gắn với tuyến có ba trạng thái:
+Mỗi thực thể gắn với tuyến có ba trạng thái:
 
 | Trạng thái | Điều kiện | Khi tuyến bị cắt |
 | --- | --- | --- |
@@ -382,7 +382,7 @@ Muốn bảo vệ người sống, thị trấn duy trì thứ đang xóa và vi
 
 ## 7. Dàn nhân vật
 
-M��i nhân vật gắn vào cùng một đêm 2002 và có ít nhất một điều họ muốn che. Không NPC nào chỉ xuất hiện để kể lore; người bình thường vẫn chỉ đang cố sống tiếp.
+Mỗi nhân vật gắn vào cùng một đêm 2002 và có ít nhất một điều họ muốn che. Không NPC nào chỉ xuất hiện để kể lore; người bình thường vẫn chỉ đang cố sống tiếp.
 
 ### Nguyên tắc thoại
 
