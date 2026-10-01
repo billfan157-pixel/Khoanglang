@@ -33,6 +33,7 @@ PRIVACY_PATTERNS = [
     ("KEY_LITERAL", re.compile(r"\bsk-[A-Za-z0-9]{20,}")),
 ]
 LFS_POINTER_PREFIX = b"version https://git-lfs"
+LFS_POINTER_PREFIX_TEXT = LFS_POINTER_PREFIX.decode("ascii")
 
 
 def git(repo, *args):
@@ -115,7 +116,14 @@ def main():
         size = path.stat().st_size
         with path.open("rb") as handle:
             head = handle.read(64)
+        # Ask git what it actually stores, not what is on disk. After an LFS
+        # checkout the worktree holds smudged real content while the repository
+        # holds a pointer, so reading the worktree reports every LFS file as a
+        # plain blob.
         is_pointer = head.startswith(LFS_POINTER_PREFIX)
+        code, stored = git(repo, "cat-file", "-p", f"HEAD:{name}")
+        if code == 0:
+            is_pointer = stored.startswith(LFS_POINTER_PREFIX_TEXT)
         if size > args.max_mb * 1024 * 1024 and not is_pointer:
             large.append((name, size))
         suffix = path.suffix.lower()
