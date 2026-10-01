@@ -18,6 +18,10 @@ The newer user goal requires finishing this checkpoint, not campaign expansion.
 - G1 map: /Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.
   Native SchoolPlayer/GameMode/core Blueprints compiled and saved; no template
   FirstPerson/animation dependencies in the independent native player.
+- [SCRIPTED] User-authorized map cleanup removed only the legacy production
+  School3_G1/Merged/Primary maps. G1Canon remains loaded and its bytes/default
+  routing are unchanged. Recovery tag g1-before-map-cleanup-20261001t044238z;
+  G1_MAP_CLEANUP_20261001.json and docs/tech/SCHOOL_MAPS.md record the scope.
 - Saved rig: 12 authored lights + 3 bounce points Movable, no precomputed
   lighting data, neutral -1.5 EV, saved torch90 lumens. [PIE-SIMULATED] Actual
   PIE readback in G1_runtime_scene_audit.json; fixtures did not establish those

@@ -1,0 +1,87 @@
+{
+  "label": "[SCRIPTED]",
+  "date_utc": "20261001T044238Z",
+  "base_head": "70bae4bdca9671d6e36d44dedbf91ee3e9bdce3c",
+  "recovery_tag": "g1-before-map-cleanup-20261001t044238z",
+  "backup": "_release_work/g1_map_cleanup_20261001T044238Z",
+  "map_hashes_before": {
+    "Content/KhoangLang/Maps/A68_TestMap.umap": "6855a68f15c9866085a7d0555547d06915f62617c51a99af65880eb0792a1dff",
+    "Content/KhoangLang/Maps/A69_Map.umap": "d863ca94db0ce2d887f4922358bb4f436d56990e386f67b4f0b00a133c8812f6",
+    "Content/KhoangLang/Maps/Lvl_KL_School3.umap": "8ba75797d197a63450a22eebe9e39e74a979c75faff1c31f314e20401d782e59",
+    "Content/KhoangLang/Maps/Lvl_KL_School3_Art.umap": "12793a15654b988031d5c998e1ccad8886b467b86f2a2aa22def7ebd0213bf4a",
+    "Content/KhoangLang/Maps/Lvl_KL_School3_ArtTest.umap": "b35607334445151b9c9ccb1eaefce8986ad1a8abefb5fd41bfd3fa40c21fcf12",
+    "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e",
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_G1.umap": "757b2c3a01ed83153c2112bfe170b3a3c2934240d0263110198fe5ddecce79fe",
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Merged.umap": "ec8109e18c7dd41c2813eda0ab966019a1dd948209e296accd642c436e113302",
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Primary.umap": "79bb7f08747b2faa6910e00fc19fd7f0909aef5d141ae5414b4bde36c4179d7e"
+  },
+  "config_hash_before": "83693ba7113bcd3303b6d092bb20beca5b11170c07bfbcd9f34ea89611fe82e7",
+  "canonical": "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap",
+  "editor_loaded_before": "/Game/KhoangLang/Production/Maps/Lvl_KL_School3_Merged",
+  "editor_loaded_after_switch": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "registry_referencers_before": {
+    "Lvl_KL_School3_G1": [],
+    "Lvl_KL_School3_Merged": [],
+    "Lvl_KL_School3_Primary": []
+  },
+  "pie_running_before": false,
+  "maps_dirty_before": false,
+  "removed": [
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_G1.umap",
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Merged.umap",
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Primary.umap"
+  ],
+  "native_delete_results": {
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_G1.umap": true,
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Merged.umap": true,
+    "Content/KhoangLang/Production/Maps/Lvl_KL_School3_Primary.umap": true
+  },
+  "native_delete_disk_issue": "Native delete removed registry entries and returned true, but the unchanged .umap files remained on disk. Exact backed-up paths were then removed individually with native PowerShell, after hash/path checks.",
+  "filesystem_absence_checked": true,
+  "asset_registry_after": [
+    "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice"
+  ],
+  "editor_map_after": "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice",
+  "canonical_dirty_after": false,
+  "canonical_hash_unchanged": true,
+  "all_other_map_hashes_unchanged": true,
+  "config_hash_unchanged": true,
+  "preexisting_concurrent_files_unchanged": true,
+  "referencer_query_positive_control": {
+    "asset": "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolLoop",
+    "referencers": [
+      "/Game/KhoangLang/Production/G1Canon/BP_KL_SchoolHUD",
+      "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice"
+    ]
+  },
+  "canonical_load_map_check": {
+    "errors": 0,
+    "warnings": 0,
+    "log_utc": "2026-10-01 04:42:10.083"
+  },
+  "content_browser_path": "/Game/KhoangLang/Production/G1Canon",
+  "asset_selection_attempt": "Timed out waiting for asset selection; no retry. Map load and browser folder readback succeeded.",
+  "verification_scope": "Asset identity, dependency registry, filesystem absence, recovery bytes and default routing. No gameplay, visual or audio acceptance claim.",
+  "historical_tools": "Old staging/Primary tools and prototype name-based restarts require restoring retired maps; see docs/tech/SCHOOL_MAPS.md.",
+  "validation": {
+    "initial_repo_preflight": {
+      "exit": 0,
+      "warning_groups": 0
+    },
+    "final_repo_preflight": {
+      "exit": 1,
+      "warning_groups": 1,
+      "only_warning": "Three intentional .umap deletions pending commit",
+      "head_blob_reads": "Batched git cat-file; unchanged preflight checker logic"
+    },
+    "state_claim_lint": {
+      "exit": 0,
+      "findings": 0
+    },
+    "utf8_text_check": {
+      "exit": 0,
+      "files_checked": 4,
+      "problems": 0
+    }
+  }
+}

@@ -1,5 +1,18 @@
 # Decisions
 
+## 2026-10-01: Retire redundant production school staging maps
+
+The user requested deletion of School3_G1, Merged and Primary if redundant.
+Current defaults, STATE and runtime evidence select G1Canon/SchoolSlice.
+[SCRIPTED] Live registry checks found no incoming asset references to the three
+staging maps; canonical loading reported zero MapCheck errors and warnings.
+Remove those three maps only, preserving original source maps and canonical
+bytes. Keep Git/LFS recovery tag g1-before-map-cleanup-20261001t044238z and
+verified raw backups outside Content. Keeping all stages visible was rejected
+because it obscured the active entry point. Historical tools/reports remain
+historical; reproducing the prototype requires restoring its maps first.
+See docs/tech/SCHOOL_MAPS.md and EVIDENCE/G1_MAP_CLEANUP_20261001.json.
+
 ## 2026-09-30: Build the canonical school as an isolated scenario
 
 The current Primary map's prototype reveals the 65 voices before campaign
