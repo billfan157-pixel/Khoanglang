@@ -1,0 +1,56 @@
+{
+  "label": "SCRIPTED",
+  "review_date": "2026-10-01 Asia/Saigon",
+  "source_revision": "2f773a2eca9685c13531d73bdfed8d4016add003",
+  "source_paths_sha256": {
+    "Content/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice.umap": "42c74be4dcbd444ed74553d90ea1ada49c5c8cedc1ba807368bfb1fc1e38961e",
+    "docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md": "80eee1981bf2a155726da34617300647c1a9813b3d93f60628856b2e5eec7e44",
+    "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_classroom_on.png": "5fcb1c3eaf4e59ed76a981a92f4b3f3fc1249dc666b1baa1745b2dc8756a8d15",
+    "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_hall_on.png": "fa5f91ae8a3d1cfb2aa101002c08a40807a93de4e27b83ba02556192e6ebe592",
+    "docs/agent/EVIDENCE/G1_checkpoint_final_ev-1p5_deck_on.png": "efc794ff6942a5b4918bafd2a1c19c05f5eab82dd5fa4ca61dcc9eb716b089e8",
+    "docs/agent/EVIDENCE/G1_packaged_checkpoint_1920x1080.png": "c9d07b09c3cf631a9658117dd10833a07c925995ac94cc972def4fd5f1f229b2",
+    "ArtSource/Blender/SchoolFurniture/Preview/SF_01_desk_bench_3q.png": "0e73f2d59dce4096f9a0ef6b313ccb7a6ae9dfe77c0a3b4a5fe4b386b60f51ed"
+  },
+  "map_and_three_inspected_pie_images_match_capture_binding": true,
+  "live_editor_run": false,
+  "scope": "Read-only historical research and stored-image assessment; no game changes",
+  "visual_and_historical_acceptance": "HUMAN-NEEDED",
+  "historical_photo_limit": "UNICEF 1999 caption only; browser viewing permission denied",
+  "sources": [
+    {
+      "id": "R1",
+      "url": "https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=5842&Keyword=",
+      "kind": "Official historical primary text, articles44-45, 2000"
+    },
+    {
+      "id": "R2",
+      "url": "https://www.vnah-hev.org/projects/schools--for-rural--ethnic-minority-children-in-vietnam/",
+      "kind": "Builder project register with2000-2002 sections; photo capture dates unverified"
+    },
+    {
+      "id": "R3",
+      "url": "https://www.unicef.org/vietnam/stories/legacy-partnership-every-child",
+      "kind": "1999 photograph caption in2025 retrospective; no pixel inspection"
+    },
+    {
+      "id": "R4",
+      "url": "https://baodongnai.com.vn/xahoi/giaoduc/200810/dung-hoc-2048339/",
+      "kind": "2008 local first-hand reporting, not national furniture census"
+    },
+    {
+      "id": "R5",
+      "url": "https://www.sggp.org.vn/cassette-thoi-xa-vang-post461297.html",
+      "kind": "2017 first-person retrospective of early2000s cassette use"
+    },
+    {
+      "id": "R6",
+      "url": "https://tieuchuan.vsqi.gov.vn/tieuchuan/view?sohieu=TCVN+3978%3A1984",
+      "kind": "Catalogue only; full standard not obtained"
+    },
+    {
+      "id": "R7",
+      "url": "https://thkhuongmai.hanoi.edu.vn/giao-duc-truyen-thong/to-chuc-tham-quan-phong-truyen-thong-nha-truong/ctmb/20665/565",
+      "kind": "School institutional history; urban1999 counterexample"
+    }
+  ]
+}
