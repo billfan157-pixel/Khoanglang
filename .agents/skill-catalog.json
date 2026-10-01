@@ -1,0 +1,1416 @@
+{
+  "date": "2026-10-01",
+  "scope": "68 advertised app entrypoints, 8 project skills and 4 Unreal server skills; cached unadvertised versions excluded",
+  "source_priority": "Current session catalog and original skill bodies; this index is not a replacement for source instructions",
+  "app_entry_count": 68,
+  "distinct_app_manifest_names": 67,
+  "full_app_entrypoints_read": 23,
+  "project_entry_count": 8,
+  "server_entry_count": 4,
+  "app": [
+    {
+      "id": "personal:.agents/skills/automate",
+      "name": "automate",
+      "source_relative_to_user_profile": ".agents/skills/automate/SKILL.md",
+      "sha256": "5ed8d34ed6b8b41fdf04e66561e34f6b76b13308a0f3c5b5d8447edb1c2015aa",
+      "lines": 377,
+      "bytes": 35812,
+      "description": "Use this skill to create Codex Automations.",
+      "workflow_sections": [
+        "Create Automation (Interactive)",
+        "Execution spine (every run)",
+        "House rules",
+        "PCD — Portal completeness & deferral",
+        "PCD matrix",
+        "PCD notes",
+        "MCP existence gate",
+        "MCP auth gate"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/babysit",
+      "name": "babysit",
+      "source_relative_to_user_profile": ".agents/skills/babysit/SKILL.md",
+      "sha256": "b46766ed302c34e7b2b52a03b5df706ec6fcaffeed4df2e68b7607939a79d602",
+      "lines": 14,
+      "bytes": 1436,
+      "description": "Keep a PR merge-ready by triaging comments, resolving clear conflicts, and fixing CI in a loop.",
+      "workflow_sections": [
+        "Babysit PR"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/canvas",
+      "name": "canvas",
+      "source_relative_to_user_profile": ".agents/skills/canvas/SKILL.md",
+      "sha256": "4e4528855026c3785a0fb92b1a5a0184492d01a01c858ef82d4fbd3479e3b7b6",
+      "lines": 112,
+      "bytes": 9162,
+      "description": "A Codex Canvas is a live React app that the user can open beside the chat. You MUST use a canvas when the agent produces a standalone analytical artifact — quantitative analyses, billing investigations, security audits, architecture reviews, data-heavy content, timelines, charts, tables, interactive explorations, repeatable tools, or any response that benefits from visual layout. Especially prefer a canvas when presenting results from MCP tools (Datadog, Databricks, Linear, Sentry, Slack, etc.) where the data is the deliverable — render it in a rich canvas rather than dumping it into a markdown table or code block. If you catch yourself about to write a markdown table, stop and use a canvas instead. You MUST also read this skill whenever you create, edit, or debug any .canvas.tsx file.",
+      "workflow_sections": [
+        "Workflow",
+        "1. Decide whether to use a canvas",
+        "2. Write the canvas",
+        "Design guidance",
+        "Visual hierarchy",
+        "Slop patterns — forbidden",
+        "Pre-delivery self-check",
+        "Introducing the canvas"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/create-hook",
+      "name": "create-hook",
+      "source_relative_to_user_profile": ".agents/skills/create-hook/SKILL.md",
+      "sha256": "3c96a121123c06ec801c7354eee5b5b5247c6521d7bd7dd1b9018cccc74a1e9c",
+      "lines": 239,
+      "bytes": 9186,
+      "description": "Create Codex hooks. Use when you want to create a hook, write hooks.json, add hook scripts, or automate behavior around agent events.",
+      "workflow_sections": [
+        "Creating Codex Hooks",
+        "Gather Requirements",
+        "Choose the Right Location",
+        "Choose the Hook Event",
+        "Common Agent events",
+        "Tab events",
+        "Quick event chooser",
+        "Hooks File Format"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/create-rule",
+      "name": "create-rule",
+      "source_relative_to_user_profile": ".agents/skills/create-rule/SKILL.md",
+      "sha256": "ff1de16edfb55f7190101ac2a8206a8bff1fef803c28a0b8a1943e9ffa175e4b",
+      "lines": 164,
+      "bytes": 3634,
+      "description": "Create Codex rules for persistent AI guidance. Use when you want to create a rule, add coding standards, set up project conventions, configure file-specific patterns, create RULE.md files, or asks about .cursor/rules/ or AGENTS.md.",
+      "workflow_sections": [
+        "Creating Codex Rules",
+        "Gather Requirements",
+        "Inferring from Context",
+        "Required Questions",
+        "Rule File Format",
+        "File Structure",
+        "Rule Title",
+        "Frontmatter Fields"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/create-skill",
+      "name": "create-skill",
+      "source_relative_to_user_profile": ".agents/skills/create-skill/SKILL.md",
+      "sha256": "a49ef6dced91a1f929c54bc23a50d14134feaf8361bbc540047486f0879bfa2f",
+      "lines": 504,
+      "bytes": 14408,
+      "description": "Create Codex Agent Skills. Use when authoring a new skill or asking about SKILL.md structure.",
+      "workflow_sections": [
+        "Creating Skills in Codex",
+        "Before You Begin: Gather Requirements",
+        "Verbatim text from the user",
+        "Inferring from Context",
+        "Gathering Additional Information",
+        "Skill File Structure",
+        "Directory Layout",
+        "Storage Locations"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/create-subagent",
+      "name": "create-subagent",
+      "source_relative_to_user_profile": ".agents/skills/create-subagent/SKILL.md",
+      "sha256": "8874e78acaa6ae74e4252ba63cb6374eb6bfa47a324ff0542d0e28f9c01fb56a",
+      "lines": 225,
+      "bytes": 6453,
+      "description": "Create custom subagents for specialized AI tasks. Use when you want to create a new type of subagent, set up task-specific agents, configure code reviewers, debuggers, or domain-specific assistants with custom prompts.",
+      "workflow_sections": [
+        "Creating Custom Subagents",
+        "When to Use Subagents",
+        "Inferring from Context",
+        "Subagent Locations",
+        "Subagent File Format",
+        "Required Fields",
+        "Writing Effective Descriptions",
+        "❌ Too vague"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/goal",
+      "name": "goal",
+      "source_relative_to_user_profile": ".agents/skills/goal/SKILL.md",
+      "sha256": "e3a2388ae11e0ff7cb74d98e5a7f325fc6839f24fd486aa7bbf25142ed50f135",
+      "lines": 57,
+      "bytes": 5016,
+      "description": "Set a goal that Codex will pursue to completion.",
+      "workflow_sections": [
+        "Goal",
+        "Parse",
+        "Start",
+        "Guidelines"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/loop",
+      "name": "loop",
+      "source_relative_to_user_profile": ".agents/skills/loop/SKILL.md",
+      "sha256": "fa195d01ca95def6f8e6ca1902d35470d153b49472ba4e60ea5224485f192a05",
+      "lines": 122,
+      "bytes": 7602,
+      "description": "Run a prompt or skill in this session on a recurring or variable interval (e.g. /loop 5m /foo).",
+      "workflow_sections": [
+        "Loop",
+        "Parse",
+        "Subscription timer (cloud)",
+        "Schedule",
+        "Changing an existing timer",
+        "Dynamic Schedule",
+        "Stop",
+        "Guidance"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/migrate-to-builds",
+      "name": "migrate-to-builds",
+      "source_relative_to_user_profile": ".agents/skills/migrate-to-builds/SKILL.md",
+      "sha256": "c4ec018da44c0488b9d2d77aafb055629caa609f40e920481023b801e2e86b15",
+      "lines": 97,
+      "bytes": 6918,
+      "description": "Test that a Cloud Agent environment will work with prebuilt environment builds and recommend any required changes. Use when the user wants to migrate to builds, test build compatibility, or follow the Builds page setup-agent flow.",
+      "workflow_sections": [
+        "Migrate an Environment to Builds",
+        "Resources",
+        "Choose the workflow",
+        "Mental Model",
+        "Configuration Sources and Precedence",
+        "Choosing install, start, or terminals",
+        "Diagnose misplaced work",
+        "Safety"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/migrate-to-skills",
+      "name": "migrate-to-skills",
+      "source_relative_to_user_profile": ".agents/skills/migrate-to-skills/SKILL.md",
+      "sha256": "ba4e939aa72a2e955e1b481743ff1db171fa0db13f43385f1ea90a9e7117a283",
+      "lines": 134,
+      "bytes": 6435,
+      "description": "Convert 'Applied intelligently' Codex rules (.cursor/rules/*.mdc) and slash commands (.cursor/commands/*.md) to Agent Skills format (.cursor/skills/). Use when you want to migrate rules or commands to skills, convert .mdc rules to SKILL.md format, or consolidate commands into the skills directory.",
+      "workflow_sections": [
+        "Migrate Rules and Slash Commands to Skills",
+        "Locations",
+        "Finding Files to Migrate",
+        "Conversion Format",
+        "Rules: .mdc → SKILL.md",
+        "Before: .cursor/rules/my-rule.mdc",
+        "Title",
+        "After: .cursor/skills/my-rule/SKILL.md"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/new-repo",
+      "name": "new-repo",
+      "source_relative_to_user_profile": ".agents/skills/new-repo/SKILL.md",
+      "sha256": "f00ae3d0e231c35bb70ced3ae5dae7378aa5b43e6c8b5f2637a037638e67efde",
+      "lines": 74,
+      "bytes": 2818,
+      "description": "Create a Codex-hosted repo for the current project and push it. Use when a project has no git remote yet and the user asks to create a repo on Codex, push the project to Codex, or set up a Codex-hosted remote; installs and signs in the origin CLI when needed.",
+      "workflow_sections": [
+        "new-repo — create a repo for this project and push it",
+        "1. Inspect the workspace first (always)",
+        "2. Prepare the project",
+        "3. Create and push the Codex-hosted repo",
+        "Hard limits"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/onboard",
+      "name": "onboard",
+      "source_relative_to_user_profile": ".agents/skills/onboard/SKILL.md",
+      "sha256": "e5df841cb32f593393acfa96bc3c4714cd6667a7104e1efda08692f41b5f0c55",
+      "lines": 176,
+      "bytes": 12230,
+      "description": "Use /onboard for a focused Codex onboarding flow that learns basic preferences, picks a first goal, and routes the user to the right next action.",
+      "workflow_sections": [
+        "Onboard",
+        "Hard Rules",
+        "Tool Boundary",
+        "Choice Questions",
+        "Flow",
+        "1. Start",
+        "2. Work Context",
+        "3. Save Memory"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/origin",
+      "name": "origin",
+      "source_relative_to_user_profile": ".agents/skills/origin/SKILL.md",
+      "sha256": "cd515fe0d7037fb2907bff05f3c010f5643baf43b250592b882df84f8937fdcf",
+      "lines": 92,
+      "bytes": 3884,
+      "description": "Install, sign in, update, or repair the origin CLI for repos hosted on Codex (origin.cursor.com). Use when the CLI is missing or outdated, git push/pull fails to authenticate against origin.cursor.com, or the user asks to set up, clone, or configure Codex-hosted repos.",
+      "workflow_sections": [
+        "origin — set up and repair the origin CLI",
+        "Platform check first",
+        "1. Detect the current state",
+        "2. Install",
+        "3. Authenticate",
+        "4. Recover from known failures",
+        "Useful commands once working",
+        "Hard limits"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/rename-chat",
+      "name": "rename-chat",
+      "source_relative_to_user_profile": ".agents/skills/rename-chat/SKILL.md",
+      "sha256": "618b6d42cacec9b77ebadc5ca0f564f42e1e592499b01cfc22595a608f3ceb31",
+      "lines": 16,
+      "bytes": 793,
+      "description": "Rename the current chat to match its focus. Use only when the user invokes /rename-chat. Optional text after the command steers the title.",
+      "workflow_sections": [
+        "Rename Chat"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/review",
+      "name": "review",
+      "source_relative_to_user_profile": ".agents/skills/review/SKILL.md",
+      "sha256": "bd00601823f73cce6a20acc3996e7d2ea3c2a366143da12eafd0d94b98d88ece",
+      "lines": 16,
+      "bytes": 587,
+      "description": "Review code changes with the Bugbot or Security Review subagent.",
+      "workflow_sections": [
+        "Review"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/review-bugbot",
+      "name": "review-bugbot",
+      "source_relative_to_user_profile": ".agents/skills/review-bugbot/SKILL.md",
+      "sha256": "24bb0b36844583c5a1ffe2dc11f861c85d68a281cc61ceda35966bbf60c08e7a",
+      "lines": 66,
+      "bytes": 4902,
+      "description": "Review code changes with Bugbot subagent.",
+      "workflow_sections": [
+        "Review Bugbot"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/review-security",
+      "name": "review-security",
+      "source_relative_to_user_profile": ".agents/skills/review-security/SKILL.md",
+      "sha256": "d007ec5a617e9caeef03055cd9c5dad762d80acb4ae1b20377bde4b3b41c46fd",
+      "lines": 51,
+      "bytes": 3757,
+      "description": "Review code changes with Security Review subagent.",
+      "workflow_sections": [
+        "Review Security"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/sdk",
+      "name": "sdk",
+      "source_relative_to_user_profile": ".agents/skills/sdk/SKILL.md",
+      "sha256": "baf963c116d4b0a4231748563ef0fc6ecc2589f9b36759d806c385004be854a4",
+      "lines": 380,
+      "bytes": 19563,
+      "description": "Guide users building apps, scripts, CI pipelines, or automations on top of the Codex SDK - TypeScript (`@cursor/sdk`) or Python (`cursor-sdk` / `cursor_sdk`). Use when the user mentions integrating, installing, or writing code against the Codex SDK; says `Agent.create`, `Agent.prompt`, `Agent.resume`, `agent.send`, `run.stream`, `run.messages`, `CursorAgentError`, `@cursor/sdk`, `cursor-sdk`, or `cursor_sdk`; asks to run Codex agents programmatically from a script, CI/CD pipeline, GitHub Action, backend service, or other code outside the Codex IDE; wants to pick between local and cloud runtime, configure MCP servers for an SDK agent, or handle streaming, cancellation, or errors; or is wiring Codex into an automation, bot, or REST `/v1/agents` migration. Use eagerly rather than answering from memory; the SDK surface evolves and this skill is the source of truth for the external packages.",
+      "workflow_sections": [
+        "Codex SDK",
+        "Pick the language",
+        "Voice and Posture",
+        "The Three Invocation Patterns",
+        "1. `Agent.prompt(...)` - one-shot",
+        "2. `Agent.create(...)` + `agent.send(...)` - durable with follow-ups",
+        "3. `Agent.resume(...)` - pick up an existing agent later",
+        "Top Five Traps"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/share",
+      "name": "share",
+      "source_relative_to_user_profile": ".agents/skills/share/SKILL.md",
+      "sha256": "7deb4c207da4fd8b32dd3f41c7a6a66c961f6e56ae0db85921ed77919e8bf1ba",
+      "lines": 94,
+      "bytes": 3736,
+      "description": "Save, back up, or share the current project on Codex — creates a repo (a saved, versioned copy that isn't public) even for users who have never used git, handling all setup automatically. Use when the user asks to save, back up, publish, or share their project on Codex, or how to not lose it.",
+      "workflow_sections": [
+        "share — save this project somewhere safe",
+        "1. Look before you speak",
+        "2. One-line explanation",
+        "3. Set up and save",
+        "4. Close the loop in their vocabulary",
+        "If the goal was to show someone",
+        "Hard limits"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/shell",
+      "name": "shell",
+      "source_relative_to_user_profile": ".agents/skills/shell/SKILL.md",
+      "sha256": "b354ce28c70af1d5c05bb6bf070a1823fadd470530993ab271a1cfcbe57ad4fe",
+      "lines": 24,
+      "bytes": 867,
+      "description": "Runs the rest of a /shell request as a literal shell command. Use only when the user explicitly invokes /shell and wants the following text executed directly in the terminal.",
+      "workflow_sections": [
+        "Run Shell Commands",
+        "Behavior",
+        "Response"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/skill-creator",
+      "name": "skill-creator",
+      "source_relative_to_user_profile": ".agents/skills/skill-creator/SKILL.md",
+      "sha256": "50f9e64a9620da64a073eebab3bcbc99bb0821cb3aae27b5b4db54da0f3d6595",
+      "lines": 39,
+      "bytes": 1252,
+      "description": "Create new skills, modify and improve existing skills. Use when users want to create a skill from scratch, edit, or optimize an existing skill.",
+      "workflow_sections": [
+        "Skill Creator",
+        "SKILL.md Format",
+        "Your Skill Name",
+        "Instructions",
+        "Step 1: [First Major Step]",
+        "Step 2: [Next Step]",
+        "Rules"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/split-to-prs",
+      "name": "split-to-prs",
+      "source_relative_to_user_profile": ".agents/skills/split-to-prs/SKILL.md",
+      "sha256": "61e3b94b54457e0f8a850cccf64936a0f5a686f6ad22016d17d30958d2f2b328",
+      "lines": 49,
+      "bytes": 2261,
+      "description": "Split current work into small reviewable PRs. Use when the user asks to split a chat, set of changes, branch, or PR.",
+      "workflow_sections": [
+        "Split to PRs",
+        "Hard rules",
+        "1. Check the state",
+        "2. Propose the split",
+        "3. Execute the split",
+        "4. Report back"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/statusline",
+      "name": "statusline",
+      "source_relative_to_user_profile": ".agents/skills/statusline/SKILL.md",
+      "sha256": "9ce07cefc16faf737ad58fb8f09ac6d34ff457382daf90ff6a06d402f4688d73",
+      "lines": 196,
+      "bytes": 7200,
+      "description": "Configure a custom status line in the CLI. Use when the user mentions status line, statusline, statusLine, CLI status bar, prompt footer customization, or wants to add session context above the prompt.",
+      "workflow_sections": [
+        "CLI Status Line",
+        "Configuration",
+        "Stdin payload",
+        "Full JSON schema",
+        "Available fields",
+        "Fields that may be absent",
+        "Fields that may be null",
+        "Stdout / rendering"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/subscribe",
+      "name": "subscribe",
+      "source_relative_to_user_profile": ".agents/skills/subscribe/SKILL.md",
+      "sha256": "4466dc35d0a1a326fcd684a3f1d8f7409bfa24bd159893cabedb66d4695418b9",
+      "lines": 52,
+      "bytes": 5628,
+      "description": "Wait for external events (GitHub CI results, PR activity, Slack messages, Linear issues) by subscribing with the cursor-subscriptions MCP tools instead of polling.",
+      "workflow_sections": [
+        "Subscribe to External Events",
+        "When to subscribe",
+        "How subscriptions behave",
+        "Tool notes",
+        "Recipes"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/update-cli-config",
+      "name": "update-cli-config",
+      "source_relative_to_user_profile": ".agents/skills/update-cli-config/SKILL.md",
+      "sha256": "7ab23cb1feadd3d0aedf5bf06d479f17606a7610de558d89a2de1ece75123874",
+      "lines": 94,
+      "bytes": 4678,
+      "description": "View and modify Codex CLI configuration settings in ~/.cursor/cli-config.json. Use when the user wants to change CLI settings, configure permissions, switch approval mode, enable vim mode, toggle display options, configure sandbox, or manage any CLI preferences.",
+      "workflow_sections": [
+        "Codex CLI Configuration",
+        "Config File Location",
+        "How to Modify",
+        "Available Settings",
+        "`permissions` (required)",
+        "`editor`",
+        "`display` (optional)",
+        "`channel` (optional)"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/update-cursor-settings",
+      "name": "update-cursor-settings",
+      "source_relative_to_user_profile": ".agents/skills/update-cursor-settings/SKILL.md",
+      "sha256": "cda7180339d1f03f9331915b20d835a5d414eac7f97f30faa530d3e485c9fbe5",
+      "lines": 122,
+      "bytes": 4284,
+      "description": "Modify Codex/VSCode user settings in settings.json. Use when you want to change editor settings, preferences, configuration, themes, font size, tab size, format on save, auto save, keybindings, or any settings.json values.",
+      "workflow_sections": [
+        "Updating Codex Settings",
+        "Settings File Location",
+        "Before Modifying Settings",
+        "Modifying Settings",
+        "Step 1: Read Current Settings",
+        "Step 2: Identify the Setting to Change",
+        "Step 3: Update the Setting",
+        "Example: Changing Font Size"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "personal:.agents/skills/walkthrough-artifacts",
+      "name": "walkthrough-artifacts",
+      "source_relative_to_user_profile": ".agents/skills/walkthrough-artifacts/SKILL.md",
+      "sha256": "98a6989324469a9df23cf3f46ca81cbf8876181a10bbbfd4f4ab696789634db8",
+      "lines": 95,
+      "bytes": 6991,
+      "description": "Create walkthrough artifacts (screenshots and screen recordings) that prove code changes work. Use when finishing tested changes and uploading demo evidence for the user.",
+      "workflow_sections": [
+        "Creating & Uploading Walkthrough Artifacts",
+        "When to Use",
+        "What makes a good test artifact",
+        "Creating an artifact",
+        "Screenshot artifacts",
+        "Video artifacts",
+        "Saving an artifact",
+        "Details"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "system:.codex/skills/.system/imagegen",
+      "name": "imagegen",
+      "source_relative_to_user_profile": ".codex/skills/.system/imagegen/SKILL.md",
+      "sha256": "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+      "lines": 315,
+      "bytes": 19516,
+      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+      "workflow_sections": [
+        "Image Generation Skill",
+        "Top-level modes and rules",
+        "When to use",
+        "When not to use",
+        "Decision tree",
+        "Workflow",
+        "Transparent image requests",
+        "Prompt augmentation"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "system:.codex/skills/.system/openai-docs",
+      "name": "openai-docs",
+      "source_relative_to_user_profile": ".codex/skills/.system/openai-docs/SKILL.md",
+      "sha256": "8ce8021101bcea594ff92ee6cfd8ca7641a49ee66d7bc6070555f1a33fc239d9",
+      "lines": 38,
+      "bytes": 5475,
+      "description": "Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.",
+      "workflow_sections": [
+        "OpenAI Docs",
+        "Choose one primary route",
+        "Source and execution boundaries"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "system:.codex/skills/.system/skill-creator",
+      "name": "skill-creator",
+      "source_relative_to_user_profile": ".codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "lines": 229,
+      "bytes": 15540,
+      "description": "Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.",
+      "workflow_sections": [
+        "Skill Creator",
+        "Core Principles",
+        "Anatomy of a Skill",
+        "SKILL.md",
+        "Scripts",
+        "References",
+        "Assets",
+        "UI Metadata and Invocation Policy"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "system:.codex/skills/.system/skill-installer",
+      "name": "skill-installer",
+      "source_relative_to_user_profile": ".codex/skills/.system/skill-installer/SKILL.md",
+      "sha256": "2892d8b2fb11631132118f340aed80ae17e59d5a571fc2c4f4a4a7e73f139d52",
+      "lines": 58,
+      "bytes": 3425,
+      "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+      "workflow_sections": [
+        "Skill Installer",
+        "Communication",
+        "Scripts",
+        "Behavior and Options",
+        "Notes"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/cowork-plugin-management/0.2.2/skills/cowork-plugin-customizer",
+      "name": "cowork-plugin-customizer",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/cowork-plugin-management/0.2.2/skills/cowork-plugin-customizer/SKILL.md",
+      "sha256": "d7a9455692f26479806b837aef09d4711b74f82b6e32ef304a5c33ae8feb441f",
+      "lines": 149,
+      "bytes": 9702,
+      "description": "Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, set up plugin, configure plugin, tailor plugin, adjust plugin settings, customize plugin connectors, customize plugin skill, tweak plugin, modify plugin configuration.",
+      "workflow_sections": [
+        "Cowork Plugin Customization",
+        "Determining the Customization Mode",
+        "Customization Workflow",
+        "Phase 0: Gather User Intent (scoped and general customization only)",
+        "Phase 1: Gather Context from Knowledge MCPs",
+        "Phase 2: Create Todo List",
+        "Phase 3: Complete Todo Items",
+        "Phase 4: Search for Useful MCPs"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/cowork-plugin-management/0.2.2/skills/create-cowork-plugin",
+      "name": "create-cowork-plugin",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/cowork-plugin-management/0.2.2/skills/create-cowork-plugin/SKILL.md",
+      "sha256": "4769717426502a5517ae9d512095b49c223cccb0223e20268dfa6a44ef18ab94",
+      "lines": 270,
+      "bytes": 13354,
+      "description": "Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin, start a plugin from scratch, or design a plugin. This skill requires Cowork mode with access to the outputs directory for delivering the final .plugin file.",
+      "workflow_sections": [
+        "Create Cowork Plugin",
+        "Overview",
+        "Plugin Architecture",
+        "Directory Structure",
+        "plugin.json Manifest",
+        "Component Schemas",
+        "Customizable plugins with `~~` placeholders",
+        "Connectors"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/ai-tools-setup",
+      "name": "ai-tools-setup",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/ai-tools-setup/SKILL.md",
+      "sha256": "77895640c33bdba386a7f6f3c527678971c097a709be0caaa485160e823b05c4",
+      "lines": 107,
+      "bytes": 5845,
+      "description": "Set up, connect, validate, and repair Claude Desktop and MCP servers using Desktop Commander — inspecting and fixing mcp.json / claude_desktop_config.json, getting MCP servers to connect, and diagnosing local AI tooling. Use when a user wants to install, configure, connect, validate, or fix Claude Desktop, an MCP server, an MCP config file, or a local AI agent/gateway. Trigger on the symptoms that actually bring people in: \"Claude can't see my tools\", \"my MCP server isn't showing up\", \"tools aren't loading in Claude\", \"add an MCP server\", \"my MCP isn't connecting\", \"fix my Claude Desktop config\", \"the agent won't respond\", \"wire up Ollama / LM Studio\", \"restart Claude Desktop\". Also covers local agent gateways like OpenClaw and Hermes.",
+      "workflow_sections": [
+        "AI Tools Setup Assistant",
+        "Golden rules (read before doing anything)",
+        "What this skill covers",
+        "General workflow",
+        "A generic \"my agent isn't responding\" diagnostic"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/computer-health-check",
+      "name": "computer-health-check",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/computer-health-check/SKILL.md",
+      "sha256": "7c6c61ac72b76ba8bcd89128dced34ee305eb7ef3c0ccedd00c00b26bbeed5d7",
+      "lines": 165,
+      "bytes": 8603,
+      "description": "Run a comprehensive, read-only health check on the user's computer and return a scored chat summary with prioritized, plain-English recommendations and safe cleanup suggestions. Use this whenever the user wants to check their computer's health, speed it up, free up / reclaim disk space, find what's eating CPU / memory / storage, check battery health and wear, audit login & startup items, see pending updates, or asks for a \"tune-up\", \"checkup\", \"system report\", \"health check\", or \"is my Mac/PC/laptop healthy\". Trigger even on casual phrasing like \"my laptop feels slow\", \"why is my fan so loud\", \"my computer is laggy\", \"running out of space\", or \"clean up my machine\". Works on macOS, Windows, and Linux. This is a Desktop Commander skill: it relies on a real local shell (start_process / interact_with_process) and is strictly read-only by default — it never needs sudo and only performs cleanups the user explicitly approves.",
+      "workflow_sections": [
+        "Computer Health Check",
+        "What this skill does",
+        "The safety contract (read this first)",
+        "Workflow",
+        "Step 1 — Detect the OS",
+        "Step 2 — Collect (read-only)",
+        "Step 3 — Score each area",
+        "Step 4 — Report in the chat"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/desktop-commander-overview",
+      "name": "desktop-commander-overview",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/desktop-commander-overview/SKILL.md",
+      "sha256": "7a0e77cae3d4c79f9bdffb1e601e3233ea7eaf739d1382ff5d975bd9af7614a0",
+      "lines": 108,
+      "bytes": 12282,
+      "description": "Use for Desktop Commander MCP capabilities — persistent shells and REPLs, long-running processes, filesystem beyond the workspace, structured files (.xlsx, .docx, .pdf, images) and large local data files such as CSVs, ripgrep search at scale, SSH, or cross-turn state.",
+      "workflow_sections": [
+        "Desktop Commander MCP",
+        "What this MCP gives the agent",
+        "Example workflows",
+        "\"Debug this production issue\"",
+        "\"Deploy this to staging\"",
+        "\"Run the dev server and iterate on the API\"",
+        "\"Refactor across this monorepo\"",
+        "\"Update the Q3 numbers in this spreadsheet and tweak the summary in the report\""
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/knowledge-base",
+      "name": "knowledge-base",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/knowledge-base/SKILL.md",
+      "sha256": "34ca1c1fd9e60678530b02c3fc64a2361d44b77420dba3ac9a5f17a182847745",
+      "lines": 198,
+      "bytes": 8791,
+      "description": "Create and maintain a Markdown knowledge base that any AI agent can read, search, and update. Use when the user wants to start a knowledge base, add or update notes, organize docs/notes for an agent or LLM to consume, build an index of notes, or run a cleanup/maintenance pass on an existing MD knowledge base. Triggers include \"knowledge base\", \"KB\", \"notes for the agent\", \"index of notes\", \"second brain\", \"docs for AI context\", \"add a note\", \"update the KB\".",
+      "workflow_sections": [
+        "Knowledge Base (Markdown, agent-readable)",
+        "Core principles (the \"why\")",
+        "Folder structure (nested by topic)",
+        "Naming rules",
+        "Required frontmatter (every note)",
+        "Note body shape",
+        "Session tokens",
+        "Context"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/obsidian-vault",
+      "name": "obsidian-vault",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/obsidian-vault/SKILL.md",
+      "sha256": "e0042d5b543984884ddd600b324bbf7ad33d4e598ea139126104fc59c665db13",
+      "lines": 208,
+      "bytes": 8950,
+      "description": "Organize Obsidian vaults with MOCs, wikilinks, frontmatter/properties, dashboards, orphan-note checks, and cleanup workflows. Use ONLY when the user explicitly refers to Obsidian — by naming \"Obsidian\", an Obsidian \"vault\", or an Obsidian-specific feature such as wikilinks (\"[[ ]]\"), the Dataview or Bases plugins, or Obsidian Properties. Within that Obsidian context it covers creating Maps of Content, adding/fixing wikilinks, finding orphan notes, normalizing YAML frontmatter, generating Dataview/Bases dashboards, organizing folders, deduplicating or renaming notes, and preparing the vault for AI use. Do NOT use this skill for generic note-taking, Markdown, or knowledge-base requests that don't mention Obsidian.",
+      "workflow_sections": [
+        "Obsidian Vault Assistant",
+        "Wikilinks",
+        "Maps of Content (MOCs)",
+        "Auth — Map of Content",
+        "Core",
+        "Related MOCs",
+        "Frontmatter / Properties",
+        "Dashboards"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/terminal",
+      "name": "terminal",
+      "source_relative_to_user_profile": ".codex/plugins/cache/claude-cowork/desktop-commander/0.2.0/skills/terminal/SKILL.md",
+      "sha256": "6672a30bd2ad9bb83245ad4e27b95ff5b9070a28f038ec19d77c2fb96bfce3b0",
+      "lines": 203,
+      "bytes": 10761,
+      "description": "Use Desktop Commander for terminal and command-line work, especially anything that needs a shell whose state persists across turns: Python/Node REPLs, database shells, dev servers and other long-running processes, SSH into remote machines, and Windows PowerShell. Also handles everyday terminal tasks — navigating folders, choosing the right command for the user's shell (PowerShell, cmd, bash, zsh), running Docker/curl/cloud-CLI commands, inspecting processes and ports, and saving recurring workflows as scripts — even when the user doesn't say \"Desktop Commander\" or \"terminal.\" Reach for it on pasted errors like \"command not found\", \"permission denied\", \"EADDRINUSE\", \"address already in use\", \"npm ERR!\", \"ModuleNotFoundError\", or \"ENOENT\", and on intents like \"what's using port 3000\", \"kill that process\", \"ssh into my server\", or \"why won't my dev server start\". Works on Windows, macOS, and Linux. Never run destructive commands without explicit confirmation.",
+      "workflow_sections": [
+        "Terminal Command Assistant",
+        "1. Detect the environment first (do this before suggesting commands)",
+        "2. Choosing the right command for the shell",
+        "3. Running commands with Desktop Commander",
+        "Interactive REPL pattern (the workhorse)",
+        "4. Running specific CLIs",
+        "5. Inspecting processes and ports",
+        "6. Explaining errors in plain English"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/agents-sdk",
+      "name": "agents-sdk",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/agents-sdk/SKILL.md",
+      "sha256": "007d6ccf85808a6c779f5b058b1be970d77785000071cb27a55a5f580fbc845b",
+      "lines": 155,
+      "bytes": 5581,
+      "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, or chat applications. Covers Agent class, state management, callable RPC, Workflows integration, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Cloudflare Agents SDK",
+        "Retrieval Sources",
+        "Capabilities",
+        "FIRST: Verify Installation",
+        "Wrangler Configuration",
+        "Agent Class",
+        "Routing",
+        "Core APIs"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/building-ai-agent-on-cloudflare",
+      "name": "building-ai-agent-on-cloudflare",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/building-ai-agent-on-cloudflare/SKILL.md",
+      "sha256": "31554ff30e2edb8c2dc9bd5fba15438691fb07f3541f0a0cc843b6a13cdaa573",
+      "lines": 400,
+      "bytes": 9809,
+      "description": "Builds AI agents on Cloudflare using the Agents SDK with state management, real-time WebSockets, scheduled tasks, tool integration, and chat capabilities. Generates production-ready agent code deployed to Workers. Use when: user wants to \"build an agent\", \"AI agent\", \"chat agent\", \"stateful agent\", mentions \"Agents SDK\", needs \"real-time AI\", \"WebSocket AI\", or asks about agent \"state management\", \"scheduled tasks\", or \"tool calling\". Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Building Cloudflare Agents",
+        "Retrieval Sources",
+        "When to Use",
+        "Prerequisites",
+        "Quick Start",
+        "Core Concepts",
+        "What is an Agent?",
+        "Agent Lifecycle"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/building-mcp-server-on-cloudflare",
+      "name": "building-mcp-server-on-cloudflare",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/building-mcp-server-on-cloudflare/SKILL.md",
+      "sha256": "d76ee46c043d3876d542245e0c26e9d084f4ca8241d811593e93d8d2594118e8",
+      "lines": 266,
+      "bytes": 6429,
+      "description": "Builds remote MCP (Model Context Protocol) servers on Cloudflare Workers with tools, OAuth authentication, and production deployment. Generates server code, configures auth providers, and deploys to Workers. Use when: user wants to \"build MCP server\", \"create MCP tools\", \"remote MCP\", \"deploy MCP\", add \"OAuth to MCP\", or mentions Model Context Protocol on Cloudflare. Also triggers on \"MCP authentication\" or \"MCP deployment\". Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Building MCP Servers on Cloudflare",
+        "Retrieval Sources",
+        "When to Use",
+        "Prerequisites",
+        "Quick Start",
+        "Option 1: Public Server (No Auth)",
+        "Option 2: Authenticated Server (OAuth)",
+        "Core Workflow"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/cloudflare",
+      "name": "cloudflare",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/cloudflare/SKILL.md",
+      "sha256": "613c4c57c19bd6385a870b4d441e00a0d88cc6c348c447f8a88889d34b17b2d0",
+      "lines": 228,
+      "bytes": 8170,
+      "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Cloudflare Platform Skill",
+        "Retrieval Sources",
+        "Quick Decision Trees",
+        "\"I need to run code\"",
+        "\"I need to store data\"",
+        "\"I need AI/ML\"",
+        "\"I need networking/connectivity\"",
+        "\"I need security\""
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/durable-objects",
+      "name": "durable-objects",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/durable-objects/SKILL.md",
+      "sha256": "cd6797cb18f3ae8f721dfd2e5cb27b73a0aa8636683f1a38163dab2fd51a8dfb",
+      "lines": 186,
+      "bytes": 5867,
+      "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, SQLite storage, alarms, WebSockets, or reviewing DO code for best practices. Covers Workers integration, wrangler config, and testing with Vitest. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Durable Objects",
+        "Retrieval Sources",
+        "When to Use",
+        "Reference Documentation",
+        "Core Principles",
+        "Use Durable Objects For",
+        "Do NOT Use For",
+        "Quick Reference"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/sandbox-sdk",
+      "name": "sandbox-sdk",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/sandbox-sdk/SKILL.md",
+      "sha256": "0f3501e6510921401be3f54bcb24d2a432a1b5c63af8f719eded3a087ad88ea9",
+      "lines": 177,
+      "bytes": 5771,
+      "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD systems, interactive dev environments, or executing untrusted code. Covers Sandbox SDK lifecycle, commands, files, code interpreter, and preview URLs. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Cloudflare Sandbox SDK",
+        "FIRST: Verify Installation",
+        "Retrieval Sources",
+        "Required Configuration",
+        "Quick Reference",
+        "Core Patterns",
+        "Execute Commands",
+        "Code Interpreter (Recommended for AI)"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/web-perf",
+      "name": "web-perf",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/web-perf/SKILL.md",
+      "sha256": "746b3490d401c8020900f0a62ece846c22d3df15782ee843c082acfa89f26703",
+      "lines": 201,
+      "bytes": 8166,
+      "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (FCP, LCP, TBT, CLS, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. Use when asked to audit, profile, debug, or optimize page load performance, Lighthouse scores, or site speed. Biases towards retrieval from current documentation over pre-trained knowledge.",
+      "workflow_sections": [
+        "Web Performance Audit",
+        "Retrieval Sources",
+        "FIRST: Verify MCP Tools Available",
+        "Key Guidelines",
+        "Quick Reference",
+        "Workflow",
+        "Phase 1: Performance Trace",
+        "Phase 2: Core Web Vitals Analysis"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/workers-best-practices",
+      "name": "workers-best-practices",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/workers-best-practices/SKILL.md",
+      "sha256": "099432ff265ff6080327ef0b392c118b835d2a5bda98a7de07e1afd115ed6458",
+      "lines": 127,
+      "bytes": 7092,
+      "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Retrieval Sources",
+        "FIRST: Fetch Latest References",
+        "Fetch latest workers types",
+        "Types at /tmp/workers-types-latest/package/index.d.ts",
+        "Reference Documentation",
+        "Rules Quick Reference",
+        "Configuration",
+        "Request & Response Handling"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/wrangler",
+      "name": "wrangler",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/cloudflare/0.1.2/skills/wrangler/SKILL.md",
+      "sha256": "0aa6fbe6932df4392779bfda67b1a0165697369668cb2dbef66d018a34f44c11",
+      "lines": 897,
+      "bytes": 16937,
+      "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "workflow_sections": [
+        "Wrangler CLI",
+        "Retrieval Sources",
+        "FIRST: Verify Wrangler Installation",
+        "Key Guidelines",
+        "Quick Start: New Worker",
+        "Initialize new project",
+        "Or with a framework",
+        "Quick Reference: Core Commands"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-building",
+      "name": "sites-building",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-building/SKILL.md",
+      "sha256": "a74849932e62784144ee72ebe3952ba2ab2a095581459f99eac1611a380bea2c",
+      "lines": 317,
+      "bytes": 38113,
+      "description": "Use Sites when the user wants a complete website built for them, such as a landing page, portfolio, dashboard, portal, tracker, hub, or internal tool, or wants to modify a website built with Sites. Do not use for development work in other web projects unless the user explicitly requests Sites.",
+      "workflow_sections": [
+        "Sites building",
+        "Recurring updates",
+        "Execution profile",
+        "Site lifecycle ownership",
+        "1. Start with the project",
+        "Choose the execution path",
+        "Start new projects immediately",
+        "2. Design the experience"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-hosting",
+      "name": "sites-hosting",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-hosting/SKILL.md",
+      "sha256": "c1bf20036e4a2bc167e48c9c515c6cdae930deddd520698c917e2a10d07ed336",
+      "lines": 102,
+      "bytes": 10123,
+      "description": "Host websites with Sites. Use after `sites-building` to publish new sites and edits, for requested website publishing or deployment, or for hosting management. A project containing `.openai/hosting.json` uses Sites hosting only when the current request concerns that Site. Publishing an npm package or standalone asset is not website publishing. Honor an explicit request to use another hosting provider.",
+      "workflow_sections": [
+        "Sites hosting",
+        "Recurring work",
+        "Before setup",
+        "Create when clear",
+        "Suggest when optional",
+        "Confirm setup",
+        "Rules",
+        "Site workflow"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-mcp",
+      "name": "sites-mcp",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-mcp/SKILL.md",
+      "sha256": "db574064231c17051fccb4afc4ff951959f16e6fe17bc2caa2aee7aa1d19e2d7",
+      "lines": 32,
+      "bytes": 2475,
+      "description": "Build or update a Site-hosted MCP server and help users access its tools through the Site's plugin in ChatGPT or Codex.",
+      "workflow_sections": [
+        "Sites MCP",
+        "Build the server",
+        "Publish and connect"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-preview-troubleshooting",
+      "name": "sites-preview-troubleshooting",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/sites/0.1.75/skills/sites-preview-troubleshooting/SKILL.md",
+      "sha256": "b8d2cb0731ed0c46888f2e455b23a7114b209c66ac3708e6502b0f280065938e",
+      "lines": 108,
+      "bytes": 8167,
+      "description": "Diagnose and recover failed supervised sites-preview sessions after sites-building. Applies only to the managed-linux execution profile, not portable previews.",
+      "workflow_sections": [
+        "Agent-preview troubleshooting",
+        "Runtime contract",
+        "Diagnose briefly, then recover",
+        "Client or daemon unavailable",
+        "Invalid Site root",
+        "Port already in use",
+        "Dev server exits or health check times out",
+        "Agent preview runs but the cloud browser cannot reach it"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/unreal-engine-skills-for-codex/0.1.7/skills/unreal-mcp",
+      "name": "unreal-mcp",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/unreal-engine-skills-for-codex/0.1.7/skills/unreal-mcp/SKILL.md",
+      "sha256": "ffa785ef2d831665bdaa6c60fb44d948a7264b25ce56d3351250dc9b1cae09db",
+      "lines": 55,
+      "bytes": 6963,
+      "description": "Use this skill to perform actions inside an Unreal Engine project via a live-editor MCP connection. Trigger when the user wants to change, query, or run something in their Unreal Engine project, not for conceptual or docs questions. Concrete triggers: spawn/move/duplicate/transform actors in a level, open a `.uproject`, add things around a PlayerStart, create or edit a Blueprint/Widget/Material/Niagara/Control Rig/Sequencer/Behavior Tree/GAS ability, read or write properties on actors (e.g. `bIsLocked` on `BP_DoorActor`), Live Coding recompile after editing C++ (`AActor`, `UMyComponent::Method`, `UPROPERTY`), or modify Static/Skeletal Mesh assets. Treat as Unreal context even without the word \\\"Unreal\\\": asset prefixes `BP_`, `WBP_`, `M_`, `MI_`, `NS_`, `CR_`, `SK_`, `SM_`, `ABP_`; UE C++ types/macros; `.uproject`; Content Browser; Outliner; PlayerStart; \\\"in my game\\\" plus UE signals. Skip for: pure conceptual/docs questions, Unity, Godot, or unrelated uses of \\\"blueprint\\\"/\\\"sequencer\\\"/\\\"widget\\\".",
+      "workflow_sections": [
+        "Unreal MCP",
+        "First step every time: discover the tool you need, then dispatch it via `call_tool`",
+        "Safety rules",
+        "Project skills",
+        "Reference files",
+        "Companion skills"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/unreal-engine-skills-for-codex/0.1.7/skills/unreal-skill",
+      "name": "unreal-skill",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/unreal-engine-skills-for-codex/0.1.7/skills/unreal-skill/SKILL.md",
+      "sha256": "9495b9cda110eee1e0766beeadbb005fc28578adadd19cc60e337aafb5703d93",
+      "lines": 112,
+      "bytes": 6963,
+      "description": "Use this skill when creating, editing, or reviewing an Unreal Engine Agent Skill, a named bundle of instructions registered with the unreal-mcp server (distinct from Codex's client-side skills). Trigger when the user wants to add or change a skill that the in-editor agent will load. Concrete triggers: 'create a new Agent Skill', 'add a skill for X workflow', 'edit/update this skill', 'review my skill', 'make a Python skill class', 'create a skill UAsset', 'register a skill so Codex picks it up'; writing or editing a `SKILL.md` inside a UE plugin's `Skills/` or `Python/skills/` folder; defining a Python skill class registered with the skill registry; calling `CreateSkill`, `ListSkills`, or `GetSkills` MCP tools; designing a skill's name, description, or instruction body. SKIP for: authoring a toolset, invoking an existing skill at runtime (use unreal-mcp), editing client-side Codex skills, or generic uses of the word 'skill'.",
+      "workflow_sections": [
+        "Unreal Skill",
+        "Principles",
+        "Before You Write",
+        "Structure",
+        "Python Skills",
+        "Authoring",
+        "Registration",
+        "Reloading"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet",
+      "name": "create-pet",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/SKILL.md",
+      "sha256": "841354fb8116f8fdfd3b643b30828f5180196c594d3fed9b669b948b88892af1",
+      "lines": 171,
+      "bytes": 17353,
+      "description": "Create, repair, validate, preview, upload, or activate an animated v2 pet in ChatGPT Work mode from a character idea, brand cue, or reference image. Use for new ChatGPT Pets, custom mascots, non-pixel styles, and unattached sprite sheets requiring nine animation states plus sixteen look directions. Preserve Library artifacts and Pets MCP lifecycle behavior. Exclude real pets, standalone images, and other-app pets; clarify before invoking.",
+      "workflow_sections": [
+        "Create Pet",
+        "Preserve the request and prepare Library",
+        "Discover brand cues when needed",
+        "Generate the visual jobs",
+        "Execute the bundled pipeline",
+        "Standard animation rows",
+        "Sixteen look directions",
+        "Assemble, review, and converge"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets",
+      "name": "pets",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets/SKILL.md",
+      "sha256": "1bf5d45fd6a6390aab777229293fb05cef7cf898aac882f8955e40c378e52fcd",
+      "lines": 49,
+      "bytes": 3552,
+      "description": "List, inspect, select, download, or delete animated pets in ChatGPT Work mode. Use for an explicit pet in ChatGPT or established ChatGPT Pets context. Exclude real-world and other-app pets; clarify before invoking.",
+      "workflow_sections": [
+        "Pets",
+        "Route the request",
+        "Resolve a pet",
+        "List and inspect pets",
+        "Select or turn off a pet",
+        "Download a sprite sheet",
+        "Delete a custom pet"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet",
+      "name": "update-pet",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet/SKILL.md",
+      "sha256": "c63c98d67b6ad781a72a8f9837ba1fb5e2d2a8054a2562e4025890a97d8a0e67",
+      "lines": 43,
+      "bytes": 4272,
+      "description": "Inspect, validate, preview, repair, or update a custom pet in ChatGPT Work mode, including its name, description, or sprite sheet. Use for a pet in ChatGPT or established ChatGPT Pets context. Exclude real-world and other-app pets; clarify before invoking.",
+      "workflow_sections": [
+        "Update Pet",
+        "Resolve the pet",
+        "Choose the update path",
+        "Metadata only",
+        "Sprite sheet inspection or change, with optional metadata",
+        "Verify the update"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-bundled/computer-use/26.928.31416/skills/computer-use",
+      "name": "computer-use",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-bundled/computer-use/26.928.31416/skills/computer-use/SKILL.md",
+      "sha256": "8211e4b11a19a0dc4f0ace91096c74c5b36037ca4cb2c8988f0f535bb209e951",
+      "lines": 29,
+      "bytes": 1497,
+      "description": "Control Windows apps from ChatGPT",
+      "workflow_sections": [
+        "Computer Use",
+        "Initialize"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-bundled/visualize/1.0.45/skills/visualize",
+      "name": "visualize",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-bundled/visualize/1.0.45/skills/visualize/SKILL.md",
+      "sha256": "eb1ba019b51014a68d8bd6a11320a30f26dd224df3629c445c34f9128ce0580d",
+      "lines": 270,
+      "bytes": 33560,
+      "description": "Create visualizations and interactive tools directly in conversation. Proactively use to show how something works; explore 'what happens when', 'what changes', or 'help me understand'; compare or inspect; create simulations, maps, charts, graphs, and mockups. Use standard tools for static scientific figures.",
+      "workflow_sections": [
+        "Visualize",
+        "Read the complete skill",
+        "Inline HTML output contract",
+        "File",
+        "Fragment",
+        "Content and response",
+        "External resources",
+        "Exporting an existing visualization"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/build-3d-game-rooms/0.3.3/skills/build-3d-game-rooms",
+      "name": "build-3d-game-rooms",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/build-3d-game-rooms/0.3.3/skills/build-3d-game-rooms/SKILL.md",
+      "sha256": "ff6be0e64cb24bf3e032238b9aaa01e9cd8e2d02a58b5977753a90452ab73cf3",
+      "lines": 81,
+      "bytes": 9338,
+      "description": "Conceive props, generate mesh-ready reference images, create guarded Meshy Image-to-3D assets, compose Blender rooms, and audit or ship interactive 3D spaces through blocking gates. Use for prop ideation, room layouts, Meshy asset generation, Blender construction, Boolean openings, review renders, runtime exports, and durable room-design lessons.",
+      "workflow_sections": [
+        "Build 3D Game Rooms",
+        "Start every task",
+        "Function gate",
+        "Asset-generation gate",
+        "Form gate",
+        "Runtime gate",
+        "Learn after delivery",
+        "Deterministic tools"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management",
+      "name": "plugin-management",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management/SKILL.md",
+      "sha256": "653841cc21205269f08b0ce135891e1518dac616a766bcfb0b57d788d3f68b10",
+      "lines": 58,
+      "bytes": 2983,
+      "description": "Discover and suggest relevant plugins, inspect app permissions and dependencies, and manage plugin connections or removal. Use when the user asks about plugins or when a task would materially benefit from an external app, account, service, or data source that available tools cannot access.",
+      "workflow_sections": [
+        "Plugin Management",
+        "Choose the right capability",
+        "Find and suggest plugins",
+        "Manage existing plugins"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/documents/26.915.20218/skills/documents",
+      "name": "documents",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/documents/26.915.20218/skills/documents/SKILL.md",
+      "sha256": "97cb38f311782d1002c9d112e6cd6269722cd3240f70582802fccfbc66df68fb",
+      "lines": 548,
+      "bytes": 42233,
+      "description": "Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document.",
+      "workflow_sections": [
+        "DOCX Skill (Read • Create • Edit • Redline • Comment)",
+        "Titles + Intro to doc",
+        "Writing quality",
+        "Tools + Contract Requirements",
+        "Clarification questions",
+        "Artifact Template Selection",
+        "Google Docs-targeted output",
+        "Template Following"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/pdf/26.915.20218/skills/pdf",
+      "name": "pdf",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/pdf/26.915.20218/skills/pdf/SKILL.md",
+      "sha256": "a13d2f878d6f79df9ebba91901c0b09bf799e83973b47ebba2104e385b6e4ede",
+      "lines": 158,
+      "bytes": 8076,
+      "description": "Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction.",
+      "workflow_sections": [
+        "PDF Skill",
+        "When To Use",
+        "Tools + Contract Requirements",
+        "Workflow",
+        "Fill And Validate AcroForms",
+        "Restores widgets that are missing from /AcroForm/Fields.",
+        "Temp And Output Conventions",
+        "Dependencies"
+      ],
+      "review_depth": "full_entrypoint_in_conversation",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations",
+      "name": "Presentations",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/presentations/26.915.20218/skills/presentations/SKILL.md",
+      "sha256": "f12a1c58e04baa8a191fccf71fadc28112ee381e834d011228f33cbeeb61aebc",
+      "lines": 236,
+      "bytes": 28893,
+      "description": "Read, create or edit PowerPoint or Google Slides decks. Use for presentation, slide deck, PowerPoint, PPT, PPTX, or Google Slides requests.",
+      "workflow_sections": [
+        "Presentations",
+        "Clarification questions",
+        "Artifact Template Selection",
+        "Writing Quality Instructions",
+        "Taxonomy",
+        "AI-isms",
+        "Important instructions",
+        "Scope clarification for editable evidence"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/template-creator/26.915.20218/skills/template-creator",
+      "name": "template-creator",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/template-creator/26.915.20218/skills/template-creator/SKILL.md",
+      "sha256": "244bfef01d3e17c6013952ccf34621a90ddfee9c7828058245c3c46f51114944",
+      "lines": 206,
+      "bytes": 19242,
+      "description": "Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a reusable template from a reference document, presentation, spreadsheet, Google Docs, Slides, or Sheets link, ImageGen or Product Design image, email, Slack message, or Site project, or explicitly asks to edit or update a passed artifact-template skill. Do not use for one-off creation from an existing template.",
+      "workflow_sections": [
+        "Template Creator",
+        "Routing",
+        "Create workflow",
+        "Update workflow",
+        "Response",
+        "How to find templates",
+        "How to use a template",
+        "Constraints"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.915.20218/skills/spreadsheets",
+      "name": "Spreadsheets",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/spreadsheets/26.915.20218/skills/spreadsheets/SKILL.md",
+      "sha256": "d863237ee6ca690f52146fed9de1a8c8f18aca942b61c23d2a4d798a462535b8",
+      "lines": 457,
+      "bytes": 65365,
+      "description": "Use skill when user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) or Google Sheets with formulas, formatting, charts, tables, and recalculation. Do not use for live controlling Microsoft Excel app or a live Excel session.",
+      "workflow_sections": [
+        "Spreadsheets skill",
+        "Decision Boundary",
+        "Important Instructions",
+        "Tools + Contract Requirements",
+        "Clarification questions",
+        "Spreadsheet (Workbook) Complexity: Workbook Structure & Formulas",
+        "Workbook Structure",
+        "Tab Types & Relationships"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    },
+    {
+      "id": "plugin:.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.915.20218/skills/excel-live-control",
+      "name": "excel-live-control",
+      "source_relative_to_user_profile": ".codex/plugins/cache/openai-primary-runtime/spreadsheets/26.915.20218/skills/excel-live-control/SKILL.md",
+      "sha256": "dde282af0ea3e186b04830a1255ce0eeade63042d53a2516ccb4c816986467a2",
+      "lines": 512,
+      "bytes": 72132,
+      "description": "Control an open or active Microsoft Excel workbook through the ChatGPT add-in or connected session. Use when the user tags the Microsoft Excel app in Codex or follows up on an established live Excel task. Do not use for standalone spreadsheet files or Google Sheets.",
+      "workflow_sections": [
+        "Excel Live Control",
+        "Important Instructions",
+        "Hard Routing Rules",
+        "Setup State Machine",
+        "1. Open Microsoft Excel And Establish The Target Workbook",
+        "2. Determine Whether The ChatGPT Add-in Is Installed",
+        "3. Open The ChatGPT Add-in Pane",
+        "4. Verify ChatGPT Sign-in"
+      ],
+      "review_depth": "trigger_and_workflow_survey",
+      "execution_status": "not_established_by_inventory"
+    }
+  ],
+  "project": [
+    {
+      "name": "kl-blueprint-architecture",
+      "source_relative_to_repo": ".agents/skills/kl-blueprint-architecture/SKILL.md",
+      "sha256": "8c8a4e6058bc3514f8fe191925d5f826b3b77cffa081101c356127a19d496afc",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-project-context",
+      "source_relative_to_repo": ".agents/skills/kl-project-context/SKILL.md",
+      "sha256": "48b8fd607c697bcb84bb848fd83f16bf5aa9402d29e049d6795482012f002a04",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-repo-hygiene",
+      "source_relative_to_repo": ".agents/skills/kl-repo-hygiene/SKILL.md",
+      "sha256": "0a40f6b341532280b9cfaf858d35b319eb2eb3ae69eefb83c59e9475a798760d",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-story-data",
+      "source_relative_to_repo": ".agents/skills/kl-story-data/SKILL.md",
+      "sha256": "23edef1918a714cffc54cf82d8107b7a5c6cd1d48af1ef4e59416e6afe247eb2",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-unreal-mcp-ops",
+      "source_relative_to_repo": ".agents/skills/kl-unreal-mcp-ops/SKILL.md",
+      "sha256": "c440f6c5f3e95c73e18db34e0b8f3f1d2169fee166499eb8486838fdc787d278",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-verification",
+      "source_relative_to_repo": ".agents/skills/kl-verification/SKILL.md",
+      "sha256": "f40a02fa5e21c96120bd5c2e2c60c72b6b52438f8fd739aa5b407130b3302391",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-vietnam-world-research",
+      "source_relative_to_repo": ".agents/skills/kl-vietnam-world-research/SKILL.md",
+      "sha256": "fff8bb53c2bc9a1de6a9a2d25d1d09ac7e27c77f49d0e51c3fde5bcaeb25146c",
+      "review_depth": "full_entrypoint"
+    },
+    {
+      "name": "kl-vietnamese-text",
+      "source_relative_to_repo": ".agents/skills/kl-vietnamese-text/SKILL.md",
+      "sha256": "c1291587ed0cccc7aceb8d284ef05df0b3482b86019bb1862e8a1ee3cda6d7a5",
+      "review_depth": "full_entrypoint"
+    }
+  ],
+  "unreal_server": {
+    "source": "Native AgentSkillToolset.ListSkills and GetSkills",
+    "registered_skills": [
+      "BlueprintBasicsSkill",
+      "DefaultOutdoorLightingSkill",
+      "MaterialBasicsSkill",
+      "UnrealSkillBestPracticesSkill"
+    ],
+    "read_depth": "full returned instruction bodies",
+    "connection_note": "Succeeded earlier in this study. Later the endpoint was unavailable; doctor confirmed editor not running and no listener. No restart attempted."
+  }
+}

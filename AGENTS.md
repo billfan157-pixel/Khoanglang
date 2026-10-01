@@ -21,7 +21,9 @@ The project uses Unreal Engine 5.8.3 and the engine's First Person Blueprint tem
 
 ## Skills
 
-Project skills live in `.agents/skills/<name>/SKILL.md`. Load the matching skill with the `skill` tool BEFORE starting the work; they hold the project's verified rules and known pitfalls.
+Project skills live in `.agents/skills/<name>/SKILL.md`. Read the matching SKILL.md with normal file tools before starting the work; there is no separate client-side skill-loading tool in this session. Read Unreal server AgentSkills through their native MCP registry.
+
+Before selecting app or project skills, read [.agents/skill-router.md](.agents/skill-router.md). It maps task scope to the relevant sources and records current tool/schema caveats; load conditional references only when needed.
 
 | When you are about to... | Load |
 | --- | --- |
@@ -32,5 +34,6 @@ Project skills live in `.agents/skills/<name>/SKILL.md`. Load the matching skill
 | add or change clues, sources, puzzles, NPC knowledge, or revealed facts | `kl-story-data` |
 | commit, tag, run a generator, edit a map, or add files to the repo | `kl-repo-hygiene` |
 | write or display any Vietnamese text | `kl-vietnamese-text` |
+| art-direct a location or prop and need real Vietnamese regional evidence | `kl-vietnam-world-research` |
 
 Precedence: canon (`docs/story/`) and the user's decisions say WHAT to build; `docs/agent/STATE.md` says where the project is; skills say HOW to work. If a skill contradicts the live MCP schema, the schema wins. If a skill is wrong or out of date, tell the developer and propose the fix; do not silently ignore it.
