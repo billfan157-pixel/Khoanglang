@@ -1,0 +1,5 @@
+[
+  {"id": "synthetic_clue_1", "truth": "synthetic_truth_a", "chapter": 1, "canon_ref": "SYNTHETIC"},
+  {"id": "synthetic_clue_2", "truth": "synthetic_truth_b", "chapter": 1, "canon_ref": "SYNTHETIC", "prototype_only": true},
+  {"id": "synthetic_clue_3", "truth": "missing_truth", "chapter": 1, "canon_ref": "SYNTHETIC"}
+]

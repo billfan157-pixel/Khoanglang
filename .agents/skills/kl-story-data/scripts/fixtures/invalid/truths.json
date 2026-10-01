@@ -1,0 +1,4 @@
+[
+  {"id": "synthetic_truth_a", "summary": "SYNTHETIC test fact, not canon", "reveal_chapter": 2},
+  {"id": "synthetic_truth_b", "summary": "SYNTHETIC test fact, not canon", "reveal_chapter": 3, "canon_ref": "SYNTHETIC"}
+]

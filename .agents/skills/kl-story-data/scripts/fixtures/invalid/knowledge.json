@@ -1,0 +1,5 @@
+{
+  "learns": [{"npc": "synthetic_npc", "truth": "synthetic_truth_b", "chapter": 3}],
+  "uses":   [{"npc": "synthetic_npc", "truth": "synthetic_truth_b", "chapter": 2, "ref": "SYNTHETIC"},
+             {"npc": "other_npc", "truth": "synthetic_truth_a", "chapter": 2, "ref": "SYNTHETIC"}]
+}
