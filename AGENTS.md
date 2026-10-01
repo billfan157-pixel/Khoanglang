@@ -18,3 +18,19 @@ Build a first-person 3D psychological horror game in Unreal Engine. The narrativ
 
 ## Current setup
 The project uses Unreal Engine 5.8.3 and the engine's First Person Blueprint template. Project-local OpenCode MCP settings are in `opencode.jsonc`. Read `SETUP.md` for machine constraints and verification status.
+
+## Skills
+
+Project skills live in `.agents/skills/<name>/SKILL.md`. Load the matching skill with the `skill` tool BEFORE starting the work; they hold the project's verified rules and known pitfalls.
+
+| When you are about to... | Load |
+| --- | --- |
+| start any task, or are unsure about canon, gates, terms | `kl-project-context` |
+| call the Unreal MCP, compile, save, or start PIE | `kl-unreal-mcp-ops` |
+| create or edit a Blueprint, widget, GameMode, or data asset | `kl-blueprint-architecture` |
+| say that something works, is verified, fixed, or done; write STATE.md or tests | `kl-verification` |
+| add or change clues, sources, puzzles, NPC knowledge, or revealed facts | `kl-story-data` |
+| commit, tag, run a generator, edit a map, or add files to the repo | `kl-repo-hygiene` |
+| write or display any Vietnamese text | `kl-vietnamese-text` |
+
+Precedence: canon (`docs/story/`) and the user's decisions say WHAT to build; `docs/agent/STATE.md` says where the project is; skills say HOW to work. If a skill contradicts the live MCP schema, the schema wins. If a skill is wrong or out of date, tell the developer and propose the fix; do not silently ignore it.
