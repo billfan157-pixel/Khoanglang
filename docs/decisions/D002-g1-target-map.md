@@ -56,3 +56,17 @@ continues — that part is `[HUMAN-NEEDED]`.
 - No map load is required; the editor is already on the target.
 - `Lvl_KL_School3_Merged.umap` is retained as history only. It is untracked in
   Git, so the G1 baseline commit will capture it as-is.
+
+## Evidence location (updated 2026-10-01)
+
+The three failed saves quoted above were read from
+`docs/agent/EVIDENCE/G1_merged_editor_runtime.log` (58,032,015 bytes, SHA256
+`86B3CB3C1AA364ADC2B18F7D817351AADB2DE2C1522A7D8FE293597B4A85A65B`). That log is
+no longer tracked: it matches the `docs/agent/EVIDENCE/G1_*.log` rule in
+`.gitignore` and was untracked in the interest of keeping a 55 MB blob out of the
+repository (`D003`).
+
+The save failures themselves are preserved verbatim, with source line numbers and
+Windows error code, in
+`docs/agent/EVIDENCE/G1_merged_save_failures_excerpt.md`. Use that excerpt to
+re-check this decision; the raw log stays on the developer's disk.

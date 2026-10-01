@@ -21,7 +21,48 @@ import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 G1_MAP = "/Game/KhoangLang/Production/G1Canon/Lvl_KL_SchoolSlice"
-ENGINE_DEFAULT = Path(r"C:\Program Files\Epic Games\UE_5.8")
+ENGINE_ENV_VAR = "UE_ENGINE_DIR"
+ENGINE_LOCAL_FILE = ROOT / "docs/local/ENGINE.txt"
+
+
+def resolve_engine() -> Path:
+    """Locate the installed engine without hardcoding a machine-specific path.
+
+    `kl-repo-hygiene` keeps absolute paths out of tracked files, so the install
+    location is read from, in order: --engine, the UE_ENGINE_DIR environment
+    variable, the gitignored docs/local/ENGINE.txt, then the Epic registry.
+    Raises with instructions rather than falling back to a guessed path.
+    """
+    from_env = os.environ.get(ENGINE_ENV_VAR)
+    if from_env:
+        return Path(from_env)
+    if ENGINE_LOCAL_FILE.is_file():
+        recorded = ENGINE_LOCAL_FILE.read_text(encoding="utf-8-sig").strip().splitlines()
+        if recorded and recorded[0].strip():
+            return Path(recorded[0].strip())
+    try:
+        import winreg
+
+        with winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\EpicGames\Unreal Engine") as key:
+            index = 0
+            while True:
+                try:
+                    name = winreg.EnumKey(key, index)
+                except OSError:
+                    break
+                installed = winreg.QueryValueEx(key, name + r"\InstalledDirectory")[0]
+                version = Path(installed).name.replace("-", "_")
+                candidate = Path(installed) / version
+                if (candidate / "Engine/Build/BatchFiles/RunUAT.bat").is_file():
+                    return candidate
+                index += 1
+    except (ImportError, OSError):
+        pass
+    raise RuntimeError(
+        "Engine location unknown. Pass --engine <path>, set "
+        f"{ENGINE_ENV_VAR}, or write the install path to "
+        f"{ENGINE_LOCAL_FILE.relative_to(ROOT)} (gitignored)."
+    )
 FORBIDDEN_PLUGINS = {"EditorToolset", "ModelContextProtocol", "PythonScriptPlugin",
                      "EditorScriptingUtilities", "ModelingToolsEditorMode"}
 UNUSED_OPTIONAL_PLUGINS = {"GameplayStateTree", "Landmass"}
@@ -309,7 +350,8 @@ def main() -> int:
     parser.add_argument("--gate", choices=("release", "g1"), default="release")
     parser.add_argument("--preflight", action="store_true", help="read-only prerequisite inspection; never qualifies")
     parser.add_argument("--package-only", action="store_true", help="G1 only; creates package but returns unqualified exit 2")
-    parser.add_argument("--engine", type=Path, default=ENGINE_DEFAULT)
+    parser.add_argument("--engine", type=Path,
+                        help="installed engine root; omit to auto-resolve")
     parser.add_argument("--runtime-plan", type=Path)
     parser.add_argument("--timeout", type=int, default=1800)
     args = parser.parse_args()
@@ -328,7 +370,9 @@ def main() -> int:
         if not args.package_only:
             plan = read_plan(args.runtime_plan or ROOT / f"tools/{args.gate}_runtime_plan.json", args.gate)
         maps = plan["maps"] if plan else [G1_MAP]
-        check = preflight(args.engine, args.gate, maps)
+        engine = args.engine or resolve_engine()
+        result["engine"] = str(engine)
+        check = preflight(engine, args.gate, maps)
         write_json(run / "preflight.json", check)
         if check["prerequisite_failures"]:
             raise RuntimeError("Packaging prerequisites missing: " + "; ".join(check["prerequisite_failures"]))
@@ -338,7 +382,7 @@ def main() -> int:
         descriptor, source = stage_source(run, maps, plan)
         result.update(source_revision=source["revision"], source_sha256=source["sha256"],
                       source_manifest="source_manifest.json")
-        archive = build(args.engine, descriptor, maps, run, args.timeout)
+        archive = build(engine, descriptor, maps, run, args.timeout)
         artifact = package_digest(archive)
         write_json(run / "artifact_manifest.json", artifact)
         result["package"] = str(archive)

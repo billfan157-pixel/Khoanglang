@@ -11,3 +11,5 @@ Config/DefaultEngine.ini
 *.blend1
 # Native logs stay as local evidence; commit compact, hash-bound G1 reports.
 docs/agent/EVIDENCE/G1_*.log
+# Machine-specific notes: engine install path, hardware, personal detail.
+docs/local/

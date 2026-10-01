@@ -2,7 +2,7 @@
 
 ## Installed project
 
-- Unreal Engine 5.8.3 is installed at `C:\Program Files\Epic Games\UE_5.8`.
+- Unreal Engine 5.8.3 is installed. The install path is machine-specific and is recorded in the gitignored `docs/local/ENGINE.txt`; `tools/verify_release.py` reads it from there, or from `UE_ENGINE_DIR`, or from `--engine`, or from the Epic registry, in that order.
 - `KhoangLang0217.uproject` was created from the installed `TP_FirstPersonBP` engine template. The project uses the First Person Blueprint starter map at `/Game/FirstPerson/Lvl_FirstPerson`.
 - The supplied story V3 is at `docs/story/Khoang_Lang_02_17_Cot_truyen_v3.md`; `AGENTS.md` guides OpenCode to preserve its canon.
 - Epic's built-in `ModelContextProtocol` and `EditorToolset` plugins are enabled. The server auto-starts on `127.0.0.1:8000/mcp`; tool search is enabled. The project does not enable the broader All Toolsets aggregator.
@@ -46,6 +46,13 @@
 - The furniture lives in `/Game/KhoangLang/Maps/Lvl_KL_School3_ArtTest`, a duplicate of `Lvl_KL_School3`. `Lvl_KL_School3` is byte-identical to the snapshot in `_furniture_recovery_20260930_114602`. Rebuild or re-stage with `run_ue_script.ps1 art_95_schoolfurn_stage.py`; verify with `art_97_schoolfurn_verify.py`, which reports 38 checks.
 - **Still unverified: anything visual.** Headless EEVEE renders only the world colour on this machine and Blender exits with an access violation inside `igxelpgicd64.dll`; both Unreal screenshot entry points (`take_high_res_screenshot` and `take_automation_high_res_screenshot`) recurse until `EXCEPTION_STACK_OVERFLOW`. Form previews under `ArtSource/Blender/SchoolFurniture/Preview/` came from a GUI session via `render.opengl`, which does work. In-engine look, collision behaviour and PIE remain unchecked here.
 - `BP_KL_HUD` reports `BS_ERROR` ("not a BP_KL_InvestigationComponent_C, therefore ' Target ' must have a connection"). That asset was modified by concurrent work at 13:55 on 2026-09-30 and is not touched by any furniture script.
+
+### MCP connectivity (2026-10-01)
+
+- `unreal-mcp` disappeared from the agent's tools because the MCP server lives **inside** the editor process. While only an editor started without a `.uproject` (the Project Browser) was open, the plugin never loaded, nothing listened on port 8000, and `opencode mcp list` reported `SSE error: Unable to connect`. The project was fine; the endpoint was simply absent. Once an editor held the project again the log showed `LogModelContextProtocol: Starting MCP server on port 8000` and the same command reported `connected`.
+- OpenCode does not retry a remote MCP server that was down when it started. Restarting OpenCode after the endpoint is up is the only way to get the `unreal-mcp` tools back; editing config cannot fix it. Until then, `python tools/ue_mcp.py` talks to the same endpoint directly.
+- `tools/mcp_doctor.ps1` is the preflight. `powershell -NoProfile -ExecutionPolicy Bypass -File tools\mcp_doctor.ps1` reports the editor processes, the port, and a real `initialize` + `tools/list` handshake, then names the cause; exit 0 means usable, exit 1 means not. `-Launch` starts the editor on this `.uproject` with `-ModelContextProtocolStartServer` and waits for the handshake (about 60-90 s, longer on a cold shader cache).
+- A commandlet run (`-run=pythonscript`, `verify_release.py`, and the generators) deliberately does not start the server, to avoid racing a live editor for the port. Its log line is `Auto-start skipped when running as a commandlet`. Those runs never provide MCP access.
 
 ## Machine notes
 
